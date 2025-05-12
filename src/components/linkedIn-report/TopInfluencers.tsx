@@ -1,0 +1,66 @@
+import { FC } from "react";
+import { FaChartLine } from "react-icons/fa";
+import { LuStar } from "react-icons/lu";
+import TopInfluencersCards from "./sub-components/TopInfluencersCards";
+import ReportCard from "./sub-components/ReportCard";
+import { useSelector } from "react-redux";
+import { RootState } from "@/app/store";
+import { isEmpty } from "lodash";
+
+const TopInfluencers: FC = () => {
+  const { summary, keyInsightsForStrategy, influencersList } = useSelector(
+    (state: RootState) => state.auditReportSchema.topIndustryInfluencersAnalysis
+  );
+
+  const keyInsightsForStrategyBadges = function convertInsightObjectToArray(
+    input: Record<string, string | number>
+  ): string[] {
+    const camelCaseToLabel = (key: string): string => {
+      return key
+        .replace(/([A-Z])/g, " $1")
+        .replace(/personal story data/gi, "personal story + data")
+        .replace(/contrarian views/gi, "contrarian views")
+        .toLowerCase();
+    };
+
+    return Object.entries(input).map(([key, value]) => {
+      const label = camelCaseToLabel(key);
+      return `${value} ${label}`;
+    });
+  };
+
+  const keyInsightStrategyBadges = keyInsightsForStrategyBadges(
+    keyInsightsForStrategy
+  );
+
+  return (
+    <ReportCard title="Top Industry Influencers" icon={FaChartLine}>
+      <div className="space-y-7">
+        {!isEmpty(summary) && (
+          <p className="text-text-primary text-lg font-normal line-clamp-5">
+            {summary.join(" ")}
+          </p>
+        )}
+
+        <h4 className="text-primary text-xl md:text-2xl font-bold mb-4">
+          Posting Frequency
+        </h4>
+        <div className="flex flex-wrap gap-3 text-lg font-medium">
+          {keyInsightStrategyBadges?.map((b, i) => (
+            <span
+              key={i}
+              className="flex items-center gap-2 border border-primary/20 text-primary px-3 py-1 rounded-full bg-primary-light/40"
+            >
+              <LuStar className="font-bold" />
+              {b}
+            </span>
+          ))}
+        </div>
+
+        <TopInfluencersCards influencers={influencersList} />
+      </div>
+    </ReportCard>
+  );
+};
+
+export default TopInfluencers;

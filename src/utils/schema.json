@@ -1,0 +1,260 @@
+{
+    "reportTitle": "Linked in Engagement Analysis",
+    "reportSubtitle": "Comprehensive Performance Report - May 2025",
+    "profile": {
+      "name": "Nick Cooney",
+      "title": "Managing Partner, Lever VC | Author of \"What We Don't Do\""
+    },
+    "executiveSummary": {
+      "averageLikesPerPost": 37 ,
+      "engagementRate": 0.025 ,
+      "topContentLikes": 56 ,
+      "hashtagEngagement": 56 ,
+      "keyHighlights": [
+        "Content Themes: Food technology and alternative proteins content receives 45% of Nick's focus, followed by book promotion at 30%." ,
+        "Visual Impact: Posts with images receive significantly higher engagement than text-only posts." ,
+        "Audience Composition: 35% of Nick's engaged audience comes from food technology and science sectors." ,
+        "Top Performing Content: Book-related content generates the highest engagement with 56 average likes per post." ,
+        "Hashtag Performance: #whatwedontdo, #levervc, and #impactinvesting are the highest performing hashtags."
+      ],
+      "summaryText": [
+          "This comprehensive analysis of Nick Cooney's LinkedIn engagement data reveals clear patterns and actionable strategies to maximize his social media impact." ,
+          "Based on the analysis of recent posts, we've identified specific content characteristics and posting strategies that significantly increase engagement with his professional audience." ,
+          "The following detailed analysis provides data-driven insights and specific recommendations to help Nick optimize his LinkedIn content strategy and significantly increase his professional visibility and engagement."
+      ]
+    },
+    "contentAnalysis": {
+      "averageLikesByContentTheme": {
+        "Food Tech": 20 ,
+        "Book Promotion": 35 ,
+        "Investment": 10 ,
+        "Industry": 20
+      },
+      "postTypesDistribution": {
+        "Article Shares": 0.63 ,
+        "Images Posts": 0.25 ,
+        "Text-only Posts": 0.13
+      },
+       "keyInsights": [
+          "Book-related content generates the highest engagement, suggesting strong audience interest in Nick's thought leadership." ,
+          "Image posts receive 33% more engagement than posts without images, indicating a clear preference for visual content."
+      ],
+      "engagementOnTopPerformingPosts": [
+        { "type": "Book-Related Content", "likes": 50 , "comments": 2 , "shares": 2 },
+        { "type": "Sugar is Poison Commentary", "likes": 34 , "comments": 4 , "shares": 2 },
+        { "type": "David Goldberg Endorsement", "likes": 41 , "comments": 1 , "shares": 1 },
+        { "type": "Adam Yee Podcast", "likes": 30 , "comments": 1 , "shares": 0 }
+      ],
+      "commonCharacteristicsOfTopPosts": [
+        "Connection to current events or trending topics" ,
+        "Personal insights or opinions" ,
+        "Relevance to food technology and investment" ,
+        "Mentions of specific companies (Lever VC, Oobli, XOXO SODA)"
+      ]
+    },
+    "audienceAnalysis": {
+      "notableAudienceMembers": [
+         {"name": "Jasmin Kern", "title": "Sr. Associate at Lever VC"} ,
+         {"name": "David Ziskind", "title": "PE, PMP (Facility design professional)"} ,
+         {"name": "Catalina Lopez", "title": "Director of Aquatic Animal Alliance"} ,
+         {"name": "Alex Shirazi", "title": "Product Designer & Co-founder in alt proteins"} ,
+         {"name": "Rachel Atcheson", "title": "Executive Director of Food Policy Pathways"} ,
+         {"name": "David Goldberg", "title": "Founder/CEO at Founders Pledge"}
+      ],
+      "keyInsight": "Nick's content resonates most strongly with professionals in food technology and venture capital, creating opportunities for targeted content to these segments." ,
+      "audienceCompositionByIndustry": {
+        "Food Technology & Science": 0.39 ,
+        "Venture Capital & Investment": 0.23 ,
+        "Sustainability & Impact": 0.20 ,
+        "Business Developement": 0.12 ,
+        "Other": 0.06
+      }
+    },
+     "postingPatternsAnalysis": {
+         "dayOfWeekPerformance": {
+              "averageLikes": {
+                "Mon": 42 ,
+                "Tue": 39 ,
+                "Wed": 38 ,
+                "Thu": 35 ,
+                "Fri": 28 ,
+                "Weekend": 25
+              }
+         },
+         "postingFrequency": "Nick posts approximately 1-2 times per week, with slightly higher frequency when promoting his book or discussing significant industry developments." ,
+         "keyFinding": "Posts published early in the week (Monday Wednesday) receive 28% higher engagement than posts published later in the week or on weekends." ,
+          "topPerformingPostsExamples": [
+              {
+                  "type": "Article",
+                  "link": "$265M Fund Announcernent",
+                  "likes": 667,
+                  "comments": 172,
+                  "shares": 2,
+                  "snippet": "Excited to continue to fund the best B2B software entrepreneurs..."
+              } ,
+               {
+                  "type": "Image",
+                  "link": "Thomas Kurian Keynote",
+                  "likes": 517,
+                  "comments": 6,
+                  "shares": 3,
+                  "snippet": "Insightful keynote with Thomas kurian, CEO of Google Cloud..."
+              } ,
+               {
+                  "type": "Article",
+                  "link": "Shashank Saxena Announcement",
+                  "likes": 324,
+                  "comments": 19,
+                  "shares": 2,
+                  "snippet": "Very excited to have Shashank Saxena join us at SIERRA Ventures..."
+              }
+          ],
+          "influencerComparison": [
+               {
+                  "Name": "Gary Vaynerchuk",
+                  "Linkedin URL": "Profile",
+                  "Followers": "5,000,000",
+                  "Engagement Rate": "5,000",
+                  "Top Content Types": "Video: 40%, Image: 30%",
+                  "Top Themes": "Entrepreneurship, Marketing",
+                  "Posting Frequency": "5/week"
+              } ,
+               {
+                  "Name": "Brad Feld",
+                  "Linkedin URL": "Profile",
+                  "Followers": "350,000",
+                  "Engagement Rate": "2,300",
+                  "Top Content Types": "Article: 50%, Image: 25%",
+                  "Top Themes": "VC, Startup",
+                  "Posting Frequency": "3/week"
+              } ,
+              {
+                  "Name": "Sallie Krawcheck",
+                  "Linkedin URL": "Profile",
+                  "Followers": "800,000",
+                  "Engagement Rate": "1,800",
+                  "Top Content Types": "Article: 40%, Image: 35%",
+                  "Top Themes": "Leadership, Finance",
+                  "Posting Frequency": "2/week"
+              }
+          ],
+           "influencerGapAnalysis": [
+              {
+                "Gap": "Visual Content Usage",
+                "Your Value": "20% images/videos",
+                "Influencer Average": "35%",
+                "Recommended Action": "Increase visuals to 30% of posts"
+              } ,
+              {
+                "Gap": "Posting Frequency",
+                "Your Value": "2.5/month",
+                "Influencer Average": "12-20/month",
+                "Recommended Action": "Post 2-3 times per week"
+              } ,
+               {
+                "Gap": "Video Content",
+                "Your Value": "0%",
+                "Influencer Average": "20%",
+                "Recommended Action": "Add regular short video updates"
+              }
+           ],
+          "optimalPostingTimesMultiplier": {
+                "Monday": 1.24 ,
+                "Tuesday": 0.97 ,
+                "Wednesday": 0.82 ,
+                "Thursday": 0.91 ,
+                "Friday": 0.88
+          }
+     },
+     "topIndustryInfluencers": {
+         "summary": [
+             "We've identified five key influencers whose content strategies align with your strengths and goals." ,
+             "These influencers demonstrate exceptional engagement metrics and content approaches that could enhance your Linkedin presence." ,
+             "These influencers demonstrate that authentic, value-driven content consistently outperforms purely promotional material." ,
+             "Their success comes from balancing professional expertise with personal connection-precisely the approach you're already taking with your content."
+         ],
+         "keyInsightsForStrategy": {
+              "optimalPostingWindow": "Tuesday 2-4pm" ,
+              "averageVisualContent": 0.636 ,
+              "averageDaysBetweenPosts": 2.8 ,
+              "engagementMultiplierPersonalStoryData": 2.4 ,
+              "engagementMultiplierContrarian": 1.9
+         },
+          "influencers": [
+               {
+                  "name": "Adam Grant",
+                  "title": "Organizational Psychologist, Wharton Professor",
+                  "followers": "5.2M+",
+                  "engagementRate": "7.8%",
+                  "description": "Adam combines research-backed insights with relatable stories." ,
+                  "relevance": "Data-driven storytelling approach"
+              } ,
+               {
+                  "name": "Brené Brown",
+                  "title": "Research Professor, Author, Speaker",
+                  "followers": "1.8M+",
+                  "engagementRate": "6.2%",
+                  "description": "Brené's content focuses on vulnerability, courage, and connection." ,
+                  "relevance": "Authentic connection focus"
+              } ,
+               {
+                  "name": "Hamza Alsamraee",
+                  "title": "Tech Content Creator, Al Specialist",
+                  "followers": "680+",
+                  "engagementRate": "8.5%",
+                  "description": "Hamza creates highly visual content about Al and technology trends." ,
+                  "relevance": "Data-driven storytelling approach"
+              } ,
+               {
+                  "name": "Simon Sinek",
+                  "title": "Author, Optimist, Leadership Expert",
+                  "followers": "3.1M+",
+                  "engagementRate": "5.7%",
+                  "description": "Simon's content focuses on purpose-driven leadership and meaningful connection." ,
+                  "relevance": "Authentic connection focus"
+              }
+          ],
+          "influencerExample": {
+                "name": "Ryan H. Vaughn",
+                "title": "Exited founder turned CEO-coach | Helping early/mid-stage start...",
+                "location": "Grand Rapids, MI",
+                "followers": "7K",
+                "postExample": {
+                      "text": "Emotions are essential to good decision-making.\nLogic alone can lead you straight into bad choices.\nMy worst strategic mistakes came from ignoring my gut and trusting only spreadsheets. (Or even worse, other people's opinions).\nEmotions aren't the enemy of judgment....\nThey're the missing piece your MBA left out." ,
+                      "likes": 90 ,
+                      "comments": 18 ,
+                      "reposts": 3
+                },
+                "contentStrategy": {
+                      "Text": 0.32 ,
+                      "Images": 0.18 ,
+                      "Videos": 0.23 ,
+                      "Articles": 0.27
+                }
+          }
+     },
+     "hashtagPerformanceAnalysis": {
+        "usage": "Nick uses hashtags in approximately 65% of his posts, with an average of 2.3 hashtags per post" ,
+        "usageDistribution": {
+          "Posts with Hashtags": 0.63 ,
+          "Posts without Hashtags": 0.38
+        },
+        "topPerformingHashtagsLikes": {
+          "#whatwedontdo": 56 ,
+          "#levervc": 48 ,
+          "#impactinvesting": 42 ,
+          "#foodtech": 38 ,
+          "#alternativeproteins": 36
+        },
+        "keyFinding": "Posts with hashtags receive 22% more likes than posts without hashtags, indicating positive impact on content discovery"
+     },
+      "recommendations": {
+          "contentStrategy": "Increase book-related content to 40% of posts while maintaining food technology content at 45%" ,
+          "visualElements": "Include 1-2 high-quality images with every post to increase engagement by approximately 33%" ,
+          "postingSchedule": "Focus on early weekdays (Monday-Wednesday) with a consistent cadence of 1-2 posts per week" ,
+          "hashtagStrategy": "Use 2-4 hashtags per post, prioritizing high-performing tags like #whatwedontdo, #levervc, and #impactinvesting" ,
+          "audienceTargeting": "Tailor content to core audience segments in food technology and venture capital while expanding reach to sustainability professionals" ,
+          "engagementTactics": "Include direct questions in posts and respond promptly to comments to increase comment engagement, which is currently below industry benchmarks"
+      }
+  }
+  
