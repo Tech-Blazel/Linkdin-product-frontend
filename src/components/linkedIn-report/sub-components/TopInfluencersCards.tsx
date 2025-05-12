@@ -10,6 +10,7 @@ type Influencer = {
   name: string;
   relevance: string;
   title: string;
+  postsPerYear: string;
 };
 
 const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
@@ -56,7 +57,8 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
               <div className="text-right">
                 <p className="text-primary font-semibold text-lg">
                   {/* {influencer?.engagementRate} */}
-                  {getPostPerYear(influencer) || "NAN"}
+                  {/* {getPostPerYear(influencer) || "NAN"} */}
+                  {influencer?.postsPerYear || "NAN"}
                 </p>
                 <p className="text-base text-[#666666]">Post Per Year</p>
               </div>
