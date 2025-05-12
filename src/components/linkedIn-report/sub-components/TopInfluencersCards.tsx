@@ -1,6 +1,7 @@
 import { RootState } from "@/app/store";
 import React, { FC } from "react";
 import { useSelector } from "react-redux";
+import kayBertin from "@/assets/image.png";
 
 type Influencer = {
   pictureUrl: string;
@@ -35,7 +36,11 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
           className="bg-white border rounded-xl overflow-hidden shadow-sm flex flex-col h-full"
         >
           <img
-            src={influencer?.pictureUrl || ""}
+            src={
+              influencer?.name === "Kyle Bertin"
+                ? kayBertin
+                : influencer?.pictureUrl || ""
+            }
             alt={influencer?.name}
             className="w-full h-40 object-cover"
           />
