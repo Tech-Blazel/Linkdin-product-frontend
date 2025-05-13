@@ -109,39 +109,6 @@ const LinkedInAuditReport = () => {
 
   return (
     <>
-      {/* <button
-        onClick={downloadPDF}
-        className="fixed top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded"
-      >
-        Download PDF
-      </button>
-      <div ref={reportRef}>
-        <OpeningSlide />
-        <TableOfContents />
-        <ExecutiveOverview />
-        <KeyHighlights />
-        <TopInfluencers />
-        <InfluencerCards />
-        <InfluencerAnalysis />
-        <CoverPage />
-        <ExecutiveSummary />
-        <ContentAnalysis />
-        <TopPerformingPosts />
-        <AudienceAnalysis />
-        <PostingPatterns />
-        <TopInfluencers />
-        <InfluencerPostingAnalysis />
-        {influencersList?.map((influencer, index) => (
-          <InfluencerAnalysis
-            key={index}
-            influencer={influencer}
-            index={index}
-          />
-        ))}
-        <HashtagPerformanceAnalysis />
-        <PostingRecommendations />
-      </div> */}
-
       <button
         onClick={downloadPDF}
         className="fixed bottom-4 right-4 z-50 group bg-primary text-white p-4 py-3 rounded-full transition-all duration-300 flex items-center gap-2 overflow-hidden hover:p-5 shadow-lg cursor-pointer"
