@@ -67,13 +67,13 @@ const PostCards: FC = () => {
             <a
               href={post.link}
               target="_blank"
-              className="text-primary underline hover:text-primary/80 line-clamp-1"
+              className="text-primary underline hover:text-primary/80 line-clamp-1 pb-1"
             >
               {post.link}
             </a>
           </p>
 
-          <div className="flex flex-wrap items-center gap-8 text-lg text-primary mt-1">
+          <div className="flex flex-wrap items-center gap-5 text-lg text-primary mt-1">
             <span className="flex items-center">
               <FaThumbsUp /> <span className="ml-2 mr-4">Likes</span>{" "}
               <span className="text-[#333333]">{post.likes}</span>
@@ -88,7 +88,7 @@ const PostCards: FC = () => {
             </span>
           </div>
 
-          <p className="text-text-primary text-lg mt-1 line-clamp-2">
+          <p className="text-text-primary text-lg line-clamp-2 pb-1">
             {post.snippet}
           </p>
         </div>

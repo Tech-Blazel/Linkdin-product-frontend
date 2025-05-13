@@ -106,7 +106,7 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
                   {name || ""}{" "}
                   {/* <span className="text-gray-400 text-xs">• 2nd</span> */}
                 </p>
-                <p className="text-gray-600 text-xs line-clamp-1">
+                <p className="text-gray-600 text-xs line-clamp-1 p-[3px]">
                   {descriptionFocus || ""}
                 </p>
                 <p className="text-xs text-gray-500 mt-1">{title || ""}</p>
@@ -146,7 +146,7 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
                         <HiDotsHorizontal className="inline-block text-gray-800 ml-3" />
                       </div>
                     </div>
-                    <p className="text-xs text-gray-500 line-clamp-1">
+                    <p className="text-xs text-gray-500 line-clamp-1 p-[3px]">
                       {profile?.title || ""}
                     </p>
                     <div className="text-xs mt-1 font-semibold text-linkedIn-primary">
@@ -168,7 +168,7 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
                 </p>
                 <p>Emotions aren’t the enemy of judgment…</p>
                 <p>They’re the missing piece your MBA left out.</p> */}
-                  <p className="line-clamp-10">{post?.text}</p>
+                  <p className="line-clamp-10 pb-2">{post?.text}</p>
                 </div>
 
                 <div className="text-xs text-gray-500 flex justify-between pt-1 mt-2">

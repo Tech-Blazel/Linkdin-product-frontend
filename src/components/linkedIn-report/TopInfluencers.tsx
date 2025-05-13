@@ -35,9 +35,9 @@ const TopInfluencers: FC = () => {
 
   return (
     <ReportCard title="Top Industry Influencers" icon={FaChartLine}>
-      <div className="space-y-7">
+      <div className="">
         {!isEmpty(summary) && (
-          <p className="text-text-primary text-lg font-normal line-clamp-5">
+          <p className="text-text-primary text-lg font-normal line-clamp-5 pb-6">
             {summary.join(" ")}
           </p>
         )}
@@ -45,15 +45,15 @@ const TopInfluencers: FC = () => {
         <h4 className="text-primary text-xl md:text-2xl font-bold mb-4">
           Posting Frequency
         </h4>
-        <div className="flex flex-wrap gap-3 text-lg font-medium">
+        <div className="flex flex-wrap gap-3 text-lg font-medium pb-6">
           {keyInsightStrategyBadges?.map((b, i) => (
-            <span
+            <p
               key={i}
-              className="flex items-center gap-2 border border-primary/20 text-primary px-3 py-1 rounded-full bg-primary-light/40"
+              className="border border-primary/20 text-primary text-base px-3 py-2 rounded-full bg-primary-light/40"
             >
-              <LuStar className="font-bold" />
+              <LuStar className="font-bold inline-block mr-2 mb-1" />
               {b}
-            </span>
+            </p>
           ))}
         </div>
 

@@ -31,10 +31,10 @@ const AudienceAnalysis: FC = () => {
         <div>
           {!isEmpty(notableAudienceMembers) && (
             <>
-              <h3 className="text-primary text-xl md:text-2xl font-bold mb-6 text-center">
+              <h3 className="text-primary text-xl md:text-2xl font-bold pb-6 text-center">
                 Notable Audience Members
               </h3>
-              <ul className="text-lg text-text-primary space-y-2 mb-12">
+              <ul className="text-lg text-text-primary space-y-2">
                 {notableAudienceMembers?.map((person, index) => (
                   <li key={index} className="flex items-start gap-2">
                     <p className="">
@@ -47,9 +47,11 @@ const AudienceAnalysis: FC = () => {
               </ul>
             </>
           )}
-          {!isEmpty(audienceInsight) && (
-            <KeySummary title="Key Insight:" description={audienceInsight} />
-          )}
+          <div className="pt-12">
+            {!isEmpty(audienceInsight) && (
+              <KeySummary title="Key Insight:" description={audienceInsight} />
+            )}
+          </div>
         </div>
         {!isEmpty(industryData) && (
           <LegendPieChart
