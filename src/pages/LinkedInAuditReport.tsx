@@ -40,10 +40,7 @@ const LinkedInAuditReport = () => {
     <PostingRecommendations />,
   ];
 
-  const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
-  const setRef = (el: HTMLDivElement | null, index: number) => {
-    sectionRefs.current[index] = el;
-  };
+  const containerRef = useRef<any>(null);
 
   const patchUnsupportedColors = () => {
     document.querySelectorAll("*").forEach((el) => {
@@ -64,53 +61,59 @@ const LinkedInAuditReport = () => {
     });
   };
 
-  const downloadPDF = async () => {
+  const downloadPDF = async (containerRef: React.RefObject<HTMLDivElement>) => {
     patchUnsupportedColors();
+
     try {
       setIsDownloading(true);
+      if (!containerRef.current) return;
 
-      const pdf = new jsPDF("p", "mm", "a4");
-      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const element = containerRef.current;
 
-      for (let i = 0; i < sectionRefs.current.length; i++) {
-        const section = sectionRefs.current[i];
-        if (!section) continue;
+      await new Promise((res) => setTimeout(res, 300));
 
-        const styles = window.getComputedStyle(section);
-        if (
-          styles.backgroundColor.includes("oklab") ||
-          styles.backgroundColor.includes("oklch")
-        ) {
-          (section as HTMLElement).style.backgroundColor = "#fff";
-        }
+      const canvas = await html2canvas(element, {
+        scale: 0.85,
+        useCORS: true,
+        scrollY: -window.scrollY,
+        height: element.scrollHeight,
+        windowHeight: element.scrollHeight,
+      });
 
-        const canvas = await html2canvas(section, {
-          scale: 2,
-          useCORS: true,
-          scrollY: -window.scrollY,
-        });
+      const canvasWidth = canvas.width;
+      const canvasHeight = canvas.height;
 
-        const imgData = canvas.toDataURL("image/png");
-        const imgHeight = (canvas.height * pdfWidth) / canvas.width;
+      const pdf = new jsPDF({
+        orientation: "portrait",
+        unit: "px",
+        format: [canvasWidth, canvasHeight],
+      });
 
-        if (i !== 0) pdf.addPage();
-        pdf.addImage(imgData, "PNG", 0, 0, pdfWidth, imgHeight);
-      }
+      // ✅ Keep image original size, don't stretch
+      pdf.addImage(
+        canvas.toDataURL("image/png"),
+        "PNG",
+        0,
+        0,
+        canvasWidth,
+        canvasHeight
+      );
+
+      console.log("Original canvas height:", canvasHeight);
+      console.log("PDF height used:", canvasHeight);
 
       pdf.save("report.pdf");
-      setIsDownloading(false);
     } catch (error) {
-      window.alert("Download failed");
-      console.error(error);
+      console.error("Error downloading PDF:", error);
     } finally {
       setIsDownloading(false);
     }
   };
 
   return (
-    <>
+    <div className="p-4">
       <button
-        onClick={downloadPDF}
+        onClick={() => downloadPDF(containerRef)}
         className="fixed bottom-4 right-4 z-50 group bg-primary text-white p-4 py-3 rounded-full transition-all duration-300 flex items-center gap-2 overflow-hidden hover:p-5 shadow-lg cursor-pointer"
       >
         {isDownloading ? (
@@ -120,14 +123,14 @@ const LinkedInAuditReport = () => {
         )}
       </button>
 
-      <div>
+      <div ref={containerRef}>
         {sections.map((Component, index) => (
-          <div key={index} ref={(el) => setRef(el, index)} className="mb-10">
+          <div key={index} className="mb-10">
             {Component}
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
