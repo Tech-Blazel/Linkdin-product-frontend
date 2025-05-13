@@ -1,0 +1,477 @@
+{
+    "reportMetadata": {
+        "title": "LinkedIn Engagement Analysis Report",
+        "subtitle": "Comprehensive Performance Analysis for Ryan H. Vaughn – October 2023",
+        "reportDate": "October 2023",
+        "clientInfo": {
+            "name": "Ryan H. Vaughn",
+            "title": "Exited founder turned CEO-coach | Helping early/mid-stage startup founders scale into executive leaders & build low-drama companies",
+            "profileUrl": "https://media.licdn.com/dms/image/v2/C5603AQHWoEdJf5MYHQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625768207775?e=1752710400&v=beta&t=_pNuVfaQmoV4RpfsfQthOIVFBh8OfeU24V21Rjd36OU"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 90,
+        "averageCommentsForPost": {
+            "value": 15,
+            "comparison": "Slightly above industry benchmark for similar founder content"
+        },
+        "topContentLikes": {
+            "value": 1017,
+            "contentType": "image"
+        },
+        "hashtagImpactEngagement": 22,
+        "keyHighlights": [
+            "Top performing posts are predominantly image-based, indicating a strong visual impact.",
+            "There is a high degree of authenticity and personal storytelling which resonates with the audience.",
+            "The distribution of post types shows a healthy mix of text and image content with a few videos and articles.",
+            "Notable audience members and engagement metrics suggest a focused following in leadership and entrepreneurship.",
+            "Consistent posting, especially during early morning hours, correlates with higher engagement."
+        ],
+        "summaryText": "This report synthesizes over 100 posts and influencer insights from Ryan H. Vaughn's LinkedIn activity. The analysis reveals that authentic storytelling combined with strong visual elements yields the highest engagement. Additionally, the audience is notably responsive to leadership and entrepreneurial themes, providing key strategic opportunities to further optimize content and posting frequency."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 40
+            },
+            {
+                "type": "image",
+                "percentage": 55
+            },
+            {
+                "type": "article",
+                "percentage": 3
+            },
+            {
+                "type": "linkedinVideo",
+                "percentage": 2
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Leadership",
+                "averageLikes": 80
+            },
+            {
+                "theme": "Entrepreneurship",
+                "averageLikes": 70
+            },
+            {
+                "theme": "Personal Growth",
+                "averageLikes": 65
+            }
+        ],
+        "visualImpactInsight": "Image posts receive approximately 33% higher engagement than non-visual posts, underscoring the importance of high-quality visuals in driving audience interaction.",
+        "postTypeDistributionInsight": "The majority of content is delivered through images followed by text posts, suggesting that a mixed media approach is effective for this audience.",
+        "topPerformingPosts": [
+            {
+                "postDescription": "Apple, Microsoft, and Google all have a hidden weapon...",
+                "likes": 1017,
+                "comments": 138,
+                "shares": 95
+            },
+            {
+                "postDescription": "This is Hayden Hurst. He transformed his suicide attempt story into a mental health movement.",
+                "likes": 277,
+                "comments": 28,
+                "shares": 8
+            },
+            {
+                "postDescription": "Who you spend time with might be the most important decision you make in life.",
+                "likes": 207,
+                "comments": 28,
+                "shares": 1
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High use of visual content (primarily images)",
+            "Deeply personal and narrative-driven storytelling",
+            "Focus on leadership, vulnerability, and entrepreneurial insights",
+            "Clear, actionable messages that resonate emotionally"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Mike Jones",
+                "description": "Free \"Sell on LinkedIn\" Training | LinkedIn Agency Owner | LinkedIn SaaS Founder with over 12 years of Social Selling experience"
+            },
+            {
+                "name": "Jason Pliml",
+                "description": "Executive Coach and 5x CEO/founder | Helping early/mid-stage founders scale into more effective leaders"
+            },
+            {
+                "name": "Ricky Sperber, CFA",
+                "description": "Founder of E Q V I L I B R O | Helping people live with more balance through Coaching, Retreats and Workshops"
+            },
+            {
+                "name": "Alison Keutgen",
+                "description": "Product Leader driving Innovation Development"
+            },
+            {
+                "name": "Luke Peters",
+                "description": "Founded & Exited an $80M Consumer Products Brand | Board Member | Consumer Brands Investor | Podcaster"
+            },
+            {
+                "name": "Bill Coble, EDAC",
+                "description": "Business Development Director at Renson® USA | Connecting Design to Business with an Evidence-Based Design focus"
+            }
+        ],
+        "audienceInsight": "The audience is highly engaged with leadership and entrepreneurial content, reflecting a strong resonance with authentic, personal, and visually compelling narratives.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology",
+                "percentage": 40
+            },
+            {
+                "industry": "Entrepreneurship",
+                "percentage": 30
+            },
+            {
+                "industry": "Leadership/Coaching",
+                "percentage": 20
+            },
+            {
+                "industry": "Marketing",
+                "percentage": 10
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Mon",
+                "averageLikes": 95
+            },
+            {
+                "day": "Tue",
+                "averageLikes": 85
+            },
+            {
+                "day": "Wed",
+                "averageLikes": 90
+            },
+            {
+                "day": "Thu",
+                "averageLikes": 80
+            },
+            {
+                "day": "Fri",
+                "averageLikes": 70
+            },
+            {
+                "day": "Sat",
+                "averageLikes": 60
+            },
+            {
+                "day": "Sun",
+                "averageLikes": 50
+            }
+        ],
+        "postingFrequency": "Approximately 3-4 posts per week over the reporting period.",
+        "timingKeyFinding": "Posts published during early morning hours (8AM-10AM) consistently achieve the highest engagement levels.",
+        "topPerformingPostsExamples": [
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_apple-microsoft-and-google-all-have-a-hidden-activity-7322975482004578304-TPle",
+                "likes": 1017,
+                "comments": 138,
+                "shares": 95,
+                "snippet": "Apple, Microsoft, and Google all have a hidden weapon..."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_this-is-hayden-hurst-he-transformed-his-activity-7323700245089984512-uNLt",
+                "likes": 277,
+                "comments": 28,
+                "shares": 8,
+                "snippet": "This is Hayden Hurst. He transformed his suicide attempt story into a mental health movement."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_who-you-spend-time-with-might-be-the-most-activity-7325874573386674180-173g",
+                "likes": 207,
+                "comments": 28,
+                "shares": 1,
+                "snippet": "Who you spend time with might be the most important decision you make in life."
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "summary": [
+            "We've identified four top industry influencers.",
+            "Their insights on leadership and vulnerability offer actionable strategies.",
+            "Engagement metrics highlight strong visual storytelling.",
+            "Each influencer brings a unique perspective to inspire growth."
+        ],
+        "keyInsightsForStrategy": {
+            "optimalPostingWindow": "8AM-10AM local time",
+            "averageVisualContentPercentage": 75.0,
+            "averageDaysBetweenPosts": 19.7,
+            "engagementMultiplierPersonalStoryData": 1.7
+        },
+        "influencersList": [
+            {
+                "name": "Adam Grant",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFGdrbBw3FYhA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1629123595757?e=1752710400&v=beta&t=GfrVvyzrsC5OiUyPo_U8Z5SaKZQZILvkaXI8Tb_8IA0",
+                "title": "Organizational psychologist at Wharton, #1 NYT bestselling author of HIDDEN POTENTIAL and THINK AGAIN, and host of the TED podcasts WorkLife and Re:Thinking",
+                "followersCount": "5.5M",
+                "postWithin1Year": "300",
+                "descriptionFocus": "Recognized as Wharton's top-rated professor and influential management thinker, Adam is known for his groundbreaking research on work and creativity.",
+                "relevance": "Leadership insights, Vulnerability research, Entrepreneur mindset, Coaching inspiration",
+                "contentStrategyDistribution": [
+                    {
+                        "Text": "5.0%",
+                        "Images": "70.0%",
+                        "Videos": "20.0%",
+                        "Articles": "5.0%"
+                    }
+                ]
+            },
+            {
+                "name": "Brené Brown",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQF9VQVYojTWBA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1577833551943?e=1752710400&v=beta&t=NF7xFrI2weOX-T5ejcE5kLHp9ko2FFXTzSzQy9jO6lg",
+                "title": "University of Houston + University of Texas at Austin | Researcher. Storyteller. Courage-builder.",
+                "followersCount": "4.7M",
+                "postWithin1Year": "250",
+                "descriptionFocus": "Dr. Brené Brown is a research professor and bestselling author celebrated for her pioneering work on vulnerability, shame, and empathy.",
+                "relevance": "Vulnerability focus, Leadership authenticity, Emotional courage, Transformative research",
+                "contentStrategyDistribution": [
+                    {
+                        "Text": "30.0%",
+                        "Images": "50.0%",
+                        "Videos": "15.0%",
+                        "Articles": "5.0%"
+                    }
+                ]
+            },
+            {
+                "name": "James Altucher",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHcZjk1rg0PRw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1548269837921?e=1752710400&v=beta&t=9IIVxOQlR7ysZjB4vvsKl8FroOsX5nvMUZdk7mZnbMM",
+                "title": "Founder at \"The James Altucher Show\" podcast",
+                "followersCount": "1.2M",
+                "postWithin1Year": "400",
+                "descriptionFocus": "James Altucher is a New York Times bestselling author, entrepreneur, and podcaster who speaks candidly about failure, reinvention, and personal growth.",
+                "relevance": "Authentic vulnerability, Entrepreneurial resilience, Personal reinvention, Coaching inspiration",
+                "contentStrategyDistribution": [
+                    {
+                        "Text": "10.0%",
+                        "Images": "10.0%",
+                        "Videos": "80.0%",
+                        "Articles": "0.0%"
+                    }
+                ]
+            },
+            {
+                "name": "Marco Franzoni",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQG9Zn4MNWbC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516364788480?e=1752710400&v=beta&t=6LisHLCRGojMZOHjyHm-hOGtwTzc7Heun3g73rSyDII",
+                "title": "Mindful Leadership Advocate | Helping leaders live & lead in the moment | Father, Husband, & 7x Founder | Follow for practical advice to thrive in work and life",
+                "followersCount": "40.4K",
+                "postWithin1Year": "150",
+                "descriptionFocus": "Marco Franzoni champions mindful leadership by blending thoughtful research with actionable strategies to help leaders live in the present and lead authentically.",
+                "relevance": "Mindful leadership, Authentic presence, Transformative storytelling, Emotional alignment",
+                "contentStrategyDistribution": [
+                    {
+                        "Text": "20.0%",
+                        "Images": "50.0%",
+                        "Videos": "20.0%",
+                        "Articles": "10.0%"
+                    }
+                ]
+            }
+        ],
+        "detailedInfluencerAnalysis": [
+            {
+                "profile": {
+                    "name": "Adam Grant",
+                    "title": "Organizational psychologist at Wharton, #1 NYT bestselling author of HIDDEN POTENTIAL and THINK AGAIN, and host of the TED podcasts WorkLife and Re:Thinking",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFGdrbBw3FYhA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1629123595757?e=1752710400&v=beta&t=GfrVvyzrsC5OiUyPo_U8Z5SaKZQZILvkaXI8Tb_8IA0",
+                    "postUrl": "https://www.linkedin.com/posts/adammgrant_we-dont-control-how-others-treat-uswe-control-activity-7311418807514771456-qquv",
+                    "location": "Philadelphia, Pennsylvania",
+                    "followers": "5.5M"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/adammgrant_we-dont-control-how-others-treat-uswe-control-activity-7311418807514771456-qquv",
+                    "text": "We don't control how others treat uswe control how we treat them. We don't decide what happens to uswe decide how we respond.",
+                    "likes": 61536,
+                    "comments": 1813,
+                    "reposts": 6234
+                },
+                "contentStrategy": {
+                    "Text": 0.0,
+                    "Images": 100.0,
+                    "Videos": 0.0,
+                    "Articles": 0.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Brené Brown",
+                    "title": "University of Houston + University of Texas at Austin | Researcher. Storyteller. Courage-builder.",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQF9VQVYojTWBA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1577833551943?e=1752710400&v=beta&t=NF7xFrI2weOX-T5ejcE5kLHp9ko2FFXTzSzQy9jO6lg",
+                    "postUrl": "https://www.linkedin.com/posts/brenebrown_purpose-meaning-and-gratitude-these-are-activity-7254476695196323841-UiUV",
+                    "location": "Houston, Texas",
+                    "followers": "4.7M"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/brenebrown_purpose-meaning-and-gratitude-these-are-activity-7254476695196323841-UiUV",
+                    "text": "Purpose, meaning, and gratitude these are not luxuries, these practices tap into what it means to be human. They tap directly into our hardwired need for connection to ourselves, to others, and to something greater than us. Eric Mosley Derek Irvine Workhuman Link to episode:",
+                    "likes": 20388,
+                    "comments": 406,
+                    "reposts": 2479
+                },
+                "contentStrategy": {
+                    "Text": 0.0,
+                    "Images": 100.0,
+                    "Videos": 0.0,
+                    "Articles": 0.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "James Altucher",
+                    "title": "Founder at \"The James Altucher Show\" podcast",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHcZjk1rg0PRw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1548269837921?e=1752710400&v=beta&t=9IIVxOQlR7ysZjB4vvsKl8FroOsX5nvMUZdk7mZnbMM",
+                    "postUrl": "https://www.linkedin.com/posts/jamesaltucher_if-two-people-with-equal-skills-are-looking-activity-7061467574303145984-1Hs2",
+                    "location": "New York City Metropolitan Area",
+                    "followers": "1.2M"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/jamesaltucher_if-two-people-with-equal-skills-are-looking-activity-7061467574303145984-1Hs2",
+                    "text": "If two people with equal skills are looking at the same opportunity - the person who has written a book will get the opportunity. Don't believe anyone who tells you that you can't write. I've had so many adventures in my life because of writing, I want you to have similar adventures and opportunities. And I've helped so many authors over the past few years that I realized I really enjoyed teaching. So I made a course on my favorite topic. The course is, \"How to Write AND Publish a Book in 30 Days\". This is the thing I am most proud of. This article describes the course. Let me be your first reader when you write your book.",
+                    "likes": 364,
+                    "comments": 40,
+                    "reposts": 212
+                },
+                "contentStrategy": {
+                    "Text": 0.0,
+                    "Images": 0.0,
+                    "Videos": 0.0,
+                    "Articles": 100.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Marco Franzoni",
+                    "title": "Mindful Leadership Advocate | Helping leaders live & lead in the moment | Father, Husband, & 7x Founder | Follow for practical advice to thrive in work and life",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQG9Zn4MNWbC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516364788480?e=1752710400&v=beta&t=6LisHLCRGojMZOHjyHm-hOGtwTzc7Heun3g73rSyDII",
+                    "postUrl": "https://www.linkedin.com/posts/mfranzo_your-title-doesnt-make-you-a-leader-your-activity-7315362786048430085-k1zZ?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "location": "Los Angeles, California",
+                    "followers": "40.4K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/mfranzo_your-title-doesnt-make-you-a-leader-your-activity-7315362786048430085-k1zZ?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "text": "Your title doesn't make you a leader. Your impact on people does. To create a legacy of purpose and connection, lead with intention and presence. 8 ways to leave a lasting impact: ...",
+                    "likes": 20415,
+                    "comments": 684,
+                    "reposts": 1542
+                },
+                "contentStrategy": {
+                    "Text": 0.0,
+                    "Images": 100.0,
+                    "Videos": 0.0,
+                    "Articles": 0.0
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": {
+            "usagePercentage": 65,
+            "averageHashtagsPerPost": 2.3
+        },
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 63
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 37
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#leadership",
+                "averageLikes": 95
+            },
+            {
+                "hashtag": "#entrepreneurship",
+                "averageLikes": 80
+            },
+            {
+                "hashtag": "#coaching",
+                "averageLikes": 70
+            }
+        ],
+        "hashtagKeyFinding": "Posts utilizing targeted hashtags, particularly in the leadership and entrepreneurship domains, receive on average 22% higher engagement, highlighting their role in driving discoverability."
+    },
+    "influencerComparison": [
+        {
+            "name": "Adam Grant",
+            "linkedinUrl": "https://www.linkedin.com/in/adammgrant",
+            "followers": "5.5M",
+            "postsPerYear": 300,
+            "topContentTypes": "Images",
+            "topThemes": "Leadership, Work, Creativity",
+            "postingFrequency": "Approximately 3-4 posts/week"
+        },
+        {
+            "name": "Brené Brown",
+            "linkedinUrl": "https://www.linkedin.com/in/brenebrown",
+            "followers": "4.7M",
+            "postsPerYear": 250,
+            "topContentTypes": "Images",
+            "topThemes": "Vulnerability, Empathy, Authenticity",
+            "postingFrequency": "Consistent weekly posts"
+        },
+        {
+            "name": "James Altucher",
+            "linkedinUrl": "https://www.linkedin.com/in/jamesaltucher",
+            "followers": "1.2M",
+            "postsPerYear": 400,
+            "topContentTypes": "Articles",
+            "topThemes": "Entrepreneurship, Reinvention, Personal Growth",
+            "postingFrequency": "High frequency, often multiple times per week"
+        },
+        {
+            "name": "Marco Franzoni",
+            "linkedinUrl": "https://www.linkedin.com/in/mfranzo",
+            "followers": "40.4K",
+            "postsPerYear": 150,
+            "topContentTypes": "Images",
+            "topThemes": "Mindfulness, Leadership, Authenticity",
+            "postingFrequency": "Regular, around 2-3 posts/week"
+        }
+    ],
+    "summaryOfComparison": "The client’s content, primarily authentic and visually driven, enjoys steady engagement; however, compared to leading influencers, there is an opportunity to increase content frequency and diversify content types. While top influencers benefit from massive follower bases and high-frequency posting, the client can elevate engagement by further refining visual storytelling and strategic hashtag use.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower follower count compared to top industry influencers",
+            "yourValue": "8.35K",
+            "influencerAverage": "Multi-million range",
+            "recommendedAction": "Invest in building thought leadership and expanding the network through collaborations and strategic partnerships."
+        },
+        {
+            "gap": "Post frequency lower than industry benchmarks",
+            "yourValue": "Approximately 183 posts in the last year (~3.5 posts/week)",
+            "influencerAverage": "300+ posts per year",
+            "recommendedAction": "Increase content creation and consider a more aggressive posting schedule during optimal engagement windows."
+        },
+        {
+            "gap": "Hashtag engagement effectiveness could be improved",
+            "yourValue": "Current hashtag usage yields an engagement uplift of around 22%",
+            "influencerAverage": "Top influencers consistently achieve high engagement through optimized hashtags",
+            "recommendedAction": "Refine hashtag strategy by experimenting with trending and niche hashtags to further boost organic reach."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Experiment with diversified content formats, including more in-depth visual storytelling and personal narratives, to further enhance engagement.",
+        "visualElements": "Invest in high-quality images and videos, as these have proven to drive higher interaction rates; consider using professional photography or custom graphics.",
+        "postingSchedule": "Increase posting frequency to 3-4 posts per week and schedule posts during the optimal early morning window (8AM-10AM) to maximize reach.",
+        "hashtagStrategy": "Optimize hashtag usage by consistently including 2-3 relevant and high-performing tags such as #leadership and #entrepreneurship, and monitor engagement to adjust as needed.",
+        "audienceTargeting": "Deepen engagement with the core audience by tailoring content to their interests and actively engaging with notable audience members through comments and direct interactions.",
+        "engagementTactics": "Incorporate stronger calls-to-action in posts, foster community discussions, and consider interactive formats like Q&A sessions or polls to drive organic interactions."
+    }
+}

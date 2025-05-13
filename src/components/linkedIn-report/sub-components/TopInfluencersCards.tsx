@@ -1,5 +1,5 @@
 import { RootState } from "@/app/store";
-import React, { FC } from "react";
+import { FC } from "react";
 import { useSelector } from "react-redux";
 import kayBertin from "@/assets/image.png";
 
@@ -11,7 +11,7 @@ type Influencer = {
   name: string;
   relevance: string;
   title: string;
-  postsPerYear: string;
+  postWithin1Year: string;
 };
 
 const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
@@ -63,7 +63,7 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
                 <p className="text-primary font-semibold text-lg">
                   {/* {influencer?.engagementRate} */}
                   {/* {getPostPerYear(influencer) || "NAN"} */}
-                  {influencer?.postsPerYear || "NAN"}
+                  {influencer?.postWithin1Year || "NAN"}
                 </p>
                 <p className="text-base text-[#666666]">Post Per Year</p>
               </div>

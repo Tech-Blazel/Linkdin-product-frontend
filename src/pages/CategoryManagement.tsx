@@ -37,7 +37,6 @@ const CategoryManagement = () => {
     reset();
   };
 
-  console.log("data", categories);
   return (
     <div>
       <div className="space-y-6">
