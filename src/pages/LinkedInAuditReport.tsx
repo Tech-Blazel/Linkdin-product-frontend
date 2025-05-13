@@ -11,16 +11,39 @@ import HashtagPerformanceAnalysis from "@/components/linkedIn-report/HashtagPerf
 import PostingRecommendations from "@/components/linkedIn-report/PostingRecommendations";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
+import { IoCloudDownloadOutline } from "react-icons/io5";
+import { Loader2 } from "lucide-react";
 
 const LinkedInAuditReport = () => {
   const { influencersList } = useSelector(
     (state: RootState) => state.auditReportSchema.topIndustryInfluencersAnalysis
   );
 
-  const reportRef = useRef<HTMLDivElement>(null);
+  const [isDownloading, setIsDownloading] = useState(false);
+
+  const sections = [
+    <CoverPage />,
+    <ExecutiveSummary />,
+    <ContentAnalysis />,
+    <TopPerformingPosts />,
+    <AudienceAnalysis />,
+    <PostingPatterns />,
+    <TopInfluencers />,
+    <InfluencerPostingAnalysis />,
+    ...influencersList.map((influencer, index) => (
+      <InfluencerAnalysis key={index} influencer={influencer} index={index} />
+    )),
+    <HashtagPerformanceAnalysis />,
+    <PostingRecommendations />,
+  ];
+
+  const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const setRef = (el: HTMLDivElement | null, index: number) => {
+    sectionRefs.current[index] = el;
+  };
 
   const patchUnsupportedColors = () => {
     document.querySelectorAll("*").forEach((el) => {
@@ -30,52 +53,58 @@ const LinkedInAuditReport = () => {
         (el as HTMLElement).style.color = "#000";
       }
       if (styles.backgroundColor.includes("oklab")) {
-        (el as HTMLElement).style.backgroundColor = "#fff";
+        (el as HTMLElement).style.backgroundColor = "#f3f4f6";
       }
       if (styles.color.includes("oklch")) {
         (el as HTMLElement).style.color = "#000";
       }
       if (styles.backgroundColor.includes("oklch")) {
-        (el as HTMLElement).style.backgroundColor = "#fff";
+        (el as HTMLElement).style.backgroundColor = "#f3f4f6";
       }
     });
   };
 
   const downloadPDF = async () => {
     patchUnsupportedColors();
-    const element = reportRef.current;
-    if (!element) return;
+    try {
+      setIsDownloading(true);
 
-    const canvas = await html2canvas(element, {
-      scale: 2,
-      useCORS: true,
-      scrollY: -window.scrollY,
-    });
+      const pdf = new jsPDF("p", "mm", "a4");
+      const pdfWidth = pdf.internal.pageSize.getWidth();
 
-    const imgData = canvas.toDataURL("image/png");
-    const pdf = new jsPDF("p", "mm", "a4");
+      for (let i = 0; i < sectionRefs.current.length; i++) {
+        const section = sectionRefs.current[i];
+        if (!section) continue;
 
-    const pdfWidth = pdf.internal.pageSize.getWidth();
-    const pdfHeight = pdf.internal.pageSize.getHeight();
+        const styles = window.getComputedStyle(section);
+        if (
+          styles.backgroundColor.includes("oklab") ||
+          styles.backgroundColor.includes("oklch")
+        ) {
+          (section as HTMLElement).style.backgroundColor = "#fff";
+        }
 
-    const imgWidth = pdfWidth;
-    const imgHeight = (canvas.height * imgWidth) / canvas.width;
+        const canvas = await html2canvas(section, {
+          scale: 2,
+          useCORS: true,
+          scrollY: -window.scrollY,
+        });
 
-    let heightLeft = imgHeight;
-    let position = 0;
+        const imgData = canvas.toDataURL("image/png");
+        const imgHeight = (canvas.height * pdfWidth) / canvas.width;
 
-    // Add first page
-    pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
-    heightLeft -= pdfHeight;
+        if (i !== 0) pdf.addPage();
+        pdf.addImage(imgData, "PNG", 0, 0, pdfWidth, imgHeight);
+      }
 
-    while (heightLeft > 0) {
-      position -= pdfHeight;
-      pdf.addPage();
-      pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
-      heightLeft -= pdfHeight;
+      pdf.save("report.pdf");
+      setIsDownloading(false);
+    } catch (error) {
+      window.alert("Download failed");
+      console.error(error);
+    } finally {
+      setIsDownloading(false);
     }
-
-    pdf.save("report.pdf");
   };
 
   return (
@@ -85,16 +114,15 @@ const LinkedInAuditReport = () => {
         className="fixed top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded"
       >
         Download PDF
-      </button> */}
+      </button>
       <div ref={reportRef}>
-        {/* <OpeningSlide />
+        <OpeningSlide />
         <TableOfContents />
         <ExecutiveOverview />
         <KeyHighlights />
         <TopInfluencers />
         <InfluencerCards />
-        <InfluencerAnalysis /> */}
-        {/* ................ */}
+        <InfluencerAnalysis />
         <CoverPage />
         <ExecutiveSummary />
         <ContentAnalysis />
@@ -112,6 +140,25 @@ const LinkedInAuditReport = () => {
         ))}
         <HashtagPerformanceAnalysis />
         <PostingRecommendations />
+      </div> */}
+
+      <button
+        onClick={downloadPDF}
+        className="fixed bottom-4 right-4 z-50 group bg-primary text-white p-4 py-3 rounded-full transition-all duration-300 flex items-center gap-2 overflow-hidden hover:p-5 shadow-lg cursor-pointer"
+      >
+        {isDownloading ? (
+          <Loader2 className="animate-spin" />
+        ) : (
+          <IoCloudDownloadOutline className="w-5 h-5 shrink-0 transition-transform duration-300" />
+        )}
+      </button>
+
+      <div>
+        {sections.map((Component, index) => (
+          <div key={index} ref={(el) => setRef(el, index)} className="mb-10">
+            {Component}
+          </div>
+        ))}
       </div>
     </>
   );

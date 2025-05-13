@@ -37,9 +37,11 @@ const AudienceAnalysis: FC = () => {
               <ul className="text-lg text-text-primary space-y-2 mb-12">
                 {notableAudienceMembers?.map((person, index) => (
                   <li key={index} className="flex items-start gap-2">
-                    <FaStar className="text-primary mt-1" />
-                    <span className="font-semibold">{person?.name}:</span>{" "}
-                    {person?.description}
+                    <p className="">
+                      <FaStar className="text-primary mr-2 mb-1 inline-block " />
+                      <span className="font-semibold">{person?.name}:</span>{" "}
+                      {person?.description}
+                    </p>
                   </li>
                 ))}
               </ul>
