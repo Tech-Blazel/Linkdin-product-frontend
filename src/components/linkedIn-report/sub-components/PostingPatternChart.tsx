@@ -13,8 +13,8 @@ export const PostingPatternChart: FC<{
   optimalPostingTData: Record<string, any>[];
 }> = ({ optimalPostingTData }) => {
   return (
-    <div className="bg-[#e9f1fb] p-6 rounded-xl">
-      <h3 className="text-[#0C4B89] font-semibold mb-4">
+    <div className="bg-primary-light p-6 rounded-xl">
+      <h3 className="text-primary font-semibold mb-4">
         Optimal Posting Times (Engagement Multiplier)
       </h3>
       <div className="w-full h-64">
@@ -29,7 +29,7 @@ export const PostingPatternChart: FC<{
             <YAxis
               type="category"
               dataKey="day"
-              tick={{ fontSize: 14, fill: "#0C4B89", fontWeight: 600 }}
+              tick={{ fontSize: 14, fill: "#ff5733", fontWeight: 600 }}
               axisLine={false}
               tickLine={false}
               width={90}
@@ -47,7 +47,7 @@ export const PostingPatternChart: FC<{
                 position="right"
                 formatter={(v: number) => `${(v / 10).toFixed(2)}x`}
                 style={{
-                  fill: "#0C4B89",
+                  fill: "#ff5733",
                   fontWeight: 600,
                   fontSize: 14,
                 }}
@@ -56,8 +56,8 @@ export const PostingPatternChart: FC<{
 
             <defs>
               <linearGradient id="blueGradient" x1="0" x2="1" y1="0" y2="0">
-                <stop offset="0%" stopColor="#0C4B89" />
-                <stop offset="100%" stopColor="#3b82f6" />
+                <stop offset="0%" stopColor="#ff5733" />
+                <stop offset="100%" stopColor="#fa9e8b" />
               </linearGradient>
             </defs>
           </BarChart>

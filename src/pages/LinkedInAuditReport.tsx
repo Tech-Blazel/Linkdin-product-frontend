@@ -114,7 +114,7 @@ const LinkedInAuditReport = () => {
 
   return (
     <div className="p-4">
-      <button
+      {/* <button
         onClick={() => downloadPDF(containerRef)}
         className="fixed bottom-4 right-4 z-50 group bg-primary text-white p-4 py-3 rounded-full transition-all duration-300 flex items-center gap-2 overflow-hidden hover:p-5 shadow-lg cursor-pointer"
       >
@@ -123,7 +123,7 @@ const LinkedInAuditReport = () => {
         ) : (
           <IoCloudDownloadOutline className="w-5 h-5 shrink-0 transition-transform duration-300" />
         )}
-      </button>
+      </button> */}
 
       <div ref={containerRef}>
         {sections.map((Component, index) => (

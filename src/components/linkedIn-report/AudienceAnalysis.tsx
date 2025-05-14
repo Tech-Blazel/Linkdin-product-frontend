@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
 import { transformDataWithColors } from "@/utils/constants";
 import { isEmpty } from "lodash";
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 
 const AudienceAnalysis: FC = () => {
   const {
@@ -54,11 +55,54 @@ const AudienceAnalysis: FC = () => {
           </div>
         </div>
         {!isEmpty(industryData) && (
-          <LegendPieChart
-            title="Top Engagers by Industry"
-            data={industryData}
-            subTitle="Audience Composition by Industry (%)"
-          />
+          // <LegendPieChart
+          //   title="Top Engagers by Industry"
+          //   data={industryData}
+          //   subTitle="Audience Composition by Industry (%)"
+          // />
+
+          <div className="text-center">
+            <h3 className="text-primary text-xl md:text-2xl font-bold mb-4">
+              Top Engagers by Industry
+            </h3>
+
+            <div className="w-full h-64">
+              <p className="text-xs">Audience Composition by Industry (%)</p>
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie
+                    data={industryData}
+                    dataKey="value"
+                    innerRadius={40}
+                    outerRadius={80}
+                    paddingAngle={1}
+                    stroke="none"
+                    label={({ value }) => `${value.toFixed(2)}%`}
+                  >
+                    {industryData.map((entry, index) => (
+                      <Cell
+                        key={`cell-${index}`}
+                        fill={entry.color || "#ff5733"}
+                      />
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-4 text-base text-text-primary mt-4">
+              {industryData.map((item) => (
+                <span key={item.name} className="flex items-center gap-2">
+                  <span
+                    className="w-3 h-3 rounded-[3px]"
+                    style={{ backgroundColor: item.color }}
+                  ></span>
+                  {item.name} ({item.value}%)
+                </span>
+              ))}
+            </div>
+          </div>
         )}
       </div>
     </ReportCard>

@@ -29,7 +29,7 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
   };
 
   return (
-    <div className="grid grid-cols-[repeat(auto-fit,minmax(275px,1fr))] gap-6 pt-4">
+    <div className=" grid grid-cols-[repeat(auto-fit,minmax(380px,1fr))] gap-6 pt-4">
       {influencers.map((influencer, i) => (
         <div
           key={i}
