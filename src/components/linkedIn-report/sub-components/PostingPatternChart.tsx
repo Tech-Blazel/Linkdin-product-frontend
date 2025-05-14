@@ -34,12 +34,16 @@ export const PostingPatternChart: FC<{
               tickLine={false}
               width={90}
             />
-            <Bar dataKey="averageLikes" radius={[8, 8, 8, 8]} barSize={35}>
+            <Bar
+              dataKey="engagement_multiplier"
+              radius={[8, 8, 8, 8]}
+              barSize={35}
+            >
               {optimalPostingTData?.map((_: any, i: any) => (
                 <Cell key={`cell-${i}`} fill="url(#blueGradient)" />
               ))}
               <LabelList
-                dataKey="averageLikes"
+                dataKey="engagement_multiplier"
                 position="right"
                 formatter={(v: number) => `${(v / 10).toFixed(2)}x`}
                 style={{

@@ -65,7 +65,7 @@ const HashtagPerformanceAnalysis: FC = () => {
                     <YAxis
                       type="category"
                       dataKey="hashtag"
-                      tick={{ fontSize: 12, fontStyle: "italic" }}
+                      tick={{ fontSize: 10, fontStyle: "italic" }}
                     />
                     <Tooltip />
                     <Bar

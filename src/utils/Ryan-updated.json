@@ -1,0 +1,483 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report - May 2025",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Ryan H. Vaughn",
+            "title": "Exited founder turned CEO-coach | Helping early/mid-stage startup founders scale into executive leaders & build low-drama companies",
+            "profileUrl": "https://media.licdn.com/dms/image/v2/C5603AQHWoEdJf5MYHQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625768207775?e=1752710400&v=beta&t=_pNuVfaQmoV4RpfsfQthOIVFBh8OfeU24V21Rjd36OU"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": "66",
+        "averageCommentsForPost": {
+            "value": "15",
+            "comparison": "about industry average"
+        },
+        "topContentLikes": {
+            "value": "1.0K",
+            "contentType": "image"
+        },
+        "hashtagImpactEngagement": "47",
+        "keyHighlights": [
+            "Top Performing Post: An image post achieved 1017 likes, 138 comments, and 95 reposts.",
+            "Content distribution is dominated by image posts at 67.63%, underscoring the power of visual storytelling.",
+            "Posting on Tuesday and Thursday yields significantly higher engagement.",
+            "Image posts average an engagement of 94, far outperforming text posts which average 60.",
+            "Top hashtags such as #ExecutiveCoaching drive high engagement with an average of 429 likes."
+        ],
+        "summaryText": "This report analyzes Ryan H. Vaughn's LinkedIn performance for May 2025 using data from 207 posts. The analysis highlights strong visual content performance, particularly through image posts, and reveals key insights into posting times and hashtag usage. It also compares client metrics to industry influencer benchmarks to identify growth opportunities. Overall, the report offers actionable insights to refine content strategy and boost engagement."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 28.5
+            },
+            {
+                "type": "image",
+                "percentage": 67.63
+            },
+            {
+                "type": "article",
+                "percentage": 1.93
+            },
+            {
+                "type": "linkedinVideo",
+                "percentage": 1.93
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Image Posts",
+                "averageLikes": "94"
+            },
+            {
+                "theme": "Text Posts",
+                "averageLikes": "60"
+            }
+        ],
+        "visualImpactInsight": "Image posts (avg engagement: 94) tend to perform significantly better than text posts (avg engagement: 60).",
+        "postTypeDistributionInsight": "Content distribution indicates a heavy reliance on image posts with over 67% share, emphasizing the need for visual content.",
+        "topPerformingPosts": [
+            {
+                "postDescription": "Apple, Microsoft, and Google all have a hidden weapon... (Image post)",
+                "likes": 1000,
+                "comments": 138,
+                "shares": 95
+            },
+            {
+                "postDescription": "The NBA tried to hide this for 25 years... (Image post)",
+                "likes": 741,
+                "comments": 88,
+                "shares": 55
+            },
+            {
+                "postDescription": "I’ve hired 10 CEO coaches at this point... (Image post)",
+                "likes": 429,
+                "comments": 128,
+                "shares": 11
+            },
+            {
+                "postDescription": "This is Hayden Hurst. He transformed his suicide attempt story into a mental health movement... (Image post)",
+                "likes": 277,
+                "comments": 28,
+                "shares": 8
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High visual content with engaging imagery",
+            "Strong storytelling and thought leadership",
+            "Clear calls-to-action and strategic messaging",
+            "Content resonates with current industry challenges"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Mike Jones",
+                "description": "Free \"Sell on LinkedIn\" Training • LinkedIn Agency Owner • LinkedIn SaaS Founder • Over 12 years doing Social Selling"
+            },
+            {
+                "name": "Jason Pliml",
+                "description": "Executive Coach and 5x CEO/founder | Helping early/mid-stage founders scale themselves into more effective leaders"
+            },
+            {
+                "name": "Ricky Sperber, CFA",
+                "description": "Founder of E Q V I L I B R O | Helping people live with more balance through Coaching, Retreats and Workshops"
+            },
+            {
+                "name": "Alison Keutgen",
+                "description": "Product Leader | Driving Innovation Development"
+            },
+            {
+                "name": "Mark F.",
+                "description": "Dad | Coach | Advisor | Entrepreneur"
+            }
+        ],
+        "audienceInsight": "The audience is diverse with a strong representation from founders, CEOs, and other notable business leaders across various industries.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 17.35
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 17.18
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 9.45
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 6.7
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 4.3
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "engagement_multiplier": 0.67
+            },
+            {
+                "day": "Tuesday",
+                "engagement_multiplier": 1.25
+            },
+            {
+                "day": "Wednesday",
+                "engagement_multiplier": 0.94
+            },
+            {
+                "day": "Thursday",
+                "engagement_multiplier": 1.23
+            },
+            {
+                "day": "Friday",
+                "engagement_multiplier": 0.97
+            },
+            {
+                "day": "Saturday",
+                "engagement_multiplier": 0.37
+            },
+            {
+                "day": "Sunday",
+                "engagement_multiplier": 0.0
+            }
+        ],
+        "postingFrequency": "Ryan H. Vaughn posts approximately 3-4 times per week.",
+        "timingKeyFinding": "Posts on Tuesday and Thursday receive significantly higher engagement.",
+        "topPerformingPostsExamples": [
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_apple-microsoft-and-google-all-have-a-hidden-activity-7322975482004578304-TPle?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "1.0K",
+                "comments": "138",
+                "shares": "95",
+                "snippet": "Apple, Microsoft, and Google all have a hidden weapon..."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_the-nba-tried-to-hide-this-for-25-years-activity-7303460054370799616-rRt7?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "741",
+                "comments": "88",
+                "shares": "55",
+                "snippet": "The NBA tried to hide this for 25 years..."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_leadership-executivecoaching-entrepreneurship-activity-7242884037940326400-7R-q?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "429",
+                "comments": "128",
+                "shares": "11",
+                "snippet": "I’ve hired 10 CEO coaches at this point..."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_this-is-hayden-hurst-he-transformed-his-activity-7323700245089984512-uNLt?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "277",
+                "comments": "28",
+                "shares": "8",
+                "snippet": "This is Hayden Hurst. He transformed his suicide attempt story..."
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "summary": [
+            "Four leading influencers have been identified for their unique perspectives on leadership, coaching, and product innovation.",
+            "They offer actionable strategies, transformative coaching, and a human-centered approach to sustainable growth."
+        ],
+        "keyInsightsForStrategy": {
+            "optimalPostingWindow": "09:00-11:00 AM",
+            "averageVisualContentPercentage": 40.0,
+            "averageDaysBetweenPosts": 7,
+            "engagementMultiplierPersonalStoryData": 1.75
+        },
+        "influencersList": [
+            {
+                "name": "Sara Canaday",
+                "title": "Leadership Strategist & Speaker | Award-Winning Author | Transforming Leaders & Their Organizations through Actionable Strategies",
+                "profileUrl": "https://media.licdn.com/dms/image/v2/D5603AQG2LWDuh5i5vQ/profile-displayphoto-shrink_800_800/B56ZZ.pUSkHsAc-/0/1745881482803?e=1752710400&v=beta&t=7JS-ERAipxgc7n2wSZ9cIwJL1m54Px1Hubaj6M-SHY4",
+                "followersCount": "96K",
+                "postWithin1Year": "109",
+                "descriptionFocus": "Transforms leadership with a modern, human-centered approach.",
+                "relevance": [
+                    "Leadership transformation",
+                    "Actionable strategies",
+                    "Founder coaching",
+                    "Human-centered approach"
+                ]
+            },
+            {
+                "name": "Todd Cherches",
+                "title": "CEO, Leadership/Executive Coach and Advisor at BigBlueGumball. TEDx speaker. Author of “VisuaLeadership.” MG 100 Coaches.",
+                "profileUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHwTW8hUAW2SQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1670913521319?e=1752710400&v=beta&t=yuhKTQ23JJhyyLePROBbbsqw4o25CXVthGRAWgy8bRo",
+                "followersCount": "16K",
+                "postWithin1Year": "0",
+                "descriptionFocus": "Specializes in visual leadership and innovative executive coaching.",
+                "relevance": [
+                    "Executive coaching",
+                    "Innovative leadership",
+                    "Transformative skills",
+                    "Scalable growth"
+                ]
+            },
+            {
+                "name": "Allison Dunn",
+                "title": "Business & Executive Coach",
+                "profileUrl": "https://media.licdn.com/dms/image/v2/D5603AQGSf0pZy9qtFQ/profile-displayphoto-shrink_400_400/B56ZQ2l7urHIAg-/0/1736082702790?e=1752710400&v=beta&t=Bwjh4w_w134TbueT5mRJNBMhs-Q22kkoGWlOwAS8Fgo",
+                "followersCount": "16K",
+                "postWithin1Year": "186",
+                "descriptionFocus": "Empowers business leaders with practical coaching for growth and profitability.",
+                "relevance": [
+                    "Executive coaching",
+                    "Growth acceleration",
+                    "Startup alignment",
+                    "Practical strategies"
+                ]
+            },
+            {
+                "name": "Liam Darmody",
+                "title": "Leadership Coach & Product Advisor | Empowering tech leaders and teams to thrive sustainably",
+                "profileUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEfndkklYMyWg/profile-displayphoto-shrink_400_400/B4EZUlOVgHHUAo-/0/1740086270522?e=1752710400&v=beta&t=v9abPZD9bNnkr-5cBbnNafeZAKiCpDfGJ1RQNO8QV0Q",
+                "followersCount": "4.8K",
+                "postWithin1Year": "64",
+                "descriptionFocus": "Focuses on sustainable tech leadership and aligning product strategy with growth.",
+                "relevance": [
+                    "Tech startup focus",
+                    "Sustainable scaling",
+                    "Product leadership",
+                    "Founder mentoring"
+                ]
+            }
+        ],
+        "detailedInfluencerAnalysis": [
+            {
+                "profile": {
+                    "name": "Sara Canaday",
+                    "title": "Leadership Strategist & Speaker | Award-Winning Author | Transforming Leaders & Their Organizations through Actionable Strategies",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQG2LWDuh5i5vQ/profile-displayphoto-shrink_800_800/B56ZZ.pUSkHsAc-/0/1745881482803?e=1752710400&v=beta&t=7JS-ERAipxgc7n2wSZ9cIwJL1m54Px1Hubaj6M-SHY4",
+                    "location": "Austin, Texas",
+                    "followers": "96K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/saracanaday_leadership-leadershipdevelopment-businessgrowth-activity-7303074970891366400-zkNG?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "text": "Great leaders dont have to have all the answersthey just need to ask the right questions. Next time you're in a meeting, try this: \"What have I left unsaid?\" It gets everything on the table.",
+                    "likes": "422",
+                    "comments": "15",
+                    "reposts": 22
+                },
+                "contentStrategy": {
+                    "Text": 25.0,
+                    "Images": 40.0,
+                    "Videos": 30.0,
+                    "Articles": 5.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Todd Cherches",
+                    "title": "CEO, Leadership/Executive Coach and Advisor at BigBlueGumball. TEDx speaker. Author of “VisuaLeadership.” MG 100 Coaches.",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHwTW8hUAW2SQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1670913521319?e=1752710400&v=beta&t=yuhKTQ23JJhyyLePROBbbsqw4o25CXVthGRAWgy8bRo",
+                    "location": "San Francisco, California",
+                    "followers": "16K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/toddcherches_example",
+                    "text": "Visual leadership is about seeing what others miss. I inspire teams by translating complex data into compelling visuals that drive action.",
+                    "likes": "50",
+                    "comments": "10",
+                    "reposts": 5
+                },
+                "contentStrategy": {
+                    "Text": 20.0,
+                    "Images": 40.0,
+                    "Videos": 30.0,
+                    "Articles": 10.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Allison Dunn",
+                    "title": "Business & Executive Coach",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQGSf0pZy9qtFQ/profile-displayphoto-shrink_400_400/B56ZQ2l7urHIAg-/0/1736082702790?e=1752710400&v=beta&t=Bwjh4w_w134TbueT5mRJNBMhs-Q22kkoGWlOwAS8Fgo",
+                    "location": "Boise, Idaho",
+                    "followers": "16K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/allisondunn_businesscoach-businessgrowth-leadershipdevelopment-activity-7272426888063541248-aY7P?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "text": "10+ Years. 1000+ Businesses. 0 Failures. Thats not a typo. Its a track record. With the right guidance, tools, and mindset, any business can thrive.",
+                    "likes": "54",
+                    "comments": "8",
+                    "reposts": 0
+                },
+                "contentStrategy": {
+                    "Text": 30.0,
+                    "Images": 50.0,
+                    "Videos": 10.0,
+                    "Articles": 10.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Liam Darmody",
+                    "title": "Leadership Coach & Product Advisor | Empowering tech leaders and teams to thrive sustainably",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEfndkklYMyWg/profile-displayphoto-shrink_400_400/B4EZUlOVgHHUAo-/0/1740086270522?e=1752710400&v=beta&t=v9abPZD9bNnkr-5cBbnNafeZAKiCpDfGJ1RQNO8QV0Q",
+                    "location": "London, England",
+                    "followers": "4.8K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/liamdarmody_7-product-thinking-traps-activity-7320119226491408385-3RKj?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "text": "\"User needs\" is not a strategy. Most product teams fail because they confuse insight for alignment.",
+                    "likes": "222",
+                    "comments": "58",
+                    "reposts": 18
+                },
+                "contentStrategy": {
+                    "Text": 35.0,
+                    "Images": 30.0,
+                    "Videos": 25.0,
+                    "Articles": 10.0
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": {
+            "usagePercentage": 38.3,
+            "averageHashtagsPerPost": 3.0
+        },
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 38
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 62
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#ExecutiveCoaching",
+                "averageLikes": "429"
+            },
+            {
+                "hashtag": "#Entrepreneurship",
+                "averageLikes": "116"
+            },
+            {
+                "hashtag": "#Success",
+                "averageLikes": "82"
+            },
+            {
+                "hashtag": "#Mindfulness",
+                "averageLikes": "70"
+            },
+            {
+                "hashtag": "#Motivation",
+                "averageLikes": "64"
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags receive higher engagement, with top hashtags such as #ExecutiveCoaching driving significant likes."
+    },
+    "influencerComparison": [
+        {
+            "name": "Sara Canaday",
+            "linkedinUrl": "https://media.licdn.com/dms/image/v2/D5603AQG2LWDuh5i5vQ/profile-displayphoto-shrink_800_800/B56ZZ.pUSkHsAc-/0/1745881482803?e=1752710400&v=beta&t=7JS-ERAipxgc7n2wSZ9cIwJL1m54Px1Hubaj6M-SHY4",
+            "followers": "96K",
+            "postsPerYear": 109,
+            "topContentTypes": "Articles, Images",
+            "topThemes": "Leadership transformation, actionable strategies",
+            "postingFrequency": "3-4 posts/week"
+        },
+        {
+            "name": "Todd Cherches",
+            "linkedinUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHwTW8hUAW2SQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1670913521319?e=1752710400&v=beta&t=yuhKTQ23JJhyyLePROBbbsqw4o25CXVthGRAWgy8bRo",
+            "followers": "16K",
+            "postsPerYear": 0,
+            "topContentTypes": "Images, Text",
+            "topThemes": "Executive coaching, visual leadership",
+            "postingFrequency": "Irregular"
+        },
+        {
+            "name": "Allison Dunn",
+            "linkedinUrl": "https://media.licdn.com/dms/image/v2/D5603AQGSf0pZy9qtFQ/profile-displayphoto-shrink_400_400/B56ZQ2l7urHIAg-/0/1736082702790?e=1752710400&v=beta&t=Bwjh4w_w134TbueT5mRJNBMhs-Q22kkoGWlOwAS8Fgo",
+            "followers": "16K",
+            "postsPerYear": 186,
+            "topContentTypes": "Images, Articles",
+            "topThemes": "Business growth, leadership development",
+            "postingFrequency": "3-4 posts/week"
+        },
+        {
+            "name": "Liam Darmody",
+            "linkedinUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEfndkklYMyWg/profile-displayphoto-shrink_400_400/B4EZUlOVgHHUAo-/0/1740086270522?e=1752710400&v=beta&t=v9abPZD9bNnkr-5cBbnNafeZAKiCpDfGJ1RQNO8QV0Q",
+            "followers": "4.8K",
+            "postsPerYear": 64,
+            "topContentTypes": "Text, Images, Videos",
+            "topThemes": "Tech startup, product leadership",
+            "postingFrequency": "3-4 posts/week"
+        }
+    ],
+    "summaryOfComparison": "The client shows strong image-based engagement and a consistent posting frequency compared to industry influencers. However, there is room to improve content diversity and adopt a more balanced mix of post types, as well as to optimize hashtag usage. Aligning strategy closer to influencer benchmarks could further boost overall engagement.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower overall engagement rate compared to influencer benchmarks",
+            "yourValue": "66 average likes per post",
+            "influencerAverage": "Above 100 average likes per post",
+            "recommendedAction": "Increase visual storytelling and interactive content to boost engagement."
+        },
+        {
+            "gap": "Content diversity",
+            "yourValue": "Dominance of image posts at 67.63%",
+            "influencerAverage": "Balanced mix of text, images, and videos",
+            "recommendedAction": "Experiment with varied content types, including videos and articles."
+        },
+        {
+            "gap": "Inconsistent posting schedule",
+            "yourValue": "3-4 posts per week",
+            "influencerAverage": "More frequent and consistent posting",
+            "recommendedAction": "Optimize posting timings and increase frequency on high-engagement days."
+        },
+        {
+            "gap": "Limited hashtag engagement optimization",
+            "yourValue": "Average hashtag engagement at 47 per post",
+            "influencerAverage": "Higher engagement with optimized hashtag strategies",
+            "recommendedAction": "Refine hashtag strategy by leveraging top-performing and trending tags."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content themes by incorporating more video and article formats alongside strong image posts.",
+        "visualElements": "Leverage high-quality visuals and infographics to maintain audience attention and boost engagement.",
+        "postingSchedule": "Optimize posting schedule by increasing frequency on high-engagement days like Tuesday and Thursday.",
+        "hashtagStrategy": "Refine hashtag usage by focusing on top-performing hashtags and experimenting with new, relevant tags.",
+        "audienceTargeting": "Tailor messaging to diverse audience segments, particularly focusing on technology and consulting sectors.",
+        "engagementTactics": "Enhance engagement through interactive posts, clear calls-to-action, and responsive audience communication."
+    }
+}

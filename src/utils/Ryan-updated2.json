@@ -1,0 +1,461 @@
+{
+    "reportMetadata": {
+        "title": "Linked In Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report - May 2025",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Ryan H. Vaughn",
+            "title": "Exited founder turned CEO-coach | Helping early/mid-stage startup founders scale into executive leaders & build low-drama companies",
+            "profileUrl": "https://media.licdn.com/dms/image/v2/C5603AQHWoEdJf5MYHQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625768207775?e=1752710400&v=beta&t=_pNuVfaQmoV4RpfsfQthOIVFBh8OfeU24V21Rjd36OU"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 66,
+        "averageCommentsForPost": {
+            "value": 15,
+            "comparison": "about industry average"
+        },
+        "topContentLikes": {
+            "value": 1017,
+            "contentType": "image"
+        },
+        "hashtagImpactEngagement": 47,
+        "keyHighlights": [
+            "Top post achieved 1017 likes indicating strong visual content performance.",
+            "Image posts constitute 67.63% of all posts, dominating overall engagement.",
+            "Posts on Tuesday and Thursday receive significantly higher engagement.",
+            "Hashtag usage, though at 38.3%, drives an average of 47 engagements per hashtag post.",
+            "Audience is diversified with strong representation from Technology/IT and Consulting sectors."
+        ],
+        "summaryText": "This report synthesizes LinkedIn performance data for Ryan H. Vaughn from May 2025, highlighting high engagement on image posts and effective use of hashtags. The analysis covers content distribution, posting patterns, and audience demographics. Key performance indicators demonstrate robust visual content performance and strategic hashtag usage. Actionable insights and recommendations are provided to optimize future engagement and content strategy."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 28.5
+            },
+            {
+                "type": "image",
+                "percentage": 67.63
+            },
+            {
+                "type": "article",
+                "percentage": 1.93
+            },
+            {
+                "type": "linkedinVideo",
+                "percentage": 1.93
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Image Posts",
+                "averageLikes": 94
+            },
+            {
+                "theme": "Text Posts",
+                "averageLikes": 60
+            }
+        ],
+        "visualImpactInsight": "Image posts (avg engagement: 94) tend to perform significantly better than text posts (avg engagement: 60).",
+        "postTypeDistributionInsight": "The majority of posts are images (67.63%), indicating a strong preference for visual content.",
+        "topPerformingPosts": [
+            {
+                "postDescription": "Apple, Microsoft, and Google all have a hidden weapon... (Image post with innovative insights)",
+                "likes": 1017,
+                "comments": 138,
+                "shares": 95
+            },
+            {
+                "postDescription": "The NBA tried to hide this for 25 years: Phil Jackson's mindfulness technique showcased in an image post.",
+                "likes": 741,
+                "comments": 88,
+                "shares": 55
+            },
+            {
+                "postDescription": "I’ve hired 10 CEO coaches and here’s what to look for when hiring a coach (Image post sharing hiring insights).",
+                "likes": 429,
+                "comments": 128,
+                "shares": 11
+            },
+            {
+                "postDescription": "This is Hayden Hurst turning his personal story into a mental health movement (Image post with transformative narrative).",
+                "likes": 277,
+                "comments": 28,
+                "shares": 8
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High visual appeal with dominant image usage",
+            "Engaging storytelling with detailed narratives",
+            "Focus on current industry and leadership topics",
+            "Use of persuasive and inspirational language"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Mike Jones",
+                "description": "Free 'Sell on LinkedIn' Training, LinkedIn Agency Owner with 72 reactions"
+            },
+            {
+                "name": "Jason Pliml",
+                "description": "Executive Coach and 5x CEO/founder with 44 reactions"
+            },
+            {
+                "name": "Ricky Sperber, CFA",
+                "description": "Founder of E Q V I L I B R O with 30 reactions"
+            },
+            {
+                "name": "Alison Keutgen",
+                "description": "Product Leader driving innovation with 22 reactions"
+            },
+            {
+                "name": "Mark F.",
+                "description": "Dad, Coach, Advisor, Entrepreneur with 22 reactions"
+            }
+        ],
+        "audienceInsight": "The engaged audience is largely composed of high-level professionals from Technology, Consulting, and Marketing industries.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 17.35
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 17.18
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 9.45
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 6.7
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 4.3
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "engagement_multiplier": 0.67
+            },
+            {
+                "day": "Tuesday",
+                "engagement_multiplier": 1.25
+            },
+            {
+                "day": "Wednesday",
+                "engagement_multiplier": 0.94
+            },
+            {
+                "day": "Thursday",
+                "engagement_multiplier": 1.23
+            },
+            {
+                "day": "Friday",
+                "engagement_multiplier": 0.97
+            },
+            {
+                "day": "Saturday",
+                "engagement_multiplier": 0.37
+            },
+            {
+                "day": "Sunday",
+                "engagement_multiplier": 0.0
+            }
+        ],
+        "postingFrequency": "3-4 posts per week",
+        "timingKeyFinding": "Posts on Tuesday, Thursday tend to receive significantly higher engagement.",
+        "topPerformingPostsExamples": [
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_apple-microsoft-and-google-all-have-a-hidden-activity-7322975482004578304-TPle?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": 1017,
+                "comments": 138,
+                "shares": 95,
+                "snippet": "Apple, Microsoft, and Google all have a hidden weapon..."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_the-nba-tried-to-hide-this-for-25-years-activity-7303460054370799616-rRt7?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": 741,
+                "comments": 88,
+                "shares": 55,
+                "snippet": "The NBA tried to hide this for 25 years: Phil Jackson's mindfulness technique."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_leadership-executivecoaching-entrepreneurship-activity-7242884037940326400-7R-q?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": 429,
+                "comments": 128,
+                "shares": 11,
+                "snippet": "I’ve hired 10 CEO coaches and here’s what to look for when hiring a coach."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/ryanhvaughn_this-is-hayden-hurst-he-transformed-his-activity-7323700245089984512-uNLt?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": 277,
+                "comments": 28,
+                "shares": 8,
+                "snippet": "This is Hayden Hurst turning his personal story into a mental health movement."
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "summary": [
+            "Our analysis identifies four key industry influencers whose work in leadership transformation, innovative coaching, and authentic career strategies is driving notable change.",
+            "Each influencer — ranging from executive coaching to visual leadership and career breakthrough coaching — offers unique insights into thriving in today’s evolving professional landscape."
+        ],
+        "keyInsightsForStrategy": {
+            "optimalPostingWindow": "8AM - 10AM",
+            "averageVisualContentPercentage": 30.0,
+            "averageDaysBetweenPosts": "2-3" ,
+            "engagementMultiplierPersonalStoryData": 1.8
+        },
+        "influencersList": [
+            {
+                "name": "Sara Canaday",
+                "title": "Leadership Strategist & Speaker | Award-Winning Author | Transforming Leaders & Their Organizations through Actionable Strategies",
+                "profileUrl": "https://media.licdn.com/dms/image/v2/D5603AQG2LWDuh5i5vQ/profile-displayphoto-shrink_800_800/B56ZZ.pUSkHsAc-/0/1745881482803?e=1752710400&v=beta&t=7JS-ERAipxgc7n2wSZ9cIwJL1m54Px1Hubaj6M-SHY4",
+                "followersCount": "96K",
+                "postWithin1Year": "109",
+                "descriptionFocus": "Helps leaders move beyond generic management to achieve true transformation with modern, human-centered leadership frameworks.",
+                "relevance": "Leadership transformation, Actionable strategy, Modern coaching"
+            },
+            {
+                "name": "Adam Grant",
+                "title": "Organizational psychologist at Wharton, #1 NYT bestselling author of HIDDEN POTENTIAL and THINK AGAIN, and host of the TED podcasts WorkLife and Re:Thinking",
+                "profileUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFGdrbBw3FYhA/profile-displayphoto-shrink[…]52710400&v=beta&t=GfrVvyzrsC5OiUyPo_U8Z5SaKZQZILvkaXI8Tb_8IA0",
+                "followersCount": "5.5M",
+                "postWithin1Year": "300",
+                "descriptionFocus": "Recognized as Wharton's top-rated professor and influential management thinker, Adam inspires leaders to rethink traditional approaches.",
+                "relevance": "Leadership insights, Vulnerability research, Entrepreneur mindset, Coaching inspiration"
+            },
+            {
+                "name": "Allison Dunn",
+                "title": "Business & Executive Coach",
+                "profileUrl": "https://media.licdn.com/dms/image/v2/D5603AQGSf0pZy9qtFQ/profile-displayphoto-shrink_400_400/B56ZQ2l7urHIAg-/0/1736082702790?e=1752710400&v=beta&t=Bwjh4w_w134TbueT5mRJNBMhs-Q22kkoGWlOwAS8Fgo",
+                "followersCount": "16K",
+                "postWithin1Year": "186",
+                "descriptionFocus": "Guides leaders and business owners to elevate performance through strategic coaching and system-building for enhanced profitability.",
+                "relevance": "Business coaching, Startup growth, Executive development"
+            },
+            {
+                "name": "Kathy Caprino",
+                "title": "Global Top-Ranked Career & Personal Growth Coach | Speaker/Trainer | Author | Sr. Forbes Contrib | Trained Therapist | Finding Brave™ host - Helping professionals achieve rapid breakthroughs in success, impact & reward",
+                "profileUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHFLCLxaI_SMw/profile-displayphoto-shrink_400_400/B4EZWpDkFSHMAk-/0/1742298039598?e=1752710400&v=beta&t=Y1_kKe7Zf7QXuXD3tIr1w3Cb4SZpVhCG7ZiMz-XytIA",
+                "followersCount": "849K",
+                "postWithin1Year": "200",
+                "descriptionFocus": "Empowers professionals to overcome barriers and achieve transformative success through authentic career and leadership coaching.",
+                "relevance": "Transformative leadership, High-impact coaching, Authentic narrative"
+            }
+        ],
+        "detailedInfluencerAnalysis": [
+            {
+                "profile": {
+                    "name": "Sara Canaday",
+                    "title": "Leadership Strategist & Speaker | Award-Winning Author | Transforming Leaders & Their Organizations through Actionable Strategies",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQG2LWDuh5i5vQ/profile-displayphoto-shrink_800_800/B56ZZ.pUSkHsAc-/0/1745881482803?e=1752710400&v=beta&t=7JS-ERAipxgc7n2wSZ9cIwJL1m54Px1Hubaj6M-SHY4",
+                    "postUrl": "https://www.linkedin.com/posts/saracanaday_leadership-leadershipdevelopment-businessgrowth-activity-7303074970891366400-zkNG?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "location": "Austin, Texas",
+                    "followers": "96K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/saracanaday_leadership-leadershipdevelopment-businessgrowth-activity-7303074970891366400-zkNG?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "text": "Great leaders dont have to have all the answers; they just need to ask the right questions.",
+                    "likes": 422,
+                    "comments": 15,
+                    "reposts": 22
+                },
+                "contentStrategy": {
+                    "Text": 25.0,
+                    "Images": 30.0,
+                    "Videos": 35.0,
+                    "Articles": 10.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Adam Grant",
+                    "title": "Organizational psychologist at Wharton, #1 NYT bestselling author of HIDDEN POTENTIAL and THINK AGAIN, and host of the TED podcasts WorkLife and Re:Thinking",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFGdrbBw3FYhA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1629123595757?e=1752710400&v=beta&t=GfrVvyzrsC5OiUyPo_U8Z5SaKZQZILvkaXI8Tb_8IA0",
+                    "postUrl": "https://www.linkedin.com/posts/adammgrant_we-dont-control-how-others-treat-uswe-control-activity-7311418807514771456-qquv?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "location": "Philadelphia, Pennsylvania",
+                    "followers": "5.5M"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/adammgrant_we-dont-control-how-others-treat-uswe-control-activity-7311418807514771456-qquv?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "text": "We don't control how others treat us, we control how we treat them.",
+                    "likes": "61.5K",
+                    "comments": "1.8K",
+                    "reposts": 6234
+                },
+                "contentStrategy": {
+                    "Text": 0.0,
+                    "Images": 81.9,
+                    "Videos": 14.8,
+                    "Articles": 3.3
+                }
+            },
+            {
+                "profile": {
+                    "name": "Allison Dunn",
+                    "title": "Business & Executive Coach",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQGSf0pZy9qtFQ/profile-displayphoto-shrink_400_400/B56ZQ2l7urHIAg-/0/1736082702790?e=1752710400&v=beta&t=Bwjh4w_w134TbueT5mRJNBMhs-Q22kkoGWlOwAS8Fgo",
+                    "postUrl": "https://www.linkedin.com/posts/allisondunn_businesscoach-businessgrowth-leadershipdevelopment-activity-7272426888063541248-aY7P?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "location": "Boise, Idaho",
+                    "followers": "16K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/allisondunn_businesscoach-businessgrowth-leadershipdevelopment-activity-7272426888063541248-aY7P?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "text": "10+ Years. 1000+ Businesses. 0 Failures. That's not a typo. Its a track record.",
+                    "likes": 54,
+                    "comments": 8,
+                    "reposts": 0
+                },
+                "contentStrategy": {
+                    "Text": 25.0,
+                    "Images": 25.0,
+                    "Videos": 25.0,
+                    "Articles": 25.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Kathy Caprino",
+                    "title": "Global Top-Ranked Career & Personal Growth Coach | Speaker/Trainer | Author | Sr. Forbes Contrib | Trained Therapist | Finding Brave™ host - Helping professionals achieve rapid breakthroughs in success, impact & reward",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHFLCLxaI_SMw/profile-displayphoto-shrink_400_400/B4EZWpDkFSHMAk-/0/1742298039598?e=1752710400&v=beta&t=Y1_kKe7Zf7QXuXD3tIr1w3Cb4SZpVhCG7ZiMz-XytIA",
+                    "postUrl": "https://www.linkedin.com/posts/kathycaprino_today-we-celebrate-martin-luther-king-jr-activity-7287175164461527041-ecLK?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "location": "Stamford, Connecticut",
+                    "followers": "849K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/kathycaprino_today-we-celebrate-martin-luther-king-jr-activity-7287175164461527041-ecLK?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                    "text": "Celebrating Martin Luther King Jr. reminds us of the balance between technological progress and spiritual growth.",
+                    "likes": 161,
+                    "comments": 3,
+                    "reposts": 8
+                },
+                "contentStrategy": {
+                    "Text": 20.0,
+                    "Images": 40.0,
+                    "Videos": 30.0,
+                    "Articles": 10.0
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": {
+            "usagePercentage": 38.3,
+            "averageHashtagsPerPost": 3.0
+        },
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 38
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 62
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#ExecutiveCoaching",
+                "averageLikes": 429
+            },
+            {
+                "hashtag": "#Entrepreneurship",
+                "averageLikes": 116
+            },
+            {
+                "hashtag": "#Success",
+                "averageLikes": 82
+            },
+            {
+                "hashtag": "#Mindfulness",
+                "averageLikes": 70
+            },
+            {
+                "hashtag": "#Motivation",
+                "averageLikes": 64
+            }
+        ],
+        "hashtagKeyFinding": "Strategic hashtag usage, though applied in only 38.3% of posts, significantly boosts engagement and post visibility."
+    },
+    "influencerComparison": [
+        {
+            "name": "Sara Canaday",
+            "linkedinUrl": "https://media.licdn.com/dms/image/v2/D5603AQG2LWDuh5i5vQ/profile-displayphoto-shrink_800_800/B56ZZ.pUSkHsAc-/0/1745881482803?e=1752710400&v=beta&t=7JS-ERAipxgc7n2wSZ9cIwJL1m54Px1Hubaj6M-SHY4",
+            "followers": 96000,
+            "postsPerYear": 109,
+            "topContentTypes": "Mixed content",
+            "topThemes": "Leadership transformation, Actionable strategy, Modern coaching",
+            "postingFrequency": "Moderate"
+        },
+        {
+            "name": "Adam Grant",
+            "linkedinUrl": "https://linkedin.com/in/adammgrant",
+            "followers": "5.5M",
+            "postsPerYear": 300,
+            "topContentTypes": "Images, Videos",
+            "topThemes": "Leadership, Mindfulness",
+            "postingFrequency": "4 posts/week"
+        },
+        {
+            "name": "Allison Dunn",
+            "linkedinUrl": "https://media.licdn.com/dms/image/v2/D5603AQGSf0pZy9qtFQ/profile-displayphoto-shrink_400_400/B56ZQ2l7urHIAg-/0/1736082702790?e=1752710400&v=beta&t=Bwjh4w_w134TbueT5mRJNBMhs-Q22kkoGWlOwAS8Fgo",
+            "followers": 16000,
+            "postsPerYear": 186,
+            "topContentTypes": "Text and visual",
+            "topThemes": "Business coaching, Startup growth, Executive development",
+            "postingFrequency": "High"
+        },
+        {
+            "name": "Kathy Caprino",
+            "linkedinUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHFLCLxaI_SMw/profile-displayphoto-shrink_400_400/B4EZWpDkFSHMAk-/0/1742298039598?e=1752710400&v=beta&t=Y1_kKe7Zf7QXuXD3tIr1w3Cb4SZpVhCG7ZiMz-XytIA",
+            "followers": 849000,
+            "postsPerYear": 200,
+            "topContentTypes": "Visual and articles",
+            "topThemes": "Transformative leadership, High-impact coaching, Authentic narrative",
+            "postingFrequency": "High"
+        }
+    ],
+    "summaryOfComparison": "The client’s engagement demonstrates robust visual content performance, but compared to key influencers, there is room to optimize posting frequency and diversify content themes for broader reach and increased visibility.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower posting frequency compared to top influencers",
+            "yourValue": "3-4 posts/week",
+            "influencerAverage": "High posting frequency",
+            "recommendedAction": "Increase posting frequency to engage the audience more consistently."
+        },
+        {
+            "gap": "Limited content diversity",
+            "yourValue": "Dominated by image posts",
+            "influencerAverage": "Balanced mix of content types",
+            "recommendedAction": "Incorporate more text and article posts to provide variety."
+        },
+        {
+            "gap": "Underutilization of hashtags",
+            "yourValue": "38.3% usage",
+            "influencerAverage": "Higher hashtag engagement strategies",
+            "recommendedAction": "Adopt a more strategic hashtag approach to boost engagement."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content themes by incorporating more articles and text posts alongside the highly engaging image content.",
+        "visualElements": "Enhance visual storytelling with high-quality images and videos to capitalize on the strong performance of visual content.",
+        "postingSchedule": "Optimize posting times by focusing on peak days like Tuesday and Thursday and consider increasing overall posting frequency.",
+        "hashtagStrategy": "Implement a consistent and strategic hashtag approach to improve post visibility, given the significant engagement boost observed.",
+        "audienceTargeting": "Tailor content specifically to high-level professionals in sectors such as Technology, Consulting, and Marketing to increase relevance.",
+        "engagementTactics": "Introduce interactive elements such as polls, Q&As, and discussions to foster deeper audience engagement and interaction."
+    }
+}

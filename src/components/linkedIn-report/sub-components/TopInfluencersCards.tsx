@@ -1,9 +1,10 @@
 import { RootState } from "@/app/store";
 import { FC } from "react";
 import { useSelector } from "react-redux";
+import AdamGrant from "@/assets/images/Adam-grant.png";
 
 type Influencer = {
-  pictureUrl: string;
+  profileUrl: string;
   descriptionFocus: string;
   // engagementRate: string;
   followersCount: string;
@@ -35,7 +36,11 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
           className="bg-white border rounded-xl overflow-hidden shadow-sm flex flex-col h-full"
         >
           <img
-            src={influencer?.pictureUrl || ""}
+            src={
+              influencer?.name === "Adam Grant"
+                ? AdamGrant
+                : influencer?.profileUrl
+            }
             alt={influencer?.name}
             className="w-full h-40 object-cover"
           />

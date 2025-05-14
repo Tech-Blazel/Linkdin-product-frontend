@@ -25,6 +25,8 @@ const TopPerformingPosts: FC = () => {
     (state: RootState) => state.auditReportSchema.contentAnalysis
   );
 
+  console.log("topPerformingPosts", topPerformingPosts);
+
   return (
     <ReportCard title="Client Top Performing Posts" icon={FaChartLine}>
       <div className="space-y-7">

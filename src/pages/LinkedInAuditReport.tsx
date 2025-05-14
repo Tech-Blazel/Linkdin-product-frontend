@@ -16,6 +16,7 @@ import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import { Loader2 } from "lucide-react";
+import SamplePosts from "@/components/linkedIn-report/SamplePosts";
 
 const LinkedInAuditReport = () => {
   const { influencersList } = useSelector(
@@ -38,6 +39,7 @@ const LinkedInAuditReport = () => {
     )),
     <HashtagPerformanceAnalysis />,
     <PostingRecommendations />,
+    <SamplePosts />,
   ];
 
   const containerRef = useRef<any>(null);
