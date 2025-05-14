@@ -13,7 +13,10 @@ import { FaEarthAsia } from "react-icons/fa6";
 import { BsEmojiLaughing } from "react-icons/bs";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
-import { convertObjectToArrayOfObjectsData } from "@/utils/constants";
+import {
+  convertObjectToArrayOfObjectsData,
+  pieChartColor,
+} from "@/utils/constants";
 import { IoMdAdd } from "react-icons/io";
 import { HiDotsHorizontal } from "react-icons/hi";
 import kayBertin from "@/assets/image.png";
@@ -63,7 +66,7 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
     {
       nameKey: "name",
       valueKey: "value",
-      colors: ["#f4a69f", "#fcd88d", "#8de49d", "#c7b3f8"],
+      colors: pieChartColor,
     }
   );
 
@@ -189,7 +192,7 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
                   </div>
                   <span>
                     {post?.comments > 0 && `${post?.comments} comments`}
-                    {post?.reposts > 0 && `• ${post?.reposts} reposts`}
+                    {post?.reposts > 0 && ` • ${post?.reposts} reposts`}
                   </span>
                 </div>
 

@@ -18,7 +18,7 @@ export const PostingPatternChart: FC<{
         Optimal Posting Times (Engagement Multiplier)
       </h3>
       <div className="w-full h-64">
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%">
           <BarChart
             data={optimalPostingTData}
             layout="vertical"

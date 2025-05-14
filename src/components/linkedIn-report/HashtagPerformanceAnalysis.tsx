@@ -14,7 +14,7 @@ import ReportCard from "./sub-components/ReportCard";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
 import { isEmpty } from "lodash";
-import { transformDataWithColors } from "@/utils/constants";
+import { pieChartColor, transformDataWithColors } from "@/utils/constants";
 
 const HashtagPerformanceAnalysis: FC = () => {
   const { hashtagUsageVisual, topPerformingHashtags, hashtagKeyFinding } =
@@ -22,13 +22,10 @@ const HashtagPerformanceAnalysis: FC = () => {
       (state: RootState) => state.auditReportSchema.hashtagPerformanceAnalysis
     );
 
-  const hashtagUsageData = transformDataWithColors(hashtagUsageVisual, [
-    "#f4b6b0",
-    "#f9df90",
-    "#d3bdf4",
-    "#a8dbf4",
-    "#b0e9b4",
-  ]);
+  const hashtagUsageData = transformDataWithColors(
+    hashtagUsageVisual,
+    pieChartColor
+  );
 
   return (
     <ReportCard title="Hashtag Performance Analysis" icon={FaChartLine}>

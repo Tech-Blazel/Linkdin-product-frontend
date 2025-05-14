@@ -321,10 +321,10 @@
                     "reposts": 0
                 },
                 "contentStrategy": {
-                    "Text": 25.0,
-                    "Images": 25.0,
-                    "Videos": 25.0,
-                    "Articles": 25.0
+                    "Text": 54.0,
+                    "Images": 26.0,
+                    "Videos": 20.0,
+                    "Articles": 0.0
                 }
             },
             {

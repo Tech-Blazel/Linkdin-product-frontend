@@ -13,7 +13,7 @@ import KeySummary from "./sub-components/KeySummary";
 import ReportCard from "./sub-components/ReportCard";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
-import { transformDataWithColors } from "@/utils/constants";
+import { pieChartColor, transformDataWithColors } from "@/utils/constants";
 import { isEmpty } from "lodash";
 
 // const barData = [
@@ -41,7 +41,7 @@ const ContentAnalysis: FC = () => {
 
   const postTypesDistributionData = transformDataWithColors(
     postTypesDistribution,
-    ["#f4b6b0", "#f9df90", "#d3bdf4", "#a8dbf4", "#b0e9b4"]
+    pieChartColor
   );
 
   return (

@@ -16,7 +16,7 @@ import { RootState } from "@/app/store";
 
 const COLORS = {
   likes: "#ff5733",
-  comments: "#fcd88d",
+  comments: "#ffd857",
   shares: "#2b6cb0",
 };
 
@@ -37,15 +37,28 @@ const TopPerformingPosts: FC = () => {
         <div className="w-full h-72">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={topPerformingPosts}>
-              <XAxis dataKey="postDescription" tick={{ fontSize: 11 }} />
+              <XAxis dataKey="postDescription" tick={{ fontSize: 12 }} />
               <YAxis />
               <Tooltip />
               <Legend
-                wrapperStyle={{
-                  fontSize: "12px",
-                  paddingBottom: "10px",
-                }}
+                content={({ payload }) => (
+                  <ul className="flex gap-4 text-[12px] pb-3 justify-center align-center">
+                    {payload?.map((entry, index) => (
+                      <li
+                        key={`item-${index}`}
+                        className="flex items-center text-text-primary text-base"
+                      >
+                        <span
+                          className="inline-block w-3 h-3 rounded-[3px] mr-2"
+                          style={{ backgroundColor: entry.color }}
+                        />
+                        {entry.value}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               />
+
               <Bar dataKey="likes" fill={COLORS.likes} radius={[4, 4, 0, 0]} />
               <Bar
                 dataKey="comments"
