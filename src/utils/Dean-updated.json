@@ -1,0 +1,448 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Dean Pleban",
+            "title": "Co-Founder & CEO at DagsHub | AI Data Development Platform",
+            "profileUrl": "https://www.linkedin.com/in/deanpleban",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQFwOK8NRGF3IQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1549701726893?e=1752710400&v=beta&t=LQwERWD22Ou4DG-HMqdA4438U_YSt-NNd_cqrOa7UAg"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 70,
+        "averageCommentsForPost": {
+            "value": 6,
+            "comparison": "about industry average"
+        },
+        "topContentLikes": {
+            "value": 897,
+            "contentType": "image"
+        },
+        "hashtagImpactEngagement": 66,
+        "keyHighlights": [
+            "Top performing image post achieved 897 likes, driving significant engagement.",
+            "Image posts significantly outperform text posts with an average engagement of 134 compared to 13.",
+            "Posts on Tuesday receive the highest average engagement at 147.98.",
+            "Hashtag usage contributes to elevated engagement with an average of 66 likes per hashtag post."
+        ],
+        "summaryText": "This report provides a comprehensive analysis of Dean Pleban's LinkedIn engagement for May 2025. It evaluates overall performance metrics, content types, and audience interactions. The analysis highlights high engagement from image posts and optimal posting times. Strategic insights and recommendations are provided to help further improve engagement."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "linkedinVideo",
+                "percentage": 30.23
+            },
+            {
+                "type": "document",
+                "percentage": 13.18
+            },
+            {
+                "type": "text",
+                "percentage": 14.73
+            },
+            {
+                "type": "image",
+                "percentage": 32.56
+            },
+            {
+                "type": "article",
+                "percentage": 9.3
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Object Detection",
+                "percentage": 25.0,
+                "averageLikes": 897
+            },
+            {
+                "theme": "LLM Applications",
+                "percentage": 25.0,
+                "averageLikes": 831
+            },
+            {
+                "theme": "AI Evaluation",
+                "percentage": 25.0,
+                "averageLikes": 537
+            },
+            {
+                "theme": "Partnership Announcement",
+                "percentage": 25.0,
+                "averageLikes": 298
+            },
+            {
+                "theme": "Product Launch",
+                "percentage": 25.0,
+                "averageLikes": 239
+            }
+        ],
+        "visualImpactInsight": "Image posts significantly outperform text posts, with average engagement of 134 compared to 13.",
+        "postTypeDistributionInsight": "Image posts dominate with 32.56%, followed by LinkedIn videos and text content contributing to overall engagement.",
+        "topPerformingPosts": [
+            {
+                "content": "Detailed post about object detection technology and its future impact on autonomous systems.",
+                "type": "image",
+                "likes": "897",
+                "comments": "31",
+                "shares": "121"
+            },
+            {
+                "content": "Post on LLM applications and adaptation methods in building language model-based applications.",
+                "type": "image",
+                "likes": "831",
+                "comments": "33",
+                "shares": "110"
+            },
+            {
+                "content": "Discussion on Gemini and the challenges in evaluating large language models.",
+                "type": "image",
+                "likes": "537",
+                "comments": "35",
+                "shares": "32"
+            },
+            {
+                "content": "Announcement of partnership with Red Hat integrating DagsHub's complete AI platform.",
+                "type": "image",
+                "likes": "298",
+                "comments": "26",
+                "shares": "6"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High-quality visual content",
+            "Strong use of industry-specific hashtags",
+            "Focus on AI and technology trends",
+            "Clear and engaging narrative"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Dotan  Bar Noy",
+                "description": "Senior Vice President of Technology"
+            },
+            {
+                "name": "Guy Smoilovsky",
+                "description": "Co-Founder & CTO at DagsHub | AI Data Development Platform"
+            },
+            {
+                "name": "Oded Hutzler",
+                "description": "Product Manager • MA HCI"
+            },
+            {
+                "name": "Gadi Beker",
+                "description": "CFO at Nextage"
+            }
+        ],
+        "audienceInsight": "The audience is heavily composed of tech and IT professionals, with significant engagement from leadership roles within technology industries.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 48.31
+            },
+            {
+                "industry": "Others",
+                "percentage": 40.6
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 3.38
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 2.82
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 2.63
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 48.0
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 147.98
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 37.44
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 62.23
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 25.33
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 4.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 35.67
+            }
+        ],
+        "postingFrequency": "2-3",
+        "timingKeyFinding": "Posts on Tuesday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Key influencers in the AI space show diverse strategies from technical innovation to educational storytelling, driving engagement and setting industry benchmarks.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "9am - 12pm PST",
+            "visualContentPercentage": 52.1,
+            "averagePostFrequency": "2-3 posts/week",
+            "personalStoryMultiplier": 1.5,
+            "contrarianViewMultiplier": null,
+            "totalPostsLastYear": 218
+        },
+        "influencers": [
+            {
+                "name": "Dr. Einat Orr",
+                "title": "Co-Founder & CEO @lakeFS by Treeverse, We're Hiring!",
+                "profileUrl": "https://www.linkedin.com/in/einatorr",
+                "pictureUrl": "https://media.licdn.com/dms/image/C4E03AQGRQn4i5OtMJw/profile-displayphoto-shrink_100_100/0/1578591272929?e=1752710400&v=beta&t=tKy1XX4cPuqgx9JucE8X73N8xktDzUGc5ddfzwc85a4",
+                "followersCount": "19.3K",
+                "postWithin1Year": 52,
+                "descriptionFocus": "Leader in data lake innovation and software development. Focused on enabling efficient data management.",
+                "relevance": [
+                    "Data platform synergy",
+                    "Tech leadership",
+                    "Innovative AI tools"
+                ],
+                "contentStrategyDistribution": [
+                    {
+                        "element": "Text",
+                        "percentage": 17.5
+                    },
+                    {
+                        "element": "Images",
+                        "percentage": 55.5
+                    },
+                    {
+                        "element": "Videos",
+                        "percentage": 0.0
+                    },
+                    {
+                        "element": "Articles",
+                        "percentage": 27.0
+                    }
+                ]
+            },
+            {
+                "name": "Ines Montani",
+                "title": "Founder at Explosion (spaCy, Prodigy)",
+                "profileUrl": "https://www.linkedin.com/in/inesmontani",
+                "pictureUrl": "https://media.licdn.com/dms/image/C4E03AQEFDlK7Vk1xnQ/profile-displayphoto-shrink_100_100/0/1517457595805?e=1752710400&v=beta&t=tLtGgEQAyOixIdMAgQ3QAGCCu1ZcqgZTAcj5LQkm6h8",
+                "followersCount": "20.4K",
+                "postWithin1Year": 59,
+                "descriptionFocus": "Pioneer in NLP and machine learning innovations. Drives AI product development and startup growth.",
+                "relevance": [
+                    "ML technology focus",
+                    "NLP expertise",
+                    "Startup insight"
+                ],
+                "contentStrategyDistribution": [
+                    {
+                        "element": "Text",
+                        "percentage": 11.46
+                    },
+                    {
+                        "element": "Images",
+                        "percentage": 75.0
+                    },
+                    {
+                        "element": "Videos",
+                        "percentage": 2.08
+                    },
+                    {
+                        "element": "Articles",
+                        "percentage": 11.46
+                    }
+                ]
+            },
+            {
+                "name": "Chip Huyen",
+                "title": "Building something new | AI x storytelling x education",
+                "profileUrl": "https://www.linkedin.com/in/chiphuyen",
+                "pictureUrl": "https://media.licdn.com/dms/image/C5603AQGCA0jXW9wIGQ/profile-displayphoto-shrink_100_100/0/1603913066364?e=1752710400&v=beta&t=FqjTsMbYlGRJ7-zJriwgrSFhO-BWDGQXXRIRmSryhAY",
+                "followersCount": "273.2K",
+                "postWithin1Year": 52,
+                "descriptionFocus": "Expert in AI systems and ML education. Innovates at the intersection of technology and storytelling.",
+                "relevance": [
+                    "ML systems expertise",
+                    "Educational content",
+                    "Tech storytelling"
+                ],
+                "contentStrategyDistribution": [
+                    {
+                        "element": "Text",
+                        "percentage": 20.0
+                    },
+                    {
+                        "element": "Images",
+                        "percentage": 64.0
+                    },
+                    {
+                        "element": "Videos",
+                        "percentage": 0.0
+                    },
+                    {
+                        "element": "Articles",
+                        "percentage": 16.0
+                    }
+                ]
+            },
+            {
+                "name": "Andrew Ng",
+                "title": "Founder of DeepLearning.AI; Managing General Partner of AI Fund; Exec Chairman of Landing AI",
+                "profileUrl": "https://www.linkedin.com/in/andrewyng",
+                "pictureUrl": "https://media.licdn.com/dms/image/C5603AQF8paxRmnuJxg/profile-displayphoto-shrink_100_100/0/1517556809568?e=1752710400&v=beta&t=EIozomfojsFMPyX2znfFE1eFmkYoEO37vWPf2BlJjqE",
+                "followersCount": "2.1M",
+                "postWithin1Year": 55,
+                "descriptionFocus": "Influential AI educator and entrepreneur. Champions machine learning and AI adoption on a global scale.",
+                "relevance": [
+                    "AI education leader",
+                    "ML industry influence",
+                    "Global tech reach"
+                ],
+                "contentStrategyDistribution": [
+                    {
+                        "element": "Text",
+                        "percentage": 14.86
+                    },
+                    {
+                        "element": "Images",
+                        "percentage": 13.77
+                    },
+                    {
+                        "element": "Videos",
+                        "percentage": 37.68
+                    },
+                    {
+                        "element": "Articles",
+                        "percentage": 33.7
+                    }
+                ]
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 59.0, 'averageHashtagsPerPost': 3.9}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 59.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 41.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#security",
+                "averageEngagementRate": 897.0
+            },
+            {
+                "hashtag": "#deeplearning",
+                "averageEngagementRate": 897.0
+            },
+            {
+                "hashtag": "#objectdetection",
+                "averageEngagementRate": 520.0
+            },
+            {
+                "hashtag": "#dataengine",
+                "averageEngagementRate": 239.0
+            },
+            {
+                "hashtag": "#unstructureddata",
+                "averageEngagementRate": 239.0
+            }
+        ],
+        "hashtagKeyFinding": "Hashtags such as #security and #deeplearning drive the highest engagement, with posts using them averaging upper 800s in likes."
+    },
+    "influencerComparison": [
+        {
+            "name": "Dr. Einat Orr",
+            "linkedinUrl": "https://www.linkedin.com/in/einatorr",
+            "followers": 19300,
+            "postsPerYear": 52,
+            "topContentTypes": "Images",
+            "topThemes": "Data platform synergy & Tech leadership",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Ines Montani",
+            "linkedinUrl": "https://www.linkedin.com/in/inesmontani",
+            "followers": 20400,
+            "postsPerYear": 59,
+            "topContentTypes": "Images",
+            "topThemes": "ML technology focus & NLP expertise",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Chip Huyen",
+            "linkedinUrl": "https://www.linkedin.com/in/chiphuyen",
+            "followers": 273200,
+            "postsPerYear": 52,
+            "topContentTypes": "Images",
+            "topThemes": "ML systems expertise & Educational content",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Andrew Ng",
+            "linkedinUrl": "https://www.linkedin.com/in/andrewyng",
+            "followers": 2100000,
+            "postsPerYear": 55,
+            "topContentTypes": "Videos",
+            "topThemes": "AI education leader & ML industry influence",
+            "postingFrequency": "1 post/week"
+        }
+    ],
+    "summaryOfComparison": "While influencers demonstrate higher post engagement and follower counts, the client shows solid performance. Enhancing content variety and increasing posting frequency could bridge the gap.",
+    "gapAnalysis": [
+        {
+            "gap": "Engagement Rate below industry average",
+            "yourValue": "70 likes per post",
+            "influencerAverage": "Approximately 100+ likes",
+            "recommendedAction": "Incorporate more visual and interactive content."
+        },
+        {
+            "gap": "Lower Posting Frequency",
+            "yourValue": "2-3 posts/week",
+            "influencerAverage": "Approximately 1 post/day",
+            "recommendedAction": "Increase posting frequency."
+        },
+        {
+            "gap": "Hashtag Utilization",
+            "yourValue": "3.9 hashtags per post",
+            "influencerAverage": "4-5 effective hashtags",
+            "recommendedAction": "Optimize hashtag strategy for targeted reach."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content themes by integrating industry insights, technical deep-dives, and thought leadership articles.",
+        "visualElements": "Increase use of high-quality images and videos to leverage strong visual engagement trends.",
+        "postingSchedule": "Consider posting more frequently, especially on high-engagement days like Tuesday.",
+        "hashtagStrategy": "Refine hashtag selection to include high-performing tags such as #security and #deeplearning.",
+        "audienceTargeting": "Focus on tech-savvy professionals and industry leaders to enhance audience resonance.",
+        "engagementTactics": "Incorporate interactive elements like polls, Q&As, and behind-the-scenes content to boost engagement."
+    }
+}

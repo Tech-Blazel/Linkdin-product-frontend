@@ -25,8 +25,6 @@ const TopPerformingPosts: FC = () => {
     (state: RootState) => state.auditReportSchema.contentAnalysis
   );
 
-  console.log("topPerformingPosts", topPerformingPosts);
-
   return (
     <ReportCard title="Client Top Performing Posts" icon={FaChartLine}>
       <div className="space-y-7">
@@ -37,7 +35,10 @@ const TopPerformingPosts: FC = () => {
         <div className="w-full h-72">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={topPerformingPosts}>
-              <XAxis dataKey="postDescription" tick={{ fontSize: 12 }} />
+              <XAxis
+                dataKey="content"
+                tick={{ fontSize: 12, display: "none" }}
+              />
               <YAxis />
               <Tooltip />
               <Legend

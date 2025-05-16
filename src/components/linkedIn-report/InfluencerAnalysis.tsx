@@ -15,11 +15,11 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
 import {
   convertObjectToArrayOfObjectsData,
+  influencerImages,
   pieChartColor,
 } from "@/utils/constants";
 import { IoMdAdd } from "react-icons/io";
 import { HiDotsHorizontal } from "react-icons/hi";
-import kayBertin from "@/assets/image.png";
 
 const reactions = [
   {
@@ -53,11 +53,9 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
   index,
   influencer,
 }) => {
-  const { detailedInfluencerAnalysis } = useSelector(
-    (state: RootState) => state.auditReportSchema.topIndustryInfluencersAnalysis
-  );
+  const detailedInfluencerAnalysis = influencer?.detailedInfluencerAnalysis;
 
-  const { contentStrategy, post, profile } = detailedInfluencerAnalysis[index];
+  const { contentStrategy, post, profile } = detailedInfluencerAnalysis;
 
   const { name, title, followersCount, descriptionFocus } = influencer;
 
@@ -69,6 +67,8 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
       colors: pieChartColor,
     }
   );
+
+  console.log("contentStrategyData", contentStrategyData);
 
   return (
     <section className="space-y-6 gap-10 p-10 bg-white relative overflow-hidden rounded-lg shadow w-[100%] mt-10">
@@ -96,11 +96,8 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
           <div className="space-y-4">
             <div className="p-4 border rounded-xl shadow-sm flex gap-4 items-start">
               <img
-                src={
-                  profile?.name === "Kyle Bertin"
-                    ? kayBertin
-                    : profile?.pictureUrl || ""
-                }
+                // src={profile?.pictureUrl || ""}
+                src={influencerImages[name] || ""}
                 alt={profile?.name || ""}
                 className="w-12 h-12 rounded-full object-cover"
               />
@@ -129,11 +126,8 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
               <div className="border rounded-xl shadow-sm p-4 text-sm space-y-2">
                 <div className="flex gap-3">
                   <img
-                    src={
-                      profile?.name === "Kyle Bertin"
-                        ? kayBertin
-                        : profile?.pictureUrl || ""
-                    }
+                    // src={profile?.pictureUrl || ""}
+                    src={influencerImages[name] || ""}
                     alt={profile?.name || ""}
                     className="w-10 h-10 rounded-full object-cover"
                   />
@@ -171,7 +165,7 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
                 </p>
                 <p>Emotions aren’t the enemy of judgment…</p>
                 <p>They’re the missing piece your MBA left out.</p> */}
-                  <p className="line-clamp-10 pb-2">{post?.text}</p>
+                  <p className="line-clamp-15">{post?.text}</p>
                 </div>
 
                 <div className="text-xs text-gray-500 flex justify-between pt-1 mt-2">

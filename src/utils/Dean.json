@@ -1,0 +1,566 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report - May 2025",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Dean Pleban",
+            "title": "Co-Founder & CEO at DagsHub | AI Data Development Platform",
+            "profileUrl": "https://www.linkedin.com/in/deanpleban"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 70,
+        "averageCommentsForPost": {
+            "value": 6,
+            "comparison": "client data only"
+        },
+        "topContentLikes": {
+            "value": 897,
+            "contentType": "image"
+        },
+        "hashtagImpactEngagement": 66,
+        "keyHighlights": [
+            "Top performing post is an image with 897 likes and strong technical content.",
+            "Image posts drive significant engagement with an average engagement of 134 compared to text posts at 13.",
+            "Tuesday posts show a high engagement multiplier of 1.83 and higher average engagement.",
+            "Content distribution is led by visual content; image posts constitute 32.56% of all posts.",
+            "Hashtag usage contributes notably with an average engagement of 66 per hashtag post."
+        ],
+        "summaryText": "This report provides a comprehensive analysis of Dean Pleban's LinkedIn engagement over the reporting period. Data points from 129 analyzed posts highlight trends in likes, comments, and content performance. Key insights include the dominance of image posts and the significant impact of posting on Tuesdays. The report aims to guide strategic improvements by comparing client performance with industry benchmarks."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "linkedinVideo",
+                "percentage": 30.23
+            },
+            {
+                "type": "document",
+                "percentage": 13.18
+            },
+            {
+                "type": "text",
+                "percentage": 14.73
+            },
+            {
+                "type": "image",
+                "percentage": 32.56
+            },
+            {
+                "type": "article",
+                "percentage": 9.3
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "AI & Technology",
+                "percentage": 100.0,
+                "averageLikes": 70
+            }
+        ],
+        "visualImpactInsight": "Image posts (avg engagement: 134) significantly outperform text posts (avg engagement: 13), underscoring the benefit of visual content.",
+        "postTypeDistributionInsight": "Image posts lead with a 32.56% share, followed by LinkedIn videos at 30.23%, indicating strong audience preference for visual content.",
+        "topPerformingPosts": [
+            {
+                "content": "If you didn’t already know, nearly every action you take in the future will leverage #objectdetection technology. When you drive to the supermarket, your autonomous car will identify traffic signs. ...",
+                "type": "image",
+                "likes": "897",
+                "comments": "31",
+                "shares": "121",
+                "date": "May 2025"
+            },
+            {
+                "content": "LLMs can be applied in a variety of ways for different tasks. To build a language model-based application that’s truly useful, you need more than just a dataset. ...",
+                "type": "image",
+                "likes": "831",
+                "comments": "33",
+                "shares": "110",
+                "date": "May 2025"
+            },
+            {
+                "content": "♎️ On Gemini, 🤪 Evaluating LLMs, and why life is hard. Google DeepMind announced Gemini (finally), and the results are exciting. ...",
+                "type": "image",
+                "likes": "537",
+                "comments": "35",
+                "shares": "32",
+                "date": "May 2025"
+            },
+            {
+                "content": "Excited to announce our partnership with Red Hat - OpenShift users can now easily install DagsHub's complete AI platform. ...",
+                "type": "image",
+                "likes": "298",
+                "comments": "26",
+                "shares": "6",
+                "date": "May 2025"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High use of visual elements",
+            "Detailed technical explanations",
+            "Strong call-to-action",
+            "Alignment with industry trends"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Dotan  Bar Noy",
+                "description": "Senior Vice President of Technology with 29 reactions"
+            },
+            {
+                "name": "Guy Smoilovsky",
+                "description": "Co-Founder & CTO at DagsHub with 21 reactions"
+            },
+            {
+                "name": "Oded Hutzler",
+                "description": "Product Manager with 20 reactions"
+            },
+            {
+                "name": "Gadi Beker",
+                "description": "CFO at Nextage with 18 reactions"
+            }
+        ],
+        "audienceInsight": "The audience comprises mainly technology and business professionals, with significant engagement from industry leaders and innovators.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 48.31
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 3.38
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 2.82
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 2.63
+            },
+            {
+                "industry": "Others",
+                "percentage": 40.6
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 48.0
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 147.98
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 37.44
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 62.23
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 25.33
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 4.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 35.67
+            }
+        ],
+        "postingFrequency": "Dean Pleban posts approximately 2-3 times per week.",
+        "timingKeyFinding": "Posts on Tuesday tend to receive significantly higher engagement.",
+        "topPerformingPostsExamples": [
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/deanpleban_objectdetection-security-deeplearning-activity-7236728882551238657-d6Qy?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": 897,
+                "comments": 31,
+                "shares": 121,
+                "snippet": "If you didn’t already know, nearly every action you take..."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/deanpleban_llms-can-be-applied-in-a-variety-of-ways-activity-7246878687537577984-PiAI?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": 831,
+                "comments": 33,
+                "shares": 110,
+                "snippet": "LLMs can be applied in a variety of ways for different tasks..."
+            }
+        ],
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "The analysis identifies four key influencers in the AI and technology space who demonstrate strong engagement and content strategies.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "Tuesday to Thursday, 10AM-12PM",
+            "visualContentPercentage": 45.8,
+            "averagePostFrequency": "6-7 days",
+            "personalStoryMultiplier": 1.5,
+            "totalPostsLastYear": 464
+        },
+        "influencersList": [
+            {
+                "name": "Andrew Ng",
+                "pictureUrl": "https://example.com/andrewyng.jpg",
+                "title": "Founder of DeepLearning.AI; Managing General Partner of AI Fund; Exec Chairman of Landing AI",
+                "followersCount": "2.1M",
+                "postWithin1Year": 156,
+                "descriptionFocus": "Personal home page: http://andrewng.org",
+                "relevance": [
+                    "ML Education",
+                    "Global Influence",
+                    "Tech Leadership",
+                    "AI Insights"
+                ]
+            },
+            {
+                "name": "Chip Huyen",
+                "pictureUrl": "https://example.com/chiphuyen.jpg",
+                "title": "Building something new | AI x storytelling x education",
+                "followersCount": "273.2K",
+                "postWithin1Year": 124,
+                "descriptionFocus": "I'm Chip Huyen, a writer and computer scientist building infrastructure for real-time ML.",
+                "relevance": [
+                    "ML Systems",
+                    "Real-Time AI",
+                    "Educational Focus",
+                    "Industry Expertise"
+                ]
+            },
+            {
+                "name": "Dr. Einat Orr",
+                "pictureUrl": "https://example.com/einatorr.jpg",
+                "title": "Co-Founder & CEO @lakeFS by Treeverse, We're Hiring!",
+                "followersCount": "19.3K",
+                "postWithin1Year": 98,
+                "descriptionFocus": "Driving open-source data versioning and reliability for ML workflows at Treeverse.",
+                "relevance": [
+                    "Data Ops",
+                    "Open-Source",
+                    "ML Workflows",
+                    "Enterprise Focus"
+                ]
+            },
+            {
+                "name": "Ines Montani",
+                "pictureUrl": "https://example.com/inesmontani.jpg",
+                "title": "Founder at Explosion (spaCy, Prodigy)",
+                "followersCount": "20.4K",
+                "postWithin1Year": 86,
+                "descriptionFocus": "Creator of spaCy and Prodigy, driving innovation in NLP and machine learning tools.",
+                "relevance": [
+                    "NLP Expertise",
+                    "Open-Source",
+                    "Innovative AI",
+                    "Tool Development"
+                ]
+            }
+        ],
+        "detailedInfluencerAnalysis": [
+            {
+                "profile": {
+                    "name": "Andrew Ng",
+                    "title": "Founder of DeepLearning.AI; Managing General Partner of AI Fund; Exec Chairman of Landing AI",
+                    "pictureUrl": "https://example.com/andrewyng.jpg",
+                    "postUrl": "https://www.linkedin.com/posts/andrewyng_announcing-new-open-source-python-package-activity-7266851242604134400-Davp",
+                    "location": "Palo Alto, California, United States",
+                    "followers": "2.1M"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/andrewyng_announcing-new-open-source-python-package-activity-7266851242604134400-Davp",
+                    "text": "Announcing new open-source Python package: aisuite! This makes it easy for developers to use large language models from multiple providers...",
+                    "likes": 42766,
+                    "comments": 999,
+                    "reposts": 3253
+                },
+                "contentStrategy": {
+                    "Text": 17.5,
+                    "Images": 55.5,
+                    "Videos": 0.0,
+                    "Articles": 27.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Chip Huyen",
+                    "title": "Building something new | AI x storytelling x education",
+                    "pictureUrl": "https://example.com/chiphuyen.jpg",
+                    "postUrl": "https://www.linkedin.com/posts/chiphuyen_aiengineering-aiapplications-mlengineering-activity-7188642075230236672-zQ1u",
+                    "location": "San Francisco, California, United States",
+                    "followers": "273.2K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/chiphuyen_aiengineering-aiapplications-mlengineering-activity-7188642075230236672-zQ1u",
+                    "text": "Im excited to share that Im working on a new book about building applications with foundation models...",
+                    "likes": 12657,
+                    "comments": 317,
+                    "reposts": 362
+                },
+                "contentStrategy": {
+                    "Text": 11.5,
+                    "Images": 75.0,
+                    "Videos": 2.1,
+                    "Articles": 11.5
+                }
+            },
+            {
+                "profile": {
+                    "name": "Dr. Einat Orr",
+                    "title": "Co-Founder & CEO @lakeFS by Treeverse, We're Hiring!",
+                    "pictureUrl": "https://example.com/einatorr.jpg",
+                    "postUrl": "https://www.linkedin.com/posts/einatorr_datalake-datawarehouse-data-activity-7184173898387623936-DwU-",
+                    "location": "Palo Alto, California, United States",
+                    "followers": "19.3K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/einatorr_datalake-datawarehouse-data-activity-7184173898387623936-DwU-",
+                    "text": "Geek Speak: Data Terminology 2024 Edition…",
+                    "likes": 666,
+                    "comments": 26,
+                    "reposts": 137
+                },
+                "contentStrategy": {
+                    "Text": 20.0,
+                    "Images": 64.0,
+                    "Videos": 0.0,
+                    "Articles": 16.0
+                }
+            },
+            {
+                "profile": {
+                    "name": "Ines Montani",
+                    "title": "Founder at Explosion (spaCy, Prodigy)",
+                    "pictureUrl": "https://example.com/inesmontani.jpg",
+                    "postUrl": "https://www.linkedin.com/posts/inesmontani_keynote-large-language-models-from-prototype-activity-7063847948685565952-gpVj",
+                    "location": "Berlin Metropolitan Area, Germany",
+                    "followers": "20.4K"
+                },
+                "post": {
+                    "postURL": "https://www.linkedin.com/posts/inesmontani_keynote-large-language-models-from-prototype-activity-7063847948685565952-gpVj",
+                    "text": "Excited to announce my upcoming keynotes at two awesome Python conferences...",
+                    "likes": 639,
+                    "comments": 14,
+                    "reposts": 20
+                },
+                "contentStrategy": {
+                    "Text": 14.9,
+                    "Images": 13.8,
+                    "Videos": 37.7,
+                    "Articles": 33.7
+                }
+            }
+        ],
+        "influencers": []
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 59, 'averageHashtagsPerPost': 3.9}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 59.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 41.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#security",
+                "averageEngagementRate": 897.0
+            },
+            {
+                "hashtag": "#deeplearning",
+                "averageEngagementRate": 897.0
+            },
+            {
+                "hashtag": "#objectdetection",
+                "averageEngagementRate": 520.0
+            },
+            {
+                "hashtag": "#dataengine",
+                "averageEngagementRate": 239.0
+            },
+            {
+                "hashtag": "#unstructureddata",
+                "averageEngagementRate": 239.0
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags drive higher engagement, contributing significant interaction as evidenced by an average engagement of 66 per hashtag post."
+    },
+    "influencerComparison": [
+        {
+            "name": "Andrew Ng",
+            "linkedinUrl": "https://www.linkedin.com/in/andrewyng",
+            "followers": 2100000,
+            "postsPerYear": 156,
+            "topContentTypes": "Images",
+            "topThemes": "ML Education & Global Influence",
+            "postingFrequency": "3-4 posts/week"
+        },
+        {
+            "name": "Chip Huyen",
+            "linkedinUrl": "https://www.linkedin.com/in/chiphuyen",
+            "followers": 273200,
+            "postsPerYear": 124,
+            "topContentTypes": "Images",
+            "topThemes": "ML Systems & Real-Time AI",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Dr. Einat Orr",
+            "linkedinUrl": "https://www.linkedin.com/in/einatorr",
+            "followers": 19300,
+            "postsPerYear": 98,
+            "topContentTypes": "Images",
+            "topThemes": "Data Ops & Open-Source",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Ines Montani",
+            "linkedinUrl": "https://www.linkedin.com/in/inesmontani",
+            "followers": 20400,
+            "postsPerYear": 86,
+            "topContentTypes": "Videos",
+            "topThemes": "NLP Expertise & Open-Source",
+            "postingFrequency": "1 post/week"
+        }
+    ],
+    "summaryOfComparison": "Dean Pleban shows strong engagement through high-quality visual content; however, compared to top industry influencers, there is room to improve posting frequency and diversify content types to further boost reach.",
+    "gapAnalysis": [
+        {
+            "gap": "Posting frequency below influencer average",
+            "yourValue": "2-3 posts/week",
+            "influencerAverage": "3-4 posts/week",
+            "recommendedAction": "Increase posting frequency to at least 3 posts per week."
+        },
+        {
+            "gap": "Content diversity limited",
+            "yourValue": "Majority image posts",
+            "influencerAverage": "Balanced mix across text, images, and videos",
+            "recommendedAction": "Diversify content types by incorporating articles and videos."
+        },
+        {
+            "gap": "Hashtag engagement could be higher",
+            "yourValue": "Average hashtag engagement of 66",
+            "influencerAverage": "Higher engagement observed with targeted hashtags",
+            "recommendedAction": "Optimize hashtag strategy for improved reach."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Focus on a balanced mix of technical insights and industry trends to attract diverse audiences.",
+        "visualElements": "Increase use of high-quality images and infographics to leverage visual engagement.",
+        "postingSchedule": "Align posting times with peak engagement periods, especially on Tuesdays.",
+        "hashtagStrategy": "Refine hashtag use by targeting industry-specific and trending tags.",
+        "audienceTargeting": "Tailor content to engage decision-makers and innovators in AI and technology.",
+        "engagementTactics": "Encourage interaction through questions and calls-to-action in posts."
+    },
+    "detailedInfluencerAnalysis": [
+        {
+            "profile": {
+                "name": "Andrew Ng",
+                "title": "Founder of DeepLearning.AI; Managing General Partner of AI Fund; Exec Chairman of Landing AI",
+                "pictureUrl": "https://example.com/andrewyng.jpg",
+                "postUrl": "https://www.linkedin.com/posts/andrewyng_announcing-new-open-source-python-package-activity-7266851242604134400-Davp",
+                "location": "Palo Alto, California, United States",
+                "followers": "2.1M"
+            },
+            "post": {
+                "postURL": "https://www.linkedin.com/posts/andrewyng_announcing-new-open-source-python-package-activity-7266851242604134400-Davp",
+                "text": "Announcing new open-source Python package: aisuite! This makes it easy for developers to use large language models from multiple providers...",
+                "likes": 42766,
+                "comments": 999,
+                "reposts": 3253
+            },
+            "contentStrategy": {
+                "Text": 17.5,
+                "Images": 55.5,
+                "Videos": 0.0,
+                "Articles": 27.0
+            }
+        },
+        {
+            "profile": {
+                "name": "Chip Huyen",
+                "title": "Building something new | AI x storytelling x education",
+                "pictureUrl": "https://example.com/chiphuyen.jpg",
+                "postUrl": "https://www.linkedin.com/posts/chiphuyen_aiengineering-aiapplications-mlengineering-activity-7188642075230236672-zQ1u",
+                "location": "San Francisco, California, United States",
+                "followers": "273.2K"
+            },
+            "post": {
+                "postURL": "https://www.linkedin.com/posts/chiphuyen_aiengineering-aiapplications-mlengineering-activity-7188642075230236672-zQ1u",
+                "text": "Im excited to share that Im working on a new book about building applications with foundation models...",
+                "likes": 12657,
+                "comments": 317,
+                "reposts": 362
+            },
+            "contentStrategy": {
+                "Text": 11.5,
+                "Images": 75.0,
+                "Videos": 2.1,
+                "Articles": 11.5
+            }
+        },
+        {
+            "profile": {
+                "name": "Dr. Einat Orr",
+                "title": "Co-Founder & CEO @lakeFS by Treeverse, We're Hiring!",
+                "pictureUrl": "https://example.com/einatorr.jpg",
+                "postUrl": "https://www.linkedin.com/posts/einatorr_datalake-datawarehouse-data-activity-7184173898387623936-DwU-",
+                "location": "Palo Alto, California, United States",
+                "followers": "19.3K"
+            },
+            "post": {
+                "postURL": "https://www.linkedin.com/posts/einatorr_datalake-datawarehouse-data-activity-7184173898387623936-DwU-",
+                "text": "Geek Speak: Data Terminology 2024 Edition…",
+                "likes": 666,
+                "comments": 26,
+                "reposts": 137
+            },
+            "contentStrategy": {
+                "Text": 20.0,
+                "Images": 64.0,
+                "Videos": 0.0,
+                "Articles": 16.0
+            }
+        },
+        {
+            "profile": {
+                "name": "Ines Montani",
+                "title": "Founder at Explosion (spaCy, Prodigy)",
+                "pictureUrl": "https://example.com/inesmontani.jpg",
+                "postUrl": "https://www.linkedin.com/posts/inesmontani_keynote-large-language-models-from-prototype-activity-7063847948685565952-gpVj",
+                "location": "Berlin Metropolitan Area, Germany",
+                "followers": "20.4K"
+            },
+            "post": {
+                "postURL": "https://www.linkedin.com/posts/inesmontani_keynote-large-language-models-from-prototype-activity-7063847948685565952-gpVj",
+                "text": "Excited to announce my upcoming keynotes at two awesome Python conferences...",
+                "likes": 639,
+                "comments": 14,
+                "reposts": 20
+            },
+            "contentStrategy": {
+                "Text": 14.9,
+                "Images": 13.8,
+                "Videos": 37.7,
+                "Articles": 33.7
+            }
+        }
+    ]
+}

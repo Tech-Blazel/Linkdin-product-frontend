@@ -17,9 +17,10 @@ import html2canvas from "html2canvas";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import { Loader2 } from "lucide-react";
 import SamplePosts from "@/components/linkedIn-report/SamplePosts";
+import DeanSamplePosts from "@/components/linkedIn-report/DeanSamplePosts";
 
 const LinkedInAuditReport = () => {
-  const { influencersList } = useSelector(
+  const { influencers } = useSelector(
     (state: RootState) => state.auditReportSchema.topIndustryInfluencersAnalysis
   );
 
@@ -30,16 +31,17 @@ const LinkedInAuditReport = () => {
     <ExecutiveSummary />,
     <ContentAnalysis />,
     <TopPerformingPosts />,
+    <HashtagPerformanceAnalysis />,
     <AudienceAnalysis />,
     <PostingPatterns />,
     <TopInfluencers />,
     <InfluencerPostingAnalysis />,
-    ...influencersList.map((influencer, index) => (
+    ...influencers.map((influencer, index) => (
       <InfluencerAnalysis key={index} influencer={influencer} index={index} />
     )),
-    <HashtagPerformanceAnalysis />,
     <PostingRecommendations />,
-    <SamplePosts />,
+    // <SamplePosts />,
+    <DeanSamplePosts />,
   ];
 
   const containerRef = useRef<any>(null);

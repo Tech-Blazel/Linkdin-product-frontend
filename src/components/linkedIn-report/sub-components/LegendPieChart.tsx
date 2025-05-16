@@ -46,7 +46,8 @@ const LegendPieChart: FC<LegendPieChartProps> = ({
               paddingAngle={1}
               stroke="none"
               // label={({ percent }) => `${(percent * 100).toFixed(2)}%`}
-              label={({ percent }) => `${Math.trunc(percent * 10000) / 100}%`}
+              // label={({ percent }) => `${Math.trunc(percent * 10000) / 100}%`}
+              label={({ value }) => `${value}%`}
             >
               {data.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={entry.color || "#ff5733"} />

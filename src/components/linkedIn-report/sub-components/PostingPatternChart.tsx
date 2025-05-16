@@ -35,7 +35,7 @@ export const PostingPatternChart: FC<{
               width={90}
             />
             <Bar
-              dataKey="engagement_multiplier"
+              dataKey="averageEngagementRate"
               radius={[8, 8, 8, 8]}
               barSize={35}
             >
@@ -43,13 +43,37 @@ export const PostingPatternChart: FC<{
                 <Cell key={`cell-${i}`} fill="url(#blueGradient)" />
               ))}
               <LabelList
-                dataKey="engagement_multiplier"
-                position="right"
-                formatter={(v: number) => `${(v / 10).toFixed(2)}x`}
-                style={{
-                  fill: "#ff5733",
-                  fontWeight: 600,
-                  fontSize: 14,
+                dataKey="averageEngagementRate"
+                content={(props: any) => {
+                  const { x = 0, y = 0, width = 0, value } = props;
+
+                  const label =
+                    typeof value === "number"
+                      ? `${(value / 10).toFixed(2)}x`
+                      : "";
+                  const padding = 8;
+                  const textColor = "#ff5733";
+                  const fontSize = 14;
+
+                  // Shift label inside if bar is too long
+                  const isTooWide = width > 120; // adjust based on chart size
+                  const textX = isTooWide
+                    ? x + width - padding
+                    : x + width + padding;
+                  const textAnchor = isTooWide ? "end" : "start";
+
+                  return (
+                    <text
+                      x={textX}
+                      y={y + 23} // Adjust for vertical centering
+                      fill={textColor}
+                      fontSize={fontSize}
+                      fontWeight={600}
+                      textAnchor={textAnchor}
+                    >
+                      {label}
+                    </text>
+                  );
                 }}
               />
             </Bar>

@@ -1,0 +1,450 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Caelan Urquhart",
+            "title": "Co-founder | Scaling data & CI pipelines @ Pipekit",
+            "profileUrl": "https://www.linkedin.com/in/caelan-urquhart",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHsjIhXkMFhHA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537483310838?e=1752710400&v=beta&t=o-FsMptZqXAuunLFZ_7o2si0flS6EfnooCKXlfsp83A"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 30,
+        "averageCommentsForPost": {
+            "value": 2,
+            "comparison": "about industry average"
+        },
+        "topContentLikes": {
+            "value": 58,
+            "contentType": "text"
+        },
+        "hashtagImpactEngagement": 135,
+        "keyHighlights": [
+            "Top performing post is a text post with 58 likes indicating strong service announcement messaging.",
+            "Content distribution is heavily skewed towards text posts (85.71%) with limited diversity.",
+            "Thursday posts achieve the highest engagement with an average of 46.0 likes.",
+            "Hashtag usage stands at 45.7% with posts with hashtags accounting for 46% of engagements.",
+            "Overall posting frequency is low, at approximately 0-1 posts per week."
+        ],
+        "summaryText": "This report provides a comprehensive analysis of Caelan Urquhart's LinkedIn engagement performance for May 2025. It highlights key metrics such as average likes, comments, and hashtag impact. The analysis details content type distribution and audience engagement trends. Recommendations for improving content strategy and posting schedule are provided."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 85.71
+            },
+            {
+                "type": "article",
+                "percentage": 14.29
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Service Announcements",
+                "percentage": 50.0,
+                "averageLikes": 58
+            },
+            {
+                "theme": "Event Promotions",
+                "percentage": 50.0,
+                "averageLikes": 45
+            }
+        ],
+        "visualImpactInsight": "Since no image posts are available, text posts are solely driving engagement with an average of 30 likes per post.",
+        "postTypeDistributionInsight": "The vast majority of posts are text posts (85.71%), indicating a strong content focus that may benefit from diversification.",
+        "topPerformingPosts": [
+            {
+                "content": "Launch alert! Are you a developer working with Argo, Kubernetes, data pipelines, or LLMs? My co-founder J.P. Zivalich and I are excited to announce 6 new service offerings at Pipekit.",
+                "type": "text",
+                "likes": "58",
+                "comments": "2",
+                "shares": "5"
+            },
+            {
+                "content": "Hey, folks! If you're going to be at #KubeCon NA in Chicago, join my talk during #ArgoCon and check out other sessions by our team.",
+                "type": "article",
+                "likes": "45",
+                "comments": "3",
+                "shares": "4"
+            },
+            {
+                "content": "Great first day at KubeCon's main event in London! Love meeting up with our team and customers to nerd out on Argo & K8s.",
+                "type": "text",
+                "likes": "40",
+                "comments": "2",
+                "shares": "0"
+            },
+            {
+                "content": "Heading to #KubeCon + #CloudNativeCon North America 2024 in Salt Lake City? The Pipekit team will be at Booth T33 – schedule a meeting with us.",
+                "type": "text",
+                "likes": "27",
+                "comments": "0",
+                "shares": "0"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High informational content",
+            "Clear call-to-action",
+            "Focus on industry events",
+            "Detailed service announcements"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Kevan Urquhart",
+                "description": "Board Member at Carmel Area Wastewater District, Director."
+            },
+            {
+                "name": "Thiago Bittencourt Gil",
+                "description": "Head of FinOps @ BEES/AB InBev, Other Notable Position."
+            },
+            {
+                "name": "Saeid Kian",
+                "description": "Co-Founder & CEO @ Ribbon, CEO."
+            },
+            {
+                "name": "Chris Joyner",
+                "description": "Senior Technical Account Manager at HealthSherpa, Other Notable Position."
+            },
+            {
+                "name": "Antonio Johnson 🪬",
+                "description": "Marketing Executive, CMO."
+            }
+        ],
+        "audienceInsight": "The audience is diversified across technology, marketing, and finance sectors, with a significant portion (48.98%) from other industries.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 28.57
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 8.16
+            },
+            {
+                "industry": "Media & Entertainment",
+                "percentage": 5.1
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 5.1
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 4.08
+            },
+            {
+                "industry": "Others",
+                "percentage": 48.98
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 33.33
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 46.0
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 20.0
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 0.0
+            }
+        ],
+        "postingFrequency": "approximately 0-1 posts per week",
+        "timingKeyFinding": "Posts on Thursday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Four industry influencers lead discussions on data quality and AI, each demonstrating strong engagement and innovative content strategies.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "Weekday mornings",
+            "visualContentPercentage": 60.0,
+            "averagePostFrequency": "3-4 times per week",
+            "personalStoryMultiplier": 1.5,
+            "contrarianViewMultiplier": null,
+            "totalPostsLastYear": null
+        },
+        "influencers": [
+            {
+                "name": "Matei Zaharia",
+                "title": "CTO & Cofounder at Databricks, CS Professor at Berkeley",
+                "profileUrl": "https://linkedin.com/in/mateizaharia",
+                "pictureUrl": "https://media.licdn.com/dms/image/C4D03AQFfSVcV3zFTOg/profile-displayphoto-shrink_100_100/0/1639637394591?e=1697068800&v=beta&t=Q2GKRCwdyG0b_nelw5vTEky4sClUrQ0gvwWZ3Xb-SzU",
+                "followersCount": "200K",
+                "postWithin1Year": 62,
+                "descriptionFocus": "CTO & Cofounder focused on innovative AI and big data systems",
+                "relevance": [
+                    "Native Code Expertise",
+                    "AI Innovation",
+                    "Spark Pioneer",
+                    "Benchmark Legend"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Matei Zaharia",
+                        "title": "CTO & Cofounder at Databricks, CS Professor at Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/C4D03AQFfSVcV3zFTOg/profile-displayphoto-shrink_100_100/0/1639637394591?e=1697068800&v=beta&t=Q2GKRCwdyG0b_nelw5vTEky4sClUrQ0gvwWZ3Xb-SzU",
+                        "location": "Berkeley, California, United States",
+                        "followers": "200K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/mateizaharia_really-cool-result-from-the-databricks-research-activity-7310354674698567680-INKE",
+                        "text": "Really cool result from the Databricks research team: You can tune LLMs for a task *without data labels*, using test-time compute and RL, and outperform supervised fine-tuning! Our new TAO method scales with compute to produce fast, high-quality models: Test-time Adaptive Optimization (TAO) only needs input examples of a task and can outperform supervised fine-tuning on thousands of human-labeled examples. It brings OSS models like Llama to the quality of expensive larger models, while keeping inference cost low. TAO's trained model quality also scales with compute spent during training, not with human labeling effort. However, unlike \"classic\" test-time compute models like o1 and R1, TAO's resulting models are always low inference cost. We essentially shift much of the cost of test-time compute to the tuning process, and give much of the same quality at inference without the cost. Key to TAO is a search and scoring process that leverages test-time compute only during training, and new RL methods and models from our team.",
+                        "likes": 861,
+                        "comments": 20,
+                        "reposts": 90
+                    },
+                    "contentStrategy": {
+                        "Text": 59,
+                        "Images": 8,
+                        "Videos": 0,
+                        "Articles": 32
+                    }
+                }
+            },
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                "profileUrl": "https://linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/C5603AQFjN2_3ePGEHg/profile-displayphoto-shrink_100_100/0/1596206002258",
+                "followersCount": "115K",
+                "postWithin1Year": 116,
+                "descriptionFocus": "CEO & Co-Founder focused on scalable data and enterprise AI",
+                "relevance": [
+                    "Big Data Expertise",
+                    "Scalable Systems",
+                    "Enterprise Focus",
+                    "Innovative Leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/C5603AQFjN2_3ePGEHg/profile-displayphoto-shrink_100_100/0/1596206002258",
+                        "location": "San Francisco, California, United States",
+                        "followers": "115K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/alighodsi_databricks-tabular-activity-7203790407229468672-f73r",
+                        "text": "Were excited to announce that we have agreed to acquire data management company Tabular. With this acquisition, we are bringing together the original creators of Apache Iceberg and Linux Foundation Delta Lake, the two leading open source lakehouse formats, with the shared goal of bringing format compatibility to the lakehouse so that organizations are no longer limited by which format their data is in.",
+                        "likes": 6359,
+                        "comments": 183,
+                        "reposts": 912
+                    },
+                    "contentStrategy": {
+                        "Text": 31,
+                        "Images": 9,
+                        "Videos": 0,
+                        "Articles": 59
+                    }
+                }
+            },
+            {
+                "name": "Maxime Beauchemin",
+                "title": "CEO & Founder at Preset",
+                "profileUrl": "https://linkedin.com/in/maximebeauchemin",
+                "pictureUrl": "https://media.licdn.com/dms/image/C5603AQH6bHG/picture",
+                "followersCount": "14.9K",
+                "postWithin1Year": 62,
+                "descriptionFocus": "Founder driving open source data orchestration and BI",
+                "relevance": [
+                    "Airflow Creator",
+                    "Data Orchestration",
+                    "Open Source Leader",
+                    "Pipeline Architect"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Maxime Beauchemin",
+                        "title": "CEO & Founder at Preset",
+                        "pictureUrl": "https://media.licdn.com/dms/image/C5603AQH6bHG/picture",
+                        "location": "Belmont, California, United States",
+                        "followers": "14.9K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/barrmoses_dataquality-dataengineering-datareliability-activity-7071906479422726144-Kgzp",
+                        "text": "Who owns data quality? Its a question as old as Oracle Version 3, and the answer varies depending on who you ask. - Some organizations like to spread the responsibility around to multiple team members, each responsible for a few pipelines. - Others prefer to concentrate the responsibility on a select few specialists who have a holistic view of the entire platform. - And then there are those who view data quality as a technical issue, while others see it as a business or process problem. But at the end of the day, the only thing that matters is that it gets done. Shane Murray and I have spoken to thousands of data leaders over the years to understand the most common ownership models for data quality, and how data teams can apply them at scale. From data engineering to data governance teams, our latest explores the pros and cons of each approach: (Meme inspired by Chad Sanderson)",
+                        "likes": 2580,
+                        "comments": 83,
+                        "reposts": 99
+                    },
+                    "contentStrategy": {
+                        "Text": 8,
+                        "Images": 71,
+                        "Videos": 3,
+                        "Articles": 16
+                    }
+                }
+            },
+            {
+                "name": "Barr Moses",
+                "title": "Co-Founder & CEO at Monte Carlo",
+                "profileUrl": "https://linkedin.com/in/barrmoses",
+                "pictureUrl": "https://media.licdn.com/dms/image/D5603AQFCHO1/picture",
+                "followersCount": "57.8K",
+                "postWithin1Year": 116,
+                "descriptionFocus": "Data reliability pioneer focusing on operational observability",
+                "relevance": [
+                    "Data Reliability",
+                    "Observability Expert",
+                    "Enterprise Trust",
+                    "Pipeline Scalability"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Barr Moses",
+                        "title": "Co-Founder & CEO at Monte Carlo",
+                        "pictureUrl": "https://media.licdn.com/dms/image/D5603AQFCHO1/picture",
+                        "location": "San Francisco, California, United States",
+                        "followers": "57.8K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/maximebeauchemin_apache-superset-41-release-notes-activity-7267230579471855616-AVc0",
+                        "text": "Our best release yet! If you haven't tried Apache Superset, or haven't checked it out in a while - it has gotten really good over the past year. No reason to pay for Tableau/Looker/PowerBI anymore - try 4.1 for free on preset.io!",
+                        "likes": 201,
+                        "comments": 6,
+                        "reposts": 13
+                    },
+                    "contentStrategy": {
+                        "Text": 59,
+                        "Images": 2,
+                        "Videos": 0,
+                        "Articles": 38
+                    }
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 45.7, 'averageHashtagsPerPost': 3.4}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 46.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 54.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#kubecon",
+                "averageEngagementRate": 63.0
+            },
+            {
+                "hashtag": "#k",
+                "averageEngagementRate": 60.0
+            },
+            {
+                "hashtag": "#launch",
+                "averageEngagementRate": 58.0
+            },
+            {
+                "hashtag": "#llm",
+                "averageEngagementRate": 58.0
+            },
+            {
+                "hashtag": "#mlops",
+                "averageEngagementRate": 58.0
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags drive higher engagement, averaging around 58 likes per hashtag post, demonstrating their effectiveness."
+    },
+    "influencerComparison": [
+        {
+            "name": "Matei Zaharia",
+            "linkedinUrl": "https://linkedin.com/in/mateizaharia",
+            "followers": 200000,
+            "postsPerYear": 62,
+            "topContentTypes": "Text",
+            "topThemes": "Native Code Expertise & AI Innovation",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Ali Ghodsi",
+            "linkedinUrl": "https://linkedin.com/in/alighodsi",
+            "followers": 115000,
+            "postsPerYear": 116,
+            "topContentTypes": "Articles",
+            "topThemes": "Big Data Expertise & Scalable Systems",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Maxime Beauchemin",
+            "linkedinUrl": "https://linkedin.com/in/maximebeauchemin",
+            "followers": 14900,
+            "postsPerYear": 62,
+            "topContentTypes": "Images",
+            "topThemes": "Airflow Creator & Data Orchestration",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Barr Moses",
+            "linkedinUrl": "https://linkedin.com/in/barrmoses",
+            "followers": 57800,
+            "postsPerYear": 116,
+            "topContentTypes": "Text",
+            "topThemes": "Data Reliability & Observability Expert",
+            "postingFrequency": "2-3 posts/week"
+        }
+    ],
+    "summaryOfComparison": "The client shows solid engagement with a niche audience but lags behind top influencers in posting frequency and follower count. Increasing content diversity and posting regularity could bridge this gap.",
+    "gapAnalysis": [
+        {
+            "gap": "Posting Frequency below influencer average",
+            "yourValue": "0-1 posts/week",
+            "influencerAverage": "Approx. 3-4 posts/week",
+            "recommendedAction": "Increase posting frequency to at least 2 posts per week to enhance visibility."
+        },
+        {
+            "gap": "Content Diversity",
+            "yourValue": "Predominantly text posts",
+            "influencerAverage": "Mix of text, images, and articles",
+            "recommendedAction": "Integrate visual content such as images and videos to boost engagement."
+        },
+        {
+            "gap": "Hashtag Utilization",
+            "yourValue": "Average 3.4 hashtags per post",
+            "influencerAverage": "Effective hashtag strategy drives higher engagement",
+            "recommendedAction": "Optimize hashtag selection to improve reach and engagement."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Focus on diversifying content types by incorporating more articles and visual posts alongside text updates.",
+        "visualElements": "Incorporate high-quality images and graphics to complement text and draw attention.",
+        "postingSchedule": "Adopt a consistent posting schedule, targeting high engagement days like Thursday.",
+        "hashtagStrategy": "Refine hashtag strategy by using top-performing hashtags more strategically to boost visibility.",
+        "audienceTargeting": "Leverage audience insights to tailor content towards technology and finance sectors.",
+        "engagementTactics": "Encourage audience interaction through calls-to-action and targeted questions to drive engagement."
+    }
+}

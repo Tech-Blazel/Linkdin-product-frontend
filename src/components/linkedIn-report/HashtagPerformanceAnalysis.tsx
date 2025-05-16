@@ -66,7 +66,7 @@ const HashtagPerformanceAnalysis: FC = () => {
                     />
                     <Tooltip />
                     <Bar
-                      dataKey="averageLikes"
+                      dataKey="averageEngagementRate"
                       fill="#8ddad5"
                       radius={[0, 6, 6, 0]}
                     />

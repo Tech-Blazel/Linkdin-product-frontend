@@ -1,3 +1,15 @@
+import Andrew from "@/assets/images/Andrew.png";
+import Einat from "@/assets/images/Einat.png";
+import Chip from "@/assets/images/chip.png";
+import Ines from "@/assets/images/Ines.png";
+
+export const influencerImages:any = {
+    "Andrew Ng":Andrew,
+    "Dr. Einat Orr":Einat,
+    "Chip Huyen":Chip,
+    "Ines Montani":Ines
+}
+
 export type SidebarItem = {
     icon: React.ReactNode;
     label: string;

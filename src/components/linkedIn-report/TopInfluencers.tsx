@@ -8,12 +8,12 @@ import { RootState } from "@/app/store";
 import { isEmpty } from "lodash";
 
 const TopInfluencers: FC = () => {
-  const { summary, keyInsightsForStrategy, influencersList } = useSelector(
+  const { overview, keyInfluencerInsights, influencers } = useSelector(
     (state: RootState) => state.auditReportSchema.topIndustryInfluencersAnalysis
   );
 
   const keyInsightsForStrategyBadges = function convertInsightObjectToArray(
-    input: Record<string, string | number>
+    input: any
   ): string[] {
     const camelCaseToLabel = (key: string): string => {
       return key
@@ -30,17 +30,19 @@ const TopInfluencers: FC = () => {
   };
 
   const keyInsightStrategyBadges = keyInsightsForStrategyBadges(
-    keyInsightsForStrategy
+    keyInfluencerInsights
   );
+
+  console.log("influencers", influencers);
 
   return (
     <ReportCard title="Top Industry Influencers" icon={FaChartLine}>
       <div className="">
-        {!isEmpty(summary) && (
-          <p className="text-text-primary text-lg font-normal line-clamp-5 pb-6">
-            {summary.join(" ")}
-          </p>
-        )}
+        {/* {!isEmpty(summary) && ( */}
+        <p className="text-text-primary text-lg font-normal line-clamp-5 pb-6">
+          {overview}
+        </p>
+        {/* )} */}
 
         <h4 className="text-primary text-xl md:text-2xl font-bold mb-4">
           Posting Frequency
@@ -57,7 +59,7 @@ const TopInfluencers: FC = () => {
           ))}
         </div>
 
-        <TopInfluencersCards influencers={influencersList} />
+        <TopInfluencersCards influencers={influencers} />
       </div>
     </ReportCard>
   );
