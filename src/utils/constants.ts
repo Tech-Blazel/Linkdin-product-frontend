@@ -26,7 +26,8 @@ export const headerType: HeaderType = {
     "/admin-profile": "Admin Profile",
     "/clients": "Clients Dashboard",
     "/linkedin-audit-report": "LinkedIn Audit Report",
-    "/category-management": "Category Management",
+  "/category-management": "Category Management",
+  "/upload-data": "Upload Data",
 };
 
 export const pieChartColor = ['#ffc924', '#6384ff', '#6cceff', '#78ea80', '#fb8a85']

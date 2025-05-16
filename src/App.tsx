@@ -9,6 +9,7 @@ import AdminProfile from "./pages/AdminProfile";
 import Clients from "./pages/Clients";
 import LinkedInAuditReport from "./pages/LinkedInAuditReport";
 import CategoryManagement from "./pages/CategoryManagement";
+import UploadData from "./pages/UploadData";
 
 function App() {
   return (
@@ -62,6 +63,14 @@ function App() {
           element={
             <Layout>
               <CategoryManagement />
+            </Layout>
+          }
+        />
+        <Route
+          path="/upload-data"
+          element={
+            <Layout>
+              <UploadData />
             </Layout>
           }
         />

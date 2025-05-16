@@ -10,6 +10,7 @@ import SidebarToggler from "./SidebarToggler";
 import { Button } from "./ui/button";
 import { TbReportSearch } from "react-icons/tb";
 import { MdCategory } from "react-icons/md";
+import { FiUploadCloud } from "react-icons/fi";
 
 const Sidebar = ({
   isSidebarOpen,
@@ -50,6 +51,11 @@ const Sidebar = ({
       icon: <MdCategory className="text-xl" />,
       label: "Category Management",
       path: "/category-management",
+    },
+    {
+      icon: <FiUploadCloud className="text-xl" />,
+      label: "Upload Data",
+      path: "/upload-data",
     },
   ];
 
