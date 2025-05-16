@@ -22,7 +22,7 @@ const ReportCard: FC<ReportCardProps> = ({
         className
       )}
     >
-      <div className="flex items-center gap-2 text-3xl md:text-2xl font-semibold border-b border-primary/20 pb-3">
+      <div className="flex items-center gap-2 text-2xl md:text-3xl font-semibold border-b border-primary/20 pb-3">
         {Icon && <Icon className="text-primary w-5 h-5" />}
         <h2 className="text-text-primary">{title}</h2>
       </div>

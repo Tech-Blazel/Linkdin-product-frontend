@@ -68,8 +68,6 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
     }
   );
 
-  console.log("contentStrategyData", contentStrategyData);
-
   return (
     <section className="space-y-6 gap-10 p-10 bg-white relative overflow-hidden rounded-lg shadow w-[100%] mt-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
