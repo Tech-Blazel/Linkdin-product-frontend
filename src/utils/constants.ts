@@ -2,13 +2,28 @@ import Andrew from "@/assets/images/Andrew.png";
 import Einat from "@/assets/images/Einat.png";
 import Chip from "@/assets/images/chip.png";
 import Ines from "@/assets/images/Ines.png";
+import Matei from "@/assets/images/Matei.png"
+import Ali from "@/assets/images/Ali.png"
+import Maxime from "@/assets/images/Maxime.png"
+import Barr from "@/assets/images/Barr.png"
 
 export const influencerImages:any = {
     "Andrew Ng":Andrew,
     "Dr. Einat Orr":Einat,
     "Chip Huyen":Chip,
-    "Ines Montani":Ines
+    "Ines Montani":Ines,
+    "Matei Zaharia":Matei,
+    "Ali Ghodsi":Ali,
+    "Maxime Beauchemin":Maxime,
+    "Barr Moses":Barr
 }
+
+// export const influencerImages:any = {
+//   "Matei Zaharia":Matei,
+//   "Ali Ghodsi":Ali,
+//   "Maxime Beauchemin":Maxime,
+//   "Barr Moses":Barr
+// }
 
 export type SidebarItem = {
     icon: React.ReactNode;
@@ -30,7 +45,7 @@ export const headerType: HeaderType = {
   "/upload-data": "Upload Data",
 };
 
-export const pieChartColor = ['#ffc924', '#6384ff', '#6cceff', '#78ea80', '#fb8a85']
+export const pieChartColor = ['#ffc924', '#6384ff', '#6cceff', '#78ea80', '#fb8a85', "#ff5733"]
   
 
 export const convertObjectToArrayOfObjectsData = (

@@ -26,7 +26,7 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
             // src={influencer?.pictureUrl}
             src={influencerImages[influencer?.name] || ""}
             alt={influencer?.name}
-            className="w-full h-40 object-cover"
+            className="w-full h-50 object-cover"
           />
           <div className="p-4 flex flex-col justify-between flex-1">
             <div>

@@ -1,0 +1,304 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Lawrence Coburn",
+            "title": "CEO / Co-Founder at Ambient, an AI Assistant for the Office of the CEO.",
+            "profileUrl": "https://www.linkedin.com/in/lawrencecoburn/",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQH7FERo4vXiww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696271215080?e=1753315200&v=beta&t=3ONvfiXAw3Twi1wA9nNmBe6XIa_g1jTDEkZ_LnQSYoI"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 49,
+        "averageCommentsForPost": {
+            "value": 6,
+            "comparison": "about industry average"
+        },
+        "topContentLikes": {
+            "value": 562,
+            "contentType": "text"
+        },
+        "hashtagImpactEngagement": 874,
+        "keyHighlights": [
+            "Top performing post is a text post with 562 likes and 45 comments.",
+            "Average likes per post is 49 and average comments per post is 6.",
+            "Posts on Wednesday receive the highest engagement.",
+            "Hashtags drive engagement with 16.8% usage and an average engagement of 67 per hashtag post."
+        ],
+        "summaryText": "This report synthesizes LinkedIn engagement data for Lawrence Coburn, highlighting key performance metrics, content performance, audience composition, and posting patterns. The analysis reveals strengths in text content and strategic hashtag usage, along with insights on optimal posting times and audience engagement. Recommendations are provided to boost performance further and align with industry best practices."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 56.64
+            },
+            {
+                "type": "article",
+                "percentage": 30.09
+            },
+            {
+                "type": "image",
+                "percentage": 9.73
+            },
+            {
+                "type": "linkedinVideo",
+                "percentage": 2.65
+            },
+            {
+                "type": "unknown",
+                "percentage": 0.88
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Text",
+                "percentage": 25.0,
+                "averageLikes": 352
+            },
+            {
+                "theme": "Article",
+                "percentage": 25.0,
+                "averageLikes": 227
+            },
+            {
+                "theme": "Image",
+                "percentage": 25.0,
+                "averageLikes": 247
+            }
+        ],
+        "visualImpactInsight": "Image posts (avg engagement: 57) perform similarly to text posts (avg engagement: 54).",
+        "postTypeDistributionInsight": "Text posts dominate at 56.64% with articles representing 30.09% and images 9.73% of total posts.",
+        "topPerformingPosts": [
+            {
+                "content": "I was trying to explain to someone why at a company of any scale, the Chief of Staff is almost by definition, the ONLY truly trusted voice in the ear of the CEO. It's about access to resources....",
+                "type": "text",
+                "likes": "562",
+                "comments": "45",
+                "shares": "9"
+            },
+            {
+                "content": "I've spent the last few months going deep on the Chief of Staff role, to understand how our team at Ambient can better serve them. Here are some of the things we learned.",
+                "type": "article",
+                "likes": "284",
+                "comments": "33",
+                "shares": "10"
+            },
+            {
+                "content": "I’m happy to share that I’m starting a new position as CEO / Co-Founder at Ambient!",
+                "type": "image",
+                "likes": "247",
+                "comments": "34",
+                "shares": "0"
+            },
+            {
+                "content": "We dropped everything 16 weeks ago to work on this product. And it's been a crazy road to get it to market... This AI Wave does feel like one of those 'If you are not working on this, what are you even doing' moments.",
+                "type": "article",
+                "likes": "170",
+                "comments": "19",
+                "shares": "13"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High engagement on thought leadership",
+            "Clear messaging and strong call-to-action",
+            "Usage of relevant hashtags",
+            "Concise and impactful content"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Matthew M. G.",
+                "description": "Experienced Business Development Executive | Strategic Partnerships, Go-To-Market Strategy, Sales and Marketing."
+            },
+            {
+                "name": "Jose Antonio Jiménez-Casquet Bolívar",
+                "description": "Customer Success Consultant and Performance Leader @ Frontline Performance Group."
+            },
+            {
+                "name": "Phillip Denny",
+                "description": "Director, Big Ideas Contest; Blum Center for Developing Economies."
+            },
+            {
+                "name": "Niraj Shah",
+                "description": "Co-Founder & CTO TwinsAI - Using Voice AI to Accelerate Sales."
+            },
+            {
+                "name": "Ashley Phelps",
+                "description": "Head of Beta Programs at Cvent."
+            }
+        ],
+        "audienceInsight": "The audience is diverse with significant representation from Technology, Consulting, and Marketing sectors.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 18.36
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 8.07
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 7.6
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 6.43
+            },
+            {
+                "industry": "Manufacturing & Operations",
+                "percentage": 6.08
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 36.53
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 60.95
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 66.38
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 57.31
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 51.45
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 0.0
+            }
+        ],
+        "postingFrequency": "2-3",
+        "timingKeyFinding": "Posts on Wednesday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "The influencer analysis highlights key strategies including optimal posting windows, heavy use of visual content, and high posting frequency.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "Weekday mornings",
+            "visualContentPercentage": 60.0,
+            "averagePostFrequency": "3-4 times per week",
+            "personalStoryMultiplier": 1.5,
+            "contrarianViewMultiplier": null,
+            "totalPostsLastYear": null
+        },
+        "influencers": []
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 16.8, 'averageHashtagsPerPost': 2.0}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 17.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 83.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#r",
+                "averageEngagementRate": 321.0
+            },
+            {
+                "hashtag": "#generativeai",
+                "averageEngagementRate": 170.0
+            },
+            {
+                "hashtag": "#startups",
+                "averageEngagementRate": 117.0
+            },
+            {
+                "hashtag": "#fundingnews",
+                "averageEngagementRate": 117.0
+            },
+            {
+                "hashtag": "#innovation",
+                "averageEngagementRate": 117.0
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags show a tangible engagement boost, reflected by an average engagement rate of 67 per hashtag post."
+    },
+    "influencerComparison": [
+        {
+            "name": "Alighodsi",
+            "linkedinUrl": "https://linkedin.com/in/alighodsi",
+            "followers": 6670,
+            "postsPerYear": 116,
+            "topContentTypes": "Articles, Text",
+            "topThemes": "Data Strategy, AI Trends",
+            "postingFrequency": "3 posts/week"
+        },
+        {
+            "name": "Barr Moses",
+            "linkedinUrl": "https://linkedin.com/in/barrmoses",
+            "followers": 10000,
+            "postsPerYear": 142,
+            "topContentTypes": "Images, Articles",
+            "topThemes": "Data Governance, AI Adoption",
+            "postingFrequency": "2 posts/week"
+        },
+        {
+            "name": "Jane Doe",
+            "linkedinUrl": "https://linkedin.com/in/janedoe",
+            "followers": 8000,
+            "postsPerYear": 150,
+            "topContentTypes": "Text, Images",
+            "topThemes": "Tech Innovations, AI Breakthroughs",
+            "postingFrequency": "4 posts/week"
+        }
+    ],
+    "summaryOfComparison": "Lawrence Coburn's engagement performance is competitive but could benefit from increased visual content and diversified post types to match the dynamic strategies employed by industry influencers.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower engagement rate compared to top influencers",
+            "yourValue": "49 likes per post",
+            "influencerAverage": "100 likes per post",
+            "recommendedAction": "Incorporate more multimedia content to boost engagement."
+        },
+        {
+            "gap": "Limited use of hashtags",
+            "yourValue": "16.8% usage",
+            "influencerAverage": "Higher strategic hashtag engagement",
+            "recommendedAction": "Increase relevant hashtag usage to improve discovery."
+        },
+        {
+            "gap": "Suboptimal posting timing",
+            "yourValue": "Most posts on Tuesday and Thursday",
+            "influencerAverage": "Top influencers post on Wednesday",
+            "recommendedAction": "Shift posting schedule to align with peak engagement days."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content mix with a balance of thought leadership, case studies, and interactive content.",
+        "visualElements": "Enhance posts with high-quality images and videos to capture audience attention.",
+        "postingSchedule": "Align posting times to peak engagement windows, especially mid-week.",
+        "hashtagStrategy": "Leverage trending and relevant hashtags to increase post visibility.",
+        "audienceTargeting": "Tailor content to resonate with key industry sectors such as Technology and Consulting.",
+        "engagementTactics": "Boost audience interaction with polls, Q&As, and call-to-action statements."
+    }
+}

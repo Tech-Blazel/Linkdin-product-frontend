@@ -5,6 +5,7 @@ import linkedInLogo from "@/assets/images/linkedIn-logo.svg";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
 import Dean from "@/assets/images/Dean.png";
+import Caelan from "@/assets/images/Caelan.png";
 
 const CoverPage: React.FC = () => {
   const { subtitle, reportDate, clientInfo } = useSelector(
@@ -39,7 +40,8 @@ const CoverPage: React.FC = () => {
           <div className="mt-8 bg-primary-light border-2 border-primary/20 rounded-xl p-5 max-w-[600px] mx-auto flex flex-col items-center">
             <img
               // src={clientInfo?.profilePictureUrl || ""}
-              src={Dean}
+              // src={Dean}
+              src={Caelan}
               alt={clientInfo?.name || ""}
               className="w-30 h-30 bg-white rounded-full object-cover shadow-md mb-3"
             />

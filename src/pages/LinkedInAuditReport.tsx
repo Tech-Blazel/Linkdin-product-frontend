@@ -18,6 +18,7 @@ import { IoCloudDownloadOutline } from "react-icons/io5";
 import { Loader2 } from "lucide-react";
 import SamplePosts from "@/components/linkedIn-report/SamplePosts";
 import DeanSamplePosts from "@/components/linkedIn-report/DeanSamplePosts";
+import CaelanSamplePosts from "@/components/linkedIn-report/CaelanSamplePosts";
 
 const LinkedInAuditReport = () => {
   const { influencers } = useSelector(
@@ -31,7 +32,7 @@ const LinkedInAuditReport = () => {
     <ExecutiveSummary />,
     <ContentAnalysis />,
     <TopPerformingPosts />,
-    <HashtagPerformanceAnalysis />,
+    // <HashtagPerformanceAnalysis />,
     <AudienceAnalysis />,
     <PostingPatterns />,
     <TopInfluencers />,
@@ -39,9 +40,10 @@ const LinkedInAuditReport = () => {
     ...influencers.map((influencer, index) => (
       <InfluencerAnalysis key={index} influencer={influencer} index={index} />
     )),
-    <PostingRecommendations />,
     // <SamplePosts />,
-    <DeanSamplePosts />,
+    // <DeanSamplePosts />,
+    <CaelanSamplePosts />,
+    <PostingRecommendations />,
   ];
 
   const containerRef = useRef<any>(null);
