@@ -7,6 +7,15 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const validationSchema = Yup.object().shape({
   uploadType: Yup.string().oneOf(["category", "client"]).required(),
@@ -20,6 +29,7 @@ const validationSchema = Yup.object().shape({
   //     then: Yup.string().required("LinkedIn URLs are required"),
   //   }),
   maxPosts: Yup.number().optional(),
+  category: Yup.string().required("Please select a category"),
 });
 
 const UploadData = () => {
@@ -32,6 +42,7 @@ const UploadData = () => {
       jsonFile: null,
       linkedinUrls: "",
       maxPosts: 300,
+      category: "clients",
     },
     validationSchema,
     onSubmit: (values) => {
@@ -48,6 +59,8 @@ const UploadData = () => {
       setUploadMethod(formik.values.uploadMethod);
     }
   };
+
+  console.log("formik,", formik.values);
 
   return (
     <div>
@@ -69,7 +82,7 @@ const UploadData = () => {
               >
                 <div className="flex items-center gap-2">
                   <RadioGroupItem value="category" id="category" />
-                  <Label htmlFor="category">Category</Label>
+                  <Label htmlFor="category">Influencer Data</Label>
                 </div>
                 <div className="flex items-center gap-2">
                   <RadioGroupItem value="client" id="client" />
@@ -82,6 +95,28 @@ const UploadData = () => {
               Client data will be automatically saved to the "clients"
               collection.
             </p>
+
+            <div className="space-y-2">
+              <Label>Select Category:</Label>
+              <Select
+                value={formik.values.category}
+                onValueChange={(val) => formik.setFieldValue("category", val)}
+              >
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Select Category" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectGroup>
+                    <SelectItem value="clients">Clients</SelectItem>
+                    <SelectItem value="influencers">Influencers</SelectItem>
+                    <SelectItem value="campaigns">Campaigns</SelectItem>
+                  </SelectGroup>
+                </SelectContent>
+              </Select>
+              {formik.errors.category && (
+                <p className="text-sm text-red-500">{formik.errors.category}</p>
+              )}
+            </div>
 
             {formik.values.uploadType !== "client" && (
               <div className="space-y-2">

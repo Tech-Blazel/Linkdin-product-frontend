@@ -66,7 +66,7 @@ const Sidebar = ({
   return (
     <div
       className={twMerge(
-        "flex h-screen w-70 flex-col relative z-1000 items-center bg-white py-4 shadow-lg p-4 max-h-dvh"
+        "flex h-screen w-70 flex-col relative z-49 items-center bg-white py-4 shadow-lg p-4 max-h-dvh"
       )}
     >
       <div className="w-full flex flex-row md:flex-col justify-between items-center gap-4">

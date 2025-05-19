@@ -1,41 +1,60 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { useEffect } from "react";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { z } from "zod";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
+import { useFormik } from "formik";
+import * as Yup from "yup";
 import {
   addCategory,
   deleteCategory,
   editCategoryName,
   fetchCategories,
 } from "@/features/CategorySlice";
+import Modal from "@/components/Modal";
 
-const formSchema = z.object({
-  name: z.string().min(1, "Category name is required"),
+const validationSchema = Yup.object().shape({
+  name: Yup.string().required("Category name is required"),
 });
-
-type FormValues = z.infer<typeof formSchema>;
 
 const CategoryManagement = () => {
   const dispatch = useDispatch();
   const { categories, loading, error } = useSelector(
     (state: any) => state.categories
   );
-  const { register, handleSubmit, reset } = useForm<FormValues>({
-    resolver: zodResolver(formSchema),
+
+  const [editDialogOpen, setEditDialogOpen] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState<any>(null);
+
+  const formik = useFormik({
+    initialValues: { name: "" },
+    validationSchema,
+    enableReinitialize: true,
+    onSubmit: (values, { resetForm }) => {
+      if (selectedCategory) {
+        dispatch(
+          editCategoryName({ id: selectedCategory.id, name: values.name })
+        );
+        setEditDialogOpen(false);
+        setSelectedCategory(null);
+      } else {
+        // dispatch(addCategory(values.name));
+      }
+      resetForm();
+    },
   });
 
   useEffect(() => {
     // dispatch(fetchCategories());
   }, [dispatch]);
-
-  const onSubmit = (data: FormValues) => {
-    // dispatch(addCategory(data.name));
-    reset();
-  };
 
   return (
     <div>
@@ -43,62 +62,110 @@ const CategoryManagement = () => {
         <h1 className="text-3xl font-bold">Category Management</h1>
 
         <Card className="p-4 space-y-4">
-          <form onSubmit={handleSubmit(onSubmit)} className="flex gap-4">
+          <form onSubmit={formik.handleSubmit} className="flex gap-4">
             <Input
               placeholder="Enter new category name"
-              {...register("name")}
+              name="name"
+              value={formik.values.name}
+              onChange={formik.handleChange}
             />
             <Button
               type="submit"
               className="bg-primary text-white cursor-pointer"
             >
-              Add Category
+              {selectedCategory ? "Save Changes" : "Add Category"}
             </Button>
           </form>
 
-          <table className="w-full text-left mt-4">
-            <thead>
-              <tr className="border-b">
-                <th className="py-2">Name</th>
-                <th className="py-2">Status</th>
-                <th className="py-2">Actions</th>
-              </tr>
-            </thead>
-            <tbody>
+          <Table className="mt-4">
+            <TableHeader>
+              <TableRow>
+                <TableHead className="w-[40%]">Name</TableHead>
+                <TableHead className="w-[20%]">Status</TableHead>
+                <TableHead className="w-[40%]">Actions</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
               {categories?.map((cat: any) => (
-                <tr key={cat.id} className="border-b">
-                  <td className="py-2">{cat.name}</td>
-                  <td className="py-2 text-green-600">{cat.status}</td>
-                  <td className="py-2 space-x-2">
-                    <Button variant="outline" className="cursor-pointer">
-                      View Profiles
-                    </Button>
-                    <Button
-                      variant="secondary"
-                      onClick={() =>
-                        dispatch(
-                          editCategoryName({
-                            id: cat.id,
-                            name: prompt("Edit name:", cat.name) || cat.name,
-                          })
-                        )
+                <TableRow key={cat.id}>
+                  <TableCell>{cat.name}</TableCell>
+                  <TableCell className="text-green-600">{cat.status}</TableCell>
+                  <TableCell className="space-x-2">
+                    <Modal
+                      title="Profile View"
+                      trigger={
+                        <Button variant="outline" className="cursor-pointer">
+                          View Profiles
+                        </Button>
                       }
-                      className="cursor-pointer"
+                      showHeader={true}
+                      showActionButton={false}
+                      widthClass="max-w-xl"
                     >
-                      Edit
-                    </Button>
+                      <div className="text-sm text-muted-foreground">
+                        <p>
+                          <strong>Category:</strong> {cat.name}
+                        </p>
+                        <p>
+                          <strong>Status:</strong> {cat.status}
+                        </p>
+                        <p className="mt-2">
+                          This section can be extended to show associated
+                          profiles or details.
+                        </p>
+                      </div>
+                    </Modal>
+
+                    <Modal
+                      title="Edit Category"
+                      trigger={
+                        <Button
+                          variant="secondary"
+                          className="cursor-pointer"
+                          onClick={() => {
+                            setSelectedCategory(cat);
+                            formik.setValues({ name: cat.name });
+                            setEditDialogOpen(true);
+                          }}
+                        >
+                          Edit
+                        </Button>
+                      }
+                      showHeader={true}
+                      showActionButton={false}
+                      widthClass="max-w-md"
+                    >
+                      <form
+                        onSubmit={formik.handleSubmit}
+                        className="space-y-4"
+                      >
+                        <Input
+                          name="name"
+                          value={formik.values.name}
+                          onChange={formik.handleChange}
+                        />
+                        {formik.errors.name && (
+                          <p className="text-sm text-red-500">
+                            {formik.errors.name}
+                          </p>
+                        )}
+                        <Button type="submit" className="bg-primary text-white">
+                          Save
+                        </Button>
+                      </form>
+                    </Modal>
                     <Button
                       variant="destructive"
-                      //   onClick={() => dispatch(deleteCategory(cat.id))}
+                      // onClick={() => dispatch(deleteCategory(cat.id))}
                       className="cursor-pointer"
                     >
                       Delete
                     </Button>
-                  </td>
-                </tr>
+                  </TableCell>
+                </TableRow>
               ))}
-            </tbody>
-          </table>
+            </TableBody>
+          </Table>
         </Card>
       </div>
     </div>
