@@ -1,80 +1,19 @@
-import ForgetPassword from "./components/ForgetPassword";
-import Login from "./components/Login";
-import SignUp from "./components/Signup";
-import { Routes, Route } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-import Layout from "./components/Layout";
-import UserManagement from "./pages/UserManagement";
-import AdminProfile from "./pages/AdminProfile";
-import Clients from "./pages/Clients";
-import LinkedInAuditReport from "./pages/LinkedInAuditReport";
-import CategoryManagement from "./pages/CategoryManagement";
-import UploadData from "./pages/UploadData";
+import { useRoutes } from "react-router-dom";
+import routes from "@/routes";
+import useOnlineStatus from "@/custom-hooks/useOnlineStatus";
 
 function App() {
+  const isOnline = useOnlineStatus();
+  const routing = useRoutes(routes);
+
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/register" element={<SignUp />} />
-        <Route path="/forget-password" element={<ForgetPassword />} />
-        <Route
-          path="/dashboard"
-          element={
-            <Layout>
-              <Dashboard />
-            </Layout>
-          }
-        />
-        <Route
-          path="/user-management"
-          element={
-            <Layout>
-              <UserManagement />
-            </Layout>
-          }
-        />
-        <Route
-          path="/admin-profile"
-          element={
-            <Layout>
-              <AdminProfile />
-            </Layout>
-          }
-        />
-        <Route
-          path="/clients"
-          element={
-            <Layout>
-              <Clients />
-            </Layout>
-          }
-        />
-        <Route
-          path="/linkedin-audit-report"
-          element={
-            <Layout>
-              <LinkedInAuditReport />
-            </Layout>
-          }
-        />
-        <Route
-          path="/category-management"
-          element={
-            <Layout>
-              <CategoryManagement />
-            </Layout>
-          }
-        />
-        <Route
-          path="/upload-data"
-          element={
-            <Layout>
-              <UploadData />
-            </Layout>
-          }
-        />
-      </Routes>
+      {!isOnline && (
+        <div className="bg-primary text-white text-center py-2 text-sm z-50 fixed top-0 left-0 right-0">
+          ⚠️ You are offline. Some features may not work.
+        </div>
+      )}
+      <div className={isOnline ? "" : "pt-10"}>{routing}</div>
     </div>
   );
 }

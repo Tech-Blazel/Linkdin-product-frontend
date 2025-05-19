@@ -1,14 +1,12 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import { twMerge } from "tailwind-merge";
+import { Outlet } from "react-router-dom";
 
-type LayoutProps = {
-  children: ReactNode;
-};
-
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
+
   return (
     <div className="flex h-screen overflow-hidden relative">
       <aside
@@ -22,13 +20,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           setIsSidebarOpen={setIsSidebarOpen}
         />
       </aside>
+
       <div className="flex flex-col flex-1 overflow-hidden">
         <Header
           isSidebarOpen={isSidebarOpen}
           setIsSidebarOpen={setIsSidebarOpen}
         />
         <main className="flex-1 overflow-auto bg-gray-100 p-6 md:p-10">
-          {children}
+          <Outlet /> {/* ✅ renders nested route components */}
         </main>
       </div>
     </div>
