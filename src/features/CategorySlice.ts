@@ -62,7 +62,7 @@ export const categorySlice = createSlice({
         state.categories.push(action.payload);
       })
       .addCase(deleteCategory.fulfilled, (state, action) => {
-        state.categories = state.categories.filter((cat) => cat.id !== action.payload);
+        state.categories = state.categories.filter((cat:any) => cat.id !== action.payload);
       });
   },
 });

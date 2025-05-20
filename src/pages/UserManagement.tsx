@@ -1,5 +1,4 @@
 import { UserTable } from "@/components/UserTable";
-import React from "react";
 
 const UserManagement = () => {
   return (
