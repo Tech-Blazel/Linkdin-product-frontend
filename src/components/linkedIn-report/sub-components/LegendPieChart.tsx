@@ -22,6 +22,20 @@ const LegendPieChart: FC<LegendPieChartProps> = ({
   description,
   innerRadius,
 }) => {
+  const CustomLabelLine = (props: any) => {
+    const { points, stroke } = props;
+
+    if (props.payload.value <= 0) return <></>;
+
+    return (
+      <path
+        d={`M${points[0].x},${points[0].y}L${points[1].x},${points[1].y}`}
+        stroke={stroke}
+        fill="none"
+      />
+    );
+  };
+
   return (
     <div className="text-center">
       <h3 className="text-primary text-xl md:text-2xl font-bold mb-4">
@@ -45,9 +59,9 @@ const LegendPieChart: FC<LegendPieChartProps> = ({
               outerRadius={80}
               paddingAngle={1}
               stroke="none"
-              // label={({ percent }) => `${(percent * 100).toFixed(2)}%`}
-              // label={({ percent }) => `${Math.trunc(percent * 10000) / 100}%`}
-              label={({ value }) => `${value}%`}
+              // label={({ value }) => `${value}%`}
+              label={({ value }) => (value > 0 ? `${value}%` : "")}
+              labelLine={CustomLabelLine}
             >
               {data.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={entry.color || "#ff5733"} />
