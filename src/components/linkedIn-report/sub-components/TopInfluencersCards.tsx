@@ -23,8 +23,8 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
           className="bg-white border rounded-xl overflow-hidden shadow-sm flex flex-col h-full"
         >
           <img
-            // src={influencer?.pictureUrl}
-            src={influencerImages[influencer?.name] || ""}
+            src={influencer?.pictureUrl}
+            // src={influencerImages[influencer?.name] || ""}
             alt={influencer?.name}
             className="w-full h-50 object-cover"
           />

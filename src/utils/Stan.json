@@ -1,0 +1,433 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Stan Markuze",
+            "title": "CEO, Balance Cash",
+            "profileUrl": "N/A",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHHYdnksjrgnQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1658515315248?e=1753315200&v=beta&t=ticqP83Vj7twLOLbG0_eXXKlqTo4YbAaP42IzAy1p-8"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 10,
+        "averageCommentsForPost": {
+            "value": 0,
+            "comparison": "below industry average"
+        },
+        "topContentLikes": {
+            "value": 42,
+            "contentType": "article"
+        },
+        "hashtagImpactEngagement": 13,
+        "keyHighlights": [
+            "Predominantly text-based content (70.45%) with articles constituting 29.55% of posts.",
+            "The top performing post is an article with 42 likes, indicating strong performance in that format.",
+            "Low hashtag usage at 6% with average engagement of 6 per hashtag post suggests room for improvement.",
+            "Monday posts achieve the highest average engagement at 15.5."
+        ],
+        "summaryText": "This report analyzes the LinkedIn engagement performance for Stan Markuze over the period May 2025. It covers post metrics, content performance, audience engagement and influencer comparisons. The analysis highlights content distribution, hashtag effectiveness and posting timings. Strategic recommendations are provided to enhance overall engagement."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 70.45
+            },
+            {
+                "type": "article",
+                "percentage": 29.55
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Text",
+                "percentage": 70.45,
+                "averageLikes": 8
+            },
+            {
+                "theme": "Article",
+                "percentage": 29.55,
+                "averageLikes": 10
+            }
+        ],
+        "visualImpactInsight": "Only text posts were found with an average engagement of 8, indicating a heavy reliance on non-visual content.",
+        "postTypeDistributionInsight": "The majority of posts are text-based, with a notable portion of articles driving relatively higher engagement.",
+        "topPerformingPosts": [
+            {
+                "content": "Happy Monday! If you are interested in real estate investment, check out this article and please let me know your thoughts!",
+                "type": "article",
+                "likes": "42",
+                "comments": "1",
+                "shares": "2"
+            },
+            {
+                "content": "Check out the new corporate treasury article published today by Balance! Let me know what you think.",
+                "type": "article",
+                "likes": "25",
+                "comments": "0",
+                "shares": "2"
+            },
+            {
+                "content": "",
+                "type": "article",
+                "likes": "24",
+                "comments": "0",
+                "shares": "1"
+            },
+            {
+                "content": "Cash forecasting has been a major topic of discussion among treasury professionals, and I wanted to share an article that provides a deep dive into the topic.",
+                "type": "article",
+                "likes": "21",
+                "comments": "3",
+                "shares": "5"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "Clear call-to-action in the content",
+            "Relevant industry topics and subject matter",
+            "Engaging headlines that capture attention",
+            "Consistent post structure across top posts"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Hande Turkcapar",
+                "description": "Head of Data Science @ Uniswap Labs, Reaction count: 22"
+            },
+            {
+                "name": "Chalique Seabron 🚀",
+                "description": "Founder @ Sheppardd.io | Collect Testimonials. Show Them on Your Website., Reaction count: 13"
+            },
+            {
+                "name": "Elif Kinli",
+                "description": "Co-Founder & CTO @ Double Nickel, Reaction count: 11"
+            },
+            {
+                "name": "Tim Schultz",
+                "description": "Helping CFOs and Treasurers navigate tech confidently | Co-Founder of Real Treasury, Reaction count: 9"
+            }
+        ],
+        "audienceInsight": "The audience is diverse with strong engagement from Technology and Finance sectors.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 29.33
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 13.33
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 8.0
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 2.67
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 15.5
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 11.1
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 9.14
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 12.22
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 9.0
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 12.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 7.5
+            }
+        ],
+        "postingFrequency": "Stan Markuze posts approximately 0-1 times per week.",
+        "timingKeyFinding": "Posts on Monday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Four key influencers in Data and AI have been identified. Each influencer demonstrates strong thought leadership and industry influence. They show diverse content strategies ranging from technical articles to leadership insights. Their engagement metrics and posting frequencies provide key strategic insights for the client.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "9 AM - 11 AM",
+            "visualContentPercentage": 6.7,
+            "averagePostFrequency": "every 4 days",
+            "personalStoryMultiplier": 1.5,
+            "contrarianViewMultiplier": null,
+            "totalPostsLastYear": 533
+        },
+        "influencers": [
+            {
+                "name": "Matei Zaharia",
+                "title": "CTO & Cofounder at Databricks, CS Professor at Berkeley",
+                "profileUrl": "https://www.linkedin.com/in/mateizaharia",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQFw6k7s5SCQHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1602544652214?e=1752710400&v=beta&t=oHYSPAuvhwD4n5YREQhOITKn_hwH1tnhPqoy1zOm5m8",
+                "followersCount": "100K",
+                "postWithin1Year": 62,
+                "descriptionFocus": "Pioneer in big data and creator of Apache Spark, blending academic research with industry innovation.",
+                "relevance": [
+                    "Tech pioneer innovation",
+                    "Software development expertise",
+                    "Academic-industry blend"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Matei Zaharia",
+                        "title": "CTO & Cofounder at Databricks, CS Professor at Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQFw6k7s5SCQHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1602544652214?e=1752710400&v=beta&t=oHYSPAuvhwD4n5YREQhOITKn_hwH1tnhPqoy1zOm5m8",
+                        "location": "Berkeley, California, United States",
+                        "followers": "100K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/mateizaharia_really-cool-result-from-the-databricks-research-activity-7310354674698567680-INKE?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                        "text": "Really cool result from the Databricks research team: You can tune LLMs for a task *without data labels*, using test-time compute and RL, and outperform supervised fine-tuning! Our new TAO method scales with compute to produce fast, high-quality models: Test-time Adaptive Optimization (TAO) only needs input examples of a task and can outperform supervised fine-tuning on thousands of human-labeled examples. It brings OSS models like Llama to the quality of expensive larger models, while keeping inference cost low. TAO's trained model quality also scales with compute spent during training, not with human labeling effort. However, unlike \"classic\" test-time compute models like o1 and R1, TAO's resulting models are always low inference cost.",
+                        "likes": 861,
+                        "comments": 20,
+                        "reposts": 90
+                    },
+                    "contentStrategy": {
+                        "Text": 59,
+                        "Images": 8,
+                        "Videos": 0,
+                        "Articles": 32
+                    }
+                }
+            },
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                "profileUrl": "https://www.linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                "followersCount": "116K",
+                "postWithin1Year": 116,
+                "descriptionFocus": "Tech leadership in software development with a strong focus on data and innovation.",
+                "relevance": [
+                    "Software industry leader",
+                    "Executive tech insights",
+                    "High engagement potential"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "location": "San Francisco, California, United States",
+                        "followers": "116K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/alighodsi_announcing-the-general-availability-of-sap-activity-7323531503869513729-U2PT?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                        "text": "SAP Databricks is now GA! I believe this is one of the most important strategic partnerships we've ever formed at Databricks. Why? Because the worlds most important business data lives in SAP. Why should you care? Because all your SAP datawith its rich business semantics and ontologyis now ready to use in SAP Databricks. No ETL, no prep needed!",
+                        "likes": 2345,
+                        "comments": 65,
+                        "reposts": 357
+                    },
+                    "contentStrategy": {
+                        "Text": 31,
+                        "Images": 9,
+                        "Videos": 0,
+                        "Articles": 59
+                    }
+                }
+            },
+            {
+                "name": "Bill Schmarzo",
+                "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                "profileUrl": "https://www.linkedin.com/in/schmarzo",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                "followersCount": "44K",
+                "postWithin1Year": 355,
+                "descriptionFocus": "Innovative leader who drives data monetization and digital transformation for enterprises.",
+                "relevance": [
+                    "Data-driven strategy",
+                    "Digital transformation insights",
+                    "Business analytics expertise"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Bill Schmarzo",
+                        "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                        "location": "Des Moines, Iowa, United States",
+                        "followers": "44K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/schmarzo_ai-activity-7283651984593666049-kaTT?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                        "text": "So, let me ask a stupid question (my specialty): If our existing large language models (LLMs) have already soaked up most of the world's information, why are we trying to update them with synthetic information, which will likely dilute the accuracy and relevance of the actual information already in the LLM? Instead, shouldn't we teach organizations and individuals how to use RAG and Contextual Continuity techniques to massage these LLMs to yield more relevant and accurate responses? If LLMs have reached the law of diminishing returns (and maybe they should just be turned into a public utility for the benefit of all), then let's invest in the people skills and tools to get more value from these marvelous LLM creations. Prof. Ahmed Banafa Chris Surdak Mark Stouse John Thompson Dan Everett Jon Cooke Malcolm Hawker Dell Technologies Navin Mukraj Cindi Howson Jeff Frick Kyle Winterbottom Rene B. Lahti Kevin Petrie Eddie Short",
+                        "likes": 251,
+                        "comments": 164,
+                        "reposts": 15
+                    },
+                    "contentStrategy": {
+                        "Text": 59,
+                        "Images": 2,
+                        "Videos": 0,
+                        "Articles": 38
+                    }
+                }
+            },
+            {
+                "name": "Maxime Beauchemin",
+                "title": "CEO & Founder at Preset",
+                "profileUrl": "https://www.linkedin.com/in/maximebeauchemin",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                "followersCount": "15K",
+                "postWithin1Year": 0,
+                "descriptionFocus": "Open source data tool creator and expert in modern data workflows and analytics.",
+                "relevance": [
+                    "Open source innovation",
+                    "Data workflow expertise",
+                    "Entrepreneurial tech leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Maxime Beauchemin",
+                        "title": "CEO & Founder at Preset",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                        "location": "Belmont, California, United States",
+                        "followers": "15K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "",
+                        "likes": 0,
+                        "comments": 0,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 0,
+                        "Images": 0,
+                        "Videos": 0,
+                        "Articles": 0
+                    }
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 6.0, 'averageHashtagsPerPost': 4.7}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 6.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 94.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#treasuryconference",
+                "averageEngagementRate": 11.0
+            },
+            {
+                "hashtag": "#financeconference",
+                "averageEngagementRate": 11.0
+            },
+            {
+                "hashtag": "#networking",
+                "averageEngagementRate": 11.0
+            },
+            {
+                "hashtag": "#professionaldevelopment",
+                "averageEngagementRate": 11.0
+            },
+            {
+                "hashtag": "#CashManagement",
+                "averageEngagementRate": 7.0
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags have lower overall engagement, suggesting potential for an optimized hashtag strategy."
+    },
+    "influencerComparison": [
+        {
+            "name": "Matei Zaharia",
+            "linkedinUrl": "https://www.linkedin.com/in/mateizaharia",
+            "followers": 100000,
+            "postsPerYear": 62,
+            "topContentTypes": "Text",
+            "topThemes": "Tech pioneer innovation & Software development expertise",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Ali Ghodsi",
+            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
+            "followers": 116000,
+            "postsPerYear": 116,
+            "topContentTypes": "Articles",
+            "topThemes": "Software industry leader & Executive tech insights",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Bill Schmarzo",
+            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
+            "followers": 44000,
+            "postsPerYear": 355,
+            "topContentTypes": "Text",
+            "topThemes": "Data-driven strategy & Digital transformation insights",
+            "postingFrequency": "5+ posts/week"
+        },
+        {
+            "name": "Maxime Beauchemin",
+            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
+            "followers": 15000,
+            "postsPerYear": 0,
+            "topContentTypes": "Images",
+            "topThemes": "Open source innovation & Data workflow expertise",
+            "postingFrequency": "< 1 post/week"
+        }
+    ],
+    "summaryOfComparison": "The client shows lower engagement and posting frequency compared to top industry influencers. Enhancing content diversity and modestly increasing posting frequency can help bridge the performance gap.",
+    "gapAnalysis": [
+        {
+            "gap": "Low posting frequency",
+            "yourValue": "0-1 posts/week",
+            "influencerAverage": "1-2 posts/week",
+            "recommendedAction": "Increase posting frequency to at least 1-2 posts per week to boost visibility."
+        },
+        {
+            "gap": "Limited hashtag usage",
+            "yourValue": "6% usage",
+            "influencerAverage": "Greater hashtag engagement observed",
+            "recommendedAction": "Optimize the hashtag strategy by incorporating more targeted and trending hashtags."
+        },
+        {
+            "gap": "Reliance on text posts",
+            "yourValue": "100% text posts",
+            "influencerAverage": "Diverse content types among influencers",
+            "recommendedAction": "Incorporate image and video content to enhance visual appeal and engagement."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content themes to include industry trends, market insights, and personal narratives for greater engagement.",
+        "visualElements": "Integrate high-quality images and infographics to complement text posts and capture audience attention.",
+        "postingSchedule": "Increase posting frequency and target peak engagement times, notably on Mondays.",
+        "hashtagStrategy": "Refine hashtag usage by selecting targeted and trending hashtags to expand content reach.",
+        "audienceTargeting": "Utilize audience analytics to tailor content for high-engagement sectors such as Technology and Finance.",
+        "engagementTactics": "Incorporate clear calls-to-action and interactive elements to stimulate audience participation."
+    }
+}

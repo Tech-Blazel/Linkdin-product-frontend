@@ -94,8 +94,8 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
           <div className="space-y-4">
             <div className="p-4 border rounded-xl shadow-sm flex gap-4 items-start">
               <img
-                // src={profile?.pictureUrl || ""}
-                src={influencerImages[name] || ""}
+                src={profile?.pictureUrl || ""}
+                // src={influencerImages[name] || ""}
                 alt={profile?.name || ""}
                 className="w-12 h-12 rounded-full object-cover"
               />
@@ -124,8 +124,8 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
               <div className="border rounded-xl shadow-sm p-4 text-sm space-y-2">
                 <div className="flex gap-3">
                   <img
-                    // src={profile?.pictureUrl || ""}
-                    src={influencerImages[name] || ""}
+                    src={profile?.pictureUrl || ""}
+                    // src={influencerImages[name] || ""}
                     alt={profile?.name || ""}
                     className="w-10 h-10 rounded-full object-cover"
                   />

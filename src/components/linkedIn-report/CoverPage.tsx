@@ -39,9 +39,9 @@ const CoverPage: React.FC = () => {
 
           <div className="mt-8 bg-primary-light border-2 border-primary/20 rounded-xl p-5 max-w-[600px] mx-auto flex flex-col items-center">
             <img
-              // src={clientInfo?.profilePictureUrl || ""}
+              src={clientInfo?.profilePictureUrl || ""}
               // src={Dean}
-              src={Caelan}
+              // src={Caelan}
               alt={clientInfo?.name || ""}
               className="w-30 h-30 bg-white rounded-full object-cover shadow-md mb-3"
             />
