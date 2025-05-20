@@ -9,7 +9,7 @@ const ExecutiveSummary: FC = () => {
   const {
     averageLikesPerPost,
     averageCommentsForPost,
-    hashtagImpactEngagement,
+    // hashtagImpactEngagement,
     topContentLikes,
     keyHighlights,
     summaryText,
@@ -33,11 +33,11 @@ const ExecutiveSummary: FC = () => {
       value: topContentLikes?.value || "NAN",
       sub: topContentLikes?.contentType || "NAN",
     },
-    {
-      label: "Hashtag Impact",
-      value: hashtagImpactEngagement || "NAN",
-      sub: "engagement with hashtags",
-    },
+    // {
+    //   label: "Hashtag Impact",
+    //   value: hashtagImpactEngagement || "NAN",
+    //   sub: "engagement with hashtags",
+    // },
   ];
 
   // const highlightImportant = (text: string) => {
@@ -64,7 +64,7 @@ const ExecutiveSummary: FC = () => {
     <ReportCard title="Executive Summary" icon={FaChartBar}>
       <div className="space-y-7">
         {!isEmpty(card) && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {card.map((item, i) => (
               <div
                 key={i}

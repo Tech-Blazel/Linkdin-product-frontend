@@ -20,14 +20,15 @@
             "value": 58,
             "contentType": "text"
         },
-
+        "hashtagImpactEngagement": 135,
         "keyHighlights": [
             "Top performing post is a text post with 58 likes indicating strong service announcement messaging.",
             "Content distribution is heavily skewed towards text posts (85.71%) with limited diversity.",
             "Thursday posts achieve the highest engagement with an average of 46.0 likes.",
+            "Hashtag usage stands at 45.7% with posts with hashtags accounting for 46% of engagements.",
             "Overall posting frequency is low, at approximately 0-1 posts per week."
         ],
-        "summaryText": "This report provides a comprehensive analysis of Caelan Urquhart's LinkedIn engagement performance for May 2025. It highlights key metrics such as average likes and comments. The analysis details content type distribution and audience engagement trends. Recommendations for improving content strategy and posting schedule are provided."
+        "summaryText": "This report provides a comprehensive analysis of Caelan Urquhart's LinkedIn engagement performance for May 2025. It highlights key metrics such as average likes, comments, and hashtag impact. The analysis details content type distribution and audience engagement trends. Recommendations for improving content strategy and posting schedule are provided."
     },
     "contentAnalysis": {
         "postTypesDistribution": [
@@ -430,12 +431,19 @@
             "yourValue": "Predominantly text posts",
             "influencerAverage": "Mix of text, images, and articles",
             "recommendedAction": "Integrate visual content such as images and videos to boost engagement."
+        },
+        {
+            "gap": "Hashtag Utilization",
+            "yourValue": "Average 3.4 hashtags per post",
+            "influencerAverage": "Effective hashtag strategy drives higher engagement",
+            "recommendedAction": "Optimize hashtag selection to improve reach and engagement."
         }
     ],
     "recommendations": {
         "contentStrategy": "Focus on diversifying content types by incorporating more articles and visual posts alongside text updates.",
         "visualElements": "Incorporate high-quality images and graphics to complement text and draw attention.",
         "postingSchedule": "Adopt a consistent posting schedule, targeting high engagement days like Thursday.",
+        "hashtagStrategy": "Refine hashtag strategy by using top-performing hashtags more strategically to boost visibility.",
         "audienceTargeting": "Leverage audience insights to tailor content towards technology and finance sectors.",
         "engagementTactics": "Encourage audience interaction through calls-to-action and targeted questions to drive engagement."
     }
