@@ -5,15 +5,15 @@ import { FC } from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
 
-type Post = {
-  type: string;
-  linkText: string;
-  linkUrl: string;
-  likes: number;
-  comments: number;
-  shares: number;
-  snippet: string;
-};
+// type Post = {
+//   type: string;
+//   linkText: string;
+//   linkUrl: string;
+//   likes: number;
+//   comments: number;
+//   shares: number;
+//   snippet: string;
+// };
 
 const PostCards: FC = () => {
   const { topPerformingPosts } = useSelector(
