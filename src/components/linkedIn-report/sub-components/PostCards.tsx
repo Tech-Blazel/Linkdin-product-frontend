@@ -88,7 +88,7 @@ const PostCards: FC = () => {
           </div>
 
           <p className="text-text-primary text-lg line-clamp-2 pb-1">
-            {post.snippet}
+            {post.content}
           </p>
         </div>
       ))}
