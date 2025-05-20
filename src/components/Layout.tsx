@@ -8,7 +8,7 @@ const Layout: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
 
   return (
-    <div className="max-w-[2500px] mx-auto w-full px-4">
+    <div className="max-w-[2500px] ">
       <div className="flex h-screen overflow-hidden relative">
         <aside
           className={twMerge(
@@ -27,8 +27,8 @@ const Layout: React.FC = () => {
             isSidebarOpen={isSidebarOpen}
             setIsSidebarOpen={setIsSidebarOpen}
           />
-          <main className="flex-1 overflow-auto bg-gray-100 p-6 md:p-10">
-            <Outlet /> {/* ✅ renders nested route components */}
+          <main className="flex-1 overflow-auto bg-gray-100 p-4 md:p-10">
+            <Outlet />
           </main>
         </div>
       </div>

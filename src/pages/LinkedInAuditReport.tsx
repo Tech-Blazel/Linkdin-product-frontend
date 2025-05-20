@@ -117,7 +117,7 @@ const LinkedInAuditReport = () => {
   };
 
   return (
-    <div className="p-4">
+    <div className="">
       {/* <button
         onClick={() => downloadPDF(containerRef)}
         className="fixed bottom-4 right-4 z-50 group bg-primary text-white p-4 py-3 rounded-full transition-all duration-300 flex items-center gap-2 overflow-hidden hover:p-5 shadow-lg cursor-pointer"

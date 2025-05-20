@@ -18,7 +18,7 @@ const ReportCard: FC<ReportCardProps> = ({
   return (
     <Card
       className={cn(
-        "p-10 bg-white relative overflow-hidden rounded-lg shadow w-[100%] mt-10",
+        "p-5 md:p-10 bg-white relative overflow-hidden rounded-lg shadow w-[100%] mt-10",
         className
       )}
     >
