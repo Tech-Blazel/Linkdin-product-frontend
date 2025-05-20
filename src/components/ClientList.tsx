@@ -27,7 +27,7 @@ const initialClients: Client[] = [
 ];
 
 const ClientList = () => {
-  const [clients, setClients] = useState<Client[]>(initialClients);
+  const [clients] = useState<Client[]>(initialClients);
   const [search, setSearch] = useState("");
 
   const filteredClients = clients.filter((client) =>

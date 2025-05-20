@@ -9,13 +9,13 @@ import { IoPeople } from "react-icons/io5";
 import { MdOutlineCelebration } from "react-icons/md";
 import { TbBulb } from "react-icons/tb";
 import { PiHandHeartBold } from "react-icons/pi";
-import { FaEarthAsia } from "react-icons/fa6";
+// import { FaEarthAsia } from "react-icons/fa6";
 import { BsEmojiLaughing } from "react-icons/bs";
-import { useSelector } from "react-redux";
-import { RootState } from "@/app/store";
+// import { useSelector } from "react-redux";
+// import { RootState } from "@/app/store";
 import {
   convertObjectToArrayOfObjectsData,
-  influencerImages,
+  // influencerImages,
   pieChartColor,
 } from "@/utils/constants";
 import { IoMdAdd } from "react-icons/io";
@@ -69,7 +69,10 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
   );
 
   return (
-    <section className="space-y-6 gap-10 p-10 bg-white relative overflow-hidden rounded-lg shadow w-[100%] mt-10">
+    <section
+      className="space-y-6 gap-10 p-10 bg-white relative overflow-hidden rounded-lg shadow w-[100%] mt-10"
+      id={`influencer-${index}`}
+    >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
         <div>
           <div className="flex items-center gap-2 text-3xl md:text-2xl font-semibold border-b border-primary/20 pb-3">

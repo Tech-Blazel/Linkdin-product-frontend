@@ -1,6 +1,5 @@
 import doodleBg from "@/assets/images/background.svg";
 import logoImage from "@/assets/images/logo-with-text.svg";
-import React from "react";
 
 const OpeningSlide = () => {
   return (

@@ -14,10 +14,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import {
-  addCategory,
-  deleteCategory,
+  // addCategory,
+  // deleteCategory,
   editCategoryName,
-  fetchCategories,
+  // fetchCategories,
 } from "@/features/CategorySlice";
 import Modal from "@/components/Modal";
 
@@ -27,11 +27,8 @@ const validationSchema = Yup.object().shape({
 
 const CategoryManagement = () => {
   const dispatch = useDispatch();
-  const { categories, loading, error } = useSelector(
-    (state: any) => state.categories
-  );
+  const { categories } = useSelector((state: any) => state.categories);
 
-  const [editDialogOpen, setEditDialogOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<any>(null);
 
   const formik = useFormik({
@@ -43,7 +40,6 @@ const CategoryManagement = () => {
         dispatch(
           editCategoryName({ id: selectedCategory.id, name: values.name })
         );
-        setEditDialogOpen(false);
         setSelectedCategory(null);
       } else {
         // dispatch(addCategory(values.name));
@@ -125,7 +121,6 @@ const CategoryManagement = () => {
                           onClick={() => {
                             setSelectedCategory(cat);
                             formik.setValues({ name: cat.name });
-                            setEditDialogOpen(true);
                           }}
                         >
                           Edit

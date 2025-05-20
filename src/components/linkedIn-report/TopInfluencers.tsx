@@ -5,7 +5,6 @@ import TopInfluencersCards from "./sub-components/TopInfluencersCards";
 import ReportCard from "./sub-components/ReportCard";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
-import { isEmpty } from "lodash";
 
 const TopInfluencers: FC = () => {
   const { overview, keyInfluencerInsights, influencers } = useSelector(

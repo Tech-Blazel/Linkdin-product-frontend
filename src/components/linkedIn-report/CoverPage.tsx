@@ -4,11 +4,11 @@ import logoImage from "@/assets/images/logo-with-text.svg";
 import linkedInLogo from "@/assets/images/linkedIn-logo.svg";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
-import Dean from "@/assets/images/Dean.png";
-import Caelan from "@/assets/images/Caelan.png";
+// import Dean from "@/assets/images/Dean.png";
+// import Caelan from "@/assets/images/Caelan.png";
 
 const CoverPage: React.FC = () => {
-  const { subtitle, reportDate, clientInfo } = useSelector(
+  const { subtitle, clientInfo } = useSelector(
     (state: RootState) => state.auditReportSchema.reportMetadata
   );
 

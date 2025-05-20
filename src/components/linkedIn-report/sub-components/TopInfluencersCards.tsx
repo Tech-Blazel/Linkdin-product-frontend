@@ -1,4 +1,3 @@
-import { influencerImages } from "@/utils/constants";
 import { FC } from "react";
 
 type Influencer = {

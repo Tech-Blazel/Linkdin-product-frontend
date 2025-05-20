@@ -1,6 +1,5 @@
 import { headerType } from "@/utils/constants";
 import { useLocation } from "react-router";
-import { twMerge } from "tailwind-merge";
 import SidebarToggler from "./SidebarToggler";
 
 const Header = ({

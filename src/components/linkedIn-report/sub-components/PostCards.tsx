@@ -1,5 +1,4 @@
-import React from "react";
-import { FaChartLine, FaStar, FaThumbsUp } from "react-icons/fa";
+import { FaThumbsUp } from "react-icons/fa";
 import { FaComment } from "react-icons/fa6";
 import { IoIosShareAlt } from "react-icons/io";
 import { FC } from "react";
@@ -17,8 +16,8 @@ type Post = {
 };
 
 const PostCards: FC = () => {
-  const { topPerformingPostsExamples } = useSelector(
-    (state: RootState) => state.auditReportSchema.postingPatternsAnalysis
+  const { topPerformingPosts } = useSelector(
+    (state: RootState) => state.auditReportSchema.contentAnalysis
   );
   // const posts: Post[] = [
   //   {
@@ -54,7 +53,7 @@ const PostCards: FC = () => {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      {topPerformingPostsExamples?.map((post, i) => (
+      {topPerformingPosts?.map((post: any, i: number) => (
         <div
           key={i}
           className="bg-primary-light/40 border-2 border-primary/20 rounded-lg p-4 space-y-2"

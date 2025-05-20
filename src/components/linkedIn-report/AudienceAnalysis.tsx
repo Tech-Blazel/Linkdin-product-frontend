@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { FaChartLine, FaStar } from "react-icons/fa";
-import LegendPieChart from "./sub-components/LegendPieChart";
+// import LegendPieChart from "./sub-components/LegendPieChart";
 import KeySummary from "./sub-components/KeySummary";
 import ReportCard from "./sub-components/ReportCard";
 import { useSelector } from "react-redux";
