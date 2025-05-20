@@ -1,0 +1,490 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Lawrence Coburn",
+            "title": "CEO / Co-Founder at Ambient, an AI Assistant for the Office of the CEO.",
+            "profileUrl": "https://www.linkedin.com/in/lawrencecoburn",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQH7FERo4vXiww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696271215080?e=1753315200&v=beta&t=3ONvfiXAw3Twi1wA9nNmBe6XIa_g1jTDEkZ_LnQSYoI"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 49,
+        "averageCommentsForPost": {
+            "value": 6,
+            "comparison": "no industry benchmark available"
+        },
+        "topContentLikes": {
+            "value": 562,
+            "contentType": "text"
+        },
+        "hashtagImpactEngagement": 67,
+        "keyHighlights": [
+            "Total posts analyzed: 113.",
+            "Top performing post has 562 likes in a text post.",
+            "Average likes per post is 49, and average comments per post is 6.",
+            "Posts with hashtags drive strong engagement, averaging 67 per hashtag post."
+        ],
+        "summaryText": "This report provides a comprehensive analysis of Lawrence Coburn's LinkedIn engagement. It covers post performance, audience interaction, optimal posting patterns, and hashtag usage. The analysis draws on 113 posts with detailed engagement metrics. Key insights offer actionable recommendations for future content strategy."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 56.64
+            },
+            {
+                "type": "article",
+                "percentage": 30.09
+            },
+            {
+                "type": "image",
+                "percentage": 9.73
+            },
+            {
+                "type": "linkedinVideo",
+                "percentage": 2.65
+            },
+            {
+                "type": "others",
+                "percentage": 0.88
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Text",
+                "averageLikes": 54,
+                "percentage": 25.0
+            },
+            {
+                "theme": "Article",
+                "averageLikes": 227,
+                "percentage": 25.0
+            },
+            {
+                "theme": "Image",
+                "averageLikes": 57,
+                "percentage": 25.0
+            }
+        ],
+        "visualImpactInsight": "Image posts perform similarly to text posts with average engagement of 57 vs 54, indicating the importance of visuals.",
+        "postTypeDistributionInsight": "Text posts dominate with 56.64% share, suggesting a strong preference for written content among the audience.",
+        "topPerformingPosts": [
+            {
+                "content": "I was trying to explain to someone why at a company of any scale, the Chief of Staff is almost by definition, the ONLY truly trusted voice in the ear of the CEO. It highlights the unique influence of the Chief of Staff.",
+                "type": "text",
+                "likes": "562",
+                "comments": "45",
+                "shares": "9",
+                "date": "May 2025"
+            },
+            {
+                "content": "I've spent the last few months going deep on the Chief of Staff role, to understand how our team at Ambient can better serve them.",
+                "type": "article",
+                "likes": "284",
+                "comments": "33",
+                "shares": "10",
+                "date": "May 2025"
+            },
+            {
+                "content": "I’m happy to share that I’m starting a new position as CEO / Co-Founder at Ambient!",
+                "type": "image",
+                "likes": "247",
+                "comments": "34",
+                "shares": "0",
+                "date": "May 2025"
+            },
+            {
+                "content": "We dropped everything 16 weeks ago to work on this product. And it's been a crazy road to get it to market. This post discusses the groundbreaking nature of AI in transforming industries.",
+                "type": "article",
+                "likes": "170",
+                "comments": "19",
+                "shares": "13",
+                "date": "May 2025"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High engagement driven by relevant industry insights",
+            "Clear messaging on leadership and strategic roles",
+            "Effective use of multimedia elements",
+            "Strong call-to-action and thought leadership"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Matthew M. G.",
+                "description": "Experienced Business Development Executive | Strategic Partnerships, Go-To-Market Strategy, Sales and Marketing."
+            },
+            {
+                "name": "Jose Antonio Jiménez-Casquet Bolívar",
+                "description": "Customer Success Consultant and Performance Leader @ Frontline Performance Group"
+            },
+            {
+                "name": "Phillip Denny",
+                "description": "Director, Big Ideas Contest; Blum Center for Developing Economies"
+            },
+            {
+                "name": "Niraj Shah",
+                "description": "Co-Founder & CTO TwinsAI - Using Voice AI to Accelerate Sales"
+            },
+            {
+                "name": "Ashley Phelps",
+                "description": "Head of Beta Programs at Cvent"
+            }
+        ],
+        "audienceInsight": "The audience is diverse, with strong representation from technology, consulting, and marketing sectors.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 18.36
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 8.07
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 7.6
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 6.43
+            },
+            {
+                "industry": "Manufacturing & Operations",
+                "percentage": 6.08
+            },
+            {
+                "industry": "Others",
+                "percentage": 53.45
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 36.53
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 60.95
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 66.38
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 57.31
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 51.45
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 0.0
+            }
+        ],
+        "postingFrequency": "2-3",
+        "timingKeyFinding": "Posts on Wednesday tend to receive significantly higher engagement.",
+        "topPerformingPostsExamples": [
+            {
+                "type": "text",
+                "link": "https://www.linkedin.com/posts/lawrencecoburn_i-was-trying-to-explain-to-someone-why-at-activity-7186106956586102785-b3UG?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "562",
+                "comments": "45",
+                "shares": "9",
+                "snippet": "I was trying to explain to someone why at a company of any scale, the Chief of Staff is almost by definition the only trusted voice in the ear of the CEO."
+            },
+            {
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/lawrencecoburn_ive-spent-the-last-few-months-going-deep-activity-7110017127469748225-dJzD?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "284",
+                "comments": "33",
+                "shares": "10",
+                "snippet": "I've spent the last few months going deep on the Chief of Staff role to help improve service delivery at Ambient."
+            },
+            {
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/lawrencecoburn_im-happy-to-share-that-im-starting-a-new-activity-7110130524911767552-RnH7?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "247",
+                "comments": "34",
+                "shares": "0",
+                "snippet": "I’m happy to share that I’m starting a new position as CEO / Co-Founder at Ambient!"
+            }
+        ],
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "The influencer analysis indicates that while the client has a strong presence, several industry influencers demonstrate higher multimedia engagement and posting frequency.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "Tuesday to Wednesday",
+            "visualContentPercentage": 50.0,
+            "averagePostFrequency": "2-3 posts/week",
+            "personalStoryMultiplier": 1.05,
+            "contrarianViewMultiplier": 0.95,
+            "totalPostsLastYear": 120
+        },
+        "influencersList": [
+            {
+                "name": "Influencer One",
+                "profileUrl": "https://www.linkedin.com/in/influencerone",
+                "pictureUrl": "https://example.com/influencerone.jpg",
+                "title": "Industry Leader",
+                "followersCount": "10K",
+                "postWithin1Year": "100",
+                "descriptionFocus": "Leadership and Innovation",
+                "relevance": "High"
+            },
+            {
+                "name": "Influencer Two",
+                "profileUrl": "https://www.linkedin.com/in/influencertwo",
+                "pictureUrl": "https://example.com/influencertwo.jpg",
+                "title": "Tech Strategist",
+                "followersCount": "8K",
+                "postWithin1Year": "80",
+                "descriptionFocus": "Technology Trends",
+                "relevance": "Medium"
+            },
+            {
+                "name": "Influencer Three",
+                "profileUrl": "https://www.linkedin.com/in/influencethree",
+                "pictureUrl": "https://example.com/influencethree.jpg",
+                "title": "Business Visionary",
+                "followersCount": "12K",
+                "postWithin1Year": "110",
+                "descriptionFocus": "Strategy and AI",
+                "relevance": "High"
+            },
+            {
+                "name": "Influencer Four",
+                "profileUrl": "https://www.linkedin.com/in/influencerfour",
+                "pictureUrl": "https://example.com/influencerfour.jpg",
+                "title": "Market Innovator",
+                "followersCount": "9K",
+                "postWithin1Year": "90",
+                "descriptionFocus": "Innovation and Market Trends",
+                "relevance": "Medium"
+            }
+        ],
+        "influencers": []
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 16.8, 'averageHashtagsPerPost': 2.0}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 17.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 83.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#r",
+                "averageEngagementRate": 321.0
+            },
+            {
+                "hashtag": "#generativeai",
+                "averageEngagementRate": 170.0
+            },
+            {
+                "hashtag": "#startups",
+                "averageEngagementRate": 117.0
+            },
+            {
+                "hashtag": "#fundingnews",
+                "averageEngagementRate": 117.0
+            },
+            {
+                "hashtag": "#innovation",
+                "averageEngagementRate": 117.0
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags, though fewer, drive significantly higher engagement compared to those without."
+    },
+    "influencerComparison": [
+        {
+            "name": "Influencer One",
+            "linkedinUrl": "https://www.linkedin.com/in/influencerone",
+            "followers": 10000,
+            "postsPerYear": 100,
+            "topContentTypes": "Text, Image",
+            "topThemes": "Innovation, Leadership",
+            "postingFrequency": "3 posts/week",
+            "metric": "Comparison 1",
+            "clientValue": "N/A",
+            "influencerAverage": "N/A",
+            "insight": "Comparison between client and influencer"
+        },
+        {
+            "name": "Influencer Two",
+            "linkedinUrl": "https://www.linkedin.com/in/influencertwo",
+            "followers": 8000,
+            "postsPerYear": 80,
+            "topContentTypes": "Articles, Videos",
+            "topThemes": "Tech Trends",
+            "postingFrequency": "2 posts/week",
+            "metric": "Comparison 2",
+            "clientValue": "N/A",
+            "influencerAverage": "N/A",
+            "insight": "Comparison between client and influencer"
+        },
+        {
+            "name": "Influencer Three",
+            "linkedinUrl": "https://www.linkedin.com/in/influencethree",
+            "followers": 12000,
+            "postsPerYear": 110,
+            "topContentTypes": "Text, Articles",
+            "topThemes": "Strategy, AI",
+            "postingFrequency": "3 posts/week",
+            "metric": "Comparison 3",
+            "clientValue": "N/A",
+            "influencerAverage": "N/A",
+            "insight": "Comparison between client and influencer"
+        }
+    ],
+    "summaryOfComparison": "Client's engagement is strong overall but lags slightly behind top influencers in terms of post frequency and multimedia content utilization. Focusing on more visual and interactive posts could help bridge this gap.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower posting frequency",
+            "yourValue": "2-3 posts/week",
+            "influencerAverage": "3 posts/week",
+            "recommendedAction": "Increase posting frequency to maintain presence."
+        },
+        {
+            "gap": "Limited video content",
+            "yourValue": "2.65% of posts",
+            "influencerAverage": "10% of posts",
+            "recommendedAction": "Incorporate more video content to boost engagement."
+        },
+        {
+            "gap": "Moderate hashtag usage",
+            "yourValue": "16.8% usage",
+            "influencerAverage": "Higher strategic hashtag use",
+            "recommendedAction": "Implement targeted hashtag strategies."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content with a balanced mix of text, articles, and images to cater to varied audience preferences.",
+        "visualElements": "Enhance posts with high-quality visuals and infographics to complement textual insights.",
+        "postingSchedule": "Increase posting frequency during peak engagement days, particularly Tuesday and Wednesday.",
+        "hashtagStrategy": "Adopt a more strategic use of hashtags to amplify reach, focusing on high-performing tags identified.",
+        "audienceTargeting": "Tailor content to key segments in technology, consulting, and marketing sectors.",
+        "engagementTactics": "Encourage audience interaction through questions, polls, and timely responses."
+    },
+    "detailedInfluencerAnalysis": [
+        {
+            "profile": {
+                "name": "Influencer One",
+                "title": "Industry Leader",
+                "profileUrl": "https://www.linkedin.com/in/influencerone",
+                "pictureUrl": "https://example.com/influencerone.jpg",
+                "postUrl": "https://www.linkedin.com/posts/influencerone",
+                "location": "Global",
+                "followers": "10K"
+            },
+            "post": {
+                "postURL": "https://www.linkedin.com/posts/influencerone",
+                "text": "Leading thoughts on innovation and leadership.",
+                "likes": 500,
+                "comments": 50,
+                "reposts": 20
+            },
+            "contentStrategy": {
+                "Text": 40,
+                "Images": 30,
+                "Videos": 20,
+                "Articles": 10
+            }
+        },
+        {
+            "profile": {
+                "name": "Influencer Two",
+                "title": "Tech Strategist",
+                "profileUrl": "https://www.linkedin.com/in/influencertwo",
+                "pictureUrl": "https://example.com/influencertwo.jpg",
+                "postUrl": "https://www.linkedin.com/posts/influencertwo",
+                "location": "USA",
+                "followers": "8K"
+            },
+            "post": {
+                "postURL": "https://www.linkedin.com/posts/influencertwo",
+                "text": "Insights into the latest technology trends.",
+                "likes": 400,
+                "comments": 40,
+                "reposts": 15
+            },
+            "contentStrategy": {
+                "Text": 35,
+                "Images": 25,
+                "Videos": 25,
+                "Articles": 15
+            }
+        },
+        {
+            "profile": {
+                "name": "Influencer Three",
+                "title": "Business Visionary",
+                "profileUrl": "https://www.linkedin.com/in/influencethree",
+                "pictureUrl": "https://example.com/influencethree.jpg",
+                "postUrl": "https://www.linkedin.com/posts/influencethree",
+                "location": "Europe",
+                "followers": "12K"
+            },
+            "post": {
+                "postURL": "https://www.linkedin.com/posts/influencethree",
+                "text": "Thought-provoking posts on strategy and AI.",
+                "likes": 600,
+                "comments": 60,
+                "reposts": 30
+            },
+            "contentStrategy": {
+                "Text": 45,
+                "Images": 30,
+                "Videos": 15,
+                "Articles": 10
+            }
+        },
+        {
+            "profile": {
+                "name": "Influencer Four",
+                "title": "Market Innovator",
+                "profileUrl": "https://www.linkedin.com/in/influencerfour",
+                "pictureUrl": "https://example.com/influencerfour.jpg",
+                "postUrl": "https://www.linkedin.com/posts/influencerfour",
+                "location": "Asia",
+                "followers": "9K"
+            },
+            "post": {
+                "postURL": "https://www.linkedin.com/posts/influencerfour",
+                "text": "Innovative market trends and insights.",
+                "likes": 450,
+                "comments": 45,
+                "reposts": 25
+            },
+            "contentStrategy": {
+                "Text": 40,
+                "Images": 35,
+                "Videos": 15,
+                "Articles": 10
+            }
+        }
+    ]
+}
