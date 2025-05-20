@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 // import schema from "../utils/schema.json";
 // import bill_douglas from "../utils/bill_douglas_2.0.json";
-import reportSchema from "../utils/Stan.json";
+import reportSchema from "../utils/Caelan.json";
 
 // const initialState = {
 //   audienceAnalysis: schema?.audienceAnalysis || {},
