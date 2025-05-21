@@ -78,12 +78,12 @@ const LinkedInAuditReport = () => {
 
   const downloadPDF = async (containerRef: React.RefObject<HTMLDivElement>) => {
     patchUnsupportedColors();
+
     try {
       setIsDownloading(true);
       if (!containerRef.current) return;
 
       const element = containerRef.current;
-      element.classList.add("pdf-capture");
 
       await new Promise((res) => setTimeout(res, 300));
 
@@ -104,6 +104,7 @@ const LinkedInAuditReport = () => {
         format: [canvasWidth, canvasHeight],
       });
 
+      // ✅ Keep image original size, don't stretch
       pdf.addImage(
         canvas.toDataURL("image/png"),
         "PNG",
@@ -126,7 +127,7 @@ const LinkedInAuditReport = () => {
 
   return (
     <div className="">
-      {/* <button
+      <button
         onClick={() => downloadPDF(containerRef)}
         className="fixed bottom-4 right-4 z-50 group bg-primary text-white p-4 py-3 rounded-full transition-all duration-300 flex items-center gap-2 overflow-hidden hover:p-5 shadow-lg cursor-pointer"
       >
@@ -135,7 +136,7 @@ const LinkedInAuditReport = () => {
         ) : (
           <IoCloudDownloadOutline className="w-5 h-5 shrink-0 transition-transform duration-300" />
         )}
-      </button> */}
+      </button>
 
       <div ref={containerRef}>
         {sections.map((Component, index) => (
