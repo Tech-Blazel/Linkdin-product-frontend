@@ -128,3 +128,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.pdf-capture * {
+  color: black !important;
+  background: white !important;
+}

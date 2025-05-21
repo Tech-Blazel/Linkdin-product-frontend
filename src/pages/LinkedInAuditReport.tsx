@@ -11,11 +11,11 @@ import InfluencerAnalysis from "@/components/linkedIn-report/InfluencerAnalysis"
 import PostingRecommendations from "@/components/linkedIn-report/PostingRecommendations";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
-import { useRef } from "react";
-// import jsPDF from "jspdf";
-// import html2canvas from "html2canvas";
-// import { IoCloudDownloadOutline } from "react-icons/io5";
-// import { Loader2 } from "lucide-react";
+import { useRef, useState } from "react";
+import jsPDF from "jspdf";
+import html2canvas from "html2canvas";
+import { IoCloudDownloadOutline } from "react-icons/io5";
+import { Loader2 } from "lucide-react";
 // import SamplePosts from "@/components/linkedIn-report/SamplePosts";
 // import DeanSamplePosts from "@/components/linkedIn-report/DeanSamplePosts";
 import CaelanSamplePosts from "@/components/linkedIn-report/CaelanSamplePosts";
@@ -25,7 +25,7 @@ const LinkedInAuditReport = () => {
     (state: RootState) => state.auditReportSchema.topIndustryInfluencersAnalysis
   );
 
-  // const [isDownloading, setIsDownloading] = useState(false);
+  const [isDownloading, setIsDownloading] = useState(false);
 
   const sections = [
     <CoverPage />,
@@ -48,73 +48,81 @@ const LinkedInAuditReport = () => {
 
   const containerRef = useRef<any>(null);
 
-  // const patchUnsupportedColors = () => {
-  //   document.querySelectorAll("*").forEach((el) => {
-  //     const styles = window.getComputedStyle(el);
+  const patchUnsupportedColors = () => {
+    const patchElement = (el: Element) => {
+      const styles = window.getComputedStyle(el);
 
-  //     if (styles.color.includes("oklab")) {
-  //       (el as HTMLElement).style.color = "#000";
-  //     }
-  //     if (styles.backgroundColor.includes("oklab")) {
-  //       (el as HTMLElement).style.backgroundColor = "#f3f4f6";
-  //     }
-  //     if (styles.color.includes("oklch")) {
-  //       (el as HTMLElement).style.color = "#000";
-  //     }
-  //     if (styles.backgroundColor.includes("oklch")) {
-  //       (el as HTMLElement).style.backgroundColor = "#f3f4f6";
-  //     }
-  //   });
-  // };
+      const patchStyle = (property: any, fallback: string) => {
+        const value: any = styles[property];
+        if (value && /(oklab|oklch)/.test(value)) {
+          (el as HTMLElement).style[property] = fallback;
+        }
+      };
 
-  // const downloadPDF = async (containerRef: React.RefObject<HTMLDivElement>) => {
-  //   patchUnsupportedColors();
+      patchStyle("color", "#000");
+      patchStyle("backgroundColor", "#f3f4f6");
+      patchStyle("borderColor", "#d1d5db");
+    };
 
-  //   try {
-  //     setIsDownloading(true);
-  //     if (!containerRef.current) return;
+    const walkDOM = (node: Element) => {
+      patchElement(node);
+      node.childNodes.forEach((child) => {
+        if (child instanceof Element) {
+          walkDOM(child);
+        }
+      });
+    };
 
-  //     const element = containerRef.current;
+    walkDOM(document.body);
+  };
 
-  //     await new Promise((res) => setTimeout(res, 300));
+  const downloadPDF = async (containerRef: React.RefObject<HTMLDivElement>) => {
+    patchUnsupportedColors();
+    try {
+      setIsDownloading(true);
+      if (!containerRef.current) return;
 
-  //     const canvas = await html2canvas(element, {
-  //       scale: 0.85,
-  //       useCORS: true,
-  //       scrollY: -window.scrollY,
-  //       height: element.scrollHeight,
-  //       windowHeight: element.scrollHeight,
-  //     });
+      const element = containerRef.current;
+      element.classList.add("pdf-capture");
 
-  //     const canvasWidth = canvas.width;
-  //     const canvasHeight = canvas.height;
+      await new Promise((res) => setTimeout(res, 300));
 
-  //     const pdf = new jsPDF({
-  //       orientation: "portrait",
-  //       unit: "px",
-  //       format: [canvasWidth, canvasHeight],
-  //     });
+      const canvas = await html2canvas(element, {
+        scale: 0.85,
+        useCORS: true,
+        scrollY: -window.scrollY,
+        height: element.scrollHeight,
+        windowHeight: element.scrollHeight,
+      });
 
-  //     // ✅ Keep image original size, don't stretch
-  //     pdf.addImage(
-  //       canvas.toDataURL("image/png"),
-  //       "PNG",
-  //       0,
-  //       0,
-  //       canvasWidth,
-  //       canvasHeight
-  //     );
+      const canvasWidth = canvas.width;
+      const canvasHeight = canvas.height;
 
-  //     console.log("Original canvas height:", canvasHeight);
-  //     console.log("PDF height used:", canvasHeight);
+      const pdf = new jsPDF({
+        orientation: "portrait",
+        unit: "px",
+        format: [canvasWidth, canvasHeight],
+      });
 
-  //     pdf.save("report.pdf");
-  //   } catch (error) {
-  //     console.error("Error downloading PDF:", error);
-  //   } finally {
-  //     setIsDownloading(false);
-  //   }
-  // };
+      pdf.addImage(
+        canvas.toDataURL("image/png"),
+        "PNG",
+        0,
+        0,
+        canvasWidth,
+        canvasHeight
+      );
+
+      console.log("Original canvas height:", canvasHeight);
+      console.log("PDF height used:", canvasHeight);
+
+      pdf.save("report.pdf");
+    } catch (error) {
+      console.error("Error downloading PDF:", error);
+    } finally {
+      setIsDownloading(false);
+    }
+  };
 
   return (
     <div className="">
