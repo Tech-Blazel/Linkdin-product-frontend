@@ -1,0 +1,464 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Bill Douglas",
+            "title": "OpticWise: Building CRE Value with Data & Digital Infrastructure Ownership",
+            "profileUrl": "https://www.linkedin.com/in/billdouglas",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQG2OhauJ4I58w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1685031779706?e=1751500800&v=beta&t=SCGOdL1ffEtdPwP73l6hzNsdDX9b2aEES9SPAKovEOA"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 3,
+        "averageCommentsForPost": {
+            "value": 0,
+            "comparison": "No benchmark provided"
+        },
+        "topContentLikes": {
+            "value": 21,
+            "contentType": "image"
+        },
+        "hashtagImpactEngagement": 106,
+        "keyHighlights": [
+            "Top performing post is an image with 21 likes showcasing high visual engagement.",
+            "Image posts dominate the content mix at 51.52% and drive significant engagement.",
+            "Tuesday posts receive the highest engagement multiplier of 1.33.",
+            "Influencer analysis reveals strong strategies in digital transformation and data leadership."
+        ],
+        "summaryText": "This report provides a detailed analysis of Bill Douglas's LinkedIn performance over the report period. It covers content type distribution, audience engagement, posting patterns, and a comparison against key industry influencers. The insights are data-driven, aiming to improve digital content strategy and audience interaction. Strategic recommendations are provided to enhance overall engagement and content efficacy."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 41.67
+            },
+            {
+                "type": "article",
+                "percentage": 6.06
+            },
+            {
+                "type": "image",
+                "percentage": 51.52
+            },
+            {
+                "type": "",
+                "percentage": 0.76
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Image",
+                "percentage": 51.52,
+                "averageLikes": 3
+            },
+            {
+                "theme": "Text",
+                "percentage": 41.67,
+                "averageLikes": 3
+            },
+            {
+                "theme": "Article",
+                "percentage": 6.06,
+                "averageLikes": 3
+            },
+            {
+                "theme": "Other",
+                "percentage": 0.76,
+                "averageLikes": 3
+            }
+        ],
+        "visualImpactInsight": "Image posts (avg engagement: 3) tend to perform as well as text posts, indicating the potential for improvement through enhanced visuals.",
+        "postTypeDistributionInsight": "Image posts are most common at 51.52% of posts, followed by text posts at 41.67%, suggesting the audience prefers visual content.",
+        "topPerformingPosts": [
+            {
+                "content": "Honored to be a guest on \nThe Cash Flow Chronicles\nwith Jonny Cattani\nhttps://lnkd.in/g6QDzQQa",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/billdouglas_honored-to-be-a-guest-on-the-cash-flow-chronicles-activity-7094752646175092737-_pp0?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAB9S1voB87EEHrL9JuW4Jp3Zihp5rglLHw8",
+                "likes": "21",
+                "comments": "0",
+                "shares": "1"
+            },
+            {
+                "content": "OpticWise, Inc. awarded Most Trusted Data Privacy Platform Provider 2023\n\nhttps://lnkd.in/gzFFW-eP",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/billdouglas_opticwise-inc-awarded-most-trusted-data-activity-7087083246743662592-e7TZ?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAB9S1voB87EEHrL9JuW4Jp3Zihp5rglLHw8",
+                "likes": "20",
+                "comments": "16",
+                "shares": "0"
+            },
+            {
+                "content": "I\u2019m happy to share that I\u2019ve completed: Artificial Intelligence at MIT Professional Education!",
+                "type": "",
+                "link": "https://www.linkedin.com/posts/billdouglas_im-happy-to-share-that-ive-completed-artificial-activity-7202053767544938496-kqv5?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAB9S1voB87EEHrL9JuW4Jp3Zihp5rglLHw8",
+                "likes": "16",
+                "comments": "10",
+                "shares": "0"
+            },
+            {
+                "content": "",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/billdouglas_opticwise-top-smart-building-solutions-activity-7070123497380855808-d6cG?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAB9S1voB87EEHrL9JuW4Jp3Zihp5rglLHw8",
+                "likes": "16",
+                "comments": "4",
+                "shares": "1"
+            },
+            {
+                "content": "I appreciate all the support!\n\nI AM DONATING ANY/ALL PRIZE MONEY TO CHILDREN\u2019S CHARITIES.\n\nPlease continue to vote for me:\nhttps://lnkd.in/gthqRs-G",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/billdouglas_i-appreciate-all-the-support-i-am-donating-activity-7206313237967953922-uSqH?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAB9S1voB87EEHrL9JuW4Jp3Zihp5rglLHw8",
+                "likes": "15",
+                "comments": "2",
+                "shares": "0"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High visual appeal with image-based content",
+            "Inclusion of external links to drive traffic",
+            "Clear messaging and concise content",
+            "Use of engaging headlines and calls-to-action"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Brad Dupee",
+                "description": "Head of National Channel Sales @ Granite | Partner Development, Technology Sales"
+            },
+            {
+                "name": "Joseph Koehler, CFP\u00ae",
+                "description": "Sr. Manager, Business Development Apex Group Ltd. Private Fund Solutions | Private Equity | Hedge Funds | Mutual Funds | Real Estate and Family Offices"
+            },
+            {
+                "name": "Jill Powers",
+                "description": "VP, Strategic Sales | Smart Buildings | IoT"
+            },
+            {
+                "name": "Karen Freitag",
+                "description": "Global Senior Executive | Award Winning Transformational Leader | Expert in Growing Revenue & Strategic Partnerships for Industry Giants"
+            }
+        ],
+        "audienceInsight": "The audience is diverse with strong representation in Technology, Marketing, and Sales sectors, indicating varied professional interests.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 12.82
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 12.82
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 9.62
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 7.69
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 7.05
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 0.94
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 1.33
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 0.72
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 1.05
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 0.68
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 0.0
+            }
+        ],
+        "postingFrequency": "2-3",
+        "timingKeyFinding": "Posts on Tuesday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Analysis of 4 industry influencers with an average of 56,475 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "09:00 - 11:00",
+            "visualContentPercentage": 31.46,
+            "averagePostFrequency": "Weekly",
+            "personalStoryMultiplier": 1.0,
+            "contrarianViewMultiplier": 0.31,
+            "totalPostsLastYear": 1081
+        },
+        "influencers": [
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                "profileUrl": "https://linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                "followersCount": "115.7K",
+                "postWithin1Year": 306,
+                "descriptionFocus": "CEO & Co-Founder leading breakthroughs in distributed systems, big data and AI. His posts and insights blend technical excellence with strategic vision.",
+                "relevance": [
+                    "Data leadership focus",
+                    "AI innovation insights",
+                    "Strategic tech vision",
+                    "Enterprise relevance"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "location": "San Francisco, California, United States",
+                        "followers": "115.7K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "In just two weeks, we revolutionized Dolly. Introducing the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for commercial use. \n\nWith Dolly 2.0, any organization can create, own, and customize a powerful LLM without sharing their proprietary data with 3rd parties or paying for API access. The model uses a new dataset, \u201cdatabricks-dolly-15k,\u201d which is made up of more than 15,000 records generated by thousands of Databricks employees. It\u2019s the first open source, human-generated instruction dataset specifically designed to make LLMs exhibit the magical interactivity of ChatGPT (instruction following). \n\nWe\u2019re open-sourcing the entirety of Dolly 2.0, including the training code, dataset, and model weights, all suitable for commercial use.\n\nhttps://bit.ly/43oXmsy \n\n#llm #dolly #lakehouse #databricks",
+                        "likes": 6484,
+                        "comments": 207,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 32.35,
+                        "Images": 8.5,
+                        "Videos": 1.96,
+                        "Articles": 57.19
+                    }
+                }
+            },
+            {
+                "name": "Bill Schmarzo",
+                "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                "profileUrl": "https://linkedin.com/in/schmarzo",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                "followersCount": "44.4K",
+                "postWithin1Year": 356,
+                "descriptionFocus": "Thought leader in digital transformation and data monetization with a business-first approach. Shares actionable strategies that resonate with enterprise technology and revenue optimization.",
+                "relevance": [
+                    "Digital transformation focus",
+                    "Data monetization strategy",
+                    "Business innovation thought",
+                    "Enterprise technology insights"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Bill Schmarzo",
+                        "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                        "location": "Des Moines, Iowa, United States",
+                        "followers": "44.4K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "So, let me ask a stupid question (my specialty): If our existing large language models (LLMs) have already soaked up most of the world's information, why are we trying to update them with synthetic information, which will likely dilute the accuracy and relevance of the actual information already in the LLM?\n\nInstead, shouldn't we teach organizations and individuals how to use RAG and  Contextual Continuity techniques to massage these LLMs to yield more relevant and accurate responses?\n\nIf LLMs have reached the law of diminishing returns (and maybe they should just be turned into a public utility for the benefit of all), then let's invest in the people skills and tools to get more value from these marvelous LLM creations.\n\nProf. Ahmed Banafa Chris Surdak Mark Stouse John Thompson Dan Everett Jon Cooke Malcolm Hawker Dell Technologies Navin Mukraj Cindi Howson Jeff Frick Kyle Winterbottom Ren\u00e9e B. Lahti Kevin Petrie Eddie Short\n\n#AI #LLM #GenAI #RAG #ContextualContinuity #DataScience #ValueEngineering",
+                        "likes": 251,
+                        "comments": 164,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 43.26,
+                        "Images": 7.87,
+                        "Videos": 7.3,
+                        "Articles": 41.57
+                    }
+                }
+            },
+            {
+                "name": "Barr Moses",
+                "title": "Co-Founder & CEO at Monte Carlo",
+                "profileUrl": "https://linkedin.com/in/barrmoses",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                "followersCount": "57.8K",
+                "postWithin1Year": 387,
+                "descriptionFocus": "CEO and co-founder of a leading data + AI observability platform that ensures data reliability for enterprise operations. Regularly shares insights on building robust, reliable digital infrastructures.",
+                "relevance": [
+                    "Data observability focus",
+                    "Reliability in AI",
+                    "Robust infrastructure",
+                    "Enterprise digital trust"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Barr Moses",
+                        "title": "Co-Founder & CEO at Monte Carlo",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                        "location": "San Francisco, California, United States",
+                        "followers": "57.8K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Who owns data quality? \n\nIt\u2019s a question as old as Oracle Version 3, and the answer varies depending on who you ask.\n\n- Some organizations like to spread the responsibility around to multiple team members, each responsible for a few pipelines. \n\n- Others prefer to concentrate the responsibility on a select few specialists who have a holistic view of the entire platform. \n\n- And then there are those who view data quality as a technical issue, while others see it as a business or process problem.\n\nBut at the end of the day, the only thing that matters is that it gets done. \n\nShane Murray and I have spoken to thousands of data leaders over the years to understand the most common ownership models for data quality, and how data teams can apply them at scale.\n\nFrom data engineering to data governance teams, our latest explores the pros and cons of each approach: https://lnkd.in/eiUPWypC\n\n(Meme inspired by Chad Sanderson)\n\n#dataquality #dataengineering #datareliability",
+                        "likes": 2580,
+                        "comments": 83,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 8.01,
+                        "Images": 69.77,
+                        "Videos": 5.43,
+                        "Articles": 16.8
+                    }
+                }
+            },
+            {
+                "name": "Willem Pienaar",
+                "title": "AI & Infra",
+                "profileUrl": "https://linkedin.com/in/willempienaar",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQFUTOUVrdnzUw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1678510114871?e=1752710400&v=beta&t=J-DepEUVW4lcKiQ0-XmvUsVz7kJ8m43gaJoiKYZlGsQ",
+                "followersCount": "8.0K",
+                "postWithin1Year": 32,
+                "descriptionFocus": "Creator of Feast, Willem focuses on building AI tools and nurturing open source communities. His work on AI infrastructure aligns with digital transformation and innovative connectivity\u2014a key theme for transformative CRE strategies.",
+                "relevance": [
+                    "AI infrastructure build",
+                    "Digital innovation drive",
+                    "Open source influence",
+                    "Tech transformation focus"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Willem Pienaar",
+                        "title": "AI & Infra",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQFUTOUVrdnzUw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1678510114871?e=1752710400&v=beta&t=J-DepEUVW4lcKiQ0-XmvUsVz7kJ8m43gaJoiKYZlGsQ",
+                        "location": "San Francisco, California, United States",
+                        "followers": "8.0K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "It\u2019s finally time to share what we\u2019ve been up to.\n\nWe\u2019re building Cleric, an autonomous AI SRE, to free software engineers up from on-call support.\n\nEngineering teams of the future will be combination of AI agents and humans. The sprawl and complexity of production environments is no place for the best engineers to sink their time.\n\nCleric is an AI teammate that can quickly and reliably diagnose issues in production environments, from critical downtimes to the long tail of issues in your backlog. It understands your processes, knows how to use your tools and APIs, reasons through novel situations it wasn\u2019t trained on, learns from each incident, and never sleeps.\n\nInvestigations that previously took days, now take minutes.\n\nWe\u2019ve raised a seed of $4.3m led by Zetta Venture Partners and a set of AI, infrastructure, and security angels and advisors. \n\nIf you\u2019d like to try Cleric out, or help us build it, reach out!\n\nJames Alcorn Jocelyn Goldfein Mark Gorenberg Zak K. Kesavan Nair (Kay) Saro Subbiah Michael Del Balso Kevin Stumpf Olivier Bonnet Sanjeev Sisodiya Ashish Thusoo Pete Soderling Demetrios Brinkmann (is at Kubecon) Ian Swanson Bhawna Singh Ian Livingstone Tahir Hashmi Timo Kuschma Shomik Ghosh Chip Huyen (at GTC/GDC) Eugene Yan",
+                        "likes": 879,
+                        "comments": 74,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 40.62,
+                        "Images": 25.0,
+                        "Videos": 0,
+                        "Articles": 34.38
+                    }
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 41.1, 'averageHashtagsPerPost': 5.5}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 41.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 59.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#itservices",
+                "averageEngagementRate": 16.0
+            },
+            {
+                "hashtag": "#itconsulting",
+                "averageEngagementRate": 16.0
+            },
+            {
+                "hashtag": "#network",
+                "averageEngagementRate": 16.0
+            },
+            {
+                "hashtag": "#userexperience",
+                "averageEngagementRate": 16.0
+            },
+            {
+                "hashtag": "#security",
+                "averageEngagementRate": 16.0
+            }
+        ],
+        "hashtagKeyFinding": "Hashtag usage contributes significantly to engagement, as posts with hashtags show measurable interaction improvements."
+    },
+    "influencerComparison": [
+        {
+            "name": "Ali Ghodsi",
+            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
+            "followers": 115700,
+            "postsPerYear": 116,
+            "topContentTypes": "Images",
+            "topThemes": "Data leadership focus & AI innovation insights",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Bill Schmarzo",
+            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
+            "followers": 44400,
+            "postsPerYear": 0,
+            "topContentTypes": "Images",
+            "topThemes": "Digital transformation focus & Data monetization strategy",
+            "postingFrequency": "< 1 post/week"
+        },
+        {
+            "name": "Barr Moses",
+            "linkedinUrl": "https://www.linkedin.com/in/barrmoses",
+            "followers": 57800,
+            "postsPerYear": 141,
+            "topContentTypes": "Images",
+            "topThemes": "Data observability focus & Reliability in AI",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Willem Pienaar",
+            "linkedinUrl": "https://www.linkedin.com/in/willempienaar",
+            "followers": 8000,
+            "postsPerYear": 0,
+            "topContentTypes": "Images",
+            "topThemes": "AI infrastructure build & Digital innovation drive",
+            "postingFrequency": "< 1 post/week"
+        }
+    ],
+    "summaryOfComparison": "The client exhibits lower engagement and posting frequency compared to top influencers such as Ali Ghodsi and Barr Moses. Emphasizing visual content and a more consistent posting schedule could help bridge the gap and elevate overall engagement.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower Engagement Rate",
+            "yourValue": "3",
+            "influencerAverage": "10",
+            "recommendedAction": "Increase interactive content and leverage high-engagement formats."
+        },
+        {
+            "gap": "Low Posting Frequency",
+            "yourValue": "2-3 posts/week",
+            "influencerAverage": "High",
+            "recommendedAction": "Adopt a more consistent posting schedule to boost visibility."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content by integrating more visual posts and articles to highlight industry insights.",
+        "visualElements": "Increase the use of high-quality images and infographics to capture audience attention.",
+        "postingSchedule": "Adopt a consistent posting schedule, especially on Tuesdays when engagement is highest.",
+        "audienceTargeting": "Focus on key industry sectors such as Technology and Marketing to enhance engagement.",
+        "engagementTactics": "Incorporate interactive elements like polls and Q&A sessions to foster audience interaction."
+    }
+}

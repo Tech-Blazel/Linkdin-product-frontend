@@ -33,7 +33,7 @@ const AudienceAnalysis: FC = () => {
                 Notable Audience Members
               </h3>
               <ul className="text-lg text-text-primary space-y-2">
-                {notableAudienceMembers?.map((person, index) => (
+                {notableAudienceMembers?.map((person: any, index: number) => (
                   <li key={index} className="flex items-start gap-2">
                     <p className="">
                       <FaStar className="text-primary mr-2 mb-1 inline-block " />

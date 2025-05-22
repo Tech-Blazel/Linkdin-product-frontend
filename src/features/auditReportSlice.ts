@@ -1,39 +1,56 @@
-import { createSlice } from "@reduxjs/toolkit";
-// import schema from "../utils/schema.json";
-// import bill_douglas from "../utils/bill_douglas_2.0.json";
-import reportSchema from "../utils/Caelan.json";
+// src/features/schemaSlice.ts
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-// const initialState = {
-//   audienceAnalysis: schema?.audienceAnalysis || {},
-//   contentAnalysis: schema?.contentAnalysis || {},
-//   executiveSummary: schema?.executiveSummary || {},
-//   postingPatternsAnalysis: schema?.postingPatternsAnalysis || {},
-//   topIndustryInfluencers: schema?.topIndustryInfluencers || {},
-//   hashtagPerformanceAnalysis: schema?.hashtagPerformanceAnalysis || {},
-//   recommendations: schema?.recommendations || {},
-//   profile: schema?.profile || {},
-//   reportSubtitle: schema?.reportSubtitle || '',
-//   reportTitle: schema?.reportTitle || '',
-// }
-
-const initialState = {
-  reportMetadata: reportSchema?.reportMetadata || {},
-  executiveSummary: reportSchema?.executiveSummary || {},
-  contentAnalysis: reportSchema?.contentAnalysis || {},
-  audienceAnalysis: reportSchema?.audienceAnalysis || {},
-  postingPatternsAnalysis: reportSchema?.postingPatternsAnalysis || {},
-  topIndustryInfluencersAnalysis: reportSchema?.topIndustryInfluencersAnalysis || {},
-  hashtagPerformanceAnalysis: reportSchema?.hashtagPerformanceAnalysis || {},
-  influencerComparison: reportSchema?.influencerComparison || [],
-  gapAnalysis: reportSchema?.gapAnalysis || [],
-  recommendations: reportSchema?.recommendations || {},
-  summaryOfComparisons: reportSchema?.summaryOfComparison || '',
+interface ReportState {
+  reportMetadata: any;
+  executiveSummary: any;
+  contentAnalysis: any;
+  audienceAnalysis: any;
+  postingPatternsAnalysis: any;
+  topIndustryInfluencersAnalysis: any;
+  hashtagPerformanceAnalysis: any;
+  influencerComparison: any;
+  gapAnalysis: any;
+  recommendations: any;
+  summaryOfComparisons: any;
 }
 
+const initialState: ReportState = {
+  reportMetadata: {},
+  executiveSummary: {},
+  contentAnalysis: {},
+  audienceAnalysis: {},
+  postingPatternsAnalysis: {},
+  topIndustryInfluencersAnalysis: {},
+  hashtagPerformanceAnalysis: {},
+  influencerComparison: [],
+  gapAnalysis: [],
+  recommendations: {},
+  summaryOfComparisons: "",
+};
+
 const schemaSlice = createSlice({
-  name: "schema",
-  initialState: initialState,
-  reducers: {},
+  name: "auditReportSchema",
+  initialState,
+  reducers: {
+    updateReportSchema: (state, action: PayloadAction<any>) => {
+      return {
+        ...state,
+        reportMetadata: action.payload?.reportMetadata || {},
+        executiveSummary: action.payload?.executiveSummary || {},
+        contentAnalysis: action.payload?.contentAnalysis || {},
+        audienceAnalysis: action.payload?.audienceAnalysis || {},
+        postingPatternsAnalysis: action.payload?.postingPatternsAnalysis || {},
+        topIndustryInfluencersAnalysis: action.payload?.topIndustryInfluencersAnalysis || {},
+        hashtagPerformanceAnalysis: action.payload?.hashtagPerformanceAnalysis || {},
+        influencerComparison: action.payload?.influencerComparison || [],
+        gapAnalysis: action.payload?.gapAnalysis || [],
+        recommendations: action.payload?.recommendations || {},
+        summaryOfComparisons: action.payload?.summaryOfComparison || '',
+      };
+    },
+  },
 });
 
+export const { updateReportSchema } = schemaSlice.actions;
 export default schemaSlice.reducer;

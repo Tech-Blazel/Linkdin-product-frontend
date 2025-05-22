@@ -1,0 +1,438 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Stan Markuze",
+            "title": "CEO, Balance Cash",
+            "profileUrl": "https://www.linkedin.com/in/stanmarkuze",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHHYdnksjrgnQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1658515315248?e=1753315200&v=beta&t=ticqP83Vj7twLOLbG0_eXXKlqTo4YbAaP42IzAy1p-8"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 10,
+        "averageCommentsForPost": {
+            "value": 0,
+            "comparison": "below industry average"
+        },
+        "topContentLikes": {
+            "value": 42,
+            "contentType": "article"
+        },
+        "hashtagImpactEngagement": 13,
+        "keyHighlights": [
+            "Highest engagement in articles with 42 likes on top post.",
+            "Content is predominantly text-based with 70.45% text posts.",
+            "Audience primarily from Technology/IT and Finance sectors.",
+            "Optimal posting time is Monday with an average engagement rate of 15.5."
+        ],
+        "summaryText": "This report provides a comprehensive analysis of Stan Markuze's LinkedIn engagement, covering post performance, audience demographics, and content distribution. It highlights key strengths and areas of improvement. The analysis is based on data from 44 posts and includes detailed insights into audience behavior and influencer benchmarks. Data-driven recommendations are provided to help enhance overall engagement."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 70.45
+            },
+            {
+                "type": "article",
+                "percentage": 29.55
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Corporate Treasury",
+                "percentage": 25.0,
+                "averageLikes": 25
+            },
+            {
+                "theme": "Real Estate Investment",
+                "percentage": 25.0,
+                "averageLikes": 42
+            }
+        ],
+        "visualImpactInsight": "Text posts have an average engagement of 8, suggesting that integrating visual elements could enhance post performance.",
+        "postTypeDistributionInsight": "With 70% of posts being text, there is an opportunity to diversify content by including more articles or visual media.",
+        "topPerformingPosts": [
+            {
+                "content": "Happy Monday! If you are interested in real estate investment, check out this article and please let me know your thoughts!",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/stanmarkuze_maximizing-cash-flow-in-real-estate-key-activity-7259244126674575360-kcXW?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "42",
+                "comments": "1",
+                "shares": "2"
+            },
+            {
+                "content": "Check out the new corporate treasury article published today by Balance! Let me know what you think.",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/stanmarkuze_how-corporate-treasury-management-reduces-activity-7256772738747387904-tf71?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "25",
+                "comments": "0",
+                "shares": "2"
+            },
+            {
+                "content": "Cash forecasting has been a major topic of discussion among treasury professionals, and I wanted to share an article that provides a deep dive into the topic.",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/stanmarkuze_effective-cash-flow-forecast-models-an-expert-activity-7257393801386708993-zgNM?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "21",
+                "comments": "3",
+                "shares": "5"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "All top posts are articles with detailed and professional insights.",
+            "They include clear calls to action and relevant investment themes.",
+            "Consistency in tone and content focus is evident across the posts.",
+            "Posts emphasize real estate and treasury management topics."
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Hande Turkcapar",
+                "description": "Head of Data Science @ Uniswap Labs with 22 reactions"
+            },
+            {
+                "name": "Chalique Seabron 🚀",
+                "description": "Founder @ Sheppardd.io with 13 reactions"
+            },
+            {
+                "name": "Elif Kinli",
+                "description": "Co-Founder & CTO @ Double Nickel with 11 reactions"
+            },
+            {
+                "name": "Tim Schultz",
+                "description": "Co-Founder of Real Treasury with 9 reactions"
+            },
+            {
+                "name": "Laura Sucheski Markuze",
+                "description": "Director at Figma with 8 reactions"
+            }
+        ],
+        "audienceInsight": "The audience is diverse and primarily comprises professionals from Technology/IT and Finance sectors, reflecting strong engagement from decision-makers in these fields.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 29.33
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 13.33
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 8.0
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 2.67
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 2.67
+            },
+            {
+                "industry": "Others",
+                "percentage": 44.0
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 15.5
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 11.1
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 9.14
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 12.22
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 9.0
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 12.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 7.5
+            }
+        ],
+        "postingFrequency": "Stan Markuze posts approximately 0-1 times per week.",
+        "timingKeyFinding": "Posts on Monday tend to receive significantly higher engagement compared to other days.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "The influencer analysis reveals distinct content strategies and engagement patterns among top industry influencers, offering valuable insights for optimizing content mix and posting schedules.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "9 AM - 11 AM PST",
+            "visualContentPercentage": 20.0,
+            "averagePostFrequency": "Varies between 1.3 to 2.2 posts/week",
+            "personalStoryMultiplier": 1.25,
+            "contrarianViewMultiplier": null,
+            "totalPostsLastYear": 366
+        },
+        "influencers": [
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks",
+                "profileUrl": "https://www.linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                "followersCount": "115K",
+                "postWithin1Year": 116,
+                "descriptionFocus": "Distributed systems & big data thought leadership",
+                "relevance": [
+                    "Tech leadership",
+                    "Software innovation",
+                    "Big Data expertise",
+                    "Databricks credibility"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks",
+                        "pictureUrl": "https://media.licdn.com/dms/image/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "location": "San Francisco, California, United States",
+                        "followers": "115K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/alighodsi_databricks-tabular-activity-7203790407229468672-f73r?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                        "text": "Were excited to announce that we have agreed to acquire data management company Tabular. With this acquisition, we are bringing together the original creators of Apache Iceberg and Linux Foundation Delta Lake, the two leading open source lakehouse formats, with the shared goal of bringing format compatibility to the lakehouse so that organizations are no longer limited by which format their data is in.",
+                        "likes": 6359,
+                        "comments": 183,
+                        "reposts": 912
+                    },
+                    "contentStrategy": {
+                        "Text": 31,
+                        "Images": 9,
+                        "Videos": 0,
+                        "Articles": 59
+                    }
+                }
+            },
+            {
+                "name": "Bill Schmarzo",
+                "title": "Dean of Big Data, Strategic Analytics Leader",
+                "profileUrl": "https://www.linkedin.com/in/schmarzo",
+                "pictureUrl": "https://media.licdn.com/dms/image/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/0/1590804656828",
+                "followersCount": "44K",
+                "postWithin1Year": 100,
+                "descriptionFocus": "Leader in Big Data monetization and analytics",
+                "relevance": [
+                    "Big Data monetization",
+                    "Analytics leadership",
+                    "Strategic insights",
+                    "Innovative educator"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Bill Schmarzo",
+                        "title": "Dean of Big Data, Strategic Analytics Leader",
+                        "pictureUrl": "https://media.licdn.com/dms/image/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/0/1590804656828",
+                        "location": "Des Moines, Iowa, United States",
+                        "followers": "44K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/schmarzo_example",
+                        "text": "Discussing the future of Big Data monetization and showcasing strategic insights from industry trends.",
+                        "likes": 500,
+                        "comments": 20,
+                        "reposts": 5
+                    },
+                    "contentStrategy": {
+                        "Text": 50,
+                        "Images": 30,
+                        "Videos": 10,
+                        "Articles": 10
+                    }
+                }
+            },
+            {
+                "name": "Maxime Beauchemin",
+                "title": "CEO & Founder at Preset",
+                "profileUrl": "https://www.linkedin.com/in/maximebeauchemin",
+                "pictureUrl": "https://media.licdn.com/dms/image/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/0/1537305614324",
+                "followersCount": "15K",
+                "postWithin1Year": 80,
+                "descriptionFocus": "Open source pioneer in data engineering",
+                "relevance": [
+                    "Open source pioneer",
+                    "Data engineering",
+                    "Software innovator",
+                    "Tech founder"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Maxime Beauchemin",
+                        "title": "CEO & Founder at Preset",
+                        "pictureUrl": "https://media.licdn.com/dms/image/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/0/1537305614324",
+                        "location": "Belmont, California, United States",
+                        "followers": "15K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/maximebeauchemin_example",
+                        "text": "Announcing the latest release of Apache Superset and discussing innovations in open source data tooling.",
+                        "likes": 250,
+                        "comments": 6,
+                        "reposts": 13
+                    },
+                    "contentStrategy": {
+                        "Text": 40,
+                        "Images": 40,
+                        "Videos": 0,
+                        "Articles": 20
+                    }
+                }
+            },
+            {
+                "name": "Ketan U.",
+                "title": "Co-Founder and CEO at Union.ai | Flyte.org",
+                "profileUrl": "https://www.linkedin.com/in/ketanumare",
+                "pictureUrl": "https://media.licdn.com/dms/image/C5603AQFS08L1YEQrPA/profile-displayphoto-shrink_100_100/0/1615140909072",
+                "followersCount": "10K",
+                "postWithin1Year": 70,
+                "descriptionFocus": "Expert in distributed systems and cloud technology",
+                "relevance": [
+                    "Distributed systems",
+                    "Cloud tech",
+                    "Innovative startup",
+                    "Data-driven insights"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ketan U.",
+                        "title": "Co-Founder and CEO at Union.ai | Flyte.org",
+                        "pictureUrl": "https://media.licdn.com/dms/image/C5603AQFS08L1YEQrPA/profile-displayphoto-shrink_100_100/0/1615140909072",
+                        "location": "United States",
+                        "followers": "10K"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/ketanumare_join-a-community-not-just-a-team-activity-7326109114755915776-jGx3",
+                        "text": "If you want to work on some really hard problems in distributed systems, at a super fast pace in the AI world come join union. DM me, if you are a rust expert, gpu ninja, pythonista, or kubernetes guru - come over, lets go",
+                        "likes": 32,
+                        "comments": 0,
+                        "reposts": 1
+                    },
+                    "contentStrategy": {
+                        "Text": 71,
+                        "Images": 8,
+                        "Videos": 0,
+                        "Articles": 20
+                    }
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 6, 'averageHashtagsPerPost': 4.7}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 6.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 94.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#treasuryconference",
+                "averageEngagementRate": 11.0
+            },
+            {
+                "hashtag": "#financeconference",
+                "averageEngagementRate": 11.0
+            },
+            {
+                "hashtag": "#networking",
+                "averageEngagementRate": 11.0
+            },
+            {
+                "hashtag": "#professionaldevelopment",
+                "averageEngagementRate": 11.0
+            },
+            {
+                "hashtag": "#CashManagement",
+                "averageEngagementRate": 7.0
+            }
+        ],
+        "hashtagKeyFinding": "Low hashtag usage indicates an opportunity to increase engagement by incorporating more targeted hashtags."
+    },
+    "influencerComparison": [
+        {
+            "name": "Ali Ghodsi",
+            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
+            "followers": 115000,
+            "postsPerYear": 116,
+            "topContentTypes": "Articles",
+            "topThemes": "Tech leadership & Software innovation",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Bill Schmarzo",
+            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
+            "followers": 44000,
+            "postsPerYear": 100,
+            "topContentTypes": "Text",
+            "topThemes": "Big Data monetization & Analytics leadership",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Maxime Beauchemin",
+            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
+            "followers": 15000,
+            "postsPerYear": 80,
+            "topContentTypes": "Text",
+            "topThemes": "Open source pioneer & Data engineering",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Ketan U.",
+            "linkedinUrl": "https://www.linkedin.com/in/ketanumare",
+            "followers": 10000,
+            "postsPerYear": 70,
+            "topContentTypes": "Text",
+            "topThemes": "Distributed systems & Cloud tech",
+            "postingFrequency": "1 post/week"
+        }
+    ],
+    "summaryOfComparison": "Stan Markuze's engagement metrics and posting frequency are lower compared to industry influencers. Increasing content diversity and frequency, can help bridge the gap and drive engagement.",
+    "gapAnalysis": [
+        {
+            "gap": "Engagement Rate below industry average",
+            "yourValue": "11.34",
+            "influencerAverage": "15.5",
+            "recommendedAction": "Enhance visual content and interactive media to boost engagement."
+        },
+        {
+            "gap": "Posting frequency",
+            "yourValue": "0-1 posts/week",
+            "influencerAverage": "1.5-2.2 posts/week",
+            "recommendedAction": "Increase posting frequency with quality content to maintain audience engagement."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content by incorporating more articles and interactive posts to engage a broader audience.",
+        "visualElements": "Integrate high-quality visuals and infographics to complement text-based posts.",
+        "postingSchedule": "Adopt a regular posting schedule, aiming for at least 2 posts per week during peak engagement times.",
+        "audienceTargeting": "Focus on engaging professionals from Technology and Finance sectors for higher relevance.",
+        "engagementTactics": "Encourage audience interaction through questions, polls, and clear calls-to-action."
+    }
+}

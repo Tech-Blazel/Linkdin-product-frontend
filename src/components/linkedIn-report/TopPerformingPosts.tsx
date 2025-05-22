@@ -80,7 +80,7 @@ const TopPerformingPosts: FC = () => {
             Common Characteristics of Top Performing Posts:
           </h4>
           <ul className="space-y-1 list-none text-text-primary text-lg">
-            {commonCharacteristicsTopPosts?.map((c, i) => (
+            {commonCharacteristicsTopPosts?.map((c: any, i: number) => (
               <li key={i} className="flex items-center gap-3 ">
                 <FaStar className="text-primary inline-block" /> {c}
               </li>

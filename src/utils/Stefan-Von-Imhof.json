@@ -1,0 +1,446 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Stefan Von Imhof",
+            "title": "CEO @ Alts.co",
+            "profileUrl": "",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQEQbNMaZCppZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1687751303809?e=1753315200&v=beta&t=0HGzla-mMaKaywyQEt5JDm4-cQiEBcbbnVegVGGv16w"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 16,
+        "averageCommentsForPost": {
+            "value": 2,
+            "comparison": "N/A"
+        },
+        "topContentLikes": {
+            "value": 70,
+            "contentType": "article"
+        },
+        "hashtagImpactEngagement": 41,
+        "keyHighlights": [
+            "Article posts dominate with 80% share, indicating a strong preference for in-depth content.",
+            "The top post achieved 70 likes, setting a benchmark for success.",
+            "Optimal posting days (Monday and Friday) correlate with higher interaction rates."
+        ],
+        "summaryText": "This report provides a comprehensive analysis of Stefan Von Imhof's LinkedIn engagement over the analyzed period. It highlights content performance metrics, and audience demographics. The report also identifies key content themes and optimal posting patterns. Overall, it offers actionable insights to enhance future LinkedIn strategies."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "article",
+                "percentage": 80.0
+            },
+            {
+                "type": "text",
+                "percentage": 18.82
+            },
+            {
+                "type": "image",
+                "percentage": 1.18
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Article",
+                "percentage": 25.0,
+                "averageLikes": 16
+            },
+            {
+                "theme": "Text",
+                "percentage": 25.0,
+                "averageLikes": 14
+            },
+            {
+                "theme": "Image",
+                "percentage": 25.0,
+                "averageLikes": 24
+            }
+        ],
+        "visualImpactInsight": "Image posts perform significantly better with an average engagement of 24 compared to text posts at 14.",
+        "postTypeDistributionInsight": "Articles dominate the content mix at 80%, indicating a focus on detailed, long-form content.",
+        "topPerformingPosts": [
+            {
+                "content": "Most Americans have never watched rugby. But that could change soon. The US is set to host the 2031 Rugby World Cup...",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/stefanvonimhof_most-americans-have-never-watched-rugby-activity-7122007180366548992-CwnW?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "70",
+                "comments": "10",
+                "shares": "3"
+            },
+            {
+                "content": "Mexico may not be top of mind when it comes to investing, but with 127 million residents, the opportunities are bigger than you think...",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/stefanvonimhof_mexico-may-not-be-top-of-mind-when-it-comes-activity-7170206938968809472-GD7L?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "68",
+                "comments": "19",
+                "shares": "5"
+            },
+            {
+                "content": "At Alts, we pride ourselves on highlighting exotic markets you never knew existed. It's about Heritage License Plates...",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/stefanvonimhof_alternativeinvesting-heritageplates-alternativeassets-activity-7066238736916774912-x0Zk?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "67",
+                "comments": "8",
+                "shares": "3"
+            },
+            {
+                "content": "I recently picked up my 300th vinyl record. So I thought it'd be fun to show you the most interesting stuff I've learned since I began collecting.",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/stefanvonimhof_vinyl-vinylcollector-records-activity-7061474163630211072-4ebm?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "48",
+                "comments": "1",
+                "shares": "6"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "Top posts are predominantly articles with in-depth analysis and timely industry insights.",
+            "They include detailed narratives and event highlights."
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Kate Barnett OAM",
+                "description": "Social Gerontologist, Founder and Director of Standout Ageing (SAGE) and Stand Out Report"
+            },
+            {
+                "name": "\ufffd Dan Remy",
+                "description": "Partnerships + Member Engagement Manager | Australian Higher Education Industrial Association (AHEIA)"
+            },
+            {
+                "name": "Christoph von Imhof, MBA",
+                "description": "Innovative Product, Marketing & Go-To-Market Leader | Marketing Strategy | Product Management | Team Builder | Public Speaker | AI & Tech Enthusiast"
+            },
+            {
+                "name": "Christopher Allen",
+                "description": "Fora Travel Advisor | Wellness Travel Coach focused on helping healthcare heroes"
+            }
+        ],
+        "audienceInsight": "The audience is diverse with strong representation in Technology, Marketing, and Consulting sectors, reflecting varied professional interests.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 14.07
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 11.31
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 8.04
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 5.28
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 4.52
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 24.41
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 18.19
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 9.71
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 12.8
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 24.0
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 17.31
+            }
+        ],
+        "postingFrequency": "1-2 posts per week",
+        "timingKeyFinding": "Posts on Monday and Friday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Analysis of 4 industry influencers with an average of 58,200 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "09:00 - 11:00",
+            "visualContentPercentage": 26.76,
+            "averagePostFrequency": "Weekly",
+            "personalStoryMultiplier": 1.0,
+            "contrarianViewMultiplier": 0.29,
+            "totalPostsLastYear": 1242
+        },
+        "influencers": [
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                "profileUrl": "https://linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                "followersCount": "115.7K",
+                "postWithin1Year": 306,
+                "descriptionFocus": "CEO & Co-founder at Databricks with a strong focus on big data and distributed systems. Adjunct professor offering innovative insights on data analytics.",
+                "relevance": [
+                    "Tech leadership",
+                    "Data analytics",
+                    "Innovation insights"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "location": "San Francisco, California, United States",
+                        "followers": "115.7K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "In just two weeks, we revolutionized Dolly. Introducing the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for commercial use. \n\nWith Dolly 2.0, any organization can create, own, and customize a powerful LLM without sharing their proprietary data with 3rd parties or paying for API access. The model uses a new dataset, \u201cdatabricks-dolly-15k,\u201d which is made up of more than 15,000 records generated by thousands of Databricks employees. It\u2019s the first open source, human-generated instruction dataset specifically designed to make LLMs exhibit the magical interactivity of ChatGPT (instruction following). \n\nWe\u2019re open-sourcing the entirety of Dolly 2.0, including the training code, dataset, and model weights, all suitable for commercial use.\n\nhttps://bit.ly/43oXmsy \n\n#llm #dolly #lakehouse #databricks",
+                        "likes": 6484,
+                        "comments": 207,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 32.35,
+                        "Images": 8.5,
+                        "Videos": 1.96,
+                        "Articles": 57.19
+                    }
+                }
+            },
+            {
+                "name": "Bill Schmarzo",
+                "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                "profileUrl": "https://linkedin.com/in/schmarzo",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                "followersCount": "44.4K",
+                "postWithin1Year": 356,
+                "descriptionFocus": "Dean of Big Data driving data monetization and digital transformation. An innovator and educator focused on leveraging analytics for business value.",
+                "relevance": [
+                    "Data monetization",
+                    "Analytics strategy",
+                    "Financial value"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Bill Schmarzo",
+                        "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                        "location": "Des Moines, Iowa, United States",
+                        "followers": "44.4K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "So, let me ask a stupid question (my specialty): If our existing large language models (LLMs) have already soaked up most of the world's information, why are we trying to update them with synthetic information, which will likely dilute the accuracy and relevance of the actual information already in the LLM?\n\nInstead, shouldn't we teach organizations and individuals how to use RAG and  Contextual Continuity techniques to massage these LLMs to yield more relevant and accurate responses?\n\nIf LLMs have reached the law of diminishing returns (and maybe they should just be turned into a public utility for the benefit of all), then let's invest in the people skills and tools to get more value from these marvelous LLM creations.\n\nProf. Ahmed Banafa Chris Surdak Mark Stouse John Thompson Dan Everett Jon Cooke Malcolm Hawker Dell Technologies Navin Mukraj Cindi Howson Jeff Frick Kyle Winterbottom Ren\u00e9e B. Lahti Kevin Petrie Eddie Short\n\n#AI #LLM #GenAI #RAG #ContextualContinuity #DataScience #ValueEngineering",
+                        "likes": 251,
+                        "comments": 164,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 43.26,
+                        "Images": 7.87,
+                        "Videos": 7.3,
+                        "Articles": 41.57
+                    }
+                }
+            },
+            {
+                "name": "Maxime Beauchemin",
+                "title": "CEO & Founder at Preset ",
+                "profileUrl": "https://linkedin.com/in/maximebeauchemin",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                "followersCount": "14.9K",
+                "postWithin1Year": 193,
+                "descriptionFocus": "Creator of Apache Airflow and Apache Superset, driving open source data engineering innovations. Founder at Preset delivering cutting-edge data solutions.",
+                "relevance": [
+                    "Open source",
+                    "Data engineering",
+                    "Innovative solutions"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Maxime Beauchemin",
+                        "title": "CEO & Founder at Preset ",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                        "location": "Belmont, California, United States",
+                        "followers": "14.9K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Today we're announcing #apachesuperset 1.0 and our graduation from the incubator at the Apache Software Foundation! \n\n1.0 is a huge milestone and marks the point where #opensource #businessintelligencebi  is truly ready for mass adoption!",
+                        "likes": 767,
+                        "comments": 51,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 53.89,
+                        "Images": 4.15,
+                        "Videos": 2.07,
+                        "Articles": 39.9
+                    }
+                }
+            },
+            {
+                "name": "Brad Hargreaves",
+                "title": "I analyze emerging real estate trends | 3x founder | $500m+ of exits | Thesis Driven Founder (12k+subs)",
+                "profileUrl": "https://www.linkedin.com/in/bradhargreaves",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEj8zR5gPJbEw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689213838160?e=1753315200&v=beta&t=J4S2FjMspVeo7mubxBHpOkqCP89X9cFbCIlV8ltYrX0",
+                "followersCount": "12K",
+                "postWithin1Year": 300,
+                "descriptionFocus": "Founder and trend analyst in real estate. Shares market insights with a focus on visuals and current events.",
+                "relevance": [
+                  "Real estate trends",
+                  "Urban innovation",
+                  "Data-driven visuals"
+                ],
+                "detailedInfluencerAnalysis": {
+                  "profile": {
+                    "name": "Brad Hargreaves",
+                    "title": "I analyze emerging real estate trends | 3x founder | $500m+ of exits | Thesis Driven Founder (12k+subs)",
+                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEj8zR5gPJbEw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689213838160?e=1753315200&v=beta&t=J4S2FjMspVeo7mubxBHpOkqCP89X9cFbCIlV8ltYrX0",
+                    "location": "United States",
+                    "followers": "12K"
+                  },
+                  "post": {
+                    "postURL": "https://www.linkedin.com/posts/bharg_americas-biggest-land-users-arent-cities-activity-7288223963090976768-mLUs",
+                    "text": "America's biggest land users aren't cities or suburbs. It isn't farms growing food. It's cows. The real breakdown of US land use is detailed in this post.",
+                    "likes": 2323,
+                    "comments": 454,
+                    "reposts": 134
+                  },
+                  "contentStrategy": {
+                    "Text": 8.14,
+                    "Images": 77.63,
+                    "Videos": 4.41,
+                    "Articles": 9.83
+                  }
+                }
+              }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 30.6, 'averageHashtagsPerPost': 9.4}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 31.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 69.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#Palisades",
+                "averageEngagementRate": 99.0
+            },
+            {
+                "hashtag": "#tga",
+                "averageEngagementRate": 87.0
+            },
+            {
+                "hashtag": "#depression",
+                "averageEngagementRate": 87.0
+            },
+            {
+                "hashtag": "#ptsd",
+                "averageEngagementRate": 87.0
+            },
+            {
+                "hashtag": "#trauma",
+                "averageEngagementRate": 87.0
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags generate substantial engagement, contributing to a higher overall average of 41 likes per hashtag post."
+    },
+    "influencerComparison": [
+        {
+            "name": "Ali Ghodsi",
+            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
+            "followers": 116000,
+            "postsPerYear": 116,
+            "topContentTypes": "Images",
+            "topThemes": "Tech leadership & Data analytics",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Bill Schmarzo",
+            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
+            "followers": 44000,
+            "postsPerYear": 80,
+            "topContentTypes": "Images",
+            "topThemes": "Data monetization & Analytics strategy",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Barr Moses",
+            "linkedinUrl": "https://www.linkedin.com/in/barrmoses",
+            "followers": 58000,
+            "postsPerYear": 141,
+            "topContentTypes": "Images",
+            "topThemes": "Data reliability & AI innovation",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Maxime Beauchemin",
+            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
+            "followers": 15000,
+            "postsPerYear": 60,
+            "topContentTypes": "Images",
+            "topThemes": "Open source & Data engineering",
+            "postingFrequency": "1 post/week"
+        }
+    ],
+    "summaryOfComparison": "The client\u2019s engagement is strong on article content, yet there is an opportunity to diversify content formats and increase posting frequency to better align with industry leaders.",
+    "gapAnalysis": [
+        {
+            "gap": "Limited use of visual content",
+            "yourValue": "1 image post (1.18%)",
+            "influencerAverage": "average visual content at ~24% engagement",
+            "recommendedAction": "Increase image-based content to drive higher engagement."
+        },
+        {
+            "gap": "Lower posting frequency",
+            "yourValue": "1-2 posts/week",
+            "influencerAverage": "3 posts/week",
+            "recommendedAction": "Aim to post more frequently to match industry benchmarks."
+        },
+        {
+            "gap": "Minimal content diversity",
+            "yourValue": "Predominantly articles (80%)",
+            "influencerAverage": "Diverse mix of articles, images, and videos",
+            "recommendedAction": "Incorporate varied content formats to appeal to a broader audience."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content topics by incorporating more visual stories and data-driven insights.",
+        "visualElements": "Increase use of high-quality images and infographics that support key messages.",
+        "postingSchedule": "Adopt a more consistent posting schedule, aiming for at least 3 posts per week.",
+        "audienceTargeting": "Focus on engaging professionals in technology and consulting sectors.",
+        "engagementTactics": "Leverage interactive content and call-to-action prompts to boost interactions."
+    }
+}

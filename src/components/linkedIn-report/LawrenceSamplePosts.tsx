@@ -7,26 +7,25 @@ import { IoIosSend } from "react-icons/io";
 import { BiLike } from "react-icons/bi";
 import { IoMdAdd } from "react-icons/io";
 import { HiDotsHorizontal } from "react-icons/hi";
-import postOne from "@/assets/images/Caelan-post-1.png";
-import postTwo from "@/assets/images/Caelan-post-2.png";
-import Caelan from "@/assets/images/Caelan.png";
+import LawrenceOne from "@/assets/images/Lawrence-post-1.png";
+import LawrenceTwo from "@/assets/images/Lawrence-post-2.png";
 
-const CaelanSamplePosts: FC = () => {
+const LawrenceSamplePosts: FC = () => {
   return (
-    <ReportCard title="Sample Posts for Caelan Urquhart" icon={FaChartLine}>
+    <ReportCard title="Sample Posts for Lawrence Coburn" icon={FaChartLine}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
         <div className="space-y-4">
           <div className="border rounded-xl shadow-sm p-4 text-sm space-y-2">
             <div className="flex gap-3">
               <img
-                src={Caelan}
-                alt="Caelan"
+                src="https://media.licdn.com/dms/image/v2/D5603AQH7FERo4vXiww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696271215080?e=1753315200&v=beta&t=3ONvfiXAw3Twi1wA9nNmBe6XIa_g1jTDEkZ_LnQSYoI"
+                alt="Lawrence Coburn"
                 className="w-10 h-10 rounded-full object-cover"
               />
               <div className="w-full">
                 <div className="flex wrap items-center justify-between">
                   <p className="font-semibold text-gray-800">
-                    Caelan Urquhart
+                    Lawrence Coburn
                     {/* <span className="text-xs text-gray-400">• 2nd</span> */}
                   </p>
                   <div className="text-sm text-linkedIn-primary flex items-center gap-1 cursor-pointer">
@@ -50,42 +49,62 @@ const CaelanSamplePosts: FC = () => {
             <div className="text-gray-800 space-y-2 text-sm pt-2">
               <>
                 <p>
-                  Hey friends — quick note on something we’ve been cleaning up
-                  internally.
+                  AI won’t save you if you can’t remember what you promised
+                  yesterday.
                 </p>
 
                 <p>
-                  We looked back at some of our “optimizations” across the
-                  pipeline. Turns out, a bunch of them weren’t actually making
-                  things faster — just quieter.
+                  One of the biggest misconceptions I see is the idea that
+                  recording the meeting is enough.
                 </p>
 
-                <p>Stuff like:</p>
-                <p>– batch processing that smoothed over slow I/O</p>
-                <p>– layered caching on top of old decisions</p>
-                <p>
-                  – precomputes that felt smart, but weren’t traceable anymore
-                </p>
+                <p>It’s not.</p>
 
                 <p>
-                  Everything looked fast on the surface. But the stack was doing
-                  a lot behind the scenes just to stay balanced.
+                  Recording gives you recall. But most teams don’t have a recall
+                  problem. They have a capture and follow-through problem.
                 </p>
 
                 <p>
-                  We’ve been pulling those layers back. Not to make things
-                  slower — but to make performance visible again.
+                  The decision was made. But no one pulled it out. No one logged
+                  who owned what. No one set the due date. So it disappeared.
                 </p>
 
                 <p>
-                  The systems are simpler now. And when something breaks, we can
-                  see why — immediately.
+                  Now multiply that across every recurring staff meeting, every
+                  functional sync, every “quick call” with 5 action items baked
+                  in.
                 </p>
 
                 <p>
-                  Lesson: If your infra feels “fast but fragile,” there’s
-                  probably hidden latency somewhere doing more harm than help.
+                  This is where execution breaks — not because the call didn’t
+                  go well, but because the call didn’t turn into anything
+                  concrete.
                 </p>
+
+                <p>
+                  I don’t think most teams need better AI summaries. I think
+                  they need better memory infrastructure. Something that holds
+                  the thread after the call ends.
+                </p>
+
+                <p>
+                  Without it, meetings become performance. Everyone nods,
+                  agrees, moves on — and two weeks later someone says, “didn’t
+                  we decide to do that?”
+                </p>
+
+                <p>
+                  We built Ambient for this exact use case. Not for meeting
+                  recaps. For memory.
+                </p>
+
+                <p>
+                  Because context loss doesn’t feel like failure. It just feels
+                  like nothing moving.
+                </p>
+
+                <p>And you can’t fix that with a smarter transcript.</p>
               </>
             </div>
 
@@ -108,7 +127,7 @@ const CaelanSamplePosts: FC = () => {
         <div>
           <div className="space-y-4">
             <img
-              src={postOne}
+              src={LawrenceOne}
               alt="post"
               className="w-full h-full rounded-xl shadow-sm max-h-[500px] object-contain"
             />
@@ -121,13 +140,13 @@ const CaelanSamplePosts: FC = () => {
           <div className="border rounded-xl shadow-sm p-4 text-sm space-y-2">
             <div className="flex gap-3">
               <img
-                src={Caelan}
-                alt="Caelan"
+                src="https://media.licdn.com/dms/image/v2/D5603AQH7FERo4vXiww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696271215080?e=1753315200&v=beta&t=3ONvfiXAw3Twi1wA9nNmBe6XIa_g1jTDEkZ_LnQSYoI"
+                alt="Lawrence Coburn"
                 className="w-10 h-10 rounded-full object-cover"
               />
               <div className="w-full">
                 <div className="flex wrap items-center justify-between">
-                  <p className="font-semibold text-gray-800">Caelan Urquhart</p>
+                  <p className="font-semibold text-gray-800">Lawrence Coburn</p>
                   <div className="text-sm text-linkedIn-primary flex items-center gap-1 cursor-pointer">
                     {" "}
                     <IoMdAdd className="inline-block" /> Follow
@@ -146,41 +165,49 @@ const CaelanSamplePosts: FC = () => {
             <div className="text-gray-800 space-y-2 text-sm pt-2">
               <>
                 <p>
-                  I've been seeing something show up again and again in infra
-                  conversations lately.
-                </p>
-
-                <p>Everything works at 1x load. That’s the trap.</p>
-
-                <p>
-                  At low traffic, most systems look solid. Dashboards stay
-                  green. Alerts are quiet. Failovers technically exist. It all
-                  feels stable — until it’s not.
-                </p>
-
-                <p>3x load is where the truth shows up.</p>
-
-                <p>That’s when you start noticing:</p>
-                <p>– retries quietly masking slow I/O</p>
-                <p>– shared infra creating bottlenecks you didn’t plan for</p>
-                <p>– queue depth assumptions breaking under pressure</p>
-                <p>
-                  – failover logic that works… until someone actually needs it
+                  Every founder I know has ten tools for insight. Heatmaps,
+                  dashboards, OKRs, weekly updates. Everyone knows what’s
+                  happening.
                 </p>
 
                 <p>
-                  For example: A queue looked healthy in staging, but in prod, a
-                  spike exposed a processing delay that had been building for
-                  days. Not a new bug — just something that never mattered at
-                  low volume.
+                  But the second you ask, “Who’s owning this?” or “What’s the
+                  status on that thing from last week?” the answers get fuzzy.
+                  Or they don’t come at all.
                 </p>
 
                 <p>
-                  If tests only reflect ideal conditions, they aren’t telling
-                  you how things behave when they’re stressed.
+                  We’ve overbuilt for visibility and underbuilt for ownership.
+                  Everything looks clean on a dashboard, until you start asking
+                  real questions about follow-through.
                 </p>
 
-                <p>Resilience isn’t built at 1x. It’s revealed at 3x.</p>
+                <p>
+                  Insight without action is just noise. And most companies are
+                  buried in it.
+                </p>
+
+                <p>
+                  Exec meetings create alignment — temporarily. By Tuesday, most
+                  of it’s gone. Slack moves too fast. Docs go stale. Deadlines
+                  slip without anyone realizing it. It’s not about intent. It’s
+                  about the fact that there’s no system holding the thread.
+                </p>
+
+                <p>And that’s where most teams break — quietly.</p>
+
+                <p>
+                  You want to move fast? Don’t start by adding AI to your stack.
+                  Start by getting clear on what was agreed, who owns it, when
+                  it’s due, and what slipped through last week.
+                </p>
+
+                <p>
+                  That’s the actual operating layer. Everything else is
+                  decoration.
+                </p>
+
+                <p>Fix the memory layer.</p>
               </>
             </div>
 
@@ -203,7 +230,7 @@ const CaelanSamplePosts: FC = () => {
         <div>
           <div className="space-y-4">
             <img
-              src={postTwo}
+              src={LawrenceTwo}
               alt="post"
               className="w-full h-full rounded-xl shadow-sm max-h-[400px] object-contain"
             />
@@ -214,4 +241,4 @@ const CaelanSamplePosts: FC = () => {
   );
 };
 
-export default CaelanSamplePosts;
+export default LawrenceSamplePosts;

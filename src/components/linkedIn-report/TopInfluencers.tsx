@@ -32,8 +32,6 @@ const TopInfluencers: FC = () => {
     keyInfluencerInsights
   );
 
-  console.log("influencers", influencers);
-
   return (
     <ReportCard title="Top Industry Influencers" icon={FaChartLine}>
       <div className="">

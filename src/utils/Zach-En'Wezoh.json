@@ -1,0 +1,459 @@
+{
+    "reportMetadata": {
+        "title": "LinkedIn Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Zach En'Wezoh",
+            "title": "Co-Founder @ Indemni",
+            "profileUrl": "https://www.linkedin.com/in/zachenwezoh",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFcdb53JvuedQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719362736983?e=1753315200&v=beta&t=B9DvUjZLzb3L4qxYIzviNGE4kbxTJidHCsGATXN0sqA"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 80,
+        "averageCommentsForPost": {
+            "value": 12,
+            "comparison": "about industry average"
+        },
+        "topContentLikes": {
+            "value": 122,
+            "contentType": "text post"
+        },
+        "hashtagImpactEngagement": 194,
+        "keyHighlights": [
+            "Top post achieved 122 likes indicating strong announcement impact.",
+            "Posts on Tuesday receive significantly higher engagement with an average of 154.",
+            "Content types are evenly distributed at 25% each, ensuring diverse content representation.",
+            "Visual posts, though limited, show an average engagement of 61."
+        ],
+        "summaryText": "This report provides a detailed analysis of Zach En'Wezoh's LinkedIn performance over May 2025. It examines key engagement metrics, content types, and posting patterns. Strategic insights have been derived to help enhance future engagement and content strategy."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "linkedinVideo",
+                "percentage": 25.0
+            },
+            {
+                "type": "image",
+                "percentage": 25.0
+            },
+            {
+                "type": "article",
+                "percentage": 25.0
+            },
+            {
+                "type": "text",
+                "percentage": 25.0
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Announcement",
+                "percentage": 25.0,
+                "averageLikes": 122
+            },
+            {
+                "theme": "Product Launch",
+                "percentage": 25.0,
+                "averageLikes": 120
+            },
+            {
+                "theme": "Event Update",
+                "percentage": 25.0,
+                "averageLikes": 59
+            },
+            {
+                "theme": "Industry Insight",
+                "percentage": 25.0,
+                "averageLikes": 19
+            }
+        ],
+        "visualImpactInsight": "Only image posts found (avg engagement: 61). Cannot compare with text posts.",
+        "postTypeDistributionInsight": "All content types are evenly distributed with 25% each, indicating a balanced approach to content.",
+        "topPerformingPosts": [
+            {
+                "content": "Excited to announce new strategic partnerships at Valdera and join the team.",
+                "type": "text",
+                "link": "https://www.linkedin.com/posts/zacharyenwezoh_im-excited-to-announce-that-ive-recently-activity-7066839101995438080-JYVV?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "122",
+                "comments": "31",
+                "shares": "1"
+            },
+            {
+                "content": "Launch of Indemni driver identity and shipment verification solution with free trials available.",
+                "type": "linkedinVideo",
+                "link": "https://www.linkedin.com/posts/zacharyenwezoh_cargosecurity-cargotheft-riskmanagement-activity-7284639896697257985--g9F?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "120",
+                "comments": "13",
+                "shares": "6"
+            },
+            {
+                "content": "Announcement of Valdera team's participation at #DPWAmsterdam conference with event details.",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/zacharyenwezoh_dpwamsterdam-dpwamsterdam-maketechwork-activity-7109592261046280192-wRBr?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "59",
+                "comments": "2",
+                "shares": "0"
+            },
+            {
+                "content": "Sharing news about Valdera's recognition on the Vertical SaaS 50 list with demo links.",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/zacharyenwezoh_these-are-the-top-emerging-vertical-saas-activity-7067969630534848512-3vD7?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "19",
+                "comments": "0",
+                "shares": "1"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High engagement driven by clear announcements and updates.",
+            "Balanced mix of content types ensuring varied audience appeal.",
+            "Inclusion of visual elements enhances overall engagement."
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Dawn Adams",
+                "description": "Principal Project Manager"
+            },
+            {
+                "name": "Bik\u00e9 (BJ) EnWezoh, MHA",
+                "description": "Healthcare and Project Management Leader"
+            },
+            {
+                "name": "Seth Anderson",
+                "description": "Co-Founder of Nesh"
+            },
+            {
+                "name": "Ariel Cabiri",
+                "description": "CEO in Sales & Business Development"
+            }
+        ],
+        "audienceInsight": "The audience is diverse, with strong engagement from professionals across technology, business development, and consulting sectors.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 12.66
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 12.66
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 10.13
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 3.8
+            },
+            {
+                "industry": "Manufacturing & Operations",
+                "percentage": 3.8
+            },
+            {
+                "industry": "Others",
+                "percentage": 56.96
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 100.0
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 154.0
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 20.0
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 0.0
+            }
+        ],
+        "postingFrequency": "0-1",
+        "timingKeyFinding": "Posts on Tuesday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Analysis of 4 industry influencers with an average of 58,200 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "09:00 - 11:00",
+            "visualContentPercentage": 26.76,
+            "averagePostFrequency": "Weekly",
+            "personalStoryMultiplier": 1.0,
+            "contrarianViewMultiplier": 0.29,
+            "totalPostsLastYear": 1242
+        },
+        "influencers": [
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                "profileUrl": "https://linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                "followersCount": "115.7K",
+                "postWithin1Year": 306,
+                "descriptionFocus": "CEO & Co-Founder at Databricks with deep expertise in big data and distributed systems. Drives innovative, scalable solutions for enterprise data challenges.",
+                "relevance": [
+                    "enterprise tech leadership",
+                    "big data innovation",
+                    "scalable solutions",
+                    "strategic growth"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "location": "San Francisco, California, United States",
+                        "followers": "115.7K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "In just two weeks, we revolutionized Dolly. Introducing the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for commercial use. \n\nWith Dolly 2.0, any organization can create, own, and customize a powerful LLM without sharing their proprietary data with 3rd parties or paying for API access. The model uses a new dataset, \u201cdatabricks-dolly-15k,\u201d which is made up of more than 15,000 records generated by thousands of Databricks employees. It\u2019s the first open source, human-generated instruction dataset specifically designed to make LLMs exhibit the magical interactivity of ChatGPT (instruction following). \n\nWe\u2019re open-sourcing the entirety of Dolly 2.0, including the training code, dataset, and model weights, all suitable for commercial use.\n\nhttps://bit.ly/43oXmsy \n\n#llm #dolly #lakehouse #databricks",
+                        "likes": 6484,
+                        "comments": 207,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 32.35,
+                        "Images": 8.5,
+                        "Videos": 1.96,
+                        "Articles": 57.19
+                    }
+                }
+            },
+            {
+                "name": "Barr Moses",
+                "title": "Co-Founder & CEO at Monte Carlo",
+                "profileUrl": "https://linkedin.com/in/barrmoses",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                "followersCount": "57.8K",
+                "postWithin1Year": 387,
+                "descriptionFocus": "CEO and co-founder of Monte Carlo, specializing in data and AI reliability for enterprise operations. Focused on data observability and building trust in operational systems.",
+                "relevance": [
+                    "data reliability focus",
+                    "enterprise security",
+                    "AI trust metrics",
+                    "innovation leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Barr Moses",
+                        "title": "Co-Founder & CEO at Monte Carlo",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                        "location": "San Francisco, California, United States",
+                        "followers": "57.8K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Who owns data quality? \n\nIt\u2019s a question as old as Oracle Version 3, and the answer varies depending on who you ask.\n\n- Some organizations like to spread the responsibility around to multiple team members, each responsible for a few pipelines. \n\n- Others prefer to concentrate the responsibility on a select few specialists who have a holistic view of the entire platform. \n\n- And then there are those who view data quality as a technical issue, while others see it as a business or process problem.\n\nBut at the end of the day, the only thing that matters is that it gets done. \n\nShane Murray and I have spoken to thousands of data leaders over the years to understand the most common ownership models for data quality, and how data teams can apply them at scale.\n\nFrom data engineering to data governance teams, our latest explores the pros and cons of each approach: https://lnkd.in/eiUPWypC\n\n(Meme inspired by Chad Sanderson)\n\n#dataquality #dataengineering #datareliability",
+                        "likes": 2580,
+                        "comments": 83,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 8.01,
+                        "Images": 69.77,
+                        "Videos": 5.43,
+                        "Articles": 16.8
+                    }
+                }
+            },
+            {
+                "name": "Bill Schmarzo",
+                "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                "profileUrl": "https://linkedin.com/in/schmarzo",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                "followersCount": "44.4K",
+                "postWithin1Year": 356,
+                "descriptionFocus": "Innovative Big Data leader driving digital transformation and data monetization. An educator and strategist focused on leveraging analytics for business impact.",
+                "relevance": [
+                    "data strategy alignment",
+                    "digital transformation",
+                    "enterprise analytics",
+                    "innovation educator"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Bill Schmarzo",
+                        "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                        "location": "Des Moines, Iowa, United States",
+                        "followers": "44.4K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "So, let me ask a stupid question (my specialty): If our existing large language models (LLMs) have already soaked up most of the world's information, why are we trying to update them with synthetic information, which will likely dilute the accuracy and relevance of the actual information already in the LLM?\n\nInstead, shouldn't we teach organizations and individuals how to use RAG and  Contextual Continuity techniques to massage these LLMs to yield more relevant and accurate responses?\n\nIf LLMs have reached the law of diminishing returns (and maybe they should just be turned into a public utility for the benefit of all), then let's invest in the people skills and tools to get more value from these marvelous LLM creations.\n\nProf. Ahmed Banafa Chris Surdak Mark Stouse John Thompson Dan Everett Jon Cooke Malcolm Hawker Dell Technologies Navin Mukraj Cindi Howson Jeff Frick Kyle Winterbottom Ren\u00e9e B. Lahti Kevin Petrie Eddie Short\n\n#AI #LLM #GenAI #RAG #ContextualContinuity #DataScience #ValueEngineering",
+                        "likes": 251,
+                        "comments": 164,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 43.26,
+                        "Images": 7.87,
+                        "Videos": 7.3,
+                        "Articles": 41.57
+                    }
+                }
+            },
+            {
+                "name": "Maxime Beauchemin",
+                "title": "CEO & Founder at Preset",
+                "profileUrl": "https://linkedin.com/in/maximebeauchemin",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                "followersCount": "14.9K",
+                "postWithin1Year": 193,
+                "descriptionFocus": "CEO & Founder at Preset and creator of Apache Airflow and Apache Superset. An open source advocate focused on data engineering and infrastructure innovation.",
+                "relevance": [
+                    "open source innovation",
+                    "data engineering focus",
+                    "tech startup relevance",
+                    "infrastructure expertise"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Maxime Beauchemin",
+                        "title": "CEO & Founder at Preset",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                        "location": "Belmont, California, United States",
+                        "followers": "14.9K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Today we're announcing #apachesuperset 1.0 and our graduation from the incubator at the Apache Software Foundation! \n\n1.0 is a huge milestone and marks the point where #opensource #businessintelligencebi  is truly ready for mass adoption!",
+                        "likes": 767,
+                        "comments": 51,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 53.89,
+                        "Images": 4.15,
+                        "Videos": 2.07,
+                        "Articles": 39.9
+                    }
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 61.1, 'averageHashtagsPerPost': 4.3}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 61.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 39.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#cargosecurity",
+                "averageEngagementRate": 120.0
+            },
+            {
+                "hashtag": "#cargotheft",
+                "averageEngagementRate": 120.0
+            },
+            {
+                "hashtag": "#riskmanagement",
+                "averageEngagementRate": 120.0
+            },
+            {
+                "hashtag": "#socialimpact",
+                "averageEngagementRate": 110.0
+            },
+            {
+                "hashtag": "#socialentrepreneur",
+                "averageEngagementRate": 110.0
+            }
+        ],
+        "hashtagKeyFinding": "Hashtag usage drives significant engagement, as posts with hashtags exhibit notably higher engagement rates."
+    },
+    "influencerComparison": [
+        {
+            "name": "Ali Ghodsi",
+            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
+            "followers": 115700,
+            "postsPerYear": 116,
+            "topContentTypes": "Articles",
+            "topThemes": "enterprise tech leadership & big data innovation",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Barr Moses",
+            "linkedinUrl": "https://www.linkedin.com/in/barrmoses",
+            "followers": 57800,
+            "postsPerYear": 141,
+            "topContentTypes": "Images",
+            "topThemes": "data reliability focus & enterprise security",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Bill Schmarzo",
+            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
+            "followers": 44400,
+            "postsPerYear": 0,
+            "topContentTypes": "Text",
+            "topThemes": "data strategy alignment & digital transformation",
+            "postingFrequency": "< 1 post/week"
+        },
+        {
+            "name": "Maxime Beauchemin",
+            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
+            "followers": 14900,
+            "postsPerYear": 0,
+            "topContentTypes": "Text",
+            "topThemes": "open source innovation & data engineering focus",
+            "postingFrequency": "< 1 post/week"
+        }
+    ],
+    "summaryOfComparison": "The client exhibits lower posting frequency and engagement compared to top industry influencers, indicating room for enhanced visual and content strategies to drive growth.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower engagement rate",
+            "yourValue": "80 likes/post",
+            "influencerAverage": "115 likes/post",
+            "recommendedAction": "Increase visual content and storytelling to boost engagement."
+        },
+        {
+            "gap": "Posting frequency",
+            "yourValue": "0-1 posts/week",
+            "influencerAverage": "Multiple posts/week",
+            "recommendedAction": "Adopt a more consistent posting schedule."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content themes by incorporating industry insights and thought leadership.",
+        "visualElements": "Integrate more high-quality images and videos to boost engagement.",
+        "postingSchedule": "Increase posting frequency and time posts for optimal engagement on Tuesday.",
+        "audienceTargeting": "Tailor content to resonate with the most engaged industries, notably Technology and Business Development.",
+        "engagementTactics": "Encourage interactions through questions and clear call-to-actions in posts."
+    }
+}

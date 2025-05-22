@@ -1,0 +1,453 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Lawrence Coburn",
+            "title": "CEO / Co-Founder at Ambient, an AI Assistant for the Office of the CEO.",
+            "profileUrl": "https://www.linkedin.com/in/lawrencecoburn",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQH7FERo4vXiww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696271215080?e=1753315200&v=beta&t=3ONvfiXAw3Twi1wA9nNmBe6XIa_g1jTDEkZ_LnQSYoI"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 49,
+        "averageCommentsForPost": {
+            "value": 6,
+            "comparison": "about industry average"
+        },
+        "topContentLikes": {
+            "value": 562,
+            "contentType": "text"
+        },
+        "hashtagImpactEngagement": 67,
+        "keyHighlights": [
+            "Top performing post is a text post with 562 likes indicating strong engagement for narrative content.",
+            "Posts on Wednesday receive the highest engagement with an average engagement rate of 66.38.",
+            "Text posts dominate overall distribution at 56.64%, yet image posts show competitive engagement."
+        ],
+        "summaryText": "This report provides a comprehensive analysis of Lawrence Coburn's LinkedIn engagement by examining post performance, and audience demographics. It highlights key trends in content types, posting patterns, and audience behavior over the analyzed period. The insights presented aim to guide future strategic improvements in content and engagement."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 56.64
+            },
+            {
+                "type": "article",
+                "percentage": 30.09
+            },
+            {
+                "type": "image",
+                "percentage": 9.73
+            },
+            {
+                "type": "linkedinVideo",
+                "percentage": 2.65
+            },
+            {
+                "type": "",
+                "percentage": 0.88
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Text",
+                "percentage": 25.0,
+                "averageLikes": 49
+            },
+            {
+                "theme": "Article",
+                "percentage": 25.0,
+                "averageLikes": 227
+            },
+            {
+                "theme": "Image",
+                "percentage": 25.0,
+                "averageLikes": 247
+            }
+        ],
+        "visualImpactInsight": "Image posts (avg engagement: 57) perform similarly to text posts (avg engagement: 54), suggesting that while visuals add appeal, narrative content remains strong.",
+        "postTypeDistributionInsight": "Text posts constitute the majority with 56.64%, followed by articles at 30.09%, indicating that narrative-driven posts are resonating well.",
+        "topPerformingPosts": [
+            {
+                "content": "I was trying to explain to someone why at a company of any scale, the Chief of Staff is almost by definition, the ONLY truly trusted voice in the ear of the CEO. Why?  It's about access to resources....",
+                "type": "text",
+                "link": "https://www.linkedin.com/posts/lawrencecoburn_i-was-trying-to-explain-to-someone-why-at-activity-7186106956586102785-b3UG?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "562",
+                "comments": "45",
+                "shares": "9"
+            },
+            {
+                "content": "I've spent the last few months going deep on the Chief of Staff role, to understand how our team at Ambient can better serve them. Here are some of the things we learned.",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/lawrencecoburn_ive-spent-the-last-few-months-going-deep-activity-7110017127469748225-dJzD?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "284",
+                "comments": "33",
+                "shares": "10"
+            },
+            {
+                "content": "I\u2019m happy to share that I\u2019m starting a new position as CEO / Co-Founder at Ambient!",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/lawrencecoburn_im-happy-to-share-that-im-starting-a-new-activity-7110130524911767552-RnH7?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "247",
+                "comments": "34",
+                "shares": "0"
+            },
+            {
+                "content": "We dropped everything 16 weeks ago to work on this product. And it's been a crazy road to get it to market... Ambient is us dropping our little boat in the water - it's an AI Chief of Staff. Would love to hear what you think.",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/lawrencecoburn_ai-generativeai-activity-7079828299085987840-Ilc0?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "170",
+                "comments": "19",
+                "shares": "13"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "Strong narrative focus",
+            "Clear messaging with detailed insights",
+            "Engaging mix of text and visual elements"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Matthew M. G.",
+                "description": "Experienced Business Development Executive in Marketing & Advertising."
+            },
+            {
+                "name": "Jose Antonio Jim\u00e9nez-Casquet Bol\u00edvar",
+                "description": "Customer Success Consultant and Performance Leader in Consulting."
+            },
+            {
+                "name": "Phillip Denny",
+                "description": "Director at Blum Center for Developing Economies."
+            },
+            {
+                "name": "Niraj Shah",
+                "description": "Co-Founder & CTO at TwinsAI in Technology / IT."
+            },
+            {
+                "name": "Ashley Phelps",
+                "description": "Head of Beta Programs at Cvent with notable industry experience."
+            }
+        ],
+        "audienceInsight": "The audience is diverse with strong representation from technology, consulting, and marketing sectors, reflecting engagement from professionals across multiple fields.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 18.36
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 8.07
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 7.6
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 6.43
+            },
+            {
+                "industry": "Manufacturing & Operations",
+                "percentage": 6.08
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 36.53
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 60.95
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 66.38
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 57.31
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 51.45
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 0.0
+            }
+        ],
+        "postingFrequency": "2-3 posts per week",
+        "timingKeyFinding": "Posts on Wednesday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Analysis of 4 industry influencers with an average of 58,200 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "09:00 - 11:00",
+            "visualContentPercentage": 26.76,
+            "averagePostFrequency": "Weekly",
+            "personalStoryMultiplier": 1.0,
+            "contrarianViewMultiplier": 0.29,
+            "totalPostsLastYear": 1242
+        },
+        "influencers": [
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                "profileUrl": "https://linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                "followersCount": "115.7K",
+                "postWithin1Year": 306,
+                "descriptionFocus": "CEO & Co-Founder at Databricks with a strong focus on distributed systems, big data and AI. Adjunct Professor at UC Berkeley sharing insights on advanced technology and innovation.",
+                "relevance": [
+                    "AI industry expertise",
+                    "Enterprise tech insights",
+                    "Innovation leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "location": "San Francisco, California, United States",
+                        "followers": "115.7K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "In just two weeks, we revolutionized Dolly. Introducing the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for commercial use. \n\nWith Dolly 2.0, any organization can create, own, and customize a powerful LLM without sharing their proprietary data with 3rd parties or paying for API access. The model uses a new dataset, \u201cdatabricks-dolly-15k,\u201d which is made up of more than 15,000 records generated by thousands of Databricks employees. It\u2019s the first open source, human-generated instruction dataset specifically designed to make LLMs exhibit the magical interactivity of ChatGPT (instruction following). \n\nWe\u2019re open-sourcing the entirety of Dolly 2.0, including the training code, dataset, and model weights, all suitable for commercial use.\n\nhttps://bit.ly/43oXmsy \n\n#llm #dolly #lakehouse #databricks",
+                        "likes": 6484,
+                        "comments": 207,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 32.35,
+                        "Images": 8.5,
+                        "Videos": 1.96,
+                        "Articles": 57.19
+                    }
+                }
+            },
+            {
+                "name": "Barr Moses",
+                "title": "Co-Founder & CEO at Monte Carlo",
+                "profileUrl": "https://linkedin.com/in/barrmoses",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                "followersCount": "57.8K",
+                "postWithin1Year": 387,
+                "descriptionFocus": "Co-Founder & CEO of Monte Carlo, creator of the Data + AI observability platform. Focused on data reliability and enterprise-scale AI adoption.",
+                "relevance": [
+                    "Data reliability innovation",
+                    "AI observability leader",
+                    "Enterprise data strategy"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Barr Moses",
+                        "title": "Co-Founder & CEO at Monte Carlo",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                        "location": "San Francisco, California, United States",
+                        "followers": "57.8K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Who owns data quality? \n\nIt\u2019s a question as old as Oracle Version 3, and the answer varies depending on who you ask.\n\n- Some organizations like to spread the responsibility around to multiple team members, each responsible for a few pipelines. \n\n- Others prefer to concentrate the responsibility on a select few specialists who have a holistic view of the entire platform. \n\n- And then there are those who view data quality as a technical issue, while others see it as a business or process problem.\n\nBut at the end of the day, the only thing that matters is that it gets done. \n\nShane Murray and I have spoken to thousands of data leaders over the years to understand the most common ownership models for data quality, and how data teams can apply them at scale.\n\nFrom data engineering to data governance teams, our latest explores the pros and cons of each approach: https://lnkd.in/eiUPWypC\n\n(Meme inspired by Chad Sanderson)\n\n#dataquality #dataengineering #datareliability",
+                        "likes": 2580,
+                        "comments": 83,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 8.01,
+                        "Images": 69.77,
+                        "Videos": 5.43,
+                        "Articles": 16.8
+                    }
+                }
+            },
+            {
+                "name": "Bill Schmarzo",
+                "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                "profileUrl": "https://linkedin.com/in/schmarzo",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                "followersCount": "44.4K",
+                "postWithin1Year": 356,
+                "descriptionFocus": "Globally recognized leader in Big Data and analytics, pioneering business-first data science strategies. Focused on data monetization and transformative digital innovation.",
+                "relevance": [
+                    "Big data strategist",
+                    "Business analytics focus",
+                    "Transformational leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Bill Schmarzo",
+                        "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                        "location": "Des Moines, Iowa, United States",
+                        "followers": "44.4K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "So, let me ask a stupid question (my specialty): If our existing large language models (LLMs) have already soaked up most of the world's information, why are we trying to update them with synthetic information, which will likely dilute the accuracy and relevance of the actual information already in the LLM?\n\nInstead, shouldn't we teach organizations and individuals how to use RAG and  Contextual Continuity techniques to massage these LLMs to yield more relevant and accurate responses?\n\nIf LLMs have reached the law of diminishing returns (and maybe they should just be turned into a public utility for the benefit of all), then let's invest in the people skills and tools to get more value from these marvelous LLM creations.\n\nProf. Ahmed Banafa Chris Surdak Mark Stouse John Thompson Dan Everett Jon Cooke Malcolm Hawker Dell Technologies Navin Mukraj Cindi Howson Jeff Frick Kyle Winterbottom Ren\u00e9e B. Lahti Kevin Petrie Eddie Short\n\n#AI #LLM #GenAI #RAG #ContextualContinuity #DataScience #ValueEngineering",
+                        "likes": 251,
+                        "comments": 164,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 43.26,
+                        "Images": 7.87,
+                        "Videos": 7.3,
+                        "Articles": 41.57
+                    }
+                }
+            },
+            {
+                "name": "Maxime Beauchemin",
+                "title": "CEO & Founder at Preset",
+                "profileUrl": "https://linkedin.com/in/maximebeauchemin",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                "followersCount": "14.9K",
+                "postWithin1Year": 193,
+                "descriptionFocus": "CEO & Founder at Preset and open source innovator behind Apache Superset and Apache Airflow. Expert in data engineering and startup leadership in technology.",
+                "relevance": [
+                    "Open source innovator",
+                    "Data engineering expertise",
+                    "Tech startup leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Maxime Beauchemin",
+                        "title": "CEO & Founder at Preset",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                        "location": "Belmont, California, United States",
+                        "followers": "14.9K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Today we're announcing #apachesuperset 1.0 and our graduation from the incubator at the Apache Software Foundation! \n\n1.0 is a huge milestone and marks the point where #opensource #businessintelligencebi  is truly ready for mass adoption!",
+                        "likes": 767,
+                        "comments": 51,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 53.89,
+                        "Images": 4.15,
+                        "Videos": 2.07,
+                        "Articles": 39.9
+                    }
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 16.8, 'averageHashtagsPerPost': 2.0}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 17.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 83.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#r",
+                "averageEngagementRate": 321.0
+            },
+            {
+                "hashtag": "#generativeai",
+                "averageEngagementRate": 170.0
+            },
+            {
+                "hashtag": "#startups",
+                "averageEngagementRate": 117.0
+            },
+            {
+                "hashtag": "#fundingnews",
+                "averageEngagementRate": 117.0
+            },
+            {
+                "hashtag": "#innovation",
+                "averageEngagementRate": 117.0
+            }
+        ],
+        "hashtagKeyFinding": "Despite low overall usage (17% of posts), the strategic use of hashtags drives disproportionately high engagement."
+    },
+    "influencerComparison": [
+        {
+            "name": "Ali Ghodsi",
+            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
+            "followers": 115700,
+            "postsPerYear": 116,
+            "topContentTypes": "Articles",
+            "topThemes": "AI industry expertise & Enterprise tech insights",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Barr Moses",
+            "linkedinUrl": "https://www.linkedin.com/in/barrmoses",
+            "followers": 57800,
+            "postsPerYear": 141,
+            "topContentTypes": "Images",
+            "topThemes": "Data reliability innovation & AI observability leader",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Bill Schmarzo",
+            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
+            "followers": 44400,
+            "postsPerYear": 0,
+            "topContentTypes": "Text",
+            "topThemes": "Big data strategist & Business analytics focus",
+            "postingFrequency": "< 1 post/week"
+        },
+        {
+            "name": "Maxime Beauchemin",
+            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
+            "followers": 14900,
+            "postsPerYear": 0,
+            "topContentTypes": "Text",
+            "topThemes": "Open source innovator & Data engineering expertise",
+            "postingFrequency": "< 1 post/week"
+        }
+    ],
+    "summaryOfComparison": "The client demonstrates strong engagement on individual posts with a narrative focus, yet lags behind top influencers in follower count and posting frequency. Enhancing visual content and increasing post volume could help bridge the gap with industry leaders.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower posting frequency compared to industry influencers",
+            "yourValue": "2-3 posts/week",
+            "influencerAverage": "3-4 posts/week",
+            "recommendedAction": "Increase posting frequency to match industry standards."
+        },
+        {
+            "gap": "Limited use of visual content",
+            "yourValue": "Image posts: 9.73%",
+            "influencerAverage": "Average visual content percentage: 22.45%",
+            "recommendedAction": "Incorporate more image and video content to boost engagement."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Focus on leveraging text-based thought leadership while gradually introducing more visual and multimedia content to diversify engagement.",
+        "visualElements": "Enhance image quality and incorporate infographics to complement narrative posts.",
+        "postingSchedule": "Increase post frequency to at least 3-4 times per week, especially on high engagement days like Wednesday.",
+        "audienceTargeting": "Tailor content to resonate with professionals in Technology, Consulting, and Marketing sectors.",
+        "engagementTactics": "Incorporate interactive elements like polls and direct questions to stimulate audience engagement."
+    }
+}

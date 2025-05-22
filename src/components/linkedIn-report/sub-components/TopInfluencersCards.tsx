@@ -1,4 +1,4 @@
-import { influencerImages } from "@/utils/constants";
+// import { influencerImages } from "@/utils/constants";
 import { FC } from "react";
 
 type Influencer = {
@@ -16,15 +16,15 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
   influencers,
 }) => {
   return (
-    <div className=" grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6 pt-4">
+    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-6 pt-4">
       {influencers.map((influencer, i) => (
         <div
           key={i}
-          className="bg-white border rounded-xl overflow-hidden shadow-sm flex flex-col h-full"
+          className="bg-white border rounded-xl overflow-hidden shadow-sm flex flex-col h-full min-w-[250px]"
         >
           <img
-            // src={influencer?.pictureUrl}
-            src={influencerImages[influencer?.name] || ""}
+            src={influencer?.pictureUrl}
+            // src={influencerImages[influencer?.name] || ""}
             alt={influencer?.name}
             className="w-full h-50 object-cover"
           />
@@ -58,8 +58,8 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
             </p>
 
             <div className="mt-4">
-              <div className="text-base font-normal px-5 py-1 rounded-full border-2 text-[#0A66C2] border-[#0A66C2]/20 bg-[#0A66C2]/10 line-clamp-2">
-                <span className="text-[#0A66C2] font-semibold">Relevance:</span>{" "}
+              <div className="text-base font-normal px-5 py-1 rounded-full border-2 border-primary/20 text-primary bg-primary-light/40 line-clamp-2">
+                <span className="text-primary font-semibold">Relevance:</span>{" "}
                 {influencer?.relevance?.join(", ")}
               </div>
             </div>

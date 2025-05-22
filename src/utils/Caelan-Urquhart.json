@@ -1,0 +1,428 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Caelan Urquhart",
+            "title": "Co-founder | Scaling data & CI pipelines @ Pipekit",
+            "profileUrl": "https://www.linkedin.com/in/caelan-urquhart",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHsjIhXkMFhHA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537483310838?e=1753315200&v=beta&t=uMBwmdm6p2e0UlCSxHv467JWb-_SM0Q5tAXUogSn1zE"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 30,
+        "averageCommentsForPost": {
+            "value": 2,
+            "comparison": "about industry average"
+        },
+        "topContentLikes": {
+            "value": 58,
+            "contentType": "text"
+        },
+        "hashtagImpactEngagement": 135,
+        "keyHighlights": [
+            "Top performing post achieved 58 likes from a text post.",
+            "Text posts dominate the content mix at 85.71% of total posts.",
+            "Thursday posts receive the highest engagement with a multiplier of 1.38.",
+            "Hashtag usage contributes significantly with an average of 45 engagements per hashtag post.",
+            "Audience composition shows diversity with 48.51% categorized as Others."
+        ],
+        "summaryText": "This report analyzes LinkedIn engagement for Caelan Urquhart over May 2025, integrating metrics on likes, comments, and hashtag performance. It provides insights on content types, posting patterns, and audience composition. The analysis highlights that text posts prevail and that Thursday posts drive superior engagement. Strategic recommendations are provided to optimize content strategy and posting schedule."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "text",
+                "percentage": 85.71
+            },
+            {
+                "type": "article",
+                "percentage": 14.29
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Text",
+                "percentage": 85.71,
+                "averageLikes": 30
+            },
+            {
+                "theme": "Article",
+                "percentage": 14.29,
+                "averageLikes": 45
+            }
+        ],
+        "visualImpactInsight": "All posts are text-based with consistent engagement at an average of 30 likes, indicating a reliance on non-visual content.",
+        "postTypeDistributionInsight": "Text posts dominate the content mix, comprising 85.71% of posts.",
+        "topPerformingPosts": [
+            {
+                "content": "Launch alert! Are you a developer working with Argo, Kubernetes, data pipelines, or LLMs? My co-founder J.P. Zivalich and I are excited to announce 6 new service offerings at Pipekit.",
+                "type": "text",
+                "link": "https://www.linkedin.com/posts/caelan-urquhart_launch-argo-k8s-activity-7138571759502503936-xLnz?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "58",
+                "comments": "2",
+                "shares": "5"
+            },
+            {
+                "content": "Hey, folks! If you're going to be at #KubeCon NA in Chicago this year, I hope you can stop by my talk happening during #ArgoCon. I\u2019ll be doing a deep dive comparing Argo and Jenkins for CI/CD pipelines with Bertrand Quenin from Intuit.",
+                "type": "article",
+                "link": "https://www.linkedin.com/posts/caelan-urquhart_cncf-hosted-co-located-events-north-america-activity-7125480551423049730-fW1D?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "45",
+                "comments": "3",
+                "shares": "4"
+            },
+            {
+                "content": "Great first day at KubeCon's main event in London! Love meeting up with our team and customers in person to nerd out on Argo & K8s.",
+                "type": "text",
+                "link": "https://www.linkedin.com/posts/caelan-urquhart_were-at-kubecon-london-come-meet-activity-7313260907269120005-t868?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "40",
+                "comments": "2",
+                "shares": "0"
+            },
+            {
+                "content": "Experiment alert: I\u2019m starting to notice that financial services companies like banks, fintech, hedge funds, etc. seem to love Pipekit more than any other cohort. I\u2019m now trying to see how we can find more companies that could be a fit.",
+                "type": "text",
+                "link": "https://www.linkedin.com/posts/caelan-urquhart_experiment-alert-hi-friends-im-starting-activity-7326640409814712320-hU3f?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "27",
+                "comments": "4",
+                "shares": "3"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "Clear call-to-action",
+            "Engaging text content",
+            "Industry-specific topics",
+            "Detailed service offering information"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Kevan Urquhart",
+                "description": "Board Member at Carmel Area Wastewater District"
+            },
+            {
+                "name": "Thiago Bittencourt Gil",
+                "description": "Head of FinOps @ BEES/AB InBev"
+            },
+            {
+                "name": "Saeid Kian",
+                "description": "Co-Founder & CEO @ Ribbon | Automating inheritance for credit unions | Join the Great Wealth Transfer"
+            },
+            {
+                "name": "Chris Joyner",
+                "description": "Senior Technical Account Manager at HealthSherpa"
+            },
+            {
+                "name": "Antonio Johnson \ud83e\udeac",
+                "description": "Marketing Executive | Strategic Advisor | Fractional CMO/CCO | Angel Investor | Award Winning Marketing Strategy \ud83c\udfc6"
+            }
+        ],
+        "audienceInsight": "The audience shows a mix of technical and leadership roles, with a significant focus on technology and operations.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 28.71
+            },
+            {
+                "industry": "Marketing & Advertising",
+                "percentage": 8.91
+            },
+            {
+                "industry": "Media & Entertainment",
+                "percentage": 4.95
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 4.95
+            },
+            {
+                "industry": "Others",
+                "percentage": 48.51
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 33.33
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 46.0
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 21.0
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 0.0
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 0.0
+            }
+        ],
+        "postingFrequency": "0-1",
+        "timingKeyFinding": "Posts on Thursday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Analysis of 4 industry influencers with an average of 49,725 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "09:00 - 11:00",
+            "visualContentPercentage": 25.59,
+            "averagePostFrequency": "Weekly",
+            "personalStoryMultiplier": 1.0,
+            "contrarianViewMultiplier": 0.27,
+            "totalPostsLastYear": 1096
+        },
+        "influencers": [
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                "profileUrl": "https://linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                "followersCount": "115.7K",
+                "postWithin1Year": 306,
+                "descriptionFocus": "CEO & Co-Founder at Databricks, focusing on distributed systems and big data solutions.",
+                "relevance": [
+                    "Enterprise data scaling",
+                    "Distributed systems",
+                    "Tech leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "location": "San Francisco, California, United States",
+                        "followers": "115.7K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "In just two weeks, we revolutionized Dolly. Introducing the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for commercial use. \n\nWith Dolly 2.0, any organization can create, own, and customize a powerful LLM without sharing their proprietary data with 3rd parties or paying for API access. The model uses a new dataset, \u201cdatabricks-dolly-15k,\u201d which is made up of more than 15,000 records generated by thousands of Databricks employees. It\u2019s the first open source, human-generated instruction dataset specifically designed to make LLMs exhibit the magical interactivity of ChatGPT (instruction following). \n\nWe\u2019re open-sourcing the entirety of Dolly 2.0, including the training code, dataset, and model weights, all suitable for commercial use.\n\nhttps://bit.ly/43oXmsy \n\n#llm #dolly #lakehouse #databricks",
+                        "likes": 6484,
+                        "comments": 207,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 32.35,
+                        "Images": 8.5,
+                        "Videos": 1.96,
+                        "Articles": 57.19
+                    }
+                }
+            },
+            {
+                "name": "Barr Moses",
+                "title": "Co-Founder & CEO at Monte Carlo",
+                "profileUrl": "https://linkedin.com/in/barrmoses",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                "followersCount": "57.8K",
+                "postWithin1Year": 387,
+                "descriptionFocus": "CEO at Monte Carlo, building data observability solutions to ensure data and AI reliability.",
+                "relevance": [
+                    "Data reliability",
+                    "Observability insights",
+                    "AI integration"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Barr Moses",
+                        "title": "Co-Founder & CEO at Monte Carlo",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                        "location": "San Francisco, California, United States",
+                        "followers": "57.8K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Who owns data quality? \n\nIt\u2019s a question as old as Oracle Version 3, and the answer varies depending on who you ask.\n\n- Some organizations like to spread the responsibility around to multiple team members, each responsible for a few pipelines. \n\n- Others prefer to concentrate the responsibility on a select few specialists who have a holistic view of the entire platform. \n\n- And then there are those who view data quality as a technical issue, while others see it as a business or process problem.\n\nBut at the end of the day, the only thing that matters is that it gets done. \n\nShane Murray and I have spoken to thousands of data leaders over the years to understand the most common ownership models for data quality, and how data teams can apply them at scale.\n\nFrom data engineering to data governance teams, our latest explores the pros and cons of each approach: https://lnkd.in/eiUPWypC\n\n(Meme inspired by Chad Sanderson)\n\n#dataquality #dataengineering #datareliability",
+                        "likes": 2580,
+                        "comments": 83,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 8.01,
+                        "Images": 69.77,
+                        "Videos": 5.43,
+                        "Articles": 16.8
+                    }
+                }
+            },
+            {
+                "name": "Ketan U.",
+                "title": "Co-Founder and CEO at Union.ai | Flyte.org",
+                "profileUrl": "https://linkedin.com/in/ketanumare",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFS08L1YEQrPA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1615140909072?e=1752710400&v=beta&t=CfShjeDKLq4qii7AkznGNmxl4k5DGJxRVVvXNWT0nt0",
+                "followersCount": "10.5K",
+                "postWithin1Year": 210,
+                "descriptionFocus": "CEO at Union.ai and Flyte.org with deep expertise in distributed algorithms, Kubernetes, and cloud systems.",
+                "relevance": [
+                    "Kubernetes expertise",
+                    "Cloud pipelines",
+                    "Distributed systems"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ketan U.",
+                        "title": "Co-Founder and CEO at Union.ai | Flyte.org",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFS08L1YEQrPA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1615140909072?e=1752710400&v=beta&t=CfShjeDKLq4qii7AkznGNmxl4k5DGJxRVVvXNWT0nt0",
+                        "location": "United States",
+                        "followers": "10.5K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "It was a fanboy moment this week for me. I had an opportunity to meet Jensen Huang at the Nvidia HQ. There is something different about him, smart, assured and ready to dive deep into almost any technical topic. To have this passion and energy for 3 decades is applaudable.\n\nPreviously I also had a chance to interact with Jeff Bezos and he had a similar personality. These gentleman have achieved so much, created great businesses, but their technical acumen and hunger remains unsatiated.",
+                        "likes": 469,
+                        "comments": 20,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 57.62,
+                        "Images": 5.71,
+                        "Videos": 4.76,
+                        "Articles": 31.9
+                    }
+                }
+            },
+            {
+                "name": "Maxime Beauchemin",
+                "title": "CEO & Founder at Preset",
+                "profileUrl": "https://linkedin.com/in/maximebeauchemin",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                "followersCount": "14.9K",
+                "postWithin1Year": 193,
+                "descriptionFocus": "CEO & Founder at Preset and creator of Apache Airflow; a key influencer in data pipeline orchestration and open source innovation.",
+                "relevance": [
+                    "Data pipeline expertise",
+                    "Open source influence",
+                    "Tech innovation"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Maxime Beauchemin",
+                        "title": "CEO & Founder at Preset",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                        "location": "Belmont, California, United States",
+                        "followers": "14.9K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Today we're announcing #apachesuperset 1.0 and our graduation from the incubator at the Apache Software Foundation! \n\n1.0 is a huge milestone and marks the point where #opensource #businessintelligencebi  is truly ready for mass adoption!",
+                        "likes": 767,
+                        "comments": 51,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 53.89,
+                        "Images": 4.15,
+                        "Videos": 2.07,
+                        "Articles": 39.9
+                    }
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 45.7, 'averageHashtagsPerPost': 3.4}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 46.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 54.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#kubecon",
+                "averageEngagementRate": 63.0
+            },
+            {
+                "hashtag": "#k",
+                "averageEngagementRate": 60.0
+            },
+            {
+                "hashtag": "#launch",
+                "averageEngagementRate": 58.0
+            },
+            {
+                "hashtag": "#llm",
+                "averageEngagementRate": 58.0
+            },
+            {
+                "hashtag": "#mlops",
+                "averageEngagementRate": 58.0
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags have lower usage rate overall but when used, drive significant engagement, as shown by an average of 45 engagement per hashtag post."
+    },
+    "influencerComparison": [
+        {
+            "name": "Ali Ghodsi",
+            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
+            "followers": 115000,
+            "postsPerYear": 116,
+            "topContentTypes": "Images",
+            "topThemes": "Enterprise data scaling & Distributed systems",
+            "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Barr Moses",
+            "linkedinUrl": "https://www.linkedin.com/in/barrmoses",
+            "followers": 57000,
+            "postsPerYear": 141,
+            "topContentTypes": "Images",
+            "topThemes": "Data reliability & Observability insights",
+            "postingFrequency": "2-3 posts/week"
+        }
+    ],
+    "summaryOfComparison": "The client shows consistent engagement with a strong focus on text-based posts, while influencers demonstrate varied content strategies with higher posting frequencies and diversified content types. To improve competitive positioning, the client could increase content variety and posting frequency.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower posting frequency compared to influencers",
+            "yourValue": "0-1 posts/week",
+            "influencerAverage": "Approximately 1 post/week",
+            "recommendedAction": "Increase posting frequency to at least 1 post per week."
+        },
+        {
+            "gap": "Limited content variety",
+            "yourValue": "Mostly text posts",
+            "influencerAverage": "Mix of images, videos, and articles",
+            "recommendedAction": "Incorporate visual and multimedia content to enhance engagement."
+        },
+        {
+            "gap": "Underutilization of hashtags",
+            "yourValue": "Average 3.4 hashtags per post",
+            "influencerAverage": "Higher strategic hashtag usage",
+            "recommendedAction": "Optimize hashtag strategy to boost reach and engagement."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Diversify content themes to include more multimedia and interactive posts.",
+        "visualElements": "Introduce high-quality images and videos to complement text content.",
+        "postingSchedule": "Post more consistently, aiming for at least one post per week during peak engagement times.",
+        "hashtagStrategy": "Develop a targeted hashtag strategy to improve post visibility and engagement.",
+        "audienceTargeting": "Engage a broader audience by tailoring content to different industry segments.",
+        "engagementTactics": "Incorporate calls-to-action and interactive elements to foster audience interaction."
+    }
+}

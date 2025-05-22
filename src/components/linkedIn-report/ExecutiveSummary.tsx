@@ -20,17 +20,21 @@ const ExecutiveSummary: FC = () => {
   const card = [
     {
       label: "Average Likes",
-      value: averageLikesPerPost || "NAN",
+      value: averageLikesPerPost >= 0 ? averageLikesPerPost : "NAN",
       sub: "per post",
     },
     {
       label: "Average Comments",
-      value: `${averageCommentsForPost?.value || "NAN"}`,
+      value: `${
+        averageCommentsForPost?.value >= 0
+          ? averageCommentsForPost?.value
+          : "NAN"
+      }`,
       sub: "about industry average",
     },
     {
       label: "Top Content",
-      value: topContentLikes?.value || "NAN",
+      value: topContentLikes?.value >= 0 ? topContentLikes?.value : "NAN",
       sub: topContentLikes?.contentType || "NAN",
     },
     // {
@@ -84,7 +88,7 @@ const ExecutiveSummary: FC = () => {
               Key Highlights:
             </h3>
             <ul className="list-none space-y-2 text-lg text-text-primary">
-              {keyHighlights.map((item, index) => {
+              {keyHighlights.map((item: any, index: number) => {
                 // const [label, ...rest] = item.split(":");
                 // const restOfText = rest.join(":").trim();
                 return (

@@ -1,0 +1,463 @@
+{
+    "reportMetadata": {
+        "title": "Linked in Engagement Analysis",
+        "subtitle": "Comprehensive Performance Report",
+        "reportDate": "May 2025",
+        "clientInfo": {
+            "name": "Brad Hargreaves",
+            "title": "I analyze emerging real estate trends | 3x founder | $500m+ of exits | Thesis Driven Founder (12k+subs)",
+            "profileUrl": "https://www.linkedin.com/in/bradhargreaves",
+            "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEj8zR5gPJbEw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689213838160?e=1753315200&v=beta&t=J4S2FjMspVeo7mubxBHpOkqCP89X9cFbCIlV8ltYrX0"
+        }
+    },
+    "executiveSummary": {
+        "averageLikesPerPost": 98,
+        "averageCommentsForPost": {
+            "value": 15,
+            "comparison": "no benchmark provided"
+        },
+        "topContentLikes": {
+            "value": 2323,
+            "contentType": "image"
+        },
+        "hashtagImpactEngagement": 65,
+        "keyHighlights": [
+            "Top performing post with 2323 likes and 454 comments drives overall engagement.",
+            "Image posts dominate content distribution with 77.63% share and significantly higher engagement.",
+            "Thursday and Saturday are optimal posting days with engagement multipliers of 1.27 and 1.64 respectively.",
+            "Audience is diverse with a large segment in 'Others' (61.93%), alongside notable interest in Technology and Real Estate."
+        ],
+        "summaryText": "This report provides an in-depth analysis of Brad Hargreaves' LinkedIn performance over the analyzed period. It synthesizes data across content types, audience demographics, and posting patterns to highlight strengths and opportunities. The analysis identifies key trends such as dominant image performance and optimal engagement days. Overall, the report offers actionable insights to further enhance engagement and content strategy."
+    },
+    "contentAnalysis": {
+        "postTypesDistribution": [
+            {
+                "type": "image",
+                "percentage": 77.63
+            },
+            {
+                "type": "linkedinVideo",
+                "percentage": 4.41
+            },
+            {
+                "type": "text",
+                "percentage": 8.14
+            },
+            {
+                "type": "article",
+                "percentage": 9.83
+            }
+        ],
+        "averageLikesByContentTheme": [
+            {
+                "theme": "Image",
+                "percentage": 77.63,
+                "averageLikes": 136
+            },
+            {
+                "theme": "LinkedinVideo",
+                "percentage": 4.41,
+                "averageLikes": 117
+            },
+            {
+                "theme": "Text",
+                "percentage": 8.14,
+                "averageLikes": 21
+            },
+            {
+                "theme": "Article",
+                "percentage": 9.83,
+                "averageLikes": 117
+            }
+        ],
+        "visualImpactInsight": "Image posts (avg engagement: 136) tend to perform significantly better than text posts (avg engagement: 21).",
+        "postTypeDistributionInsight": "Image posts dominate with 77.63% distribution, driving higher engagement compared to other post types.",
+        "topPerformingPosts": [
+            {
+                "content": "America's biggest land users aren't cities or suburbs. It isn't farms growing food. It's cows. The real breakdown of US land use is detailed in this post.",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/bharg_americas-biggest-land-users-arent-cities-activity-7288223963090976768-mLUs?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "2.32K",
+                "comments": "454",
+                "shares": "134",
+                "date": "N/A"
+            },
+            {
+                "content": "This isn\u2019t a population map. It's America's land values. The post highlights surprising facts and geographic insights into American wealth.",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/bharg_this-isnt-a-population-map-its-americas-activity-7305256000230445056-zvME?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "1.42K",
+                "comments": "149",
+                "shares": "108",
+                "date": "N/A"
+            },
+            {
+                "content": "A 50-year-old office building is set to become Dallas\u2019s new family hub, transforming urban country clubs. The post explains the emerging trend and innovative approach.",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/bharg_a-50-year-old-office-building-is-going-to-activity-7292572640391618560-FQG4?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "1.10K",
+                "comments": "103",
+                "shares": "33",
+                "date": "N/A"
+            },
+            {
+                "content": "The chart post compares market predictions with reality in real estate, highlighting miscalculations and offering insights into interest rate impacts.",
+                "type": "image",
+                "link": "https://www.linkedin.com/posts/bharg_the-chart-that-proves-no-one-can-predict-activity-7278077233959731201-Nh52?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
+                "likes": "701",
+                "comments": "72",
+                "shares": "51",
+                "date": "N/A"
+            }
+        ],
+        "commonCharacteristicsTopPosts": [
+            "High visual content with dominant image use",
+            "Clear industry insights and detailed narratives",
+            "Engaging headlines and story-driven content",
+            "Strong relevance to current real estate trends"
+        ]
+    },
+    "audienceAnalysis": {
+        "notableAudienceMembers": [
+            {
+                "name": "Murray Clark",
+                "description": "Co-Founder & CEO at Neighbourgood | Reimagining how people live, work, and connect in Cape Town & San Francisco \ud83d\ude80"
+            },
+            {
+                "name": "Kathy Frame",
+                "description": "Consultant/Advisor USABO & Special Projects at Center for Excellence in Education"
+            },
+            {
+                "name": "Amanda Moskowitz",
+                "description": "Stacklist Founder & CEO"
+            },
+            {
+                "name": "Jake Chai",
+                "description": "Co-founder and Managing Partner at Mana Tree Properties"
+            }
+        ],
+        "audienceInsight": "The majority of the audience falls under 'Others' (61.93%), indicating diverse interests with significant segments in Technology, Real Estate, and Finance.",
+        "audienceCompositionByIndustry": [
+            {
+                "industry": "Technology / IT",
+                "percentage": 12.36
+            },
+            {
+                "industry": "Real Estate",
+                "percentage": 7.34
+            },
+            {
+                "industry": "Finance & Banking",
+                "percentage": 7.05
+            },
+            {
+                "industry": "Sales & Business Development",
+                "percentage": 5.78
+            },
+            {
+                "industry": "Consulting",
+                "percentage": 5.55
+            },
+            {
+                "industry": "Others",
+                "percentage": 61.93
+            }
+        ]
+    },
+    "postingPatternsAnalysis": {
+        "dayOfWeekPerformance": [
+            {
+                "day": "Monday",
+                "averageEngagementRate": 54.88
+            },
+            {
+                "day": "Tuesday",
+                "averageEngagementRate": 119.0
+            },
+            {
+                "day": "Wednesday",
+                "averageEngagementRate": 71.34
+            },
+            {
+                "day": "Thursday",
+                "averageEngagementRate": 149.14
+            },
+            {
+                "day": "Friday",
+                "averageEngagementRate": 86.78
+            },
+            {
+                "day": "Saturday",
+                "averageEngagementRate": 191.57
+            },
+            {
+                "day": "Sunday",
+                "averageEngagementRate": 31.0
+            }
+        ],
+        "postingFrequency": "5-6 posts/week",
+        "timingKeyFinding": "Posts on Thursday and Saturday tend to receive significantly higher engagement.",
+        "optimalPostingTimes": [
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
+        ]
+    },
+    "topIndustryInfluencersAnalysis": {
+        "overview": "Analysis of 4 industry influencers with an average of 58,200 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "keyInfluencerInsights": {
+            "optimalPostingWindow": "09:00 - 11:00",
+            "visualContentPercentage": 26.76,
+            "averagePostFrequency": "Weekly",
+            "personalStoryMultiplier": 1.0,
+            "contrarianViewMultiplier": 0.29,
+            "totalPostsLastYear": 1242
+        },
+        "influencers": [
+            {
+                "name": "Ali Ghodsi",
+                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                "profileUrl": "https://linkedin.com/in/alighodsi",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                "followersCount": "115.7K",
+                "postWithin1Year": 306,
+                "descriptionFocus": "CEO and co-founder at Databricks driving big data innovations. Adjunct professor with strong industry influence.",
+                "relevance": [
+                    "tech innovation",
+                    "big data insights",
+                    "analytical leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Ali Ghodsi",
+                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "location": "San Francisco, California, United States",
+                        "followers": "115.7K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "In just two weeks, we revolutionized Dolly. Introducing the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for commercial use. \n\nWith Dolly 2.0, any organization can create, own, and customize a powerful LLM without sharing their proprietary data with 3rd parties or paying for API access. The model uses a new dataset, \u201cdatabricks-dolly-15k,\u201d which is made up of more than 15,000 records generated by thousands of Databricks employees. It\u2019s the first open source, human-generated instruction dataset specifically designed to make LLMs exhibit the magical interactivity of ChatGPT (instruction following). \n\nWe\u2019re open-sourcing the entirety of Dolly 2.0, including the training code, dataset, and model weights, all suitable for commercial use.\n\nhttps://bit.ly/43oXmsy \n\n#llm #dolly #lakehouse #databricks",
+                        "likes": 6484,
+                        "comments": 207,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 32.35,
+                        "Images": 8.5,
+                        "Videos": 1.96,
+                        "Articles": 57.19
+                    }
+                }
+            },
+            {
+                "name": "Barr Moses",
+                "title": "Co-Founder & CEO at Monte Carlo",
+                "profileUrl": "https://linkedin.com/in/barrmoses",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                "followersCount": "57.8K",
+                "postWithin1Year": 387,
+                "descriptionFocus": "Co-founder of Monte Carlo, leading data and AI reliability. Focuses on data observability and innovation.",
+                "relevance": [
+                    "data reliability",
+                    "AI innovation",
+                    "tech leadership"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Barr Moses",
+                        "title": "Co-Founder & CEO at Monte Carlo",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                        "location": "San Francisco, California, United States",
+                        "followers": "57.8K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Who owns data quality? \n\nIt\u2019s a question as old as Oracle Version 3, and the answer varies depending on who you ask.\n\n- Some organizations like to spread the responsibility around to multiple team members, each responsible for a few pipelines. \n\n- Others prefer to concentrate the responsibility on a select few specialists who have a holistic view of the entire platform. \n\n- And then there are those who view data quality as a technical issue, while others see it as a business or process problem.\n\nBut at the end of the day, the only thing that matters is that it gets done. \n\nShane Murray and I have spoken to thousands of data leaders over the years to understand the most common ownership models for data quality, and how data teams can apply them at scale.\n\nFrom data engineering to data governance teams, our latest explores the pros and cons of each approach: https://lnkd.in/eiUPWypC\n\n(Meme inspired by Chad Sanderson)\n\n#dataquality #dataengineering #datareliability",
+                        "likes": 2580,
+                        "comments": 83,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 8.01,
+                        "Images": 69.77,
+                        "Videos": 5.43,
+                        "Articles": 16.8
+                    }
+                }
+            },
+            {
+                "name": "Bill Schmarzo",
+                "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                "profileUrl": "https://linkedin.com/in/schmarzo",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                "followersCount": "44.4K",
+                "postWithin1Year": 356,
+                "descriptionFocus": "Industry leader in big data and analytics, driving digital transformation with design thinking. Renowned educator and innovator.",
+                "relevance": [
+                    "big data strategies",
+                    "digital transformation",
+                    "tech innovation"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Bill Schmarzo",
+                        "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
+                        "location": "Des Moines, Iowa, United States",
+                        "followers": "44.4K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "So, let me ask a stupid question (my specialty): If our existing large language models (LLMs) have already soaked up most of the world's information, why are we trying to update them with synthetic information, which will likely dilute the accuracy and relevance of the actual information already in the LLM?\n\nInstead, shouldn't we teach organizations and individuals how to use RAG and  Contextual Continuity techniques to massage these LLMs to yield more relevant and accurate responses?\n\nIf LLMs have reached the law of diminishing returns (and maybe they should just be turned into a public utility for the benefit of all), then let's invest in the people skills and tools to get more value from these marvelous LLM creations.\n\nProf. Ahmed Banafa Chris Surdak Mark Stouse John Thompson Dan Everett Jon Cooke Malcolm Hawker Dell Technologies Navin Mukraj Cindi Howson Jeff Frick Kyle Winterbottom Ren\u00e9e B. Lahti Kevin Petrie Eddie Short\n\n#AI #LLM #GenAI #RAG #ContextualContinuity #DataScience #ValueEngineering",
+                        "likes": 251,
+                        "comments": 164,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 43.26,
+                        "Images": 7.87,
+                        "Videos": 7.3,
+                        "Articles": 41.57
+                    }
+                }
+            },
+            {
+                "name": "Maxime Beauchemin",
+                "title": "CEO & Founder at Preset",
+                "profileUrl": "https://linkedin.com/in/maximebeauchemin",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                "followersCount": "14.9K",
+                "postWithin1Year": 193,
+                "descriptionFocus": "Founder of Preset and creator of leading open source data tools. Focuses on modern data engineering and analytics.",
+                "relevance": [
+                    "data engineering",
+                    "open source",
+                    "innovative analytics"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Maxime Beauchemin",
+                        "title": "CEO & Founder at Preset",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
+                        "location": "Belmont, California, United States",
+                        "followers": "14.9K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Today we're announcing #apachesuperset 1.0 and our graduation from the incubator at the Apache Software Foundation! \n\n1.0 is a huge milestone and marks the point where #opensource #businessintelligencebi  is truly ready for mass adoption!",
+                        "likes": 767,
+                        "comments": 51,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 53.89,
+                        "Images": 4.15,
+                        "Videos": 2.07,
+                        "Articles": 39.9
+                    }
+                }
+            }
+        ]
+    },
+    "hashtagPerformanceAnalysis": {
+        "hashtagUsage": "{'usagePercentage': 6.7, 'averageHashtagsPerPost': 3.1}",
+        "hashtagUsageVisual": [
+            {
+                "category": "Posts with Hashtags",
+                "percentage": 7.0
+            },
+            {
+                "category": "Posts without Hashtags",
+                "percentage": 93.0
+            }
+        ],
+        "topPerformingHashtags": [
+            {
+                "hashtag": "#sandiego",
+                "averageEngagementRate": 243.0
+            },
+            {
+                "hashtag": "#pittsburgh",
+                "averageEngagementRate": 243.0
+            },
+            {
+                "hashtag": "#atlanta",
+                "averageEngagementRate": 243.0
+            },
+            {
+                "hashtag": "#philadelphia",
+                "averageEngagementRate": 243.0
+            },
+            {
+                "hashtag": "#losangeles",
+                "averageEngagementRate": 184.0
+            }
+        ],
+        "hashtagKeyFinding": "Posts with hashtags show an engagement boost, though they represent only 6.7% usage of total posts."
+    },
+    "influencerComparison": [
+        {
+            "name": "Influencer One",
+            "linkedinUrl": "N/A",
+            "followers": 0,
+            "postsPerYear": 100,
+            "topContentTypes": "Image, Video",
+            "topThemes": "Real Estate, Trends",
+            "postingFrequency": "2 posts/week",
+            "metric": "Comparison 1",
+            "clientValue": "N/A",
+            "influencerAverage": "N/A",
+            "insight": "Comparison between client and influencer"
+        },
+        {
+            "name": "Influencer Two",
+            "linkedinUrl": "N/A",
+            "followers": 0,
+            "postsPerYear": 120,
+            "topContentTypes": "Image, Text",
+            "topThemes": "Market Analysis, Urban Trends",
+            "postingFrequency": "3 posts/week",
+            "metric": "Comparison 2",
+            "clientValue": "N/A",
+            "influencerAverage": "N/A",
+            "insight": "Comparison between client and influencer"
+        },
+        {
+            "name": "Influencer Three",
+            "linkedinUrl": "N/A",
+            "followers": 0,
+            "postsPerYear": 90,
+            "topContentTypes": "Video, Article",
+            "topThemes": "Investment, Real Estate",
+            "postingFrequency": "2 posts/week",
+            "metric": "Comparison 3",
+            "clientValue": "N/A",
+            "influencerAverage": "N/A",
+            "insight": "Comparison between client and influencer"
+        }
+    ],
+    "summaryOfComparison": "The client shows strong visual content performance and high engagement on key days, but lags behind influencers in posting frequency and content diversity. There is an opportunity to increase the variety of content and to collaborate with influencers to further enhance reach and engagement.",
+    "gapAnalysis": [
+        {
+            "gap": "Lower posting frequency",
+            "yourValue": "5-6 posts/week",
+            "influencerAverage": "7 posts/week",
+            "recommendedAction": "Increase posting frequency to daily updates."
+        },
+        {
+            "gap": "Limited influencer engagement",
+            "yourValue": "N/A",
+            "influencerAverage": "High engagement with influencers",
+            "recommendedAction": "Collaborate with industry influencers to boost visibility."
+        }
+    ],
+    "recommendations": {
+        "contentStrategy": "Leverage high-performing image content with deeper real estate insights to resonate with the target audience.",
+        "visualElements": "Increase the use of high-quality visuals to capitalize on the higher engagement observed for image posts.",
+        "postingSchedule": "Optimize posting on Thursday and Saturday, when engagement rates are highest.",
+        "audienceTargeting": "Tailor content to the engaged segments in Real Estate, Technology, and Finance for better resonance.",
+        "engagementTactics": "Enhance interactive elements, such as polls and questions, to drive more comments and shares."
+    }
+}
