@@ -110,7 +110,7 @@ const CaelanSamplePosts: FC = () => {
             <img
               src={postOne}
               alt="post"
-              className="w-full h-full rounded-xl shadow-sm max-h-[500px] object-contain"
+              className="w-full h-full border rounded-xl shadow-sm max-h-[500px] object-contain"
             />
           </div>
         </div>
@@ -205,7 +205,7 @@ const CaelanSamplePosts: FC = () => {
             <img
               src={postTwo}
               alt="post"
-              className="w-full h-full rounded-xl shadow-sm max-h-[400px] object-contain"
+              className="w-full h-full border rounded-xl shadow-sm max-h-[400px] object-contain"
             />
           </div>
         </div>

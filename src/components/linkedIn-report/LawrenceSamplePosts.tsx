@@ -129,7 +129,7 @@ const LawrenceSamplePosts: FC = () => {
             <img
               src={LawrenceOne}
               alt="post"
-              className="w-full h-full rounded-xl shadow-sm max-h-[500px] object-contain"
+              className="w-full h-full border rounded-xl shadow-sm max-h-[500px] object-contain"
             />
           </div>
         </div>
@@ -232,7 +232,7 @@ const LawrenceSamplePosts: FC = () => {
             <img
               src={LawrenceTwo}
               alt="post"
-              className="w-full h-full rounded-xl shadow-sm max-h-[400px] object-contain"
+              className="w-full h-full border rounded-xl shadow-sm max-h-[400px] object-contain"
             />
           </div>
         </div>

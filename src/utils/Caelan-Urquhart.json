@@ -25,10 +25,9 @@
             "Top performing post achieved 58 likes from a text post.",
             "Text posts dominate the content mix at 85.71% of total posts.",
             "Thursday posts receive the highest engagement with a multiplier of 1.38.",
-            "Hashtag usage contributes significantly with an average of 45 engagements per hashtag post.",
             "Audience composition shows diversity with 48.51% categorized as Others."
         ],
-        "summaryText": "This report analyzes LinkedIn engagement for Caelan Urquhart over May 2025, integrating metrics on likes, comments, and hashtag performance. It provides insights on content types, posting patterns, and audience composition. The analysis highlights that text posts prevail and that Thursday posts drive superior engagement. Strategic recommendations are provided to optimize content strategy and posting schedule."
+        "summaryText": "This report analyzes LinkedIn engagement for Caelan Urquhart over May 2025, integrating metrics on likes, and comments. It provides insights on content types, posting patterns, and audience composition. The analysis highlights that text posts prevail and that Thursday posts drive superior engagement. Strategic recommendations are provided to optimize content strategy and posting schedule."
     },
     "contentAnalysis": {
         "postTypesDistribution": [
@@ -394,6 +393,24 @@
             "topContentTypes": "Images",
             "topThemes": "Data reliability & Observability insights",
             "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Ketan U.",
+            "linkedinUrl": "https://www.linkedin.com/in/ketanumare",
+            "followers": 10000,
+            "postsPerYear": 70,
+            "topContentTypes": "Text",
+            "topThemes": "Distributed systems & Cloud tech",
+            "postingFrequency": "1 post/week"
+        },
+        {
+            "name": "Maxime Beauchemin",
+            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
+            "followers": 14900,
+            "postsPerYear": 0,
+            "topContentTypes": "Text",
+            "topThemes": "Open source innovator & Data engineering expertise",
+            "postingFrequency": "< 1 post/week"
         }
     ],
     "summaryOfComparison": "The client shows consistent engagement with a strong focus on text-based posts, while influencers demonstrate varied content strategies with higher posting frequencies and diversified content types. To improve competitive positioning, the client could increase content variety and posting frequency.",
@@ -409,19 +426,12 @@
             "yourValue": "Mostly text posts",
             "influencerAverage": "Mix of images, videos, and articles",
             "recommendedAction": "Incorporate visual and multimedia content to enhance engagement."
-        },
-        {
-            "gap": "Underutilization of hashtags",
-            "yourValue": "Average 3.4 hashtags per post",
-            "influencerAverage": "Higher strategic hashtag usage",
-            "recommendedAction": "Optimize hashtag strategy to boost reach and engagement."
         }
     ],
     "recommendations": {
         "contentStrategy": "Diversify content themes to include more multimedia and interactive posts.",
         "visualElements": "Introduce high-quality images and videos to complement text content.",
         "postingSchedule": "Post more consistently, aiming for at least one post per week during peak engagement times.",
-        "hashtagStrategy": "Develop a targeted hashtag strategy to improve post visibility and engagement.",
         "audienceTargeting": "Engage a broader audience by tailoring content to different industry segments.",
         "engagementTactics": "Incorporate calls-to-action and interactive elements to foster audience interaction."
     }

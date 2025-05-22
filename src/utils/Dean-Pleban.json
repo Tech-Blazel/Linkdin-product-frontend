@@ -408,21 +408,39 @@
     "influencerComparison": [
         {
             "name": "Ali Ghodsi",
-            "linkedinUrl": "",
-            "followers": 0,
+            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
+            "followers": 115000,
             "postsPerYear": 116,
             "topContentTypes": "Images",
-            "topThemes": "AI & Machine Learning",
+            "topThemes": "Enterprise data scaling & Distributed systems",
             "postingFrequency": "2-3 posts/week"
         },
         {
             "name": "Barr Moses",
-            "linkedinUrl": "",
-            "followers": 0,
-            "postsPerYear": 142,
+            "linkedinUrl": "https://www.linkedin.com/in/barrmoses",
+            "followers": 57000,
+            "postsPerYear": 141,
             "topContentTypes": "Images",
-            "topThemes": "AI & Machine Learning",
+            "topThemes": "Data reliability & Observability insights",
             "postingFrequency": "2-3 posts/week"
+        },
+        {
+            "name": "Bill Schmarzo",
+            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
+            "followers": 44400,
+            "postsPerYear": 0,
+            "topContentTypes": "Text",
+            "topThemes": "data strategy alignment & digital transformation",
+            "postingFrequency": "< 1 post/week"
+        },
+        {
+            "name": "Maxime Beauchemin",
+            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
+            "followers": 14900,
+            "postsPerYear": 0,
+            "topContentTypes": "Text",
+            "topThemes": "Open source innovator & Data engineering expertise",
+            "postingFrequency": "< 1 post/week"
         }
     ],
     "summaryOfComparison": "Dean Pleban shows strong engagement with an average of 70 likes per post, however his posting frequency lags behind influencers such as Ali Ghodsi and Barr Moses. Enhancing visual content and increasing posting frequency could drive further engagement.",
