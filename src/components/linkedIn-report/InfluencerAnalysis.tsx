@@ -15,11 +15,14 @@ import { BsEmojiLaughing } from "react-icons/bs";
 // import { RootState } from "@/app/store";
 import {
   convertObjectToArrayOfObjectsData,
+  influencerImages,
   // influencerImages,
   pieChartColor,
 } from "@/utils/constants";
 import { IoMdAdd } from "react-icons/io";
 import { HiDotsHorizontal } from "react-icons/hi";
+import SmartImage from "../SmartImage";
+import ProfileAvatar from "@/assets/images/profile-avatar.png";
 
 const reactions = [
   {
@@ -96,11 +99,17 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
         <div>
           <div className="space-y-4">
             <div className="p-4 border rounded-xl shadow-sm flex gap-4 items-start">
-              <img
+              {/* <img
                 src={profile?.pictureUrl || ""}
                 // src={influencerImages[name] || ""}
                 alt={profile?.name || ""}
                 className="w-12 h-12 rounded-full object-cover"
+              /> */}
+              <SmartImage
+                src={profile?.pictureUrl}
+                alt={profile?.name || ""}
+                fallbackSrc={influencerImages[profile?.name] || ProfileAvatar}
+                className="w-12 h-12 rounded-full"
               />
               <div className="text-sm text-gray-800">
                 <p className="font-semibold">
@@ -126,11 +135,19 @@ const InfluencerAnalysis: FC<{ influencer: any; index: number }> = ({
             >
               <div className="border rounded-xl shadow-sm p-4 text-sm space-y-2">
                 <div className="flex gap-3">
-                  <img
+                  {/* <img
                     src={profile?.pictureUrl || ""}
                     // src={influencerImages[name] || ""}
                     alt={profile?.name || ""}
                     className="w-10 h-10 rounded-full object-cover"
+                  /> */}
+                  <SmartImage
+                    src={profile?.pictureUrl}
+                    alt={profile?.name || ""}
+                    fallbackSrc={
+                      influencerImages[profile?.name] || ProfileAvatar
+                    }
+                    className="w-12 h-12 rounded-full"
                   />
                   <div className="w-full">
                     <div className="flex wrap items-center justify-between">

@@ -1,4 +1,4 @@
-// import { influencerImages } from "@/utils/constants";
+import { influencerImages } from "@/utils/constants";
 import SmartImage from "@/components/SmartImage";
 import ProfileAvatar from "@/assets/images/profile-avatar.png";
 import { FC } from "react";
@@ -18,11 +18,11 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
   influencers,
 }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-6 pt-4">
+    <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 justify-items-center gap-10 pt-4">
       {influencers.map((influencer, i) => (
         <div
           key={i}
-          className="bg-white border rounded-xl overflow-hidden shadow-sm flex flex-col h-full min-w-[250px]"
+          className="bg-white border rounded-xl overflow-hidden shadow-sm flex flex-col h-full min-w-[250px] max-w-[550px]"
         >
           {/* <img
             src={influencer?.pictureUrl}
@@ -34,7 +34,7 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
           <SmartImage
             src={influencer?.pictureUrl}
             alt={influencer?.name || ""}
-            fallbackSrc={ProfileAvatar}
+            fallbackSrc={influencerImages[influencer?.name] || ProfileAvatar}
             className="w-full h-50"
           />
           <div className="p-4 flex flex-col justify-between flex-1">

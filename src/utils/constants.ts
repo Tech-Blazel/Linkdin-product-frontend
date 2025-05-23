@@ -6,6 +6,7 @@ import Matei from "@/assets/images/Matei.png"
 import Ali from "@/assets/images/Ali.png"
 import Maxime from "@/assets/images/Maxime.png"
 import Barr from "@/assets/images/Barr.png"
+import Elad from "@/assets/images/Elad.png"
 
 export const influencerImages:any = {
     "Andrew Ng":Andrew,
@@ -15,7 +16,8 @@ export const influencerImages:any = {
     "Matei Zaharia":Matei,
     "Ali Ghodsi":Ali,
     "Maxime Beauchemin":Maxime,
-    "Barr Moses":Barr
+    "Barr Moses":Barr,
+    "Elad Gil":Elad
 }
 
 // export const influencerImages:any = {
