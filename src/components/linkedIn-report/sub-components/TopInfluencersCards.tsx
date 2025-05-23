@@ -1,4 +1,6 @@
 // import { influencerImages } from "@/utils/constants";
+import SmartImage from "@/components/SmartImage";
+import ProfileAvatar from "@/assets/images/profile-avatar.png";
 import { FC } from "react";
 
 type Influencer = {
@@ -22,11 +24,18 @@ const TopInfluencersCards: FC<{ influencers: Influencer[] }> = ({
           key={i}
           className="bg-white border rounded-xl overflow-hidden shadow-sm flex flex-col h-full min-w-[250px]"
         >
-          <img
+          {/* <img
             src={influencer?.pictureUrl}
             // src={influencerImages[influencer?.name] || ""}
             alt={influencer?.name}
             className="w-full h-50 object-cover"
+          /> */}
+
+          <SmartImage
+            src={influencer?.pictureUrl}
+            alt={influencer?.name || ""}
+            fallbackSrc={ProfileAvatar}
+            className="w-full h-50"
           />
           <div className="p-4 flex flex-col justify-between flex-1">
             <div>

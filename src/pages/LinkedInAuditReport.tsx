@@ -21,6 +21,7 @@ import ClientSwitcher from "@/components/linkedIn-report/ClientSwitcher";
 import DeanSamplePosts from "@/components/linkedIn-report/DeanSamplePosts";
 import RyanSamplePosts from "@/components/linkedIn-report/RyanSamplePosts";
 import LawrenceSamplePosts from "@/components/linkedIn-report/LawrenceSamplePosts";
+import StanSamplePosts from "@/components/linkedIn-report/StanSamplePosts";
 
 const LinkedInAuditReport = () => {
   const linkedInReport = useSelector(
@@ -60,6 +61,7 @@ const LinkedInAuditReport = () => {
     ...(clientInfo?.name === "Lawrence Coburn"
       ? [<LawrenceSamplePosts />]
       : []),
+    ...(clientInfo?.name === "Stan Markuze" ? [<StanSamplePosts />] : []),
     <PostingRecommendations />,
   ];
 
