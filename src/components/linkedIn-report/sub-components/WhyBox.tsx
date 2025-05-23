@@ -13,7 +13,7 @@ const WhyBox: FC<WhyBoxProps> = ({
   points = [],
 }) => {
   return (
-    <div className="bg-primary-light/40 text-text-primary rounded-2xl p-6 pl-8 border-l-8 border-primary space-y-4 max-w-4xl">
+    <div className="bg-primary-light/40 text-text-primary rounded-2xl p-6 pl-8 border-l-8 border-primary space-y-4">
       <div className="flex items-center gap-3">
         <FaLightbulb className="text-primary text-xl shrink-0" />
         <h3 className="text-lg md:text-xl font-semibold text-primary">

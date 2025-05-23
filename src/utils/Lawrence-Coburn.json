@@ -14,7 +14,7 @@
         "averageLikesPerPost": 49,
         "averageCommentsForPost": {
             "value": 6,
-            "comparison": "about industry average"
+            "comparison": "compared to typical industry standards"
         },
         "topContentLikes": {
             "value": 562,
@@ -22,11 +22,12 @@
         },
         "hashtagImpactEngagement": 67,
         "keyHighlights": [
-            "Top performing post is a text post with 562 likes indicating strong engagement for narrative content.",
-            "Posts on Wednesday receive the highest engagement with an average engagement rate of 66.38.",
-            "Text posts dominate overall distribution at 56.64%, yet image posts show competitive engagement."
+            "Analyzed 113 posts providing a robust dataset for insights.",
+            "Top performing post is a text post with 562 likes and strong narrative.",
+            "Text posts dominate engagement with high overall performance.",
+            "Wednesday posts receive significantly higher engagement."
         ],
-        "summaryText": "This report provides a comprehensive analysis of Lawrence Coburn's LinkedIn engagement by examining post performance, and audience demographics. It highlights key trends in content types, posting patterns, and audience behavior over the analyzed period. The insights presented aim to guide future strategic improvements in content and engagement."
+        "summaryText": "This report provides a comprehensive analysis of Lawrence Coburn's LinkedIn engagement. It synthesizes post performance, audience demographics, posting patterns, and influencer insights to deliver actionable recommendations. The findings highlight strengths in narrative content and timing, while also identifying opportunities for content diversification."
     },
     "contentAnalysis": {
         "postTypesDistribution": [
@@ -47,32 +48,32 @@
                 "percentage": 2.65
             },
             {
-                "type": "",
+                "type": "Other",
                 "percentage": 0.88
             }
         ],
         "averageLikesByContentTheme": [
             {
-                "theme": "Text",
+                "theme": "Chief of Staff Insights",
                 "percentage": 25.0,
-                "averageLikes": 49
+                "averageLikes": 562
             },
             {
-                "theme": "Article",
+                "theme": "Industry Analysis",
                 "percentage": 25.0,
-                "averageLikes": 227
+                "averageLikes": 284
             },
             {
-                "theme": "Image",
+                "theme": "Company Announcement",
                 "percentage": 25.0,
                 "averageLikes": 247
             }
         ],
-        "visualImpactInsight": "Image posts (avg engagement: 57) perform similarly to text posts (avg engagement: 54), suggesting that while visuals add appeal, narrative content remains strong.",
-        "postTypeDistributionInsight": "Text posts constitute the majority with 56.64%, followed by articles at 30.09%, indicating that narrative-driven posts are resonating well.",
+        "visualImpactInsight": "Image posts perform similarly to text posts with average engagement of 57 vs 54, indicating both formats are effective.",
+        "postTypeDistributionInsight": "Text posts dominate the content mix with 56.64% share, while articles account for 30.09%.",
         "topPerformingPosts": [
             {
-                "content": "I was trying to explain to someone why at a company of any scale, the Chief of Staff is almost by definition, the ONLY truly trusted voice in the ear of the CEO. Why?  It's about access to resources....",
+                "content": "I was trying to explain to someone why at a company of any scale, the Chief of Staff is almost by definition, the ONLY truly trusted voice in the ear of the CEO. It's about access to resources....",
                 "type": "text",
                 "link": "https://www.linkedin.com/posts/lawrencecoburn_i-was-trying-to-explain-to-someone-why-at-activity-7186106956586102785-b3UG?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "562",
@@ -105,35 +106,35 @@
             }
         ],
         "commonCharacteristicsTopPosts": [
-            "Strong narrative focus",
-            "Clear messaging with detailed insights",
-            "Engaging mix of text and visual elements"
+            "Strong narrative and storytelling",
+            "Clear call-to-action",
+            "Relevant to industry challenges"
         ]
     },
     "audienceAnalysis": {
         "notableAudienceMembers": [
             {
                 "name": "Matthew M. G.",
-                "description": "Experienced Business Development Executive in Marketing & Advertising."
+                "description": "Experienced Business Development Executive | Strategic Partnerships, Go-To-Market Strategy, Sales and Marketing from Marketing & Advertising"
             },
             {
                 "name": "Jose Antonio Jim\u00e9nez-Casquet Bol\u00edvar",
-                "description": "Customer Success Consultant and Performance Leader in Consulting."
+                "description": "Customer Success Consultant and Performance Leader @ Frontline Performance Group from Consulting"
             },
             {
                 "name": "Phillip Denny",
-                "description": "Director at Blum Center for Developing Economies."
+                "description": "Director, Big Ideas Contest; Blum Center for Developing Economies from Unknown"
             },
             {
                 "name": "Niraj Shah",
-                "description": "Co-Founder & CTO at TwinsAI in Technology / IT."
+                "description": "Co-Founder & CTO TwinsAI - Using Voice AI to Accelerate Sales from Technology / IT"
             },
             {
                 "name": "Ashley Phelps",
-                "description": "Head of Beta Programs at Cvent with notable industry experience."
+                "description": "Head of Beta Programs at Cvent from Unknown"
             }
         ],
-        "audienceInsight": "The audience is diverse with strong representation from technology, consulting, and marketing sectors, reflecting engagement from professionals across multiple fields.",
+        "audienceInsight": "Engaged audience primarily spans Marketing, Consulting, and Technology sectors, indicating diverse professional interests.",
         "audienceCompositionByIndustry": [
             {
                 "industry": "Technology / IT",
@@ -188,7 +189,7 @@
                 "averageEngagementRate": 0.0
             }
         ],
-        "postingFrequency": "2-3 posts per week",
+        "postingFrequency": "Average 2-3 posts per week.",
         "timingKeyFinding": "Posts on Wednesday tend to receive significantly higher engagement.",
         "optimalPostingTimes": [
             {
@@ -198,157 +199,229 @@
         ]
     },
     "topIndustryInfluencersAnalysis": {
-        "overview": "Analysis of 4 industry influencers with an average of 58,200 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "overview": "Analysis of 6 industry influencers with an average of 590,216 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
         "keyInfluencerInsights": {
             "optimalPostingWindow": "09:00 - 11:00",
-            "visualContentPercentage": 26.76,
+            "visualContentPercentage": 30.8,
             "averagePostFrequency": "Weekly",
-            "personalStoryMultiplier": 1.0,
-            "contrarianViewMultiplier": 0.29,
-            "totalPostsLastYear": 1242
+            "personalStoryMultiplier": 0.98,
+            "contrarianViewMultiplier": 0.32,
+            "totalPostsLastYear": 815
         },
         "influencers": [
             {
-                "name": "Ali Ghodsi",
-                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
-                "profileUrl": "https://linkedin.com/in/alighodsi",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
-                "followersCount": "115.7K",
-                "postWithin1Year": 306,
-                "descriptionFocus": "CEO & Co-Founder at Databricks with a strong focus on distributed systems, big data and AI. Adjunct Professor at UC Berkeley sharing insights on advanced technology and innovation.",
+                "name": "Reid Hoffman",
+                "title": "Co-Founder, LinkedIn, Manas AI & Inflection AI. Author of Superagency. Investor at Greylock.",
+                "profileUrl": "https://linkedin.com/in/reidhoffman",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHW7wKzPb3DAg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718221341641?e=1753315200&v=beta&t=o0e-qjP2yrtaGAkI9Q5MLn5vnWcnNVRHzH8IVMIudd8",
+                "followersCount": "2.7M",
+                "postWithin1Year": 177,
+                "descriptionFocus": "Investor focused on AI and startups. Thought leader in tech ecosystems.",
                 "relevance": [
-                    "AI industry expertise",
-                    "Enterprise tech insights",
-                    "Innovation leadership"
+                    "Tech leadership",
+                    "Startup ecosystem",
+                    "AI experience"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Ali Ghodsi",
-                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
+                        "name": "Reid Hoffman",
+                        "title": "Co-Founder, LinkedIn, Manas AI & Inflection AI. Author of Superagency. Investor at Greylock.",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHW7wKzPb3DAg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718221341641?e=1753315200&v=beta&t=o0e-qjP2yrtaGAkI9Q5MLn5vnWcnNVRHzH8IVMIudd8",
+                        "location": "United States",
+                        "followers": "2.7M"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Twenty years ago, I was about to pitch LinkedIn\u2019s Series B to Greylock and other investors. I remember going through slides at Starbucks, equipped with a PowerPoint deck, a game plan for growth, and what I thought was a solid pitch. But there were, of course, challenges and uncertainties to address. More than just building a company, our team was trying to create a category. Some were calling us \"Friendster for business,\" but the concept of professional networking was more or less untested. Our pitch deck had a vision I believed in deeply\u2014enough to stake my career on it\u2014but that didn\u2019t make it easy. Knowing what I know now, what I would tell myself back in 2004, during that pivotal moment for me and for LinkedIn? What advice would I give younger Reid? What reassurances or warnings would I deliver? \n\nI\u2019ve created a new Reid AI\u201420 years younger\u2014to pitch the real, present-day me on the 2004 LinkedIn plan.\n\nTo clarify: What you are watching is an attempt to use the latest AI tools to replicate some of my younger self\u2019s curiosity and revisit an exciting moment for the company I co-founded\u2014which is also an interesting test of how this technology can be used more generally. When we created \u201cReid AI\u201d\u2014my present-day avatar\u2014a few months ago, we did so by training it on 20 years worth of books and interviews. We had a 4K video interview to train a video model, and we were able to use voice replication tools to replicate my voice.\n\nTo create Reid AI 2004, my team had to get creative. It\u2019s a custom GPT trained on knowledge up to 2004, including my own writing. Using Hedra, UNSHUT, and other tools, we relied largely on an image-to-video process that doesn\u2019t require any training video but can generate video from AI-generated images. \n\nOverall, hearing myself pitch LinkedIn to myself was a bit surreal. I remember that early entrepreneur. This conversation between past and future selves feels not only like a reflection on how much has changed, but also on what remains constant: The core values of trust, integrity, and community that were pivotal in some of the startup's earliest pitches remain at the heart of LinkedIn today. \n\nI believe I would still invest in that idea. But I'm also amazed by how much 2004 Reid is about to see the world and technology change.\u00a0 \n\nWhat do you think? What would you tell the younger you from a decade or two ago?",
+                        "likes": 8090,
+                        "comments": 698,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 12.43,
+                        "Images": 12.43,
+                        "Videos": 45.76,
+                        "Articles": 29.38
+                    }
+                }
+            },
+            {
+                "name": "Elad Gil",
+                "title": "Entrepreneur & Startup Helper",
+                "profileUrl": "https://linkedin.com/in/eladgil",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQEccpEFVnlpRA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516158512659?e=1753315200&v=beta&t=vn4iOgHsNCNj4JsvwS9pzbIVd5VBi0E_d1V7xBxg0yo",
+                "followersCount": "42.3K",
+                "postWithin1Year": 62,
+                "descriptionFocus": "Entrepreneur and advisor to leading tech startups. Focuses on scaling companies and product innovation.",
+                "relevance": [
+                    "Startup scaling",
+                    "Tech innovation",
+                    "AI alignment"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Elad Gil",
+                        "title": "Entrepreneur & Startup Helper",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQEccpEFVnlpRA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516158512659?e=1753315200&v=beta&t=vn4iOgHsNCNj4JsvwS9pzbIVd5VBi0E_d1V7xBxg0yo",
                         "location": "San Francisco, California, United States",
-                        "followers": "115.7K"
+                        "followers": "42.3K"
                     },
                     "post": {
                         "postURL": "",
-                        "text": "In just two weeks, we revolutionized Dolly. Introducing the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for commercial use. \n\nWith Dolly 2.0, any organization can create, own, and customize a powerful LLM without sharing their proprietary data with 3rd parties or paying for API access. The model uses a new dataset, \u201cdatabricks-dolly-15k,\u201d which is made up of more than 15,000 records generated by thousands of Databricks employees. It\u2019s the first open source, human-generated instruction dataset specifically designed to make LLMs exhibit the magical interactivity of ChatGPT (instruction following). \n\nWe\u2019re open-sourcing the entirety of Dolly 2.0, including the training code, dataset, and model weights, all suitable for commercial use.\n\nhttps://bit.ly/43oXmsy \n\n#llm #dolly #lakehouse #databricks",
-                        "likes": 6484,
-                        "comments": 207,
+                        "text": "Excited that High Growth Handbook was listed by Bloomberg Business Week as a Best Book of 2018!",
+                        "likes": 217,
+                        "comments": 22,
                         "reposts": 0
                     },
                     "contentStrategy": {
-                        "Text": 32.35,
-                        "Images": 8.5,
-                        "Videos": 1.96,
-                        "Articles": 57.19
+                        "Text": 72.58,
+                        "Images": 0,
+                        "Videos": 9.68,
+                        "Articles": 17.74
                     }
                 }
             },
             {
-                "name": "Barr Moses",
-                "title": "Co-Founder & CEO at Monte Carlo",
-                "profileUrl": "https://linkedin.com/in/barrmoses",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
-                "followersCount": "57.8K",
-                "postWithin1Year": 387,
-                "descriptionFocus": "Co-Founder & CEO of Monte Carlo, creator of the Data + AI observability platform. Focused on data reliability and enterprise-scale AI adoption.",
+                "name": "Chamath Palihapitiya",
+                "title": "CEO at Social Capital",
+                "profileUrl": "https://linkedin.com/in/chamath",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHp0oaxzOhakA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1692899276520?e=1753315200&v=beta&t=hYfu-RH3yAKgHK9OKIde_KZx-NpIlw5VJ_CeSijGdTQ",
+                "followersCount": "207.5K",
+                "postWithin1Year": 198,
+                "descriptionFocus": "Tech investor and entrepreneur leading Social Capital. Focuses on transformational ideas in technology.",
                 "relevance": [
-                    "Data reliability innovation",
-                    "AI observability leader",
-                    "Enterprise data strategy"
+                    "Tech investor",
+                    "Startup mentor",
+                    "AI aligned"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Barr Moses",
-                        "title": "Co-Founder & CEO at Monte Carlo",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFCHO1eW1D7ZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723606508901?e=1752710400&v=beta&t=n3SxK48vrzmz7UELcGEaJ08-KzDkNhUXhevhW26qbhc",
+                        "name": "Chamath Palihapitiya",
+                        "title": "CEO at Social Capital",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHp0oaxzOhakA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1692899276520?e=1753315200&v=beta&t=hYfu-RH3yAKgHK9OKIde_KZx-NpIlw5VJ_CeSijGdTQ",
+                        "location": "San Francisco Bay Area, United States",
+                        "followers": "207.5K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "My father died from a cardiac arrest 30 years after being diagnosed with diabetes. He spent 10 years on metformin, 10 years on insulin and the final 10 years on dialysis. Through his journey I saw the complexity of modern healthcare.\n\nFortunately, we lived this experience in Canada, where the government paid for our healthcare.\u00a0When I came to the U.S., I quickly realized that had his ordeal played out here, we would have gone bankrupt.\n\nThis deep dive aims to explain the U.S. healthcare system. We have tried to break down every aspect of the market and their specific economic incentives to explain why the U.S. spends more than any other country in the world but is falling behind in measures like life expectancy.\n\nIf you are interested in learning more, you can read our deep dive below:\n\nhttps://lnkd.in/gAyJCkF4",
+                        "likes": 3298,
+                        "comments": 186,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 25.76,
+                        "Images": 15.15,
+                        "Videos": 4.55,
+                        "Articles": 54.55
+                    }
+                }
+            },
+            {
+                "name": "Andrew Gazdecki",
+                "title": "Founder and CEO of Acquire.com. Acquire.com has helped 100s of startups get acquired and facilitated $500m+ in closed deals.",
+                "profileUrl": "https://linkedin.com/in/agazdecki",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHqnVzrFZFwBA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1721226549021?e=1753315200&v=beta&t=J3OJ3XqjUwGnbjmhAEn4sFdxHYC-p7eG2vQdQc9P-0o",
+                "followersCount": "110.0K",
+                "postWithin1Year": 108,
+                "descriptionFocus": "Serial entrepreneur and CEO known for startup acquisitions. Provides insights on scaling and market evolution.",
+                "relevance": [
+                    "Entrepreneurial insights",
+                    "Startup scaling",
+                    "Market evolution"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Andrew Gazdecki",
+                        "title": "Founder and CEO of Acquire.com. Acquire.com has helped 100s of startups get acquired and facilitated $500m+ in closed deals.",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHqnVzrFZFwBA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1721226549021?e=1753315200&v=beta&t=J3OJ3XqjUwGnbjmhAEn4sFdxHYC-p7eG2vQdQc9P-0o",
+                        "location": "San Francisco Bay Area, United States",
+                        "followers": "110.0K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Too many founders quit too early.\nNot because their startup sucked or they weren't capable.\n\nBut because it just took too damn long.\n\nBuilding a startup is doing the boring stuff over and over and over until something finally works.\n\nWriting emails no one replies to\nShipping features no one cares about.\nPosting content no one sees.\n\nThen one day it all starts to take off and work.\n\nMost people don\u2019t stick with it long enough to find out.\n\nSo please keep going. \n\nYou might be way closer than you think.",
+                        "likes": 1859,
+                        "comments": 279,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 44.44,
+                        "Images": 21.3,
+                        "Videos": 33.33,
+                        "Articles": 0.93
+                    }
+                }
+            },
+            {
+                "name": "Tomasz Tunguz",
+                "title": "Venture Capitalist at Theory",
+                "profileUrl": "https://linkedin.com/in/tomasztunguz",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQGCc80Wc2nOpg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1568235988643?e=1753315200&v=beta&t=r802VZA3QduYJXZ5YBDJZfjCyCJ_fLj-JhBFYCJZHSo",
+                "followersCount": "399.3K",
+                "postWithin1Year": 200,
+                "descriptionFocus": "General Partner at Theory Ventures focusing on SaaS and data-driven trends. Writes influential blog posts on technology.",
+                "relevance": [
+                    "SaaS trends",
+                    "Data driven",
+                    "Tech VC"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Tomasz Tunguz",
+                        "title": "Venture Capitalist at Theory",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQGCc80Wc2nOpg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1568235988643?e=1753315200&v=beta&t=r802VZA3QduYJXZ5YBDJZfjCyCJ_fLj-JhBFYCJZHSo",
                         "location": "San Francisco, California, United States",
-                        "followers": "57.8K"
+                        "followers": "399.3K"
                     },
                     "post": {
                         "postURL": "",
-                        "text": "Who owns data quality? \n\nIt\u2019s a question as old as Oracle Version 3, and the answer varies depending on who you ask.\n\n- Some organizations like to spread the responsibility around to multiple team members, each responsible for a few pipelines. \n\n- Others prefer to concentrate the responsibility on a select few specialists who have a holistic view of the entire platform. \n\n- And then there are those who view data quality as a technical issue, while others see it as a business or process problem.\n\nBut at the end of the day, the only thing that matters is that it gets done. \n\nShane Murray and I have spoken to thousands of data leaders over the years to understand the most common ownership models for data quality, and how data teams can apply them at scale.\n\nFrom data engineering to data governance teams, our latest explores the pros and cons of each approach: https://lnkd.in/eiUPWypC\n\n(Meme inspired by Chad Sanderson)\n\n#dataquality #dataengineering #datareliability",
-                        "likes": 2580,
-                        "comments": 83,
+                        "text": "Today, we\u2019re announcing our second fund of $450m to support our mission of partnering with early stage software companies that leverage technology discontinuities into go-to-market advantages. This marks the next chapter in our firm\u2019s evolution.\n\nSince we launched Theory Ventures in 2023, we\u2019ve gathered a wonderful team : Lauren DeMeuse, Spencer Farrar, Andy Triedman, Rafa Jara Simkin, Amber (., Arjun Mishra, & Kristin Beach.\n\nWe have partnered with 8 marvelous founding teams, all using data to power the next wave of innovation across the Modern Data Stack, Artificial Intelligence, & Web3.\n\nWe\u2019ve grown our fund size to match the needs of founders in this market : average Series A rounds have increased 42% since our launch, a reflection of the growth potential of these software categories.\n\nI\u2019m grateful to our team, our founders, & our limited partners for the continued support, & to Allie Garfinkle for sharing more about Theory (https://lnkd.in/gmD7zjSP).",
+                        "likes": 1601,
+                        "comments": 130,
                         "reposts": 0
                     },
                     "contentStrategy": {
-                        "Text": 8.01,
-                        "Images": 69.77,
-                        "Videos": 5.43,
-                        "Articles": 16.8
+                        "Text": 7.0,
+                        "Images": 28.5,
+                        "Videos": 5.5,
+                        "Articles": 59.0
                     }
                 }
             },
             {
-                "name": "Bill Schmarzo",
-                "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
-                "profileUrl": "https://linkedin.com/in/schmarzo",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
-                "followersCount": "44.4K",
-                "postWithin1Year": 356,
-                "descriptionFocus": "Globally recognized leader in Big Data and analytics, pioneering business-first data science strategies. Focused on data monetization and transformative digital innovation.",
+                "name": "Dalton Caldwell",
+                "title": "Managing Partner at Y Combinator",
+                "profileUrl": "https://linkedin.com/in/daltoncaldwell",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQH_nyud2InAew/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516161504312?e=1753315200&v=beta&t=-gS747A2clMfGmj7-WiUc150Vu8ea2e7sOjJbUi-PPI",
+                "followersCount": "82.2K",
+                "postWithin1Year": 70,
+                "descriptionFocus": "Managing Partner at Y Combinator, providing insights on early-stage startups and innovation. Focuses on scaling new ventures.",
                 "relevance": [
-                    "Big data strategist",
-                    "Business analytics focus",
-                    "Transformational leadership"
+                    "Startup mentoring",
+                    "Tech innovation",
+                    "Scaling ventures"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Bill Schmarzo",
-                        "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
-                        "location": "Des Moines, Iowa, United States",
-                        "followers": "44.4K"
+                        "name": "Dalton Caldwell",
+                        "title": "Managing Partner at Y Combinator",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQH_nyud2InAew/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516161504312?e=1753315200&v=beta&t=-gS747A2clMfGmj7-WiUc150Vu8ea2e7sOjJbUi-PPI",
+                        "location": "San Francisco, California, United States",
+                        "followers": "82.2K"
                     },
                     "post": {
                         "postURL": "",
-                        "text": "So, let me ask a stupid question (my specialty): If our existing large language models (LLMs) have already soaked up most of the world's information, why are we trying to update them with synthetic information, which will likely dilute the accuracy and relevance of the actual information already in the LLM?\n\nInstead, shouldn't we teach organizations and individuals how to use RAG and  Contextual Continuity techniques to massage these LLMs to yield more relevant and accurate responses?\n\nIf LLMs have reached the law of diminishing returns (and maybe they should just be turned into a public utility for the benefit of all), then let's invest in the people skills and tools to get more value from these marvelous LLM creations.\n\nProf. Ahmed Banafa Chris Surdak Mark Stouse John Thompson Dan Everett Jon Cooke Malcolm Hawker Dell Technologies Navin Mukraj Cindi Howson Jeff Frick Kyle Winterbottom Ren\u00e9e B. Lahti Kevin Petrie Eddie Short\n\n#AI #LLM #GenAI #RAG #ContextualContinuity #DataScience #ValueEngineering",
-                        "likes": 251,
-                        "comments": 164,
+                        "text": "It's insanely easy to run models like DeepSeek R1 locally via Ollama (YC W21)\n\nOnce ollama is installed, you just need to type \"ollama run deepseek-r1:8b\"",
+                        "likes": 3828,
+                        "comments": 142,
                         "reposts": 0
                     },
                     "contentStrategy": {
-                        "Text": 43.26,
-                        "Images": 7.87,
-                        "Videos": 7.3,
-                        "Articles": 41.57
-                    }
-                }
-            },
-            {
-                "name": "Maxime Beauchemin",
-                "title": "CEO & Founder at Preset",
-                "profileUrl": "https://linkedin.com/in/maximebeauchemin",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
-                "followersCount": "14.9K",
-                "postWithin1Year": 193,
-                "descriptionFocus": "CEO & Founder at Preset and open source innovator behind Apache Superset and Apache Airflow. Expert in data engineering and startup leadership in technology.",
-                "relevance": [
-                    "Open source innovator",
-                    "Data engineering expertise",
-                    "Tech startup leadership"
-                ],
-                "detailedInfluencerAnalysis": {
-                    "profile": {
-                        "name": "Maxime Beauchemin",
-                        "title": "CEO & Founder at Preset",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
-                        "location": "Belmont, California, United States",
-                        "followers": "14.9K"
-                    },
-                    "post": {
-                        "postURL": "",
-                        "text": "Today we're announcing #apachesuperset 1.0 and our graduation from the incubator at the Apache Software Foundation! \n\n1.0 is a huge milestone and marks the point where #opensource #businessintelligencebi  is truly ready for mass adoption!",
-                        "likes": 767,
-                        "comments": 51,
-                        "reposts": 0
-                    },
-                    "contentStrategy": {
-                        "Text": 53.89,
-                        "Images": 4.15,
-                        "Videos": 2.07,
-                        "Articles": 39.9
+                        "Text": 85.71,
+                        "Images": 4.29,
+                        "Videos": 4.29,
+                        "Articles": 5.71
                     }
                 }
             }
@@ -388,66 +461,84 @@
                 "averageEngagementRate": 117.0
             }
         ],
-        "hashtagKeyFinding": "Despite low overall usage (17% of posts), the strategic use of hashtags drives disproportionately high engagement."
+        "hashtagKeyFinding": "Posts with hashtags, although representing a small portion of total posts, drive strong engagement with higher average metrics."
     },
     "influencerComparison": [
         {
-            "name": "Ali Ghodsi",
-            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
-            "followers": 115700,
-            "postsPerYear": 116,
-            "topContentTypes": "Articles",
-            "topThemes": "AI industry expertise & Enterprise tech insights",
-            "postingFrequency": "2-3 posts/week"
+            "name": "Reid Hoffman",
+            "linkedinUrl": "https://linkedin.com/in/reidhoffman",
+            "followers": 2707353,
+            "postsPerYear": 177,
+            "topContentTypes": "Videos, Articles",
+            "topThemes": "AI, Innovation, Business",
+            "postingFrequency": "3.4 posts/week"
         },
         {
-            "name": "Barr Moses",
-            "linkedinUrl": "https://www.linkedin.com/in/barrmoses",
-            "followers": 57800,
-            "postsPerYear": 141,
-            "topContentTypes": "Images",
-            "topThemes": "Data reliability innovation & AI observability leader",
-            "postingFrequency": "2-3 posts/week"
+            "name": "Elad Gil",
+            "linkedinUrl": "https://linkedin.com/in/eladgil",
+            "followers": 42277,
+            "postsPerYear": 62,
+            "topContentTypes": "Text, Articles",
+            "topThemes": "AI, Innovation, Business",
+            "postingFrequency": "1.2 posts/week"
         },
         {
-            "name": "Bill Schmarzo",
-            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
-            "followers": 44400,
-            "postsPerYear": 0,
-            "topContentTypes": "Text",
-            "topThemes": "Big data strategist & Business analytics focus",
-            "postingFrequency": "< 1 post/week"
+            "name": "Chamath Palihapitiya",
+            "linkedinUrl": "https://linkedin.com/in/chamath",
+            "followers": 207535,
+            "postsPerYear": 198,
+            "topContentTypes": "Articles, Text",
+            "topThemes": "AI, Business, Innovation",
+            "postingFrequency": "3.8 posts/week"
         },
         {
-            "name": "Maxime Beauchemin",
-            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
-            "followers": 14900,
-            "postsPerYear": 0,
-            "topContentTypes": "Text",
-            "topThemes": "Open source innovator & Data engineering expertise",
-            "postingFrequency": "< 1 post/week"
+            "name": "Andrew Gazdecki",
+            "linkedinUrl": "https://linkedin.com/in/agazdecki",
+            "followers": 110000,
+            "postsPerYear": 108,
+            "topContentTypes": "Text, Videos",
+            "topThemes": "Innovation, AI, Business",
+            "postingFrequency": "2.1 posts/week"
+        },
+        {
+            "name": "Tomasz Tunguz",
+            "linkedinUrl": "https://linkedin.com/in/tomasztunguz",
+            "followers": 399322,
+            "postsPerYear": 200,
+            "topContentTypes": "Articles, Images",
+            "topThemes": "AI, Business, Innovation",
+            "postingFrequency": "3.8 posts/week"
+        },
+        {
+            "name": "Dalton Caldwell",
+            "linkedinUrl": "https://linkedin.com/in/daltoncaldwell",
+            "followers": 82212,
+            "postsPerYear": 70,
+            "topContentTypes": "Text, Articles",
+            "topThemes": "AI, Innovation, Product",
+            "postingFrequency": "1.3 posts/week"
         }
     ],
-    "summaryOfComparison": "The client demonstrates strong engagement on individual posts with a narrative focus, yet lags behind top influencers in follower count and posting frequency. Enhancing visual content and increasing post volume could help bridge the gap with industry leaders.",
+    "summaryOfComparison": "Compared to industry influencers, Lawrence Coburn's engagement is steady but with fewer posts. Increasing content diversity and posting frequency may help boost visibility and align performance with top industry benchmarks.",
     "gapAnalysis": [
         {
-            "gap": "Lower posting frequency compared to industry influencers",
-            "yourValue": "2-3 posts/week",
-            "influencerAverage": "3-4 posts/week",
-            "recommendedAction": "Increase posting frequency to match industry standards."
+            "gap": "Lower average engagement per post",
+            "yourValue": "49",
+            "influencerAverage": "100",
+            "recommendedAction": "Enhance content quality and leverage storytelling to drive higher engagement."
         },
         {
-            "gap": "Limited use of visual content",
-            "yourValue": "Image posts: 9.73%",
-            "influencerAverage": "Average visual content percentage: 22.45%",
-            "recommendedAction": "Incorporate more image and video content to boost engagement."
+            "gap": "Limited video content share",
+            "yourValue": "2.65% share",
+            "influencerAverage": "Higher visual content percentage",
+            "recommendedAction": "Increase video posts to boost visual engagement."
         }
     ],
     "recommendations": {
-        "contentStrategy": "Focus on leveraging text-based thought leadership while gradually introducing more visual and multimedia content to diversify engagement.",
-        "visualElements": "Enhance image quality and incorporate infographics to complement narrative posts.",
-        "postingSchedule": "Increase post frequency to at least 3-4 times per week, especially on high engagement days like Wednesday.",
-        "audienceTargeting": "Tailor content to resonate with professionals in Technology, Consulting, and Marketing sectors.",
-        "engagementTactics": "Incorporate interactive elements like polls and direct questions to stimulate audience engagement."
+        "contentStrategy": "Diversify content themes by including more thought leadership, case studies, and insights related to AI and operational efficiency.",
+        "visualElements": "Incorporate high-quality images and videos to complement storytelling and boost engagement.",
+        "postingSchedule": "Optimize posting times by focusing on peak days such as Tuesday and Wednesday.",
+        "audienceTargeting": "Tailor content to resonate with professionals in technology, consulting, and marketing sectors.",
+        "engagementTactics": "Encourage interactive discussions and include clear calls-to-action to drive deeper audience engagement."
     }
 }

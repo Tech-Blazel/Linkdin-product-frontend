@@ -21,6 +21,7 @@ const ClientSwitcher = () => {
     "Bill-Douglas",
     "Stefan-Von-Imhof",
     "Caelan-Urquhart",
+    "Kanishk-Parashar",
   ];
 
   useEffect(() => {

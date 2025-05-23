@@ -6,7 +6,7 @@
         "clientInfo": {
             "name": "Stefan Von Imhof",
             "title": "CEO @ Alts.co",
-            "profileUrl": "",
+            "profileUrl": "https://www.linkedin.com/in/stefanvonimhof",
             "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQEQbNMaZCppZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1687751303809?e=1753315200&v=beta&t=0HGzla-mMaKaywyQEt5JDm4-cQiEBcbbnVegVGGv16w"
         }
     },
@@ -14,19 +14,20 @@
         "averageLikesPerPost": 16,
         "averageCommentsForPost": {
             "value": 2,
-            "comparison": "N/A"
+            "comparison": "about industry average"
         },
         "topContentLikes": {
             "value": 70,
             "contentType": "article"
         },
-        "hashtagImpactEngagement": 41,
+        "hashtagImpactEngagement": 285,
         "keyHighlights": [
-            "Article posts dominate with 80% share, indicating a strong preference for in-depth content.",
-            "The top post achieved 70 likes, setting a benchmark for success.",
-            "Optimal posting days (Monday and Friday) correlate with higher interaction rates."
+            "Article posts dominate with an 80% distribution.",
+            "Image posts achieve higher engagement (24 avg) compared to text posts (14 avg).",
+            "Monday and Friday show the highest engagement rates.",
+            "Top performing post is an article with 70 likes."
         ],
-        "summaryText": "This report provides a comprehensive analysis of Stefan Von Imhof's LinkedIn engagement over the analyzed period. It highlights content performance metrics, and audience demographics. The report also identifies key content themes and optimal posting patterns. Overall, it offers actionable insights to enhance future LinkedIn strategies."
+        "summaryText": "This report provides a comprehensive analysis of Stefan Von Imhof\u2019s LinkedIn engagement over the reported period. It examines content performance, audience demographics, posting patterns, and influencer comparisons. The report highlights key strengths and areas for improvement in his digital strategy. Overall, the analysis offers actionable insights to optimize future engagement."
     },
     "contentAnalysis": {
         "postTypesDistribution": [
@@ -52,19 +53,19 @@
             {
                 "theme": "Text",
                 "percentage": 25.0,
-                "averageLikes": 14
+                "averageLikes": 16
             },
             {
                 "theme": "Image",
                 "percentage": 25.0,
-                "averageLikes": 24
+                "averageLikes": 16
             }
         ],
-        "visualImpactInsight": "Image posts perform significantly better with an average engagement of 24 compared to text posts at 14.",
-        "postTypeDistributionInsight": "Articles dominate the content mix at 80%, indicating a focus on detailed, long-form content.",
+        "visualImpactInsight": "Image posts (avg engagement: 24) tend to perform significantly better than text posts (avg engagement: 14).",
+        "postTypeDistributionInsight": "Article posts comprise 80% indicating a strong focus on detailed industry insights, while text and image posts make up a smaller, targeted portion of the content mix.",
         "topPerformingPosts": [
             {
-                "content": "Most Americans have never watched rugby. But that could change soon. The US is set to host the 2031 Rugby World Cup...",
+                "content": "Most Americans have never watched rugby. But that could change soon.",
                 "type": "article",
                 "link": "https://www.linkedin.com/posts/stefanvonimhof_most-americans-have-never-watched-rugby-activity-7122007180366548992-CwnW?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "70",
@@ -72,7 +73,7 @@
                 "shares": "3"
             },
             {
-                "content": "Mexico may not be top of mind when it comes to investing, but with 127 million residents, the opportunities are bigger than you think...",
+                "content": "Mexico may not be top of mind when it comes to investing, but opportunities are bigger than you think.",
                 "type": "article",
                 "link": "https://www.linkedin.com/posts/stefanvonimhof_mexico-may-not-be-top-of-mind-when-it-comes-activity-7170206938968809472-GD7L?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "68",
@@ -80,7 +81,7 @@
                 "shares": "5"
             },
             {
-                "content": "At Alts, we pride ourselves on highlighting exotic markets you never knew existed. It's about Heritage License Plates...",
+                "content": "At Alts, highlighting exotic markets and Heritage License Plates.",
                 "type": "article",
                 "link": "https://www.linkedin.com/posts/stefanvonimhof_alternativeinvesting-heritageplates-alternativeassets-activity-7066238736916774912-x0Zk?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "67",
@@ -88,7 +89,7 @@
                 "shares": "3"
             },
             {
-                "content": "I recently picked up my 300th vinyl record. So I thought it'd be fun to show you the most interesting stuff I've learned since I began collecting.",
+                "content": "Recently picked up my 300th vinyl record and learned interesting aspects of collecting.",
                 "type": "article",
                 "link": "https://www.linkedin.com/posts/stefanvonimhof_vinyl-vinylcollector-records-activity-7061474163630211072-4ebm?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "48",
@@ -97,8 +98,9 @@
             }
         ],
         "commonCharacteristicsTopPosts": [
-            "Top posts are predominantly articles with in-depth analysis and timely industry insights.",
-            "They include detailed narratives and event highlights."
+            "All top posts are articles focused on industry insights.",
+            "They use detailed storytelling and provide context with data and shoutouts.",
+            "The content is rich in informational value and emphasizes market trends."
         ]
     },
     "audienceAnalysis": {
@@ -108,7 +110,7 @@
                 "description": "Social Gerontologist, Founder and Director of Standout Ageing (SAGE) and Stand Out Report"
             },
             {
-                "name": "\ufffd Dan Remy",
+                "name": "\uf8ff Dan Remy",
                 "description": "Partnerships + Member Engagement Manager | Australian Higher Education Industrial Association (AHEIA)"
             },
             {
@@ -117,10 +119,14 @@
             },
             {
                 "name": "Christopher Allen",
-                "description": "Fora Travel Advisor | Wellness Travel Coach focused on helping healthcare heroes"
+                "description": "Fora Travel Advisor | Wellness Travel Coach | Helping healthcare heroes & first responders kick burnout"
+            },
+            {
+                "name": "Emmanuvel (TYTLY INFOTECH)",
+                "description": "Delivering Tailored IT Support That Powers Your Business Goals | Technical Project Manager at TYTLY INFOTECH PVT LTD"
             }
         ],
-        "audienceInsight": "The audience is diverse with strong representation in Technology, Marketing, and Consulting sectors, reflecting varied professional interests.",
+        "audienceInsight": "The engaged audience is diverse, with strong representation in Technology, Marketing, and Consulting sectors.",
         "audienceCompositionByIndustry": [
             {
                 "industry": "Technology / IT",
@@ -141,6 +147,10 @@
             {
                 "industry": "Sales & Business Development",
                 "percentage": 4.52
+            },
+            {
+                "industry": "Others",
+                "percentage": 56.78
             }
         ]
     },
@@ -175,7 +185,7 @@
                 "averageEngagementRate": 17.31
             }
         ],
-        "postingFrequency": "1-2 posts per week",
+        "postingFrequency": "Average 1-2 posts per week.",
         "timingKeyFinding": "Posts on Monday and Friday tend to receive significantly higher engagement.",
         "optimalPostingTimes": [
             {
@@ -185,160 +195,232 @@
         ]
     },
     "topIndustryInfluencersAnalysis": {
-        "overview": "Analysis of 4 industry influencers with an average of 58,200 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "overview": "Analysis of 6 industry influencers with an average of 2,134,583 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
         "keyInfluencerInsights": {
             "optimalPostingWindow": "09:00 - 11:00",
-            "visualContentPercentage": 26.76,
+            "visualContentPercentage": 55.63,
             "averagePostFrequency": "Weekly",
-            "personalStoryMultiplier": 1.0,
+            "personalStoryMultiplier": 0.99,
             "contrarianViewMultiplier": 0.29,
-            "totalPostsLastYear": 1242
+            "totalPostsLastYear": 1164
         },
         "influencers": [
             {
-                "name": "Ali Ghodsi",
-                "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
-                "profileUrl": "https://linkedin.com/in/alighodsi",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
-                "followersCount": "115.7K",
-                "postWithin1Year": 306,
-                "descriptionFocus": "CEO & Co-founder at Databricks with a strong focus on big data and distributed systems. Adjunct professor offering innovative insights on data analytics.",
+                "name": "Kevin O'Leary",
+                "title": "Chairman, O\u2019Leary Ventures and Beanstox",
+                "profileUrl": "https://linkedin.com/in/kevinolearytv",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFztoBPChLfwQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516323178775?e=1753315200&v=beta&t=me-d6kGAOCeegfWADW2U69ON-MVz4qGMX1bDpcI2f9A",
+                "followersCount": "4.4M",
+                "postWithin1Year": 200,
+                "descriptionFocus": "Seasoned investor with a bold, no\u2010nonsense approach to financial ventures.",
                 "relevance": [
-                    "Tech leadership",
-                    "Data analytics",
-                    "Innovation insights"
+                    "Financial leadership",
+                    "Investment insights",
+                    "Strong credibility"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Ali Ghodsi",
-                        "title": "CEO & Co-Founder at Databricks, Adjunct Professor at UC Berkeley",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFjN2usk_TRZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1625591433196?e=1752710400&v=beta&t=GtgW8DciA4sT_Poo_rksGvZn2DAs4B_AA6CDrAjqdtg",
-                        "location": "San Francisco, California, United States",
-                        "followers": "115.7K"
+                        "name": "Kevin O'Leary",
+                        "title": "Chairman, O\u2019Leary Ventures and Beanstox",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFztoBPChLfwQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516323178775?e=1753315200&v=beta&t=me-d6kGAOCeegfWADW2U69ON-MVz4qGMX1bDpcI2f9A",
+                        "location": "West Palm Beach, Florida, United States",
+                        "followers": "4.4M"
                     },
                     "post": {
                         "postURL": "",
-                        "text": "In just two weeks, we revolutionized Dolly. Introducing the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for commercial use. \n\nWith Dolly 2.0, any organization can create, own, and customize a powerful LLM without sharing their proprietary data with 3rd parties or paying for API access. The model uses a new dataset, \u201cdatabricks-dolly-15k,\u201d which is made up of more than 15,000 records generated by thousands of Databricks employees. It\u2019s the first open source, human-generated instruction dataset specifically designed to make LLMs exhibit the magical interactivity of ChatGPT (instruction following). \n\nWe\u2019re open-sourcing the entirety of Dolly 2.0, including the training code, dataset, and model weights, all suitable for commercial use.\n\nhttps://bit.ly/43oXmsy \n\n#llm #dolly #lakehouse #databricks",
-                        "likes": 6484,
-                        "comments": 207,
+                        "text": "At yesterday\u2019s Senate hearing, I shared a story that every American entrepreneur already knows too well.\n\nYou build something great. You invest your own money, blood, sweat, and tears. You prove it in the U.S. market. Then, BOOM \u2014 one day you wake up and see your product, your innovation, being sold on Alibaba. Knocked off. Branded like yours, but you\u2019re not getting a single dollar.\n\nThis is the reality for thousands of American small businesses. And it\u2019s been happening for decades.\n\nI\u2019m done watching American entrepreneurs get steamrolled. If Chinese companies want access to our legal system, then it\u2019s time we get access to theirs. Until then? 400% tariffs.",
+                        "likes": 8875,
+                        "comments": 963,
                         "reposts": 0
                     },
                     "contentStrategy": {
-                        "Text": 32.35,
-                        "Images": 8.5,
-                        "Videos": 1.96,
-                        "Articles": 57.19
+                        "Text": 2.5,
+                        "Images": 4.0,
+                        "Videos": 91.5,
+                        "Articles": 2.0
                     }
                 }
             },
             {
-                "name": "Bill Schmarzo",
-                "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
-                "profileUrl": "https://linkedin.com/in/schmarzo",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
-                "followersCount": "44.4K",
-                "postWithin1Year": 356,
-                "descriptionFocus": "Dean of Big Data driving data monetization and digital transformation. An innovator and educator focused on leveraging analytics for business value.",
+                "name": "Sallie Krawcheck",
+                "title": "Founder of Ellevest",
+                "profileUrl": "https://linkedin.com/in/salliekrawcheck",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEvJidJ0IJWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710794845774?e=1753315200&v=beta&t=mQzZ_4xfjbG65aduSydSMDfFUt_TkwrzgVTzx1uCytQ",
+                "followersCount": "2.7M",
+                "postWithin1Year": 196,
+                "descriptionFocus": "Pioneer in financial services, empowering investors with wealth management insights.",
                 "relevance": [
-                    "Data monetization",
-                    "Analytics strategy",
-                    "Financial value"
+                    "Financial services",
+                    "Wealth empowerment",
+                    "Investor advocacy"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Bill Schmarzo",
-                        "title": "Dean of Big Data, CDO Chief AI Officer Whisperer, recognized global innovator, educator, and practitioner in Big Data, Data Science, & Design Thinking",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQH8s0EYoeSi7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590804656828?e=1752710400&v=beta&t=2VskiUFS4kIN8HfQRzzHb3-fM6lTsieKziVKfaxrnFM",
-                        "location": "Des Moines, Iowa, United States",
-                        "followers": "44.4K"
+                        "name": "Sallie Krawcheck",
+                        "title": "Founder of Ellevest",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEvJidJ0IJWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710794845774?e=1753315200&v=beta&t=mQzZ_4xfjbG65aduSydSMDfFUt_TkwrzgVTzx1uCytQ",
+                        "location": "New York, New York, United States",
+                        "followers": "2.7M"
                     },
                     "post": {
                         "postURL": "",
-                        "text": "So, let me ask a stupid question (my specialty): If our existing large language models (LLMs) have already soaked up most of the world's information, why are we trying to update them with synthetic information, which will likely dilute the accuracy and relevance of the actual information already in the LLM?\n\nInstead, shouldn't we teach organizations and individuals how to use RAG and  Contextual Continuity techniques to massage these LLMs to yield more relevant and accurate responses?\n\nIf LLMs have reached the law of diminishing returns (and maybe they should just be turned into a public utility for the benefit of all), then let's invest in the people skills and tools to get more value from these marvelous LLM creations.\n\nProf. Ahmed Banafa Chris Surdak Mark Stouse John Thompson Dan Everett Jon Cooke Malcolm Hawker Dell Technologies Navin Mukraj Cindi Howson Jeff Frick Kyle Winterbottom Ren\u00e9e B. Lahti Kevin Petrie Eddie Short\n\n#AI #LLM #GenAI #RAG #ContextualContinuity #DataScience #ValueEngineering",
-                        "likes": 251,
-                        "comments": 164,
+                        "text": "I'm sorry to share with you that I am stepping aside as Ellevest\u2019s CEO and transitioning to a board role, to focus on my health following a recent diagnosis. As they say, you can have 1,000 problems in your life until you have a health problem. And then you only have one problem. So I need to do this for myself and my family. \n\nDr. Sylvia S. Kwan, CFA, CAIA, my partner since the first days, will remain Ellevest\u2019s Chief Investment Officer (CIO) and take on the co-CEO role, so Ellevest clients will continue to be in the most qualified hands. She is easily the best CIO that I\u2019ve worked with in my (long) career, and I have learned a lot from her. Connie Hsiung, our current COO & CFO, will also take on the role of co-CEO. Her top priority will be to work with the Ellevest board on the company\u2019s strategy, and I can\u2019t imagine anyone more capable or ready.\n\nWhile I pass the torch to the next generation of Ellevest leadership and as Sylvia and Connie take the reins on driving the company forward, I\u2019ll be able to continue to provide guidance as a member of our Board. My focus will be on my health, so I will not be involved in the day-to-day, but my heart will always be with our mission. \n\nI love Ellevest and our talented and passionate team and strong community. \n\nI love our mission to get more money in the hands of women, and I love that we have had a positive impact on so many of you \u2014 and your sisters, your friends, your moms, your wives, and your daughters. I am grateful to our investors, especially those who have been on so much of this journey with us. I am grateful for our employees, particularly the early ones who took the risk of joining us. And I am particularly grateful for the Ellevest community, all of you, for your support and engagement. I\u2019m constantly reminded by this community that we have changed the industry and we have changed lives. Thank you.\n\nRead more at https://lnkd.in/ejEC5CcK",
+                        "likes": 7907,
+                        "comments": 885,
                         "reposts": 0
                     },
                     "contentStrategy": {
-                        "Text": 43.26,
-                        "Images": 7.87,
-                        "Videos": 7.3,
-                        "Articles": 41.57
+                        "Text": 6.63,
+                        "Images": 11.22,
+                        "Videos": 11.22,
+                        "Articles": 70.92
                     }
                 }
             },
             {
-                "name": "Maxime Beauchemin",
-                "title": "CEO & Founder at Preset ",
-                "profileUrl": "https://linkedin.com/in/maximebeauchemin",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
-                "followersCount": "14.9K",
+                "name": "Chamath Palihapitiya",
+                "title": "CEO at Social Capital",
+                "profileUrl": "https://linkedin.com/in/chamath",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHp0oaxzOhakA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1692899276520?e=1753315200&v=beta&t=hYfu-RH3yAKgHK9OKIde_KZx-NpIlw5VJ_CeSijGdTQ",
+                "followersCount": "207.5K",
+                "postWithin1Year": 198,
+                "descriptionFocus": "Innovative investor driving transformative ideas across diverse markets.",
+                "relevance": [
+                    "Venture investor",
+                    "Transformative ideas",
+                    "Alternative strategy"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Chamath Palihapitiya",
+                        "title": "CEO at Social Capital",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHp0oaxzOhakA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1692899276520?e=1753315200&v=beta&t=hYfu-RH3yAKgHK9OKIde_KZx-NpIlw5VJ_CeSijGdTQ",
+                        "location": "San Francisco Bay Area, United States",
+                        "followers": "207.5K"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "My father died from a cardiac arrest 30 years after being diagnosed with diabetes. He spent 10 years on metformin, 10 years on insulin and the final 10 years on dialysis. Through his journey I saw the complexity of modern healthcare.\n\nFortunately, we lived this experience in Canada, where the government paid for our healthcare.\u00a0When I came to the U.S., I quickly realized that had his ordeal played out here, we would have gone bankrupt.\n\nThis deep dive aims to explain the U.S. healthcare system. We have tried to break down every aspect of the market and their specific economic incentives to explain why the U.S. spends more than any other country in the world but is falling behind in measures like life expectancy.\n\nIf you are interested in learning more, you can read our deep dive below:\n\nhttps://lnkd.in/gAyJCkF4",
+                        "likes": 3298,
+                        "comments": 186,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 25.76,
+                        "Images": 15.15,
+                        "Videos": 4.55,
+                        "Articles": 54.55
+                    }
+                }
+            },
+            {
+                "name": "James Altucher",
+                "title": "Founder at \"The James Altucher Show\" podcast",
+                "profileUrl": "https://linkedin.com/in/jamesaltucher",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHcZjk1rg0PRw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1548269837921?e=1753315200&v=beta&t=EetgvAb4cYEDuNPzTQ-vRxoODZCqwqTtJ9TkJCCZB0I",
+                "followersCount": "1.2M",
+                "postWithin1Year": 200,
+                "descriptionFocus": "Entrepreneurial thought leader offering unconventional investing and career insights.",
+                "relevance": [
+                    "Unconventional insights",
+                    "Investing commentary",
+                    "Entrepreneurial approach"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "James Altucher",
+                        "title": "Founder at \"The James Altucher Show\" podcast",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHcZjk1rg0PRw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1548269837921?e=1753315200&v=beta&t=EetgvAb4cYEDuNPzTQ-vRxoODZCqwqTtJ9TkJCCZB0I",
+                        "location": "New York City Metropolitan Area, United States",
+                        "followers": "1.2M"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "You can't do that, she told me. \n\nCindy was a VP in the Marketing department. \n\nI was on my way to see the CEO of HBO, where I worked. \n\nYou can't do that, she said. You can't just walk into his office! \n\nJeff was my boss's boss's boss's boss's boss's boss. \n\nPeople say \"can't\" when they have no answer.\n\n---\n\nI had an idea I wanted to tell him. If you can make original TV series on HBO, why not do original web series?\n\nThis was 1995. \n\nHe said, go for it. \n\nI used that first idea to launch my first company. My first clients were AmericanExpress.com and TimeWarner.com.\n\nIf you can't \"can't\", then you won't. \n\nIt reminds me of this amazing football play. This quarterback shouldn't. No he didn't. No he won't! \n\nBut he did.",
+                        "likes": 6029,
+                        "comments": 236,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 9.0,
+                        "Images": 12.5,
+                        "Videos": 41.0,
+                        "Articles": 37.5
+                    }
+                }
+            },
+            {
+                "name": "Barbara Corcoran",
+                "title": "Shark on ABC's Shark Tank, Motivational Speaker, Executive Coach, Podcast Host, Author, Founder of The Corcoran Group",
+                "profileUrl": "https://linkedin.com/in/barbaracorcoran",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQEw2sxjHFLW5w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1600788895731?e=1753315200&v=beta&t=Dkajk8QsOlMS_Ceh4ngMczyicc8Dh6NUg0Xv9kCbsy0",
+                "followersCount": "1.6M",
                 "postWithin1Year": 193,
-                "descriptionFocus": "Creator of Apache Airflow and Apache Superset, driving open source data engineering innovations. Founder at Preset delivering cutting-edge data solutions.",
+                "descriptionFocus": "Real estate mogul and inspiring entrepreneur with proven success in business building.",
                 "relevance": [
-                    "Open source",
-                    "Data engineering",
-                    "Innovative solutions"
+                    "Entrepreneurial success",
+                    "Real estate insight",
+                    "Inspiring leadership"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Maxime Beauchemin",
-                        "title": "CEO & Founder at Preset ",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHB06ZX-eVitQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537305614324?e=1752710400&v=beta&t=Wiese9Lakf2Ixi7g1bdUUP4b68WVw5t_lWRSE1WXLrM",
-                        "location": "Belmont, California, United States",
-                        "followers": "14.9K"
+                        "name": "Barbara Corcoran",
+                        "title": "Shark on ABC's Shark Tank, Motivational Speaker, Executive Coach, Podcast Host, Author, Founder of The Corcoran Group",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQEw2sxjHFLW5w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1600788895731?e=1753315200&v=beta&t=Dkajk8QsOlMS_Ceh4ngMczyicc8Dh6NUg0Xv9kCbsy0",
+                        "location": "New York, New York, United States",
+                        "followers": "1.6M"
                     },
                     "post": {
                         "postURL": "",
-                        "text": "Today we're announcing #apachesuperset 1.0 and our graduation from the incubator at the Apache Software Foundation! \n\n1.0 is a huge milestone and marks the point where #opensource #businessintelligencebi  is truly ready for mass adoption!",
-                        "likes": 767,
-                        "comments": 51,
+                        "text": "I\u2019m often asked what I\u2019d tell my younger self, and to be honest it\u2019s my least favorite question! I wouldn\u2019t be where I am today without the obstacles and setbacks I fought through along the way, and for that reason I don\u2019t hold onto regrets. But I recently stumbled upon a picture of myself in an outfit almost identical to a new suit I just bought! It made me stop and think about the long road young Barbara had ahead of her, but also how delicious it was.\n\nSo at 75 years and 3 facelifts young today, here are a few things I\u2019d tell my 25-year-old self. I hope you find them helpful too.\n\n-Don\u2019t you dare underestimate the power of your own instinct. Trust your gut, it\u2019s a summation of everything you\u2019ve learned and it won\u2019t often lead you astray.\n\n-The Old Boy Network that won\u2019t let you in? Don\u2019t worry about them. You can move in silence while they count you out, but they\u2019ll soon take notice when you become their biggest rival.\n\n-When you have an idea, move on it immediately. Don\u2019t worry about whether it\u2019s a winner or a loser, just throw a lot at the wall and see what sticks. And let me tell you something - those nasty failures? Your best successes will follow soon after. You\u2019ve just gotta stay in the game long enough to see things turn around.\n\n-Use your gift for choosing good people to build a great team ready to join hands and lift each other up. With them beside you, you\u2019ll build a business even bigger and more powerful than you dream.\n\n-Don\u2019t forget to make time for fun. Plan a boondoggle for your company, play out that wacky theme party, and get your vacations on the calendar. It\u2019ll multiply your creativity, build a loyal team, and create an unparalleled sense of camaraderie that\u2019ll make you the most desirable shop in town. \n\nPS: Green might be our color!",
+                        "likes": 18720,
+                        "comments": 830,
                         "reposts": 0
                     },
                     "contentStrategy": {
-                        "Text": 53.89,
-                        "Images": 4.15,
-                        "Videos": 2.07,
-                        "Articles": 39.9
+                        "Text": 11.92,
+                        "Images": 46.11,
+                        "Videos": 38.34,
+                        "Articles": 3.63
                     }
                 }
             },
             {
-                "name": "Brad Hargreaves",
-                "title": "I analyze emerging real estate trends | 3x founder | $500m+ of exits | Thesis Driven Founder (12k+subs)",
-                "profileUrl": "https://www.linkedin.com/in/bradhargreaves",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEj8zR5gPJbEw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689213838160?e=1753315200&v=beta&t=J4S2FjMspVeo7mubxBHpOkqCP89X9cFbCIlV8ltYrX0",
-                "followersCount": "12K",
-                "postWithin1Year": 300,
-                "descriptionFocus": "Founder and trend analyst in real estate. Shares market insights with a focus on visuals and current events.",
+                "name": "Reid Hoffman",
+                "title": "Co-Founder, LinkedIn, Manas AI & Inflection AI. Author of Superagency. Investor at Greylock.",
+                "profileUrl": "https://linkedin.com/in/reidhoffman",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHW7wKzPb3DAg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718221341641?e=1753315200&v=beta&t=o0e-qjP2yrtaGAkI9Q5MLn5vnWcnNVRHzH8IVMIudd8",
+                "followersCount": "2.7M",
+                "postWithin1Year": 177,
+                "descriptionFocus": "Investment pioneer and strategic network builder with deep entrepreneurial experience.",
                 "relevance": [
-                  "Real estate trends",
-                  "Urban innovation",
-                  "Data-driven visuals"
+                    "Strategic networking",
+                    "Venture expertise",
+                    "Innovative leadership"
                 ],
                 "detailedInfluencerAnalysis": {
-                  "profile": {
-                    "name": "Brad Hargreaves",
-                    "title": "I analyze emerging real estate trends | 3x founder | $500m+ of exits | Thesis Driven Founder (12k+subs)",
-                    "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEj8zR5gPJbEw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689213838160?e=1753315200&v=beta&t=J4S2FjMspVeo7mubxBHpOkqCP89X9cFbCIlV8ltYrX0",
-                    "location": "United States",
-                    "followers": "12K"
-                  },
-                  "post": {
-                    "postURL": "https://www.linkedin.com/posts/bharg_americas-biggest-land-users-arent-cities-activity-7288223963090976768-mLUs",
-                    "text": "America's biggest land users aren't cities or suburbs. It isn't farms growing food. It's cows. The real breakdown of US land use is detailed in this post.",
-                    "likes": 2323,
-                    "comments": 454,
-                    "reposts": 134
-                  },
-                  "contentStrategy": {
-                    "Text": 8.14,
-                    "Images": 77.63,
-                    "Videos": 4.41,
-                    "Articles": 9.83
-                  }
+                    "profile": {
+                        "name": "Reid Hoffman",
+                        "title": "Co-Founder, LinkedIn, Manas AI & Inflection AI. Author of Superagency. Investor at Greylock.",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHW7wKzPb3DAg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718221341641?e=1753315200&v=beta&t=o0e-qjP2yrtaGAkI9Q5MLn5vnWcnNVRHzH8IVMIudd8",
+                        "location": "Palo Alto, California, United States",
+                        "followers": "2.7M"
+                    },
+                    "post": {
+                        "postURL": "",
+                        "text": "Twenty years ago, I was about to pitch LinkedIn\u2019s Series B to Greylock and other investors. I remember going through slides at Starbucks, equipped with a PowerPoint deck, a game plan for growth, and what I thought was a solid pitch. But there were, of course, challenges and uncertainties to address. More than just building a company, our team was trying to create a category. Some were calling us \"Friendster for business,\" but the concept of professional networking was more or less untested. Our pitch deck had a vision I believed in deeply\u2014enough to stake my career on it\u2014but that didn\u2019t make it easy. Knowing what I know now, what I would tell myself back in 2004, during that pivotal moment for me and for LinkedIn? What advice would I give younger Reid? What reassurances or warnings would I deliver? \n\nI\u2019ve created a new Reid AI\u201420 years younger\u2014to pitch the real, present-day me on the 2004 LinkedIn plan.\n\nTo clarify: What you are watching is an attempt to use the latest AI tools to replicate some of my younger self\u2019s curiosity and revisit an exciting moment for the company I co-founded\u2014which is also an interesting test of how this technology can be used more generally. When we created \u201cReid AI\u201d\u2014my present-day avatar\u2014a few months ago, we did so by training it on 20 years worth of books and interviews. We had a 4K video interview to train a video model, and we were able to use voice replication tools to replicate my voice.\n\nTo create Reid AI 2004, my team had to get creative. It\u2019s a custom GPT trained on knowledge up to 2004, including my own writing. Using Hedra, UNSHUT, and other tools, we relied largely on an image-to-video process that doesn\u2019t require any training video but can generate video from AI-generated images. \n\nOverall, hearing myself pitch LinkedIn to myself was a bit surreal. I remember that early entrepreneur. This conversation between past and future selves feels not only like a reflection on how much has changed, but also on what remains constant: The core values of trust, integrity, and community that were pivotal in some of the startup's earliest pitches remain at the heart of LinkedIn today. \n\nI believe I would still invest in that idea. But I'm also amazed by how much 2004 Reid is about to see the world and technology change.\u00a0 \n\nWhat do you think? What would you tell the younger you from a decade or two ago?",
+                        "likes": 8090,
+                        "comments": 698,
+                        "reposts": 0
+                    },
+                    "contentStrategy": {
+                        "Text": 12.43,
+                        "Images": 12.43,
+                        "Videos": 45.76,
+                        "Articles": 29.38
+                    }
                 }
-              }
+            }
         ]
     },
     "hashtagPerformanceAnalysis": {
@@ -375,72 +457,90 @@
                 "averageEngagementRate": 87.0
             }
         ],
-        "hashtagKeyFinding": "Posts with hashtags generate substantial engagement, contributing to a higher overall average of 41 likes per hashtag post."
+        "hashtagKeyFinding": "Posts with hashtags have a substantial uplift in engagement, as indicated by an average engagement of 41 per hashtag post."
     },
     "influencerComparison": [
         {
-            "name": "Ali Ghodsi",
-            "linkedinUrl": "https://www.linkedin.com/in/alighodsi",
-            "followers": 116000,
-            "postsPerYear": 116,
-            "topContentTypes": "Images",
-            "topThemes": "Tech leadership & Data analytics",
-            "postingFrequency": "2-3 posts/week"
+            "name": "Kevin O'Leary",
+            "linkedinUrl": "https://linkedin.com/in/kevinolearytv",
+            "followers": 4424252,
+            "postsPerYear": 200,
+            "topContentTypes": "Videos, Images",
+            "topThemes": "Business, AI, Product",
+            "postingFrequency": "3.8 posts/week"
         },
         {
-            "name": "Bill Schmarzo",
-            "linkedinUrl": "https://www.linkedin.com/in/schmarzo",
-            "followers": 44000,
-            "postsPerYear": 80,
-            "topContentTypes": "Images",
-            "topThemes": "Data monetization & Analytics strategy",
-            "postingFrequency": "1 post/week"
+            "name": "Sallie Krawcheck",
+            "linkedinUrl": "https://linkedin.com/in/salliekrawcheck",
+            "followers": 2652907,
+            "postsPerYear": 196,
+            "topContentTypes": "Articles, Images",
+            "topThemes": "AI, Business, Leadership",
+            "postingFrequency": "3.8 posts/week"
         },
         {
-            "name": "Barr Moses",
-            "linkedinUrl": "https://www.linkedin.com/in/barrmoses",
-            "followers": 58000,
-            "postsPerYear": 141,
-            "topContentTypes": "Images",
-            "topThemes": "Data reliability & AI innovation",
-            "postingFrequency": "2-3 posts/week"
+            "name": "Chamath Palihapitiya",
+            "linkedinUrl": "https://linkedin.com/in/chamath",
+            "followers": 207535,
+            "postsPerYear": 198,
+            "topContentTypes": "Articles, Text",
+            "topThemes": "AI, Business, Innovation",
+            "postingFrequency": "3.8 posts/week"
         },
         {
-            "name": "Maxime Beauchemin",
-            "linkedinUrl": "https://www.linkedin.com/in/maximebeauchemin",
-            "followers": 15000,
-            "postsPerYear": 60,
-            "topContentTypes": "Images",
-            "topThemes": "Open source & Data engineering",
-            "postingFrequency": "1 post/week"
+            "name": "James Altucher",
+            "linkedinUrl": "https://linkedin.com/in/jamesaltucher",
+            "followers": 1167537,
+            "postsPerYear": 200,
+            "topContentTypes": "Videos, Articles",
+            "topThemes": "AI, Business, Innovation",
+            "postingFrequency": "3.8 posts/week"
+        },
+        {
+            "name": "Barbara Corcoran",
+            "linkedinUrl": "https://linkedin.com/in/barbaracorcoran",
+            "followers": 1601783,
+            "postsPerYear": 193,
+            "topContentTypes": "Images, Videos",
+            "topThemes": "AI, Business, Leadership",
+            "postingFrequency": "3.7 posts/week"
+        },
+        {
+            "name": "Reid Hoffman",
+            "linkedinUrl": "https://linkedin.com/in/reidhoffman",
+            "followers": 2707353,
+            "postsPerYear": 177,
+            "topContentTypes": "Videos, Articles",
+            "topThemes": "AI, Innovation, Business",
+            "postingFrequency": "3.4 posts/week"
         }
     ],
-    "summaryOfComparison": "The client\u2019s engagement is strong on article content, yet there is an opportunity to diversify content formats and increase posting frequency to better align with industry leaders.",
+    "summaryOfComparison": "Stefan Von Imhof's content performance is steady but lags behind industry influencers in engagement and posting frequency. Enhancing visual and interactive content could bridge the gap and drive a higher engagement rate.",
     "gapAnalysis": [
         {
-            "gap": "Limited use of visual content",
-            "yourValue": "1 image post (1.18%)",
-            "influencerAverage": "average visual content at ~24% engagement",
-            "recommendedAction": "Increase image-based content to drive higher engagement."
+            "gap": "Low engagement per post",
+            "yourValue": "16 likes",
+            "influencerAverage": "200 likes",
+            "recommendedAction": "Increase content quality and promotional efforts."
         },
         {
-            "gap": "Lower posting frequency",
+            "gap": "Limited visual content usage",
+            "yourValue": "1.18% image posts",
+            "influencerAverage": "51.9% visual content",
+            "recommendedAction": "Incorporate more images and videos in posts."
+        },
+        {
+            "gap": "Suboptimal posting frequency",
             "yourValue": "1-2 posts/week",
             "influencerAverage": "3 posts/week",
-            "recommendedAction": "Aim to post more frequently to match industry benchmarks."
-        },
-        {
-            "gap": "Minimal content diversity",
-            "yourValue": "Predominantly articles (80%)",
-            "influencerAverage": "Diverse mix of articles, images, and videos",
-            "recommendedAction": "Incorporate varied content formats to appeal to a broader audience."
+            "recommendedAction": "Boost posting frequency to increase audience engagement."
         }
     ],
     "recommendations": {
-        "contentStrategy": "Diversify content topics by incorporating more visual stories and data-driven insights.",
-        "visualElements": "Increase use of high-quality images and infographics that support key messages.",
-        "postingSchedule": "Adopt a more consistent posting schedule, aiming for at least 3 posts per week.",
-        "audienceTargeting": "Focus on engaging professionals in technology and consulting sectors.",
-        "engagementTactics": "Leverage interactive content and call-to-action prompts to boost interactions."
+        "contentStrategy": "Diversify content with a balanced mix of articles, images, and text to engage different audience segments.",
+        "visualElements": "Utilize high-quality images and videos to capitalize on the higher engagement from visual content.",
+        "postingSchedule": "Target optimal posting times on Monday and Friday to maximize engagement.",
+        "audienceTargeting": "Tailor content to resonate with key industries such as Technology, Marketing, and Consulting.",
+        "engagementTactics": "Encourage audience interaction through polls, Q&A sessions, and clear call-to-actions in posts."
     }
 }
