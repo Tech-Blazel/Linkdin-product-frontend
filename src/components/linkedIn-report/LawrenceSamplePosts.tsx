@@ -1,52 +1,236 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import ReportCard from "./sub-components/ReportCard";
 import { FaChartLine } from "react-icons/fa";
-import { FaRegCommentDots } from "react-icons/fa6";
-import { BiRepost } from "react-icons/bi";
-import { IoIosSend } from "react-icons/io";
-import { BiLike } from "react-icons/bi";
-import { IoMdAdd } from "react-icons/io";
-import { HiDotsHorizontal } from "react-icons/hi";
-import LawrenceOne from "@/assets/images/Lawrence-post-1.png";
-import LawrenceTwo from "@/assets/images/Lawrence-post-2.png";
+import WhyBox from "./sub-components/WhyBox";
+import PostNoteBox from "./sub-components/PostNoteBox";
+import LinkedInPostCard from "./sub-components/LinkedInPostCard";
+import { useSelector } from "react-redux";
+import { RootState } from "@/app/store";
+import { twMerge } from "tailwind-merge";
 
 const LawrenceSamplePosts: FC = () => {
-  return (
-    <ReportCard title="Sample Posts for Lawrence Coburn" icon={FaChartLine}>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-        <div className="space-y-4">
-          <div className="border rounded-xl shadow-sm p-4 text-sm space-y-2">
-            <div className="flex gap-3">
-              <img
-                src="https://media.licdn.com/dms/image/v2/D5603AQH7FERo4vXiww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696271215080?e=1753315200&v=beta&t=3ONvfiXAw3Twi1wA9nNmBe6XIa_g1jTDEkZ_LnQSYoI"
-                alt="Lawrence Coburn"
-                className="w-10 h-10 rounded-full object-cover"
-              />
-              <div className="w-full">
-                <div className="flex wrap items-center justify-between">
-                  <p className="font-semibold text-gray-800">
-                    Lawrence Coburn
-                    {/* <span className="text-xs text-gray-400">• 2nd</span> */}
-                  </p>
-                  <div className="text-sm text-linkedIn-primary flex items-center gap-1 cursor-pointer">
-                    {" "}
-                    <IoMdAdd className="inline-block" /> Follow
-                    <HiDotsHorizontal className="inline-block text-gray-800 ml-3" />
-                  </div>
-                </div>
-                <p className="text-xs text-gray-500 line-clamp-1 p-[3px]">
-                  Co-founder | Scaling data & CI pipelines @ Pipekit
-                </p>
-                <div className="text-xs mt-1 font-semibold text-linkedIn-primary">
-                  Visit my website
-                </div>
-                {/* <p className="text-xs text-gray-400 mt-1 flex items-center gap-1">
-                    4d • <FaEarthAsia />
-                  </p> */}
-              </div>
-            </div>
+  const linkedInReport = useSelector(
+    (state: RootState) => state.auditReportSchema
+  );
 
-            <div className="text-gray-800 space-y-2 text-sm pt-2">
+  const {
+    reportMetadata: { clientInfo },
+  } = linkedInReport;
+
+  const [expandedPosts, setExpandedPosts] = useState<Record<string, boolean>>(
+    {}
+  );
+
+  const toggleExpand = (id: string) => {
+    setExpandedPosts((prev) => ({
+      ...prev,
+      [id]: !prev[id],
+    }));
+  };
+
+  return (
+    <ReportCard title="Sample Posts for Lawrence" icon={FaChartLine}>
+      {/* Technical Posts */}
+      <div>
+        <PostNoteBox
+          categoryText="Technical posts"
+          noteText="These posts are created with very little context for now"
+        />
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+          <LinkedInPostCard
+            name={clientInfo?.name}
+            title={clientInfo?.title}
+            profileImage={clientInfo?.profilePictureUrl}
+            websiteLink="#"
+          >
+            <div
+              className={twMerge(
+                "text-gray-800 space-y-2 text-sm pt-2 transition-all duration-300 relative",
+                !expandedPosts["technical-post-1"] &&
+                  "line-clamp-[8] overflow-hidden"
+              )}
+            >
+              <>
+                <p>
+                  When we first started building Ambient, I got a lot of
+                  questions like:
+                </p>
+
+                <p>“Will AI replace the Chief of Staff?”</p>
+
+                <p>My answer is simple: No. It will amplify them.</p>
+
+                <p>
+                  In a world of endless meetings, Slack chaos, and fragmented
+                  knowledge, a great Chief of Staff is already a force
+                  multiplier for the CEO. But imagine giving that CoS:
+                </p>
+
+                <p>Instant access to any decision ever made</p>
+                <p>A memory of every meeting, summary, and action</p>
+                <p>Contextual search across 100+ stakeholders</p>
+                <p>Nudges before key decisions fall through the cracks</p>
+
+                <p>
+                  That’s not replacing the CoS. That’s weaponizing their
+                  leverage.
+                </p>
+
+                <p>
+                  The best executives today are not asking:
+                  <br />
+                  “What can AI do for me?”
+                </p>
+
+                <p>
+                  They’re asking:
+                  <br />
+                  “How do I scale my most strategic people using AI?”
+                </p>
+
+                <p>
+                  We built Ambient for exactly that. Not to replace.
+                  <br />
+                  To multiply.
+                </p>
+
+                <p>
+                  And based on the early enterprise results, that bet is paying
+                  off.
+                </p>
+
+                <p>
+                  If you're a Chief of Staff—or manage one—I'd love to hear how
+                  you're thinking about AI in your workflow.
+                </p>
+              </>
+              <button
+                onClick={() => toggleExpand("technical-post-1")}
+                className="absolute bottom-[2px] right-0 bg-white text-xs font-semibold text-linkedIn-primary pl-2 pr-1 cursor-pointer"
+              >
+                {expandedPosts["technical-post-1"]
+                  ? "Show less"
+                  : "... Show more"}
+              </button>
+            </div>
+          </LinkedInPostCard>
+          <LinkedInPostCard
+            name={clientInfo?.name}
+            title={clientInfo?.title}
+            profileImage={clientInfo?.profilePictureUrl}
+            websiteLink="#"
+          >
+            <div
+              className={twMerge(
+                "text-gray-800 space-y-2 text-sm pt-2 transition-all duration-300 relative",
+                !expandedPosts["technical-post-2"] &&
+                  "line-clamp-[8] overflow-hidden"
+              )}
+            >
+              <>
+                <p>
+                  Recent IDC research reveals a striking disparity in enterprise
+                  AI adoption: while 89% of organizations have revamped their
+                  data strategies to embrace Generative AI, only 26% have
+                  successfully deployed these solutions at scale.
+                </p>
+
+                <p>
+                  This gap underscores a critical challenge: the transition from
+                  AI ambition to execution is fraught with obstacles.
+                </p>
+
+                <p>
+                  At Ambient.ai, we've identified key factors contributing to
+                  successful AI deployment:
+                </p>
+
+                <p>
+                  <strong>Contextual Understanding:</strong> AI systems must
+                  grasp the nuanced context of enterprise operations, not just
+                  process isolated data points.
+                </p>
+
+                <p>
+                  <strong>Integrated Data Ecosystems:</strong> Seamless
+                  integration across various data sources ensures AI models have
+                  access to comprehensive information, enhancing decision-making
+                  capabilities.
+                </p>
+
+                <p>
+                  <strong>Robust Infrastructure:</strong> A flexible and
+                  scalable infrastructure is essential to support AI workloads
+                  and facilitate real-time analytics.
+                </p>
+
+                <p>
+                  By focusing on these areas, we've enabled organizations to
+                  move beyond pilot programs, achieving tangible ROI from their
+                  AI investments.
+                </p>
+
+                <p>
+                  I'm curious to hear from others: What strategies have you
+                  found effective in translating AI initiatives from concept to
+                  reality?
+                </p>
+              </>
+              <button
+                onClick={() => toggleExpand("technical-post-2")}
+                className="absolute bottom-[2px] right-0 bg-white text-xs font-semibold text-linkedIn-primary pl-2 pr-1 cursor-pointer"
+              >
+                {expandedPosts["technical-post-2"]
+                  ? "Show less"
+                  : "... Show more"}
+              </button>
+            </div>
+          </LinkedInPostCard>
+        </div>
+        <div className="my-8">
+          <WhyBox
+            heading="Why the above posts?"
+            summary="Why These are Great Fit for Lawrence - These posts are technical, shows our strong points while addressing real issues"
+            points={[
+              "Founder-POV: Speaks directly from his journey building Ambient.",
+              "Audience-relevant: Focuses on CoS, his exact ICP (Ideal Customer Profile).",
+              "Non-generic: Doesn’t repeat tired “AI will replace jobs” tropes—instead, it reframes the debate.",
+              "Engagement-friendly: Ends with a real call for response, not a vague CTA.",
+              "Educates + positions Ambient as a category-definer without sounding salesy.",
+              "Data-Driven Insight: Cites specific, recent IDC findings to highlight the prevalent challenge in AI deployment.",
+              "Thought Leadership: Positions Ambient.ai as a solution-oriented leader addressing real-world enterprise AI challenges.",
+            ]}
+          />
+        </div>
+      </div>
+      {/* Industry Trends */}
+
+      {/* {} */}
+
+      {/* General Post */}
+
+      <hr className="mb-12 border-b border-primary/20" />
+      <div>
+        <PostNoteBox
+          categoryText="General Post"
+          noteText="These posts are created with very little context for now"
+        />
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+          <LinkedInPostCard
+            name={clientInfo?.name}
+            title={clientInfo?.title}
+            profileImage={clientInfo?.profilePictureUrl}
+            websiteLink="#"
+          >
+            <div
+              className={twMerge(
+                "text-gray-800 space-y-2 text-sm pt-2 transition-all duration-300 relative",
+                !expandedPosts["general-post-1"] &&
+                  "line-clamp-[9] overflow-hidden"
+              )}
+            >
               <>
                 <p>
                   AI won’t save you if you can’t remember what you promised
@@ -106,63 +290,29 @@ const LawrenceSamplePosts: FC = () => {
 
                 <p>And you can’t fix that with a smarter transcript.</p>
               </>
+              <button
+                onClick={() => toggleExpand("general-post-1")}
+                className="absolute bottom-[2px] right-0 bg-white text-xs font-semibold text-linkedIn-primary pl-2 pr-1 cursor-pointer"
+              >
+                {expandedPosts["general-post-1"]
+                  ? "Show less"
+                  : "... Show more"}
+              </button>
             </div>
-
-            <div className="border-t pt-2 flex justify-between text-xs font-bold text-gray-500">
-              <span className="flex flex-col md:flex-row gap-1 justify-center items-center">
-                <BiLike className="text-sm rotate-y-180" /> Like
-              </span>
-              <span className="flex flex-col md:flex-row gap-1 justify-center items-center">
-                <FaRegCommentDots className="text-lg" /> Comment
-              </span>
-              <span className="flex flex-col md:flex-row gap-1 justify-center items-center">
-                <BiRepost className="text-lg" /> Repost
-              </span>
-              <span className="flex flex-col md:flex-row gap-1 justify-center items-center">
-                <IoIosSend className="text-lg" /> Send
-              </span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="space-y-4">
-            <img
-              src={LawrenceOne}
-              alt="post"
-              className="w-full h-full border rounded-xl shadow-sm max-h-[500px] object-contain"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start mt-6">
-        <div className="space-y-4">
-          <div className="border rounded-xl shadow-sm p-4 text-sm space-y-2">
-            <div className="flex gap-3">
-              <img
-                src="https://media.licdn.com/dms/image/v2/D5603AQH7FERo4vXiww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696271215080?e=1753315200&v=beta&t=3ONvfiXAw3Twi1wA9nNmBe6XIa_g1jTDEkZ_LnQSYoI"
-                alt="Lawrence Coburn"
-                className="w-10 h-10 rounded-full object-cover"
-              />
-              <div className="w-full">
-                <div className="flex wrap items-center justify-between">
-                  <p className="font-semibold text-gray-800">Lawrence Coburn</p>
-                  <div className="text-sm text-linkedIn-primary flex items-center gap-1 cursor-pointer">
-                    {" "}
-                    <IoMdAdd className="inline-block" /> Follow
-                    <HiDotsHorizontal className="inline-block text-gray-800 ml-3" />
-                  </div>
-                </div>
-                <p className="text-xs text-gray-500 line-clamp-1 p-[3px]">
-                  Co-founder | Scaling data & CI pipelines @ Pipekit
-                </p>
-                <div className="text-xs mt-1 font-semibold text-linkedIn-primary">
-                  Visit my website
-                </div>
-              </div>
-            </div>
-
-            <div className="text-gray-800 space-y-2 text-sm pt-2">
+          </LinkedInPostCard>
+          <LinkedInPostCard
+            name={clientInfo?.name}
+            title={clientInfo?.title}
+            profileImage={clientInfo?.profilePictureUrl}
+            websiteLink="#"
+          >
+            <div
+              className={twMerge(
+                "text-gray-800 space-y-2 text-sm pt-2 transition-all duration-300 relative",
+                !expandedPosts["general-post-2"] &&
+                  "line-clamp-[8] overflow-hidden"
+              )}
+            >
               <>
                 <p>
                   Every founder I know has ten tools for insight. Heatmaps,
@@ -209,32 +359,31 @@ const LawrenceSamplePosts: FC = () => {
 
                 <p>Fix the memory layer.</p>
               </>
+              <button
+                onClick={() => toggleExpand("general-post-2")}
+                className="absolute bottom-[2px] right-0 bg-white text-xs font-semibold text-linkedIn-primary pl-2 pr-1 cursor-pointer"
+              >
+                {expandedPosts["general-post-2"]
+                  ? "Show less"
+                  : "... Show more"}
+              </button>
             </div>
-
-            <div className="border-t pt-2 flex justify-between text-xs font-bold text-gray-500">
-              <span className="flex flex-col md:flex-row gap-1 justify-center items-center">
-                <BiLike className="text-sm rotate-y-180" /> Like
-              </span>
-              <span className="flex flex-col md:flex-row gap-1 justify-center items-center">
-                <FaRegCommentDots className="text-lg" /> Comment
-              </span>
-              <span className="flex flex-col md:flex-row gap-1 justify-center items-center">
-                <BiRepost className="text-lg" /> Repost
-              </span>
-              <span className="flex flex-col md:flex-row gap-1 justify-center items-center">
-                <IoIosSend className="text-lg" /> Send
-              </span>
-            </div>
-          </div>
+          </LinkedInPostCard>
         </div>
-        <div>
-          <div className="space-y-4">
-            <img
-              src={LawrenceTwo}
-              alt="post"
-              className="w-full h-full border rounded-xl shadow-sm max-h-[400px] object-contain"
-            />
-          </div>
+        <div className="my-8">
+          <WhyBox
+            heading="Why the above posts?"
+            points={[
+              "It hits Ambient’s core product thesis — 'memory over summary'. Ambient isn’t just a meeting tool - It’s a memory system for executive teams.",
+              "This post reframes a popular assumption ('AI summaries are enough') and challenges it directly, which Lawrence does often in his posts.",
+              "The phrase: 'We built Ambient for this exact use case. Not for meeting recaps. For memory.' — this is the product’s mission in one sentence.",
+              "Product-Mission - It’s literally about fixing the broken memory layer",
+              "ICP-Relevant - Targets exec teams buried in “noise” not follow-through",
+              "Tone-Perfect - Sharp, clean, founder-speak — not marketing speak",
+              "Narrative-Driven - Walks from insight to problem to POV without pitching",
+              "Shareable - Lines like “Insight without action is just noise” are gold",
+            ]}
+          />
         </div>
       </div>
     </ReportCard>
