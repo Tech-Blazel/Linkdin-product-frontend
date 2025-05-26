@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/navigation-menu";
 
 const ClientSwitcher = () => {
-  const [selectedClient, setSelectedClient] = useState("Dean-Pleban");
+  const [selectedClient, setSelectedClient] = useState("Lawrence-Coburn");
   const dispatch = useDispatch();
 
   const clients = [

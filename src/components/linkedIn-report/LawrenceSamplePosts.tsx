@@ -206,7 +206,176 @@ const LawrenceSamplePosts: FC = () => {
       </div>
       {/* Industry Trends */}
 
-      {/* {} */}
+      <hr className="mb-12 border-b border-primary/20" />
+      <div>
+        <PostNoteBox
+          categoryText="Industry Trends"
+          noteText="These posts are created with very little context for now"
+        />
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+          <LinkedInPostCard
+            name={clientInfo?.name}
+            title={clientInfo?.title}
+            profileImage={clientInfo?.profilePictureUrl}
+            websiteLink="#"
+          >
+            <div
+              className={twMerge(
+                "text-gray-800 space-y-2 text-sm pt-2 transition-all duration-300 relative",
+                !expandedPosts["general-post-1"] &&
+                  "line-clamp-[9] overflow-hidden"
+              )}
+            >
+              <>
+                <p>
+                  Everyone talks about the AI stack like it’s one clean layer.
+                  One foundation model. One orchestration layer. One interface.
+                </p>
+
+                <p>But here’s what we’re actually seeing in the field:</p>
+
+                <p>The stack is splitting into two very different paths:</p>
+
+                <p>
+                  <strong>Horizontal AI</strong> — general-purpose, built for
+                  breadth: summarize anything, chat with anything, integrate
+                  with everything
+                </p>
+
+                <p>
+                  <strong>Vertical AI</strong> — narrow, domain-specific systems
+                  that understand actual workflows and decision chains inside a
+                  function or role
+                </p>
+
+                <p>
+                  The big vendors are betting on horizontal. But if you’ve ever
+                  sat in a Chief of Staff sync or a revenue ops meeting, you
+                  know:
+                </p>
+
+                <p>Insight isn’t the bottleneck. Context is.</p>
+
+                <p>
+                  The tools that will win in the enterprise aren’t the ones that
+                  answer faster. They’re the ones that understand how decisions
+                  are made, delayed, forgotten, or resurfaced over time.
+                </p>
+
+                <p>
+                  You don’t fix that with a horizontal tool. You need to go
+                  deep.
+                </p>
+
+                <p>
+                  The future isn’t “AI for everything.” It’s “AI that
+                  understands this thing better than any human ever could.”
+                </p>
+              </>
+              <button
+                onClick={() => toggleExpand("general-post-1")}
+                className="absolute bottom-[2px] right-0 bg-white text-xs font-semibold text-linkedIn-primary pl-2 pr-1 cursor-pointer"
+              >
+                {expandedPosts["general-post-1"]
+                  ? "Show less"
+                  : "... Show more"}
+              </button>
+            </div>
+          </LinkedInPostCard>
+          <LinkedInPostCard
+            name={clientInfo?.name}
+            title={clientInfo?.title}
+            profileImage={clientInfo?.profilePictureUrl}
+            websiteLink="#"
+          >
+            <div
+              className={twMerge(
+                "text-gray-800 space-y-2 text-sm pt-2 transition-all duration-300 relative",
+                !expandedPosts["general-post-2"] &&
+                  "line-clamp-[8] overflow-hidden"
+              )}
+            >
+              <>
+                <p>The AI world is obsessed with performance benchmarks:</p>
+
+                <p>“Which LLM are you using?”</p>
+
+                <p>“Is your system built on GPT-4, Claude, or Mixtral?”</p>
+
+                <p>“How’s your RAG setup?”</p>
+
+                <p>All valid questions.</p>
+
+                <p>
+                  But none of them explain why most enterprise AI tools get
+                  ignored after week two.
+                </p>
+
+                <p>Because here’s the truth no one likes to say:</p>
+
+                <p>
+                  <strong>Accuracy isn’t adoption. Behavior is.</strong>
+                </p>
+
+                <p>
+                  It doesn’t matter if your AI nails the perfect answer—
+                  <br />
+                  If that insight doesn’t change the calendar,
+                  <br />
+                  Or assign a new owner,
+                  <br />
+                  Or shift the next conversation…
+                </p>
+
+                <p>Then nothing changed.</p>
+
+                <p>And if nothing changes, what was the point?</p>
+
+                <p>We’ve seen this up close while building Ambient:</p>
+
+                <p>
+                  AI that just "responds" becomes another inbox.
+                  <br />
+                  AI that changes how the team behaves becomes part of the
+                  operating system.
+                </p>
+
+                <p>
+                  The real ROI doesn’t come from what the AI said.
+                  <br />
+                  It comes from what people did differently because of it.
+                </p>
+
+                <p>
+                  That’s the difference between information and infrastructure—
+                  <br />
+                  And it’s the line most AI tools are still failing to cross.
+                </p>
+              </>
+              <button
+                onClick={() => toggleExpand("general-post-2")}
+                className="absolute bottom-[2px] right-0 bg-white text-xs font-semibold text-linkedIn-primary pl-2 pr-1 cursor-pointer"
+              >
+                {expandedPosts["general-post-2"]
+                  ? "Show less"
+                  : "... Show more"}
+              </button>
+            </div>
+          </LinkedInPostCard>
+        </div>
+        <div className="my-8">
+          <WhyBox
+            heading="Why the above posts?"
+            points={[
+              "Challenge superficial AI narratives – Both posts debunk surface-level thinking around model choice and performance, positioning Lawrence as someone who sees deeper.",
+              "Align with Ambient’s category-defining mission – They spotlight gaps in current enterprise AI adoption that Ambient is uniquely built to solve.",
+              "Resonate with buyers and operators – These posts speak directly to execs, Chiefs of Staff, and enterprise leaders who are tired of AI hype and want real impact.",
+              "Establish thought leadership – Instead of product-selling, Lawrence is shaping the frameworks others will use to evaluate AI tools in 2025 and beyond.",
+            ]}
+          />
+        </div>
+      </div>
 
       {/* General Post */}
 
