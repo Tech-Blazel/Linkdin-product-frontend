@@ -11,17 +11,21 @@ import InfluencerAnalysis from "@/components/linkedIn-report/InfluencerAnalysis"
 import PostingRecommendations from "@/components/linkedIn-report/PostingRecommendations";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 // import jsPDF from "jspdf";
 // import html2canvas from "html2canvas";
 // import { IoCloudDownloadOutline } from "react-icons/io5";
 // import { Loader2 } from "lucide-react";
 import CaelanSamplePosts from "@/components/linkedIn-report/CaelanSamplePosts";
-import ClientSwitcher from "@/components/linkedIn-report/ClientSwitcher";
 import DeanSamplePosts from "@/components/linkedIn-report/DeanSamplePosts";
 import RyanSamplePosts from "@/components/linkedIn-report/RyanSamplePosts";
 import LawrenceSamplePosts from "@/components/linkedIn-report/LawrenceSamplePosts";
 import StanSamplePosts from "@/components/linkedIn-report/StanSamplePosts";
+import { updateReportSchema } from "@/features/auditReportSlice";
+import { useDispatch } from "react-redux";
+import { useParams } from "react-router-dom";
+import { fromSlugName } from "@/utils/constants";
+import GlobalLoader from "@/components/GlobalLoader";
 
 const LinkedInAuditReport = () => {
   const linkedInReport = useSelector(
@@ -35,7 +39,12 @@ const LinkedInAuditReport = () => {
 
   const { influencers } = topIndustryInfluencersAnalysis;
 
+  const dispatch = useDispatch();
+
+  const { clientName } = useParams();
+
   // const [isDownloading, setIsDownloading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const sections = [
     <CoverPage />,
@@ -144,6 +153,26 @@ const LinkedInAuditReport = () => {
   //   }
   // };
 
+  useEffect(() => {
+    const loadSchema = async () => {
+      if (!clientName) {
+        setIsLoading(false);
+        throw new Error("Client name is required in the URL.");
+      }
+      setIsLoading(true);
+
+      const readableName = fromSlugName(clientName);
+      const schema = await import(`@/utils/${readableName}.json`);
+      if (schema) {
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 300);
+      }
+      dispatch(updateReportSchema(schema.default));
+    };
+    loadSchema();
+  }, []);
+
   return (
     <div className="">
       {/* <button
@@ -157,11 +186,11 @@ const LinkedInAuditReport = () => {
         )}
       </button> */}
 
-      <div className="mb-6">
-        <ClientSwitcher />
-      </div>
+      <div className="mb-6">{/* <ClientSwitcher /> */}</div>
 
-      {linkedInReport?.executiveSummary?.summaryText ? (
+      {isLoading && <GlobalLoader />}
+
+      {linkedInReport?.executiveSummary?.summaryText && !isLoading ? (
         <div ref={containerRef}>
           {sections?.map((Component, index) => (
             <div key={index} className="mb-10">

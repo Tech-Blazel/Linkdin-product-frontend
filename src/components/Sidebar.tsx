@@ -42,11 +42,11 @@ const Sidebar = ({
       label: "Clients",
       path: "/clients",
     },
-    {
-      icon: <TbReportSearch className="text-xl" />,
-      label: "LinkedIn Audit Report",
-      path: "/linkedin-audit-report",
-    },
+    // {
+    //   icon: <TbReportSearch className="text-xl" />,
+    //   label: "LinkedIn Audit Report",
+    //   path: "/linkedin-audit-report",
+    // },
     {
       icon: <MdCategory className="text-xl" />,
       label: "Category Management",
@@ -56,6 +56,11 @@ const Sidebar = ({
       icon: <FiUploadCloud className="text-xl" />,
       label: "Upload Data",
       path: "/upload-data",
+    },
+    {
+      icon: <TbReportSearch className="text-xl" />,
+      label: "LinkedIn Clients",
+      path: "/linkedin-clients",
     },
   ];
 

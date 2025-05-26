@@ -20,6 +20,51 @@ export const influencerImages:any = {
     "Elad Gil":Elad
 }
 
+export const linkedInClients = [
+  {
+    "name": "Lawrence Coburn",
+    "title": "CEO / Co-Founder at Ambient, an AI Assistant for the Office of the CEO.",
+    "profileUrl": "https://www.linkedin.com/in/lawrencecoburn",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQH7FERo4vXiww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696271215080?e=1753315200&v=beta&t=3ONvfiXAw3Twi1wA9nNmBe6XIa_g1jTDEkZ_LnQSYoI"
+  },
+  {
+    "name": "Dean Pleban",
+    "title": "Co-Founder & CEO at DagsHub | AI Data Development Platform",
+    "profileUrl": "https://www.linkedin.com/in/deanpleban",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQFwOK8NRGF3IQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1549701726893?e=1752710400&v=beta&t=LQwERWD22Ou4DG-HMqdA4438U_YSt-NNd_cqrOa7UAg"
+  },
+  {
+    "name": "Kanishk Parashar",
+    "title": "Co-Founder and CEO @ Powder(YCW24)",
+    "profileUrl": "https://www.linkedin.com/in/kanishkparashar",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFSNCrh0UTJBw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1650568472000?e=1753315200&v=beta&t=EvpA97gJvjlYCQoQS-niDVpp-Tm4Yj7bnM4u9QOVqtY"
+  },
+  {
+    "name": "Stan Markuze",
+    "title": "CEO, Balance Cash",
+    "profileUrl": "N/A",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHHYdnksjrgnQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1658515315248?e=1753315200&v=beta&t=ticqP83Vj7twLOLbG0_eXXKlqTo4YbAaP42IzAy1p-8"
+  },
+  {
+    "name": "Stefan Von Imhof",
+    "title": "CEO @ Alts.co",
+    "profileUrl": "https://www.linkedin.com/in/stefanvonimhof",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQEQbNMaZCppZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1687751303809?e=1753315200&v=beta&t=0HGzla-mMaKaywyQEt5JDm4-cQiEBcbbnVegVGGv16w"
+  },
+  {
+    "name": "Bill Douglas",
+    "title": "OpticWise: Building CRE Value with Data & Digital Infrastructure Ownership",
+    "profileUrl": "https://www.linkedin.com/in/billdouglas",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQG2OhauJ4I58w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1685031779706?e=1751500800&v=beta&t=SCGOdL1ffEtdPwP73l6hzNsdDX9b2aEES9SPAKovEOA"
+  },
+  {
+    "name": "Caelan Urquhart",
+    "title": "Co-founder | Scaling data & CI pipelines @ Pipekit",
+    "profileUrl": "https://www.linkedin.com/in/caelanurquhart",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHsjIhXkMFhHA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537483310838?e=1753315200&v=beta&t=uMBwmdm6p2e0UlCSxHv467JWb-_SM0Q5tAXUogSn1zE"
+},
+]
+
 // export const influencerImages:any = {
 //   "Matei Zaharia":Matei,
 //   "Ali Ghodsi":Ali,
@@ -45,6 +90,7 @@ export const headerType: HeaderType = {
     "/linkedin-audit-report": "LinkedIn Audit Report",
   "/category-management": "Category Management",
   "/upload-data": "Upload Data",
+  "/linkedin-clients":"LinkedIn Clients"
 };
 
 export const pieChartColor = ['#ffc924', '#6384ff', '#6cceff', '#78ea80', '#fb8a85', "#ff5733"]
@@ -112,4 +158,15 @@ export function transformDataWithColors(data: GenericInputItem[], colors: string
       color: colors[index % colors.length],
     };
   });
+}
+
+export const toSlugName = (name: string): string => {
+  return name.trim().toLowerCase().replace(/\s+/g, "-");
+}
+
+export const fromSlugName = (slug: string): string => {
+  return slug
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join("-");
 }

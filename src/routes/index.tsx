@@ -10,11 +10,17 @@ import UploadData from "@/pages/UploadData";
 import Login from "@/components/Login";
 import SignUp from "@/components/Signup";
 import ForgetPassword from "@/components/ForgetPassword";
+import LinkedInClients from "@/pages/LinkedInClients";
+import NotFoundPage from "@/components/NotFoundPage";
 
 const routes: RouteObject[] = [
   { path: "/", element: <Login /> },
   { path: "/register", element: <SignUp /> },
   { path: "/forget-password", element: <ForgetPassword /> },
+  {
+    path: "*",
+    element: <NotFoundPage />,
+  },
   {
     element: <Layout />,
     children: [
@@ -22,9 +28,13 @@ const routes: RouteObject[] = [
       { path: "/user-management", element: <UserManagement /> },
       { path: "/admin-profile", element: <AdminProfile /> },
       { path: "/clients", element: <Clients /> },
-      { path: "/linkedin-audit-report", element: <LinkedInAuditReport /> },
+      {
+        path: "/linkedin-audit-report/:clientName",
+        element: <LinkedInAuditReport />,
+      },
       { path: "/category-management", element: <CategoryManagement /> },
       { path: "/upload-data", element: <UploadData /> },
+      { path: "/linkedin-clients", element: <LinkedInClients /> },
     ],
   },
 ];
