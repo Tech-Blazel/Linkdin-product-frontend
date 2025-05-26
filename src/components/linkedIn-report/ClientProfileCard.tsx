@@ -26,7 +26,7 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
   };
 
   return (
-    <div className="w-full sm:max-w-md bg-primary-light border-2 border-primary/20 rounded-xl p-4 sm:p-6 flex flex-col items-center mx-auto ">
+    <div className="w-full bg-primary-light border-2 border-primary/20 rounded-xl p-4 sm:p-6 flex flex-col items-center mx-auto ">
       <SmartImage
         src={displayImage}
         alt={name}
