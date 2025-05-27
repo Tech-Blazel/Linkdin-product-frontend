@@ -7,6 +7,7 @@ import Ali from "@/assets/images/Ali.png"
 import Maxime from "@/assets/images/Maxime.png"
 import Barr from "@/assets/images/Barr.png"
 import Elad from "@/assets/images/Elad.png"
+import { deanCategories, KanishkCategories, lawrenceCategories, stanCategories } from "./SamplePostsCategories";
 
 export const influencerImages:any = {
     "Andrew Ng":Andrew,
@@ -170,3 +171,21 @@ export const fromSlugName = (slug: string): string => {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join("-");
 }
+
+export const samplePostsConfigs: Record<
+  string,
+  { categories: any; component?: React.FC }
+> = {
+  "Dean Pleban": {
+    categories: deanCategories,
+  },
+  "Lawrence Coburn": {
+    categories: lawrenceCategories,
+  },
+  "Stan Markuze": {
+    categories: stanCategories,
+  },
+  "Kanishk Parashar": {
+    categories: KanishkCategories,
+  },
+};

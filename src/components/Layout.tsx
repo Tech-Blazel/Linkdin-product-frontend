@@ -8,7 +8,7 @@ const Layout: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
 
   return (
-    <div className="max-w-[2500px] ">
+    <div className="max-w-[2500px] m-auto">
       <div className="flex h-screen overflow-hidden relative">
         <aside
           className={twMerge(

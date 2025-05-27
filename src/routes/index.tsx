@@ -12,6 +12,7 @@ import SignUp from "@/components/Signup";
 import ForgetPassword from "@/components/ForgetPassword";
 import LinkedInClients from "@/pages/LinkedInClients";
 import NotFoundPage from "@/components/NotFoundPage";
+import AuditReportLayout from "@/components/AuditReportLayout";
 
 const routes: RouteObject[] = [
   { path: "/", element: <Login /> },
@@ -28,13 +29,18 @@ const routes: RouteObject[] = [
       { path: "/user-management", element: <UserManagement /> },
       { path: "/admin-profile", element: <AdminProfile /> },
       { path: "/clients", element: <Clients /> },
+      { path: "/category-management", element: <CategoryManagement /> },
+      { path: "/upload-data", element: <UploadData /> },
+      { path: "/linkedin-clients", element: <LinkedInClients /> },
+    ],
+  },
+  {
+    element: <AuditReportLayout />,
+    children: [
       {
         path: "/linkedin-audit-report/:clientName",
         element: <LinkedInAuditReport />,
       },
-      { path: "/category-management", element: <CategoryManagement /> },
-      { path: "/upload-data", element: <UploadData /> },
-      { path: "/linkedin-clients", element: <LinkedInClients /> },
     ],
   },
 ];

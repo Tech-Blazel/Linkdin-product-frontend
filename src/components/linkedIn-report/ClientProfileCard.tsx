@@ -1,9 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import ProfileAvatar from "@/assets/images/profile-avatar.png";
 import Bill from "@/assets/images/Bill.png";
 import SmartImage from "../SmartImage";
-import { Button } from "../ui/button";
+// import { Button } from "../ui/button";
 import { toSlugName } from "@/utils/constants";
 
 interface ClientProfileCardProps {
@@ -17,13 +17,15 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
   title,
   profilePictureUrl,
 }) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const displayImage = name === "Bill Douglas" ? Bill : profilePictureUrl || "";
 
-  const handleAuditReportClick = () => {
-    const slugName = toSlugName(name);
-    navigate(`/linkedin-audit-report/${slugName}`);
-  };
+  // const handleAuditReportClick = () => {
+  //   const slugName = toSlugName(name);
+  //   navigate(`/linkedin-audit-report/${slugName}`);
+  // };
+
+  console.log("window.location.origin", window.location.origin);
 
   return (
     <div className="w-full bg-primary-light border-2 border-primary/20 rounded-xl p-4 sm:p-6 flex flex-col items-center mx-auto ">
@@ -41,12 +43,21 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
           {title}
         </p>
       </div>
-      <Button
+      {/* <Button
         onClick={handleAuditReportClick}
         className="bg-primary hover:bg-primary text-xs md:text-sm px-5 py-2 rounded-md text-white mt-4 cursor-pointer transition-all duration-150 ease-in-out transform hover:scale-105 active:scale-95 active:translate-y-[1px]"
       >
         View Audit Report
-      </Button>
+      </Button> */}
+      <a
+        href={`${window.location.origin}/linkedin-audit-report/${toSlugName(
+          name
+        )}`}
+        target="_blank"
+        className="bg-primary hover:bg-primary text-xs md:text-sm px-5 py-2 rounded-md text-white mt-4 cursor-pointer transition-all duration-150 ease-in-out transform hover:scale-105 active:scale-95 active:translate-y-[1px]"
+      >
+        View Audit Report
+      </a>
     </div>
   );
 };
