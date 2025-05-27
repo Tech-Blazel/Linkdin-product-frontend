@@ -17,15 +17,18 @@ import { useEffect, useRef, useState } from "react";
 // import { IoCloudDownloadOutline } from "react-icons/io5";
 // import { Loader2 } from "lucide-react";
 import CaelanSamplePosts from "@/components/linkedIn-report/CaelanSamplePosts";
-import DeanSamplePosts from "@/components/linkedIn-report/DeanSamplePosts";
 import RyanSamplePosts from "@/components/linkedIn-report/RyanSamplePosts";
-import LawrenceSamplePosts from "@/components/linkedIn-report/LawrenceSamplePosts";
-import StanSamplePosts from "@/components/linkedIn-report/StanSamplePosts";
 import { updateReportSchema } from "@/features/auditReportSlice";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import { fromSlugName } from "@/utils/constants";
 import GlobalLoader from "@/components/GlobalLoader";
+import SamplePosts from "@/components/linkedIn-report/SamplePosts";
+import {
+  deanCategories,
+  lawrenceCategories,
+  stanCategories,
+} from "@/utils/SamplePostsCategories";
 
 const LinkedInAuditReport = () => {
   const linkedInReport = useSelector(
@@ -65,12 +68,43 @@ const LinkedInAuditReport = () => {
         ))
       : []),
     ...(clientInfo?.name === "Caelan Urquhart" ? [<CaelanSamplePosts />] : []),
-    ...(clientInfo?.name === "Dean Pleban" ? [<DeanSamplePosts />] : []),
+    ...(clientInfo?.name === "Dean Pleban"
+      ? [
+          <SamplePosts
+            title="Sample Posts"
+            clientName={clientInfo.name}
+            clientTitle={clientInfo.title}
+            clientProfileImage={clientInfo.profilePictureUrl}
+            clientWebsite={clientInfo.website}
+            categories={deanCategories}
+          />,
+        ]
+      : []),
     ...(clientInfo?.name === "Ryan H. Vaughn" ? [<RyanSamplePosts />] : []),
     ...(clientInfo?.name === "Lawrence Coburn"
-      ? [<LawrenceSamplePosts />]
+      ? [
+          <SamplePosts
+            title="Sample Posts"
+            clientName={clientInfo.name}
+            clientTitle={clientInfo.title}
+            clientProfileImage={clientInfo.profilePictureUrl}
+            clientWebsite={clientInfo.website}
+            categories={lawrenceCategories}
+          />,
+        ]
       : []),
-    ...(clientInfo?.name === "Stan Markuze" ? [<StanSamplePosts />] : []),
+    ...(clientInfo?.name === "Stan Markuze"
+      ? [
+          <SamplePosts
+            title="Sample Posts"
+            clientName={clientInfo.name}
+            clientTitle={clientInfo.title}
+            clientProfileImage={clientInfo.profilePictureUrl}
+            clientWebsite={clientInfo.website}
+            categories={stanCategories}
+          />,
+        ]
+      : []),
     <PostingRecommendations />,
   ];
 
