@@ -1,12 +1,12 @@
 {
     "reportMetadata": {
-        "title": "Linked in Engagement Analysis",
+        "title": "LinkedIn Engagement Analysis",
         "subtitle": "Comprehensive Performance Report",
         "reportDate": "May 2025",
         "clientInfo": {
             "name": "Kanishk Parashar",
             "title": "Co-Founder and CEO @ Powder(YCW24)",
-            "profileUrl": "https://www.linkedin.com/in/kanishkparashar",
+            "profileUrl": "N/A",
             "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFSNCrh0UTJBw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1650568472000?e=1753315200&v=beta&t=EvpA97gJvjlYCQoQS-niDVpp-Tm4Yj7bnM4u9QOVqtY"
         }
     },
@@ -22,11 +22,13 @@
         },
         "hashtagImpactEngagement": 801,
         "keyHighlights": [
-            "Average likes per post is 44 with an average of 4 comments per post.",
-            "Top performing post is a text post with 191 likes.",
-            "Content type distribution shows text posts dominate at 84.75%."
+            "Image posts perform significantly better (avg engagement: 77) compared to text posts (avg engagement: 43).",
+            "The top performing post is a seed funding announcement with 191 likes.",
+            "Posts on Monday and Thursday tend to receive notably higher engagement.",
+            "Hashtag usage, though low at 14.5%, shows strong engagement metrics.",
+            "Audience composition is diverse with over 53% falling into the 'Others' category."
         ],
-        "summaryText": "This report analyzes LinkedIn engagement for Kanishk Parashar, providing insights on content performance, audience engagement, and posting patterns over May 2025. The analysis identifies key trends, including the superior performance of text posts. Recommendations are provided to optimize content strategy and improve overall engagement. The report offers a data-driven overview to guide future strategic decisions."
+        "summaryText": "This report analyzes Kanishk Parashar's LinkedIn engagement over May 2025, focusing on content performance, posting patterns, and audience interactions. It identifies top-performing posts, the impact of visual content, and the effectiveness of hashtag usage. The analysis aims to provide actionable insights for enhancing content strategy. Data from 59 posts have been examined to support these recommendations."
     },
     "contentAnalysis": {
         "postTypesDistribution": [
@@ -49,81 +51,89 @@
         ],
         "averageLikesByContentTheme": [
             {
-                "theme": "Funding Update",
-                "averageLikes": 191,
-                "percentage": 25.0
+                "theme": "Seed Funding Announcement",
+                "percentage": 25.0,
+                "averageLikes": 191
             },
             {
-                "theme": "Career Announcement",
-                "averageLikes": 180,
-                "percentage": 25.0
+                "theme": "Career Update",
+                "percentage": 25.0,
+                "averageLikes": 180
+            },
+            {
+                "theme": "Anniversary / Startup Journey",
+                "percentage": 25.0,
+                "averageLikes": 152
+            },
+            {
+                "theme": "Community Engagement",
+                "percentage": 25.0,
+                "averageLikes": 143
             }
         ],
         "visualImpactInsight": "Image posts (avg engagement: 77) tend to perform significantly better than text posts (avg engagement: 43).",
-        "postTypeDistributionInsight": "Text posts dominate the content mix with 84.75%, while image and articles combined offer complementary visual appeal.",
+        "postTypeDistributionInsight": "Text posts dominate at 84.75%, followed by images and articles, indicating a strong preference for written updates.",
         "topPerformingPosts": [
             {
-                "content": "I have an exciting secret to share! Back in April 2024, we successfully raised our seed round during YCombinator. Wondering why the big news is only coming out now? The answer is simple: since April, we've been hard at work onboarding and expanding Powder. And now, the time has come to elevate it to the next level! For those who are new to our journey, securing funding from top-tier VC firms enhances our credibility.",
+                "content": "Seed Funding Announcement post discussing raised seed round and onboarding details.",
                 "type": "text",
-                "link": "https://www.linkedin.com/posts/diamondk_fundingnews-startupjourney-growthopportunities-activity-7224819639816531969-h0yW?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                 "likes": "191",
                 "comments": "28",
-                "shares": "2",
-                "date": "May 2025"
+                "shares": "2"
             },
             {
-                "content": "I\u2019m happy to share that I\u2019m starting a new position as co-founder / CEO at Powder!",
-                "type": "",
-                "link": "https://www.linkedin.com/posts/diamondk_im-happy-to-share-that-im-starting-a-new-activity-7130261899820089344-E0pZ?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
+                "content": "Career update post announcing new position as co-founder / CEO at Powder.",
+                "type": "text",
                 "likes": "180",
                 "comments": "28",
-                "shares": "0",
-                "date": "May 2025"
+                "shares": "0"
             },
             {
-                "content": "\ud83c\udf89 Today marks 2 years since I embarked on this incredible journey to build a startup, and I couldn\u2019t be more grateful for the experiences, challenges, and growth along the way. From exploring ideas in October 2022 to pivoting in early 2023, our journey with Powder has been transformative. Thank you to everyone who supported us along the way.",
+                "content": "Anniversary post marking 2 years of startup journey and pivot details.",
                 "type": "text",
-                "link": "https://www.linkedin.com/posts/diamondk_startupjourney-entrepreneurship-ai-activity-7288616644954755072-8vXD?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                 "likes": "152",
                 "comments": "7",
-                "shares": "1",
-                "date": "May 2025"
+                "shares": "1"
             },
             {
-                "content": "Powder is my third venture-backed startup, and I've had the privilege of working with some truly amazing VCs in the past. During the YC Winter '24 batch, I discovered something extraordinary. Get your application in by 8/27!",
+                "content": "Community post on venture insights and YC experience.",
                 "type": "image",
-                "link": "https://www.linkedin.com/posts/diamondk_powder-is-my-third-venture-backed-startup-activity-7228799933854670848-2SY2?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                 "likes": "143",
                 "comments": "15",
-                "shares": "2",
-                "date": "May 2025"
+                "shares": "2"
             }
         ],
         "commonCharacteristicsTopPosts": [
-            "High engagement linked to funding news and startup milestones",
-            "Strong narrative and clear messaging"
+            "Clear narrative and storytelling",
+            "Focus on achievements and milestones",
+            "Inclusion of impactful hashtags",
+            "Emphasis on personal experience"
         ]
     },
     "audienceAnalysis": {
         "notableAudienceMembers": [
             {
                 "name": "Ben Liong",
-                "description": "VP at AI Builder | Driving a more private AI and Agent. VP of Engineering @ Crypto.com | AI, Blockchain"
+                "description": "Vice President at Crypto.com with 18 reactions."
             },
             {
                 "name": "Kamel Takla, EMBA, PMP",
-                "description": "Leading Through Innovation"
+                "description": "Leading Through Innovation with 13 reactions."
             },
             {
                 "name": "David Goerz",
-                "description": "Chief Investment Officer"
+                "description": "Chief Investment Officer in Finance with 10 reactions."
             },
             {
                 "name": "Felipe Gomez-Kraus",
-                "description": "Executive Managing Director, Brokerage"
+                "description": "Director at Brokerage with 9 reactions."
+            },
+            {
+                "name": "Thimasha Pathirana",
+                "description": "Founder with 8 reactions."
             }
         ],
-        "audienceInsight": "The audience is predominantly engaged professionals with strong representation in Technology / IT and Finance sectors.",
+        "audienceInsight": "The audience is diverse with a significant portion from 'Others' at 53.65%, with notable engagement from technology and finance sectors.",
         "audienceCompositionByIndustry": [
             {
                 "industry": "Technology / IT",
@@ -182,237 +192,245 @@
                 "averageEngagementRate": 16.5
             }
         ],
-        "postingFrequency": "Average 1-2 posts per week.",
+        "postingFrequency": "1-2 posts/week",
         "timingKeyFinding": "Posts on Monday, Thursday tend to receive significantly higher engagement.",
         "optimalPostingTimes": [
-            "Monday at 1.21 multiplier",
-            "Thursday at 1.31 multiplier"
+            {
+                "timeSlot": "Weekday mornings",
+                "engagementMultiplier": 1.0
+            }
         ]
     },
     "topIndustryInfluencersAnalysis": {
-        "overview": "Analysis of 6 industry influencers with an average of 1,680,766 followers reveals diverse content strategies and engagement patterns in the data + AI space.",
+        "overview": "Six key industry influencers were analyzed, revealing varied strengths in AI, technology, and startup advisory. Their diverse strategies highlight optimal posting windows and content approaches that drive significant engagement.",
         "keyInfluencerInsights": {
-            "optimalPostingWindow": "09:00 - 11:00",
-            "visualContentPercentage": 37.75,
-            "averagePostFrequency": "Weekly",
-            "personalStoryMultiplier": 0.99,
-            "contrarianViewMultiplier": 0.28,
-            "totalPostsLastYear": 1033
+            "optimalPostingWindow": "Weekday mornings",
+            "visualContentPercentage": 60.0,
+            "averagePostFrequency": "3-4 times per week",
+            "personalStoryMultiplier": 1.5,
+            "contrarianViewMultiplier": null,
+            "totalPostsLastYear": null
         },
         "influencers": [
             {
-                "name": "Kevin O'Leary",
-                "title": "Chairman, O\u2019Leary Ventures and Beanstox",
-                "profileUrl": "https://linkedin.com/in/kevinolearytv",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFztoBPChLfwQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516323178775?e=1753315200&v=beta&t=me-d6kGAOCeegfWADW2U69ON-MVz4qGMX1bDpcI2f9A",
-                "followersCount": "4.4M",
-                "postWithin1Year": 200,
-                "descriptionFocus": "Successful entrepreneur and investor with a storied history in software consolidation and large-scale finance deals. An established voice in financial services.",
+                "name": "Khusboo T.",
+                "title": "CEO & Co-founder @Tekstudy | AI and and Tech Influencer 🤖| Brand Promotions | Helping Brands to Grow 📈| PH Hunter ✉️",
+                "profileUrl": "https://linkedin.com/in/khusboo-t-596a78203",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5635AQEvaw5SFrVUgw/profile-framedphoto-shrink_400_400/B56Zbxat1qHgAc-/0/1747807035051?e=1748973600&v=beta&t=wV_lG_qMwVlGhuEi36QBExeG1_jwTQP0BfdZzCWfFhE",
+                "followersCount": "235K",
+                "postWithin1Year": 244,
+                "descriptionFocus": "Tech influencer with a strong focus on AI and digital branding. Leverages extensive collaborations and community engagement to help brands grow.",
                 "relevance": [
-                    "Finance expertise",
-                    "Wealth insights",
-                    "Investment strategy"
+                    "Tech influencer",
+                    "AI content focus",
+                    "Digital brand growth",
+                    "Startup experience"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Kevin O'Leary",
-                        "title": "Chairman, O\u2019Leary Ventures and Beanstox",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFztoBPChLfwQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516323178775?e=1753315200&v=beta&t=me-d6kGAOCeegfWADW2U69ON-MVz4qGMX1bDpcI2f9A",
-                        "location": "West Palm Beach, Florida, United States",
-                        "followers": "4.4M"
+                        "name": "Khusboo T.",
+                        "title": "CEO & Co-founder @Tekstudy | AI and and Tech Influencer 🤖| Brand Promotions | Helping Brands to Grow 📈| PH Hunter ✉️",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5635AQEvaw5SFrVUgw/profile-framedphoto-shrink_400_400/B56Zbxat1qHgAc-/0/1747807035051?e=1748973600&v=beta&t=wV_lG_qMwVlGhuEi36QBExeG1_jwTQP0BfdZzCWfFhE",
+                        "location": "Gurugram, Haryana, India",
+                        "followers": "235K"
                     },
                     "post": {
-                        "postURL": "",
-                        "text": "At yesterday\u2019s Senate hearing, I shared a story that every American entrepreneur already knows too well.\n\nYou build something great. You invest your own money, blood, sweat, and tears. You prove it in the U.S. market. Then, BOOM \u2014 one day you wake up and see your product, your innovation, being sold on Alibaba. Knocked off. Branded like yours, but you\u2019re not getting a single dollar.\n\nThis is the reality for thousands of American small businesses. And it\u2019s been happening for decades.\n\nI\u2019m done watching American entrepreneurs get steamrolled. If Chinese companies want access to our legal system, then it\u2019s time we get access to theirs. Until then? 400% tariffs.",
-                        "likes": 8875,
-                        "comments": 963,
-                        "reposts": 0
+                        "postURL": "https://www.linkedin.com/posts/khusboo-t-596a78203_most-job-seekers-fail-these-10-interview-activity-7331263850165493760-nyvy?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
+                        "text": "Most Job Seekers Fail These 10 Interview Questions. Heres How to Ace Them. Join to receive 50+ Al courses ,1000+ Advanced Prompts, 30+ ChatGPT Cheatsheets and more.100% FREE - Spoiler: Its not about perfect answers. Its about strategic storytelling. Heres your cheat sheet to outsmart 95% of applicants: 4 Deadly Interview Categories 1 Storytelling & Fit: Tell me your story DO: My journey from [past role] to [this role] shows why Im obsessed with [company mission]. DONT: Ramble about your birth year or dogs name. What sets you apart? DO: My top 3 strengths[X], [Y], [Z]are why Ive [specific win]. They align perfectly with [job need]. DONT: Im a hard worker. (Snore.) 2 Problem-Solving & Ethics: Hardest problem you solved DO: Use the STAR method Situation, Task, Action, Result + Metrics. DONT: Blame teammates or say I dont remember. Ethical dilemma DO: I chose integrity over shortcuts. Heres how it hurt short-term but built long-term trust. DONT: Ive never faced one. (Liar.) 3 Strengths, Weaknesses & Growth: Greatest strengths DO: Mirror the job description You need [skill]. Ive done [example]. DONT: Im good at everything. Weaknesses DO: Im impatient with inefficiency Now I automate repetitive tasks. DONT: Im a perfectionist. (Eye roll.) 4 Initiative & Execution: Problem others missed DO: I spotted [issue] by [method]. Fixing it saved [time/money]. DONT: Im just really detail-oriented. Missed deadline DO: I communicated early, renegotiated timelines, and delivered [result]. DONT: Blame others or make excuses. Free Tutorials you will regret not taking in 2025 : 7000+ free courses free access: Data Science: C++ : Python : React JS : jQuery : DSA - Git : JavaScript : Money Making Resources:",
+                        "likes": 621,
+                        "comments": 39,
+                        "reposts": 45
                     },
                     "contentStrategy": {
-                        "Text": 2.5,
-                        "Images": 4.0,
-                        "Videos": 91.5,
-                        "Articles": 2.0
+                        "Text": 0,
+                        "Images": 91,
+                        "Videos": 8,
+                        "Articles": 0
                     }
                 }
             },
             {
-                "name": "Sallie Krawcheck",
-                "title": "Founder of Ellevest",
-                "profileUrl": "https://linkedin.com/in/salliekrawcheck",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEvJidJ0IJWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710794845774?e=1753315200&v=beta&t=mQzZ_4xfjbG65aduSydSMDfFUt_TkwrzgVTzx1uCytQ",
-                "followersCount": "2.7M",
-                "postWithin1Year": 196,
-                "descriptionFocus": "Financial services expert dedicated to empowering investors through innovative wealth management solutions. A trusted voice in modern finance.",
+                "name": "Steve Nouri",
+                "title": "Building the largest AI community | Advisor @ Fortune 500 | 2 Million Followers | Keynote Speaker",
+                "profileUrl": "https://linkedin.com/in/stevenouri",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFLa5mb-ilkyA/profile-displayphoto-shrink_200_200/B56ZZUdz2KGcAY-/0/1745173823434?e=1753920000&v=beta&t=BpRXQhVvYC53ziYVgylhk0KF-b8jbnzglwhsRWqh9t8",
+                "followersCount": "1.7M",
+                "postWithin1Year": 178,
+                "descriptionFocus": "AI community builder and keynote speaker focused on tech innovation and knowledge-sharing. Commands a large following with significant influence in data and AI trends.",
                 "relevance": [
-                    "Wealth management",
-                    "Financial insight",
-                    "Innovative finance"
+                    "AI community builder",
+                    "Tech innovation focus",
+                    "Large engaged audience",
+                    "Knowledge sharing"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Sallie Krawcheck",
-                        "title": "Founder of Ellevest",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEvJidJ0IJWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710794845774?e=1753315200&v=beta&t=mQzZ_4xfjbG65aduSydSMDfFUt_TkwrzgVTzx1uCytQ",
+                        "name": "Steve Nouri",
+                        "title": "Building the largest AI community | Advisor @ Fortune 500 | 2 Million Followers | Keynote Speaker",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQFLa5mb-ilkyA/profile-displayphoto-shrink_200_200/B56ZZUdz2KGcAY-/0/1745173823434?e=1753920000&v=beta&t=BpRXQhVvYC53ziYVgylhk0KF-b8jbnzglwhsRWqh9t8",
+                        "location": "Abu Dhabi Emirate, United Arab Emirates",
+                        "followers": "1.7M"
+                    },
+                    "post": {
+                        "postURL": "https://www.linkedin.com/posts/stevenouri_ai-deepseek-innovation-activity-7289710857322708992-Y8iV?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
+                        "text": "DeepSeek has now erased $2 trillion worth of market cap in US stocks. NVIDIA just lost $500B+ in market cap! Update: All because a $6M Chinese AI startup just achieved what Silicon Valley claimed was impossible. Heres why DeepSeek is rewriting the rules of AI : Chinas DeepSeek just built a reasoning AI model that rivals OpenAIs bestand did it for 1/1000th of the cost. OpenAIs GPT-4: $600M+ training cost DeepSeek: $6M total And DeepSeek R1 is open source. DeepSeek is not just cheaper to buildits also cheaper to run. OpenAI: $100+ per million tokens DeepSeek: <$4 per million tokens This isnt just a cost differenceits a paradigm shift. Silicon Valleys AI advantage? Its evaporating. Tech investors in panic mode Global attention shifts to Chinas AI dominance. What if we dont need that many GPUs or even electricity to build better Models! DeepSeek R1 is: 27x cheaper than OpenAIs models Open source and permissively licensed A model that fully discloses reasoning steps This isnt just competition. As Marc Andreesen said Its Sputnik for AI. The game is changingand fast. Whats your take on this AI revolution? Lets discuss. \"This image is a conceptual representation created for illustration\" #AI #DeepSeek #Innovation",
+                        "likes": 58049,
+                        "comments": 3746,
+                        "reposts": 5839
+                    },
+                    "contentStrategy": {
+                        "Text": 1,
+                        "Images": 30,
+                        "Videos": 53,
+                        "Articles": 15
+                    }
+                }
+            },
+            {
+                "name": "Allie K. Miller",
+                "title": "#1 Most Followed Voice in AI Business (2M) | Former Amazon, IBM | Fortune 500 AI and Startup Advisor, Public Speaker | @alliekmiller on Instagram, X, TikTok | AI-First Course with 80K+ students - Link in Bio",
+                "profileUrl": "https://linkedin.com/in/alliekmiller",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFcmNxBigo9_g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1553407141418?e=1753920000&v=beta&t=HLvhZz-_8Lli81LU2xH08a-BIWZPfG0tUbsQUF9ojOI",
+                "followersCount": "1.5M",
+                "postWithin1Year": 204,
+                "descriptionFocus": "Top AI business advisor with deep expertise in startup advising and technological innovation. Shares insights on AI-first strategies for business growth and transformation.",
+                "relevance": [
+                    "AI business advisor",
+                    "Startup mentorship",
+                    "Innovation leadership",
+                    "Tech thought leader"
+                ],
+                "detailedInfluencerAnalysis": {
+                    "profile": {
+                        "name": "Allie K. Miller",
+                        "title": "#1 Most Followed Voice in AI Business (2M) | Former Amazon, IBM | Fortune 500 AI and Startup Advisor, Public Speaker | @alliekmiller on Instagram, X, TikTok | AI-First Course with 80K+ students - Link in Bio",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQFcmNxBigo9_g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1553407141418?e=1753920000&v=beta&t=HLvhZz-_8Lli81LU2xH08a-BIWZPfG0tUbsQUF9ojOI",
                         "location": "New York, New York, United States",
-                        "followers": "2.7M"
+                        "followers": "1.5M"
                     },
                     "post": {
-                        "postURL": "",
-                        "text": "I'm sorry to share with you that I am stepping aside as Ellevest\u2019s CEO and transitioning to a board role, to focus on my health following a recent diagnosis. As they say, you can have 1,000 problems in your life until you have a health problem. And then you only have one problem. So I need to do this for myself and my family. \n\nDr. Sylvia S. Kwan, CFA, CAIA, my partner since the first days, will remain Ellevest\u2019s Chief Investment Officer (CIO) and take on the co-CEO role, so Ellevest clients will continue to be in the most qualified hands. She is easily the best CIO that I\u2019ve worked with in my (long) career, and I have learned a lot from her. Connie Hsiung, our current COO & CFO, will also take on the role of co-CEO. Her top priority will be to work with the Ellevest board on the company\u2019s strategy, and I can\u2019t imagine anyone more capable or ready.\n\nWhile I pass the torch to the next generation of Ellevest leadership and as Sylvia and Connie take the reins on driving the company forward, I\u2019ll be able to continue to provide guidance as a member of our Board. My focus will be on my health, so I will not be involved in the day-to-day, but my heart will always be with our mission. \n\nI love Ellevest and our talented and passionate team and strong community. \n\nI love our mission to get more money in the hands of women, and I love that we have had a positive impact on so many of you \u2014 and your sisters, your friends, your moms, your wives, and your daughters. I am grateful to our investors, especially those who have been on so much of this journey with us. I am grateful for our employees, particularly the early ones who took the risk of joining us. And I am particularly grateful for the Ellevest community, all of you, for your support and engagement. I\u2019m constantly reminded by this community that we have changed the industry and we have changed lives. Thank you.\n\nRead more at https://lnkd.in/ejEC5CcK",
-                        "likes": 7907,
-                        "comments": 885,
-                        "reposts": 0
+                        "postURL": "https://www.linkedin.com/posts/alliekmiller_the-it-department-of-every-company-is-going-activity-7282802700444917762-xHa4?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
+                        "text": "\"The IT department of every company is going to be the HR department of AI agents in the future. Today, they manage and maintain a bunch of software from the IT industry. In the future, they will maintain, nurture, onboard, and improve a whole bunch of digital agents and provision them to the companies to use. And so, your IT department is gonna become kind of like AI Agent HR.\" - Jensen Huang, CEO ofNVIDIA, CES 2025 Stressed about AI in 2025? Catch up on the biggest year in AI, and read my 2024 AI recap here:",
+                        "likes": 5548,
+                        "comments": 523,
+                        "reposts": 438
                     },
                     "contentStrategy": {
-                        "Text": 6.63,
-                        "Images": 11.22,
-                        "Videos": 11.22,
-                        "Articles": 70.92
+                        "Text": 14,
+                        "Images": 59,
+                        "Videos": 24,
+                        "Articles": 1
                     }
                 }
             },
             {
-                "name": "Reid Hoffman",
-                "title": "Co-Founder, LinkedIn, Manas AI & Inflection AI. Author of Superagency. Investor at Greylock.",
-                "profileUrl": "https://linkedin.com/in/reidhoffman",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHW7wKzPb3DAg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718221341641?e=1753315200&v=beta&t=o0e-qjP2yrtaGAkI9Q5MLn5vnWcnNVRHzH8IVMIudd8",
-                "followersCount": "2.7M",
-                "postWithin1Year": 177,
-                "descriptionFocus": "Tech visionary and entrepreneur who connects startups with transformative growth opportunities. A strategic thinker in the innovation ecosystem.",
+                "name": "Ethan Mollick",
+                "title": "Associate Professor at The Wharton School. Author of Co-Intelligence",
+                "profileUrl": "https://linkedin.com/in/emollick",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQGvhhCjW5El4Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1701211615166?e=1753920000&v=beta&t=jDBMssIuiVB1K42nzLPPErVG-ru0z2x9JsUEhMBoZDg",
+                "followersCount": "280K",
+                "postWithin1Year": 197,
+                "descriptionFocus": "Researcher focused on entrepreneurship, innovation, and the impact of AI on education and work. Provides data-backed insights useful for startup leadership.",
                 "relevance": [
-                    "Tech innovation",
-                    "Entrepreneurial network",
-                    "Strategic vision"
+                    "Entrepreneurial insights",
+                    "Innovation research",
+                    "Startup effectiveness",
+                    "AI impact studies"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Reid Hoffman",
-                        "title": "Co-Founder, LinkedIn, Manas AI & Inflection AI. Author of Superagency. Investor at Greylock.",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHW7wKzPb3DAg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718221341641?e=1753315200&v=beta&t=o0e-qjP2yrtaGAkI9Q5MLn5vnWcnNVRHzH8IVMIudd8",
-                        "location": "Silicon Valley, United States",
-                        "followers": "2.7M"
+                        "name": "Ethan Mollick",
+                        "title": "Associate Professor at The Wharton School. Author of Co-Intelligence",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQGvhhCjW5El4Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1701211615166?e=1753920000&v=beta&t=jDBMssIuiVB1K42nzLPPErVG-ru0z2x9JsUEhMBoZDg",
+                        "location": "United States",
+                        "followers": "280K"
                     },
                     "post": {
-                        "postURL": "",
-                        "text": "Twenty years ago, I was about to pitch LinkedIn\u2019s Series B to Greylock and other investors. I remember going through slides at Starbucks, equipped with a PowerPoint deck, a game plan for growth, and what I thought was a solid pitch. But there were, of course, challenges and uncertainties to address. More than just building a company, our team was trying to create a category. Some were calling us \"Friendster for business,\" but the concept of professional networking was more or less untested. Our pitch deck had a vision I believed in deeply\u2014enough to stake my career on it\u2014but that didn\u2019t make it easy. Knowing what I know now, what I would tell myself back in 2004, during that pivotal moment for me and for LinkedIn? What advice would I give younger Reid? What reassurances or warnings would I deliver? \n\nI\u2019ve created a new Reid AI\u201420 years younger\u2014to pitch the real, present-day me on the 2004 LinkedIn plan.\n\nTo clarify: What you are watching is an attempt to use the latest AI tools to replicate some of my younger self\u2019s curiosity and revisit an exciting moment for the company I co-founded\u2014which is also an interesting test of how this technology can be used more generally. When we created \u201cReid AI\u201d\u2014my present-day avatar\u2014a few months ago, we did so by training it on 20 years worth of books and interviews. We had a 4K video interview to train a video model, and we were able to use voice replication tools to replicate my voice.\n\nTo create Reid AI 2004, my team had to get creative. It\u2019s a custom GPT trained on knowledge up to 2004, including my own writing. Using Hedra, UNSHUT, and other tools, we relied largely on an image-to-video process that doesn\u2019t require any training video but can generate video from AI-generated images. \n\nOverall, hearing myself pitch LinkedIn to myself was a bit surreal. I remember that early entrepreneur. This conversation between past and future selves feels not only like a reflection on how much has changed, but also on what remains constant: The core values of trust, integrity, and community that were pivotal in some of the startup's earliest pitches remain at the heart of LinkedIn today. \n\nI believe I would still invest in that idea. But I'm also amazed by how much 2004 Reid is about to see the world and technology change.\u00a0 \n\nWhat do you think? What would you tell the younger you from a decade or two ago?",
-                        "likes": 8090,
-                        "comments": 698,
-                        "reposts": 0
+                        "postURL": "https://www.linkedin.com/posts/emollick_in-our-new-paper-we-ran-an-experiment-at-activity-7309212044812038144-d6ii?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
+                        "text": "In our new paper we ran an experiment at Procter and Gamble with 776 experienced professionals solving real business problems. We found that individuals randomly assiged to use AI did as well as a team of two without AI. And AI-augmented teams produced more exceptional solutions. The teams using AI were happier as well. Even more interesting: AI broke down professional silos. R&D people with AI produced more commercial work and commercial people with AI had more technical solutions. The standard model of \"AI as productivity tool\" may be too limiting. Todays AI can function as a kind of teammate, offering better performance, expertise sharing, and even positive emotional experiences. This was a massive team effort with work led by Fabrizio Dell'Acqua, Charles Ayoubi, and Karim Lakhani along with Hila Lifshitz, Raffaella Sadun, Lilach M., me and our partners at P&G: Yi Han, Jeff Goldman, Hari Nair and Stewart Taub Subatack about the work here: Paper:",
+                        "likes": 5381,
+                        "comments": 338,
+                        "reposts": 803
                     },
                     "contentStrategy": {
-                        "Text": 12.43,
-                        "Images": 12.43,
-                        "Videos": 45.76,
-                        "Articles": 29.38
+                        "Text": 17,
+                        "Images": 66,
+                        "Videos": 12,
+                        "Articles": 4
                     }
                 }
             },
             {
-                "name": "Elad Gil",
-                "title": "Entrepreneur & Startup Helper",
-                "profileUrl": "https://linkedin.com/in/eladgil",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQEccpEFVnlpRA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516158512659?e=1753315200&v=beta&t=vn4iOgHsNCNj4JsvwS9pzbIVd5VBi0E_d1V7xBxg0yo",
-                "followersCount": "42.3K",
-                "postWithin1Year": 62,
-                "descriptionFocus": "Experienced entrepreneur and advisor renowned for scaling startups and pioneering tech innovations. Offers practical insights for growth.",
+                "name": "Noelle R.",
+                "title": "Best-Selling Author: Scaling Responsible AI |  Top-Rated Speaker | #1 Thought Leader in Agentic AI | AI-Powered Revenue Growth + Cost Optimization Expert ✨ 4x Microsoft Responsible AI MVP | 3.4+ MLearners on Linkedin  ✨",
+                "profileUrl": "https://linkedin.com/in/noelleai",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQGwqNlh-Id3CA/profile-displayphoto-shrink_800_800/B4EZb1UiK3HMAc-/0/1747872525135?e=1753920000&v=beta&t=4qyGx1mAKzjlf-6MnnSovDXcPRz8Hcws413sBFMlOiA",
+                "followersCount": "41.7K",
+                "postWithin1Year": 69,
+                "descriptionFocus": "Thought leader in responsible AI with a focus on ethical growth and revenue optimization. Offers insights on leveraging AI for strategic business transformation.",
                 "relevance": [
-                    "Startup scaling",
-                    "Tech expertise",
-                    "Innovative advisor"
+                    "Responsible AI leader",
+                    "Revenue growth insights",
+                    "Ethical AI expert",
+                    "Strategic business AI"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Elad Gil",
-                        "title": "Entrepreneur & Startup Helper",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C4E03AQEccpEFVnlpRA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516158512659?e=1753315200&v=beta&t=vn4iOgHsNCNj4JsvwS9pzbIVd5VBi0E_d1V7xBxg0yo",
-                        "location": "San Francisco, California, United States",
-                        "followers": "42.3K"
+                        "name": "Noelle R.",
+                        "title": "Best-Selling Author: Scaling Responsible AI |  Top-Rated Speaker | #1 Thought Leader in Agentic AI | AI-Powered Revenue Growth + Cost Optimization Expert ✨ 4x Microsoft Responsible AI MVP | 3.4+ MLearners on Linkedin  ✨",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQGwqNlh-Id3CA/profile-displayphoto-shrink_800_800/B4EZb1UiK3HMAc-/0/1747872525135?e=1753920000&v=beta&t=4qyGx1mAKzjlf-6MnnSovDXcPRz8Hcws413sBFMlOiA",
+                        "location": "Miami-Fort Lauderdale Area, United States",
+                        "followers": "41.7K"
                     },
                     "post": {
-                        "postURL": "",
-                        "text": "Excited that High Growth Handbook was listed by Bloomberg Business Week as a Best Book of 2018!",
-                        "likes": 217,
-                        "comments": 22,
-                        "reposts": 0
+                        "postURL": "https://www.linkedin.com/posts/noelleai_aileadership-bestseller-responsibleai-activity-7316266887733018624-rSRM?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
+                        "text": "Still pinching myself My book was just listed in the New & Noteworthy section at Barnes & Noble and to top it off, we officially hit the Bestseller list this week! This is such a full-circle moment. I wrote this book to help leaders navigate the new era of AI with confidence, clarity, and purpose and now its sitting on shelves alongside some of the most impactful voices of our time. Im so grateful. To every reader, supporter, and believer in the mission of Responsible AI thank you. This book isnt just a celebration of whats possible, but a blueprint for how we lead into the future. You can grab your copy now at Barnes & Noble or wherever books are sold. Lets build whats next together. #AILeadership #Bestseller #ResponsibleAI #Gratitude #NewAndNoteworthy",
+                        "likes": 2003,
+                        "comments": 536,
+                        "reposts": 27
                     },
                     "contentStrategy": {
-                        "Text": 72.58,
-                        "Images": 0,
-                        "Videos": 9.68,
-                        "Articles": 17.74
+                        "Text": 29,
+                        "Images": 43,
+                        "Videos": 23,
+                        "Articles": 4
                     }
                 }
             },
             {
-                "name": "Chamath Palihapitiya",
-                "title": "CEO at Social Capital",
-                "profileUrl": "https://linkedin.com/in/chamath",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHp0oaxzOhakA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1692899276520?e=1753315200&v=beta&t=hYfu-RH3yAKgHK9OKIde_KZx-NpIlw5VJ_CeSijGdTQ",
-                "followersCount": "207.5K",
-                "postWithin1Year": 198,
-                "descriptionFocus": "Tech investor focused on transformative ideas and leveraging AI innovation to disrupt traditional industries. A forward-thinking venture leader.",
+                "name": "Sebastien Bubeck",
+                "title": "I work on AI at OpenAI. Former VP AI and Distinguished Scientist at Microsoft",
+                "profileUrl": "https://linkedin.com/in/sebastien-bubeck-6b558a1a5",
+                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHu1MVCRDSUOg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1639117029515?e=1753920000&v=beta&t=4EUfcXkHc4cFFi1ZRKegdDzKUpxdTOhpBkjZbfrlS6c",
+                "followersCount": "19.9K",
+                "postWithin1Year": 18,
+                "descriptionFocus": "Technical AI expert focused on the foundational aspects of machine learning. Known for deep technical insights and research in AI and software development.",
                 "relevance": [
-                    "Tech transformation",
-                    "AI innovation",
-                    "Venture insights"
+                    "AI technical expertise",
+                    "ML research focus",
+                    "Software innovation",
+                    "Foundational AI insights"
                 ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
-                        "name": "Chamath Palihapitiya",
-                        "title": "CEO at Social Capital",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHp0oaxzOhakA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1692899276520?e=1753315200&v=beta&t=hYfu-RH3yAKgHK9OKIde_KZx-NpIlw5VJ_CeSijGdTQ",
-                        "location": "San Francisco Bay Area, United States",
-                        "followers": "207.5K"
+                        "name": "Sebastien Bubeck",
+                        "title": "I work on AI at OpenAI. Former VP AI and Distinguished Scientist at Microsoft",
+                        "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQHu1MVCRDSUOg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1639117029515?e=1753920000&v=beta&t=4EUfcXkHc4cFFi1ZRKegdDzKUpxdTOhpBkjZbfrlS6c",
+                        "location": "Seattle, Washington, United States",
+                        "followers": "19.9K"
                     },
                     "post": {
-                        "postURL": "",
-                        "text": "My father died from a cardiac arrest 30 years after being diagnosed with diabetes. He spent 10 years on metformin, 10 years on insulin and the final 10 years on dialysis. Through his journey I saw the complexity of modern healthcare.\n\nFortunately, we lived this experience in Canada, where the government paid for our healthcare.\u00a0When I came to the U.S., I quickly realized that had his ordeal played out here, we would have gone bankrupt.\n\nThis deep dive aims to explain the U.S. healthcare system. We have tried to break down every aspect of the market and their specific economic incentives to explain why the U.S. spends more than any other country in the world but is falling behind in measures like life expectancy.\n\nIf you are interested in learning more, you can read our deep dive below:\n\nhttps://lnkd.in/gAyJCkF4",
-                        "likes": 3298,
-                        "comments": 186,
-                        "reposts": 0
+                        "postURL": "https://www.linkedin.com/posts/sebastien-bubeck-6b558a1a5_microsoftphi-4-hugging-face-activity-7282776894947606529-V15B?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
+                        "text": "It's here, MIT license! Enjoy!",
+                        "likes": 1628,
+                        "comments": 23,
+                        "reposts": 90
                     },
                     "contentStrategy": {
-                        "Text": 25.76,
-                        "Images": 15.15,
-                        "Videos": 4.55,
-                        "Articles": 54.55
-                    }
-                }
-            },
-            {
-                "name": "Brianne Kimmel",
-                "title": "first check to technical founders and help with GTM ",
-                "profileUrl": "https://linkedin.com/in/briannekimmel",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQEWVSsVZ4pmtw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1688953728439?e=1753315200&v=beta&t=kNw8vBRU4NfO5-Wl9FTm8AFsV6PI4I0y843uElZeEeU",
-                "followersCount": "34.8K",
-                "postWithin1Year": 200,
-                "descriptionFocus": "Investor empowering tech founders with go-to-market expertise and innovative growth strategies. Focused on operational efficiency and startup success.",
-                "relevance": [
-                    "GTM strategy",
-                    "Tech startup",
-                    "Operational efficiency"
-                ],
-                "detailedInfluencerAnalysis": {
-                    "profile": {
-                        "name": "Brianne Kimmel",
-                        "title": "first check to technical founders and help with GTM ",
-                        "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQEWVSsVZ4pmtw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1688953728439?e=1753315200&v=beta&t=kNw8vBRU4NfO5-Wl9FTm8AFsV6PI4I0y843uElZeEeU",
-                        "location": "San Francisco Bay Area, United States",
-                        "followers": "34.8K"
-                    },
-                    "post": {
-                        "postURL": "",
-                        "text": "\u202a Excited to announce Work Life!\n\nA future of work focused fund backed by Marc Andreessen, Zoom CEO Eric Yuan and executives from Dropbox, Slack and $1B+ software companies.\n\nOur recent investments include: \n\n1. Tools that make freelancing possible: accounting, legal, healthcare. \n\n2. Marketplaces that give skilled labor, especially creative class, access to more work and new ways to make money.  \n\n3. Collaborative tech: education, design, low-code and other technologies built for a highly engaged community with inherently social/collaborative features.",
-                        "likes": 293,
-                        "comments": 17,
-                        "reposts": 0
-                    },
-                    "contentStrategy": {
-                        "Text": 42.0,
-                        "Images": 15.5,
-                        "Videos": 5.5,
-                        "Articles": 37.0
+                        "Text": 10,
+                        "Images": 36,
+                        "Videos": 0,
+                        "Articles": 52
                     }
                 }
             }
@@ -452,84 +470,88 @@
                 "averageEngagementRate": 152.0
             }
         ],
-        "hashtagKeyFinding": "Posts with hashtags, though less frequent, drive substantial engagement, as evidenced by high engagement rates on posts using #FundingNews and #GrowthOpportunities."
+        "hashtagKeyFinding": "Posts with hashtags show distinct engagement markers, indicating their role in amplifying content reach."
     },
     "influencerComparison": [
         {
-            "name": "Kevin O'Leary",
-            "linkedinUrl": "https://linkedin.com/in/kevinolearytv",
-            "followers": 4424252,
-            "postsPerYear": 200,
-            "topContentTypes": "Videos, Images",
-            "topThemes": "Business, AI, Product",
-            "postingFrequency": "3.8 posts/week"
+            "name": "Khusboo T.",
+            "linkedinUrl": "https://linkedin.com/in/khusboo-t-596a78203",
+            "followers": 235000,
+            "postsPerYear": 244,
+            "topContentTypes": "Images",
+            "topThemes": "Tech influencer & AI content focus",
+            "postingFrequency": "3-4 posts/week"
         },
         {
-            "name": "Sallie Krawcheck",
-            "linkedinUrl": "https://linkedin.com/in/salliekrawcheck",
-            "followers": 2652907,
-            "postsPerYear": 196,
-            "topContentTypes": "Articles, Images",
-            "topThemes": "AI, Business, Leadership",
-            "postingFrequency": "3.8 posts/week"
+            "name": "Steve Nouri",
+            "linkedinUrl": "https://linkedin.com/in/stevenouri",
+            "followers": 1700000,
+            "postsPerYear": 178,
+            "topContentTypes": "Videos",
+            "topThemes": "AI community builder & Tech innovation focus",
+            "postingFrequency": "3-4 posts/week"
         },
         {
-            "name": "Reid Hoffman",
-            "linkedinUrl": "https://linkedin.com/in/reidhoffman",
-            "followers": 2707353,
-            "postsPerYear": 177,
-            "topContentTypes": "Videos, Articles",
-            "topThemes": "AI, Innovation, Business",
-            "postingFrequency": "3.4 posts/week"
+            "name": "Allie K. Miller",
+            "linkedinUrl": "https://linkedin.com/in/alliekmiller",
+            "followers": 1500000,
+            "postsPerYear": 204,
+            "topContentTypes": "Images",
+            "topThemes": "AI business advisor & Startup mentorship",
+            "postingFrequency": "3-4 posts/week"
         },
         {
-            "name": "Elad Gil",
-            "linkedinUrl": "https://linkedin.com/in/eladgil",
-            "followers": 42277,
-            "postsPerYear": 62,
-            "topContentTypes": "Text, Articles",
-            "topThemes": "AI, Innovation, Business",
-            "postingFrequency": "1.2 posts/week"
+            "name": "Ethan Mollick",
+            "linkedinUrl": "https://linkedin.com/in/emollick",
+            "followers": 280000,
+            "postsPerYear": 197,
+            "topContentTypes": "Images",
+            "topThemes": "Entrepreneurial insights & Innovation research",
+            "postingFrequency": "3-4 posts/week"
         },
         {
-            "name": "Chamath Palihapitiya",
-            "linkedinUrl": "https://linkedin.com/in/chamath",
-            "followers": 207535,
-            "postsPerYear": 198,
-            "topContentTypes": "Articles, Text",
-            "topThemes": "AI, Business, Innovation",
-            "postingFrequency": "3.8 posts/week"
-        },
-        {
-            "name": "Brianne Kimmel",
-            "linkedinUrl": "https://linkedin.com/in/briannekimmel",
-            "followers": 34787,
-            "postsPerYear": 200,
-            "topContentTypes": "Text, Articles",
-            "topThemes": "AI, Business, Innovation",
-            "postingFrequency": "3.8 posts/week"
+            "name": "Noelle R.",
+            "linkedinUrl": "https://linkedin.com/in/noelleai",
+            "followers": 41700,
+            "postsPerYear": 69,
+            "topContentTypes": "Images",
+            "topThemes": "Responsible AI leader & Revenue growth insights",
+            "postingFrequency": "1 post/week"
         }
     ],
-    "summaryOfComparison": "While Kanishk shows solid engagement metrics and frequent posting, top influencers demonstrate higher follower counts and more diversified content strategies. Enhancing visual and video content could help bridge the gap in engagement and reach.",
+    "summaryOfComparison": "The client shows strong engagement through a balanced content mix but lags in follower count and post frequency compared to top influencers. Increasing visual content and posting frequency could enhance reach and engagement.",
     "gapAnalysis": [
         {
-            "gap": "Engagement per post below top influencer levels",
-            "yourValue": "44",
-            "influencerAverage": "Higher overall engagement seen with diversified content",
-            "recommendedAction": "Increase visual and video content to boost engagement."
+            "gap": "Lower follower count",
+            "yourValue": "N/A",
+            "influencerAverage": "High",
+            "recommendedAction": "Increase brand visibility through strategic collaborations."
         },
         {
-            "gap": "Low posting frequency",
+            "gap": "Lower post frequency",
             "yourValue": "1-2 posts/week",
-            "influencerAverage": "More frequent posting among influencers",
-            "recommendedAction": "Adopt a more consistent posting schedule."
+            "influencerAverage": "3 posts/week",
+            "recommendedAction": "Increase posting frequency to align with industry standards."
+        },
+        {
+            "gap": "Reduced use of hashtags",
+            "yourValue": "14.5% usage",
+            "influencerAverage": "Higher hashtag engagement observed",
+            "recommendedAction": "Incorporate more relevant hashtags to enhance content discoverability."
+        },
+        {
+            "gap": "Limited visual content",
+            "yourValue": "10.17% image usage",
+            "influencerAverage": "Around 30-60% visual content in influencer strategies",
+            "recommendedAction": "Increase image and video content to boost engagement."
         }
     ],
     "recommendations": {
-        "contentStrategy": "Diversify content themes by incorporating more visual storytelling and video content.",
-        "visualElements": "Increase the use of high-quality images and graphics to leverage higher engagement.",
-        "postingSchedule": "Adopt a consistent posting schedule, aiming for 3-4 posts per week.",
-        "audienceTargeting": "Refine audience segmentation to target top-performing industry sectors like Technology and Finance.",
-        "engagementTactics": "Engage with audience comments and drive conversations through interactive posts and polls."
+        "contentStrategy": "Diversify content with a mix of funding updates, startup journeys, and industry insights to engage a varied audience.",
+        "visualElements": "Increase the use of high-quality images and videos, as visual content significantly boosts engagement.",
+        "postingSchedule": "Optimize posting on Mondays and Thursdays to leverage the higher engagement windows.",
+        "hashtagStrategy": "Utilize targeted and relevant hashtags consistently to enhance reach and engagement.",
+        "audienceTargeting": "Tailor content to resonate with both technology and finance sectors, as well as the broader 'Others' segment.",
+        "engagementTactics": "Incorporate interactive elements like polls and Q&A sessions to foster increased audience interaction."
     }
 }

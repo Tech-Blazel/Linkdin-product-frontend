@@ -1379,3 +1379,468 @@ export const stanCategories = [
     },
   },
 ];
+
+export const KanishkCategories = [
+  {
+    categoryName: "Technical posts",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "technical-post-1",
+        content: (
+          <Fragment>
+            <p>
+              Everyone talks about "AI-powered document processing." What they
+              don't talk about is what happens when that document is 8 pages of
+              poorly scanned brokerage data with handwritten notes, or a 60MB
+              estate plan with zero structure. Here's how we built Powder for
+              that reality, not polished demo files.
+            </p>
+
+            <p>
+              <strong>1. Intake that doesn't assume structure</strong>
+              <br />
+              Most tools choke unless docs fit narrow templates. We take PDFs,
+              Excel files, faxes, images, everything. Our pipeline uses OCR and
+              layout detection, but when formats are messy, we flag and route
+              instead of failing.
+            </p>
+
+            <p>
+              <strong>2. Classification by context, not guesswork</strong>
+              <br />A private investment memo and custodial summary might look
+              similar, but require different logic. Our models classify based on
+              content signals, not layout.
+            </p>
+
+            <p>
+              <strong>3. Field extraction built for finance</strong>
+              <br />
+              We don't use brittle rules or generic LLMs. Custom parsers trained
+              on thousands of real statements validate tickers, map ownership,
+              and retain entity structures. We're rebuilding logic, not just
+              "reading" docs.
+            </p>
+
+            <p>
+              <strong>4. Quality control with analyst instincts</strong>
+              <br />
+              When values don't add up or account numbers look off, we flag and
+              escalate. Most systems pass junk downstream, we don't.
+            </p>
+
+            <p>
+              <strong>5. Smart workflow handoffs</strong>
+              <br />
+              Clean doc? Straight to proposal. Messy doc? Senior review. You
+              need to know where to trust automation and when to step in.
+            </p>
+
+            <p>
+              <strong>6. Localized learning</strong>
+              <br />
+              Models improve with every correction, but your data never trains
+              global systems. Privacy is table stakes.
+            </p>
+
+            <p>
+              Most firms didn't realize how much time teams spent prepping data
+              before actual work could start. That's what we fixed. Same-day
+              turnaround, 95%+ accuracy. Built for wealth workflows. Not demos.
+              If that’s where your drag is, we should talk.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "technical-post-2",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                Traditional Analytics vs. AI Analytics: It’s Not an Upgrade.
+                It’s a System Redesign.
+              </strong>
+            </p>
+
+            <p>
+              Legacy pipelines were built for batch workflows:
+              <br />
+              ETL → feature selection → modeling → dashboard refresh.
+            </p>
+
+            <p>Latency was tolerated. Manual querying was standard.</p>
+
+            <p>But that stack breaks when:</p>
+            <ul>
+              <li>Data sources multiply</li>
+              <li>Questions shift mid-cycle</li>
+              <li>Signals appear in unstructured formats</li>
+            </ul>
+
+            <p>
+              <strong>AI-native analytics changes the foundation:</strong>
+            </p>
+
+            <p>
+              <strong>1. LLMs as semantic query engines</strong>
+              <br />
+              Business users ask in natural language. No SQL. The LLM maps
+              intent to multi-source joins, executes optimized queries, and
+              returns structured output, all in real time.
+            </p>
+
+            <p>
+              <strong>2. ML-driven feature inference</strong>
+              <br />
+              No hand-curated predictors. Systems like AutoML scan across
+              dimensionality, detect statistical relevance, and optimize model
+              inputs dynamically.
+            </p>
+
+            <p>
+              <strong>3. Streaming anomaly detection</strong>
+              <br />
+              Traditional dashboards lag behind. AI engines use real-time inputs
+              + behavioral baselines to surface deviations as they emerge, not
+              hours later.
+            </p>
+
+            <p>
+              <strong>4. Inference-time data fusion</strong>
+              <br />
+              Structured ERP tables, unstructured docs, embeddings, logs —
+              unified at model runtime. No schema stitching. Just output.
+            </p>
+
+            <p>
+              <strong>5. Always-on learning</strong>
+              <br />
+              Old models trained once. AI pipelines retrain incrementally,
+              adapting to drift, seasonality, and noise, continuously improving
+              prediction fidelity.
+            </p>
+
+            <p>
+              <strong>In short:</strong>
+              <br />
+              Traditional analytics is descriptive. AI analytics is inferential,
+              generative, and adaptive.
+            </p>
+
+            <p>
+              If your system can’t interpret, learn, or respond, you’re not
+              analyzing. You’re archiving.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "AI adoption is accelerating, but most content stays shallow. Readers need clarity on what’s actually working. This post breaks down the real architecture behind AI-powered workflows and analytics.",
+      points: [
+        "Goes beyond surface-level AI claims: Clearly shows how parsing, validation, and escalation logic is engineered, not hand-waved.",
+        "Reframes the shift in analytics: From batch reports and dashboards to real-time, multi-source decision intelligence.",
+        "Builds technical trust: Not just what the product does, but how it handles edge cases and scales with control.",
+      ],
+    },
+  },
+  {
+    categoryName: "Industry Trends",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "industry-post-1",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                65.7% of employees will have an AI meeting assistant by end of
+                2025.
+              </strong>
+            </p>
+
+            <p>Not because they love bots.</p>
+
+            <p>Because meetings have become a black hole.</p>
+
+            <p>
+              <strong>Here’s what actually breaks:</strong>
+            </p>
+
+            <ul>
+              <li>Notes don’t get taken.</li>
+              <li>Action items don’t get tracked.</li>
+              <li>People join late and leave confused.</li>
+              <li>Follow-ups vanish into email threads that go nowhere.</li>
+            </ul>
+
+            <p>
+              <strong>The result?</strong>
+            </p>
+            <ul>
+              <li>Decisions slip.</li>
+              <li>Work gets duplicated.</li>
+              <li>No one’s really sure what happened.</li>
+            </ul>
+
+            <p>
+              Most teams aren’t short on talent.
+              <br />
+              They’re short on clarity.
+            </p>
+
+            <p>And clarity dies in unstructured meetings.</p>
+
+            <p>
+              The best teams are no longer relying on memory.
+              <br />
+              They’re shipping faster because the system remembers for them.
+            </p>
+
+            <p>
+              Recaps show up automatically.
+              <br />
+              Tasks push into Asana or Notion.
+              <br />
+              The person who missed the call gets the “what you missed” before
+              they even ask.
+            </p>
+
+            <p>
+              It’s not futuristic.
+              <br />
+              It’s already default behavior inside teams using tools like
+              Powder.
+            </p>
+
+            <p>
+              If your meeting tool can’t do that today,
+              <br />
+              you’re burning time on problems that are already solved.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "industry-post-2",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                82% of companies say they’re using or exploring AI.
+              </strong>
+            </p>
+
+            <p>
+              Sounds impressive.
+              <br />
+              But ask anyone building in the real world — adoption isn’t the
+              signal.
+              <br />
+              Usage that moves the needle is.
+            </p>
+
+            <p>
+              <strong>Here’s what we’re seeing:</strong>
+            </p>
+
+            <ul>
+              <li>
+                91% of small businesses using GenAI think it’ll drive growth.
+              </li>
+              <li>But only 13% of CFOs report strong ROI.</li>
+              <li>6 in 10 enterprises have rolled it out.</li>
+              <li>But most are still waiting on clear payback.</li>
+            </ul>
+
+            <p>That gap? It’s the difference between demos and deployment.</p>
+
+            <p>
+              A working AI loop doesn’t start with a model.
+              <br />
+              It starts with a broken process that finally hits a wall.
+            </p>
+
+            <p>
+              <strong>So the real question isn’t “Are you using AI?”</strong>
+              <br />
+              It’s <em>“Where is AI the only viable path forward now?”</em>
+            </p>
+
+            <p>That’s where compounding begins.</p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These posts offer trends recaps. These posts are clarity checks on AI's real-world utility.",
+      points: [
+        "Both posts cut through the noise and reframe where adoption hype meets operational drag.",
+        "They match a founder voice focused on execution over narrative. Not “AI is coming,” but “AI is already helping teams work smarter.”",
+        "They speak to the critical wedge in AI SaaS: not capability, but usage that compounds, AI that fits into broken workflows and fixes them quietly.",
+        "Stats give credibility, but the focus stays on gaps, between what tools promise and where teams actually struggle (meetings, memory, follow-through, ROI).",
+        "Perfect alignment with audiences tired of dashboards, demos, and theory, these posts appeal to leaders who ship and want AI to do.",
+      ],
+    },
+  },
+  {
+    categoryName: "General Post",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "general-post-1",
+        content: (
+          <Fragment>
+            <p>
+              If your team works with client statements, balance sheets, Excel
+              dumps, or scanned brokerage PDFs, you've likely faced this
+              question:
+            </p>
+
+            <p>
+              <strong>
+                Where does AI actually reduce load, and where does it quietly
+                add more?
+              </strong>
+            </p>
+
+            <p>
+              At Powder, we built for that breakpoint. Not for feature
+              checklists. For workflows that actually hold up in production.
+            </p>
+
+            <p>
+              <strong>
+                Here’s where AI moves the needle in live financial data
+                pipelines:
+              </strong>
+            </p>
+
+            <ul>
+              <li>
+                <strong>Multi-format ingestion:</strong> Handles PDFs, faxes,
+                scans, Excel. Layout agnostic.
+              </li>
+              <li>
+                <strong>Summarization:</strong> Pulls signal from noisy reports.
+                Turns 38 pages into 3 minutes.
+              </li>
+              <li>
+                <strong>Proposal drafting:</strong> Generates clean base decks
+                from real positions, not boilerplate.
+              </li>
+              <li>
+                <strong>Held-away assets:</strong> Converts screenshots and
+                random uploads into structured data.
+              </li>
+              <li>
+                <strong>Private asset parsing:</strong> Extracts commitments,
+                waterfalls, and terms from capital calls.
+              </li>
+              <li>
+                <strong>Data QA:</strong> Flags mismatched tickers, missing
+                values, duplicates before they reach the proposal.
+              </li>
+              <li>
+                <strong>Contextual classification:</strong> Tags by tax, asset
+                type, risk level using model logic, not hard-coded rules.
+              </li>
+              <li>
+                <strong>Allocation insights:</strong> Runs real-time breakdowns
+                without routing through ops.
+              </li>
+              <li>
+                <strong>Client memory:</strong> Retains and structures recurring
+                themes so the next meeting isn't a reset.
+              </li>
+              <li>
+                <strong>Speed:</strong> If it's not same-day, it won’t help
+                close.
+              </li>
+            </ul>
+
+            <p>
+              This isn’t AI for show. It’s infrastructure. Built to give
+              advisors leverage without asking them to clean up behind the
+              model.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "general-post-2",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                Your AI strategy is only as good as your worst input.
+              </strong>
+            </p>
+
+            <p>
+              Most teams think about AI like it’s a top-down problem.
+              <br />
+              Models. Pipelines. Output quality.
+            </p>
+
+            <p>But what breaks isn’t the model.</p>
+
+            <ul>
+              <li>It’s the 8th Excel file that didn’t match the schema.</li>
+              <li>The scanned doc with a typo in the account number.</li>
+              <li>The one PDF nobody opened because it “looked fine.”</li>
+            </ul>
+
+            <p>This is where things fail. Quietly.</p>
+
+            <p>
+              Because as you scale, edge cases aren’t rare.
+              <br />
+              They’re everywhere.
+            </p>
+
+            <p>
+              The strongest AI strategies don’t just automate.
+              <br />
+              They audit. Flag. Ask when they’re not sure.
+            </p>
+
+            <p>
+              Not because they’re fragile.
+              <br />
+              Because they’re built for reality, not demos.
+            </p>
+
+            <p>
+              If your AI is underperforming, don’t tune the model.
+              <br />
+              Start with your messiest input.
+            </p>
+
+            <p>
+              That’s where the real risk lives.
+              <br />
+              And the real opportunity.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "Both posts hit at the core of what Powder solves daily—messy inputs, missed follow-ups, and broken advisor workflows that GenAI should be fixing but mostly isn’t.",
+      points: [
+        "Powder was built because “AI document processing” wasn’t built for real documents. We’ve seen what happens when a 60MB estate file crashes someone’s proposal flow.",
+        "Same for AI meeting assistants. Most sound good in the demo. Few actually help you move faster or remember better when it matters.",
+        "These posts cut through the noise and say what most vendors won’t: you don’t need more AI hype. You need something that handles the ugly, real-world inputs and gives you back leverage.",
+        "That’s exactly what Powder is. Not just smarter software, but real infrastructure for wealth teams who are scaling faster than their legacy tools can keep up.",
+      ],
+    },
+  },
+];

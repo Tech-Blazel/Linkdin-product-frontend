@@ -26,6 +26,7 @@ import GlobalLoader from "@/components/GlobalLoader";
 import SamplePosts from "@/components/linkedIn-report/SamplePosts";
 import {
   deanCategories,
+  KanishkCategories,
   lawrenceCategories,
   stanCategories,
 } from "@/utils/SamplePostsCategories";
@@ -102,6 +103,18 @@ const LinkedInAuditReport = () => {
             clientProfileImage={clientInfo.profilePictureUrl}
             clientWebsite={clientInfo.website}
             categories={stanCategories}
+          />,
+        ]
+      : []),
+    ...(clientInfo?.name === "Kanishk Parashar"
+      ? [
+          <SamplePosts
+            title="Sample Posts"
+            clientName={clientInfo.name}
+            clientTitle={clientInfo.title}
+            clientProfileImage={clientInfo.profilePictureUrl}
+            clientWebsite={clientInfo.website}
+            categories={KanishkCategories}
           />,
         ]
       : []),
