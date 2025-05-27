@@ -77,13 +77,13 @@ const SamplePosts: FC<SamplePostsProps> = ({
                   )}
                 >
                   {post.content}
-                  <button
-                    onClick={() => toggleExpand(post.id)}
-                    className="absolute bottom-[2px] right-0 bg-white text-xs font-semibold text-linkedIn-primary pl-2 pr-1 cursor-pointer"
-                  >
-                    {expandedPosts[post.id] ? "Show less" : "... Show more"}
-                  </button>
                 </div>
+                <button
+                  onClick={() => toggleExpand(post.id)}
+                  className="bg-white text-xs font-semibold text-linkedIn-primary cursor-pointer"
+                >
+                  {expandedPosts[post.id] ? "Show less" : "Show more..."}
+                </button>
               </LinkedInPostCard>
             ))}
           </div>
