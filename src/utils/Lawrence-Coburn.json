@@ -54,9 +54,19 @@
         ],
         "averageLikesByContentTheme": [
             {
-                "theme": "General",
-                "percentage": 100.0,
-                "averageLikes": 49
+                "theme": "Text Posts",
+                "percentage": 56.64,
+                "averageLikes": 352
+            },
+            {
+                "theme": "Article Posts",
+                "percentage": 30.09,
+                "averageLikes": 227
+            },
+            {
+                "theme": "Image Posts",
+                "percentage": 9.73,
+                "averageLikes": 247
             }
         ],
         "visualImpactInsight": "Image posts (avg engagement: 57) perform similarly to text posts (avg engagement: 54).",
