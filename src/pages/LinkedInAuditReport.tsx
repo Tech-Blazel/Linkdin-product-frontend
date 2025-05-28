@@ -1,33 +1,55 @@
-import AudienceAnalysis from "@/components/linkedIn-report/AudienceAnalysis";
-import ContentAnalysis from "@/components/linkedIn-report/ContentAnalysis";
-import CoverPage from "@/components/linkedIn-report/CoverPage";
-import ExecutiveSummary from "@/components/linkedIn-report/ExecutiveSummary";
-import PostingPatterns from "@/components/linkedIn-report/PostingPatterns";
-import TopPerformingPosts from "@/components/linkedIn-report/TopPerformingPosts";
-import TopInfluencers from "@/components/linkedIn-report/TopInfluencers";
-import InfluencerPostingAnalysis from "@/components/linkedIn-report/InfluencerPostingAnalysis";
-import InfluencerAnalysis from "@/components/linkedIn-report/InfluencerAnalysis";
-// import HashtagPerformanceAnalysis from "@/components/linkedIn-report/HashtagPerformanceAnalysis";
-import PostingRecommendations from "@/components/linkedIn-report/PostingRecommendations";
-import { useSelector } from "react-redux";
-import { RootState } from "@/app/store";
-import { useEffect, useRef, useState } from "react";
-import CaelanSamplePosts from "@/components/linkedIn-report/CaelanSamplePosts";
-import RyanSamplePosts from "@/components/linkedIn-report/RyanSamplePosts";
-import { updateReportSchema } from "@/features/auditReportSlice";
-import { useDispatch } from "react-redux";
+import React, { FC, useEffect, useRef, useState, Suspense } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
+import { RootState } from "@/app/store";
+import { updateReportSchema } from "@/features/auditReportSlice";
 import { fromSlugName, samplePostsConfigs } from "@/utils/constants";
 import GlobalLoader from "@/components/GlobalLoader";
-import SamplePosts from "@/components/linkedIn-report/SamplePosts";
-// import {
-//   deanCategories,
-//   KanishkCategories,
-//   lawrenceCategories,
-//   stanCategories,
-// } from "@/utils/SamplePostsCategories";
 
-const LinkedInAuditReport = () => {
+// Lazy-loaded components
+const CoverPage = React.lazy(
+  () => import("@/components/linkedIn-report/CoverPage")
+);
+const ExecutiveSummary = React.lazy(
+  () => import("@/components/linkedIn-report/ExecutiveSummary")
+);
+const ContentAnalysis = React.lazy(
+  () => import("@/components/linkedIn-report/ContentAnalysis")
+);
+const TopPerformingPosts = React.lazy(
+  () => import("@/components/linkedIn-report/TopPerformingPosts")
+);
+const AudienceAnalysis = React.lazy(
+  () => import("@/components/linkedIn-report/AudienceAnalysis")
+);
+const PostingPatterns = React.lazy(
+  () => import("@/components/linkedIn-report/PostingPatterns")
+);
+const TopInfluencers = React.lazy(
+  () => import("@/components/linkedIn-report/TopInfluencers")
+);
+const InfluencerPostingAnalysis = React.lazy(
+  () => import("@/components/linkedIn-report/InfluencerPostingAnalysis")
+);
+const InfluencerAnalysis = React.lazy(
+  () => import("@/components/linkedIn-report/InfluencerAnalysis")
+);
+const CaelanSamplePosts = React.lazy(
+  () => import("@/components/linkedIn-report/CaelanSamplePosts")
+);
+const RyanSamplePosts = React.lazy(
+  () => import("@/components/linkedIn-report/RyanSamplePosts")
+);
+const SamplePosts = React.lazy(
+  () => import("@/components/linkedIn-report/SamplePosts")
+);
+const PostingRecommendations = React.lazy(
+  () => import("@/components/linkedIn-report/PostingRecommendations")
+);
+
+const LinkedInAuditReport: FC = () => {
+  const dispatch = useDispatch();
+  const { clientName } = useParams();
   const linkedInReport = useSelector(
     (state: RootState) => state.auditReportSchema
   );
@@ -39,89 +61,53 @@ const LinkedInAuditReport = () => {
 
   const { influencers } = topIndustryInfluencersAnalysis;
 
-  const dispatch = useDispatch();
-
-  const { clientName } = useParams();
-
-  // const [isDownloading, setIsDownloading] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-
   const samplePostsConfig = clientInfo?.name
     ? samplePostsConfigs[clientInfo.name]
     : null;
 
+  const containerRef = useRef<any>(null);
+
+  useEffect(() => {
+    const loadSchema = async () => {
+      if (!clientName) return;
+      setIsLoading(true);
+      const readableName = fromSlugName(clientName);
+      const schema = await import(`@/utils/${readableName}.json`);
+      dispatch(updateReportSchema(schema.default));
+      setTimeout(() => setIsLoading(false), 300);
+    };
+    loadSchema();
+  }, []);
+
   const sections = [
-    <CoverPage />,
-    <ExecutiveSummary />,
-    <ContentAnalysis />,
-    <TopPerformingPosts />,
-    <AudienceAnalysis />,
-    <PostingPatterns />,
-    <TopInfluencers />,
-    <InfluencerPostingAnalysis />,
+    <CoverPage key="cover" />,
+    <ExecutiveSummary key="executive" />,
+    <ContentAnalysis key="content" />,
+    <TopPerformingPosts key="top-posts" />,
+    <AudienceAnalysis key="audience" />,
+    <PostingPatterns key="patterns" />,
+    <TopInfluencers key="top-influencers" />,
+    <InfluencerPostingAnalysis key="posting-analysis" />,
     ...(influencers
-      ? influencers?.map((influencer: any, index: number) => (
+      ? influencers.map((influencer: any, index: number) => (
           <InfluencerAnalysis
-            key={index}
+            key={`inf-${index}`}
             influencer={influencer}
             index={index}
           />
         ))
       : []),
-    ...(clientInfo?.name === "Caelan Urquhart" ? [<CaelanSamplePosts />] : []),
-    // ...(clientInfo?.name === "Dean Pleban"
-    //   ? [
-    //       <SamplePosts
-    //         title="Sample Posts"
-    //         clientName={clientInfo.name}
-    //         clientTitle={clientInfo.title}
-    //         clientProfileImage={clientInfo.profilePictureUrl}
-    //         clientWebsite={clientInfo.website}
-    //         categories={deanCategories}
-    //       />,
-    //     ]
-    //   : []),
-    ...(clientInfo?.name === "Ryan H. Vaughn" ? [<RyanSamplePosts />] : []),
-    // ...(clientInfo?.name === "Lawrence Coburn"
-    //   ? [
-    //       <SamplePosts
-    //         title="Sample Posts"
-    //         clientName={clientInfo.name}
-    //         clientTitle={clientInfo.title}
-    //         clientProfileImage={clientInfo.profilePictureUrl}
-    //         clientWebsite={clientInfo.website}
-    //         categories={lawrenceCategories}
-    //       />,
-    //     ]
-    //   : []),
-    // ...(clientInfo?.name === "Stan Markuze"
-    //   ? [
-    //       <SamplePosts
-    //         title="Sample Posts"
-    //         clientName={clientInfo.name}
-    //         clientTitle={clientInfo.title}
-    //         clientProfileImage={clientInfo.profilePictureUrl}
-    //         clientWebsite={clientInfo.website}
-    //         categories={stanCategories}
-    //       />,
-    //     ]
-    //   : []),
-    // ...(clientInfo?.name === "Kanishk Parashar"
-    //   ? [
-    //       <SamplePosts
-    //         title="Sample Posts"
-    //         clientName={clientInfo.name}
-    //         clientTitle={clientInfo.title}
-    //         clientProfileImage={clientInfo.profilePictureUrl}
-    //         clientWebsite={clientInfo.website}
-    //         categories={KanishkCategories}
-    //       />,
-    //     ]
-    //   : []),
+    ...(clientInfo?.name === "Caelan Urquhart"
+      ? [<CaelanSamplePosts key="caelan" />]
+      : []),
+    ...(clientInfo?.name === "Ryan H. Vaughn"
+      ? [<RyanSamplePosts key="ryan" />]
+      : []),
     ...(samplePostsConfig
       ? [
           <SamplePosts
-            key="sample-posts"
+            key="sample"
             title="Sample Posts"
             clientName={clientInfo.name}
             clientTitle={clientInfo.title}
@@ -131,45 +117,23 @@ const LinkedInAuditReport = () => {
           />,
         ]
       : []),
-    <PostingRecommendations />,
+    <PostingRecommendations key="recommendations" />,
   ];
 
-  const containerRef = useRef<any>(null);
-
-  useEffect(() => {
-    const loadSchema = async () => {
-      if (!clientName) {
-        setIsLoading(false);
-        throw new Error("Client name is required in the URL.");
-      }
-      setIsLoading(true);
-
-      const readableName = fromSlugName(clientName);
-      const schema = await import(`@/utils/${readableName}.json`);
-      if (schema) {
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 300);
-      }
-      dispatch(updateReportSchema(schema.default));
-    };
-    loadSchema();
-  }, []);
-
   return (
-    <div className="">
-      {isLoading && <GlobalLoader />}
+    <div>
+      {/* {isLoading && <GlobalLoader />} */}
 
-      {linkedInReport?.executiveSummary?.summaryText && !isLoading ? (
+      {!isLoading && linkedInReport?.executiveSummary?.summaryText && (
         <div ref={containerRef}>
-          {sections?.map((Component, index) => (
-            <div key={index} className="mb-10">
-              {Component}
-            </div>
-          ))}
+          <Suspense fallback={<GlobalLoader />}>
+            {sections.map((Section, index) => (
+              <div key={index} className="mb-10">
+                {Section}
+              </div>
+            ))}
+          </Suspense>
         </div>
-      ) : (
-        <></>
       )}
     </div>
   );
