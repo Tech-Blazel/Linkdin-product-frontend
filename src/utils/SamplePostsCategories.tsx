@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 export const deanCategories = [
   {
-    categoryName: "Technical posts",
+    categoryName: "Technical Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -381,7 +381,7 @@ export const deanCategories = [
     },
   },
   {
-    categoryName: "General Post",
+    categoryName: "General Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -516,7 +516,7 @@ export const deanCategories = [
 
 export const lawrenceCategories = [
   {
-    categoryName: "Technical posts",
+    categoryName: "Technical Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -771,7 +771,7 @@ export const lawrenceCategories = [
     },
   },
   {
-    categoryName: "General Post",
+    categoryName: "General Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -904,7 +904,7 @@ export const lawrenceCategories = [
 
 export const stanCategories = [
   {
-    categoryName: "Technical posts",
+    categoryName: "Technical Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -1225,7 +1225,7 @@ export const stanCategories = [
     },
   },
   {
-    categoryName: "General Post",
+    categoryName: "General Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -1382,7 +1382,7 @@ export const stanCategories = [
 
 export const KanishkCategories = [
   {
-    categoryName: "Technical posts",
+    categoryName: "Technical Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -1689,7 +1689,7 @@ export const KanishkCategories = [
     },
   },
   {
-    categoryName: "General Post",
+    categoryName: "General Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -1847,7 +1847,7 @@ export const KanishkCategories = [
 
 export const stefanCategories = [
   {
-    categoryName: "Technical posts",
+    categoryName: "Technical Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -2113,7 +2113,7 @@ export const stefanCategories = [
     },
   },
   {
-    categoryName: "General Post",
+    categoryName: "General Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -2237,7 +2237,7 @@ export const stefanCategories = [
 
 export const mikeCategories = [
   {
-    categoryName: "Technical posts",
+    categoryName: "Technical Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -2485,7 +2485,7 @@ export const mikeCategories = [
     },
   },
   {
-    categoryName: "General Post",
+    categoryName: "General Posts",
     note: "These posts are created with very little context for now",
     posts: [
       {
@@ -2623,5 +2623,184 @@ export const mikeCategories = [
         "Frames access—not safety—as the true appeal of AIFs",
       ],
     },
+  },
+  {
+    categoryName: "Thought Leadership",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "thought-leadership-1",
+        content: (
+          <Fragment>
+            <p>
+              The Best Startups Don’t Begin with Ideas. They Begin with Secrets.
+            </p>
+
+            <p>
+              The biggest outcomes rarely come from chasing what’s obvious. They
+              come from spotting a truth the world hasn’t figured out yet.
+            </p>
+
+            <p>
+              That’s the difference between a startup and a business plan.
+              You’re not building for today’s market. You’re betting on a shift
+              most people haven’t noticed, or still dismiss.
+            </p>
+
+            <p>
+              Call it what you want: inflection point, overlooked insight,
+              contrarian belief. I call it starting with a secret.
+            </p>
+
+            <p>
+              - It could be a new human behavior just starting to show up.
+              <br />
+              - A tech unlock that changes the rules.
+              <br />- A pattern nobody else noticed because they were too busy
+              optimizing the status quo.
+            </p>
+
+            <p>
+              If it doesn’t feel weird, it’s probably not a secret. If everyone
+              agrees with you too early, it’s probably too late.
+            </p>
+
+            <p>Find something the world doesn’t believe yet, but will.</p>
+
+            <p>
+              That’s how category leaders start. Not by chasing trends, but by
+              being early to truths that matter.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "thought-leadership-2",
+        content: (
+          <Fragment>
+            <p>You don’t find the future by brainstorming. You live in it.</p>
+
+            <p>
+              That’s where the real startup ideas come from. Not from
+              whiteboards. Not from ideation frameworks. They show up when you
+              notice what the future is missing, because you already live there.
+            </p>
+
+            <p>
+              A startup isn’t a company. It’s a few people with proprietary
+              insights about what’s broken and what’s next. Insights born from
+              living in a different time than everyone else.
+            </p>
+
+            <p>That’s the spark. But the fire comes from value hacking:</p>
+
+            <p>
+              - Build something people are desperate for, not just something
+              cool.
+              <br />
+              - Solve a problem in a way that’s noticeably better by orders of
+              magnitude.
+              <br />- If you’re forcing growth with paid ads, maybe you’re not
+              solving the right thing yet.
+            </p>
+
+            <p>
+              The best startups don’t beg for attention. They resonate, because
+              the truth of the problem is undeniable. And once people feel that,
+              you don’t need to market it. You just need to keep delivering the
+              future they’ve been waiting for.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "thought-leadership-3",
+        content: (
+          <Fragment>
+            <p>Timing Isn’t Luck. It’s Insight.</p>
+
+            <p>Most failed startups didn’t get the product wrong.</p>
+
+            <p>
+              They just built the right thing before the world was ready, or
+              after someone else proved the market.
+            </p>
+
+            <p>
+              - Timing is the invisible force behind every breakout.
+              <br />
+              - You can’t brute-force it. But you can learn to sense it.
+              <br />- The best founders aren’t just builders. They’re inflection
+              hunters.
+            </p>
+
+            <p>They ask:</p>
+
+            <p>
+              - What shift just happened that the world hasn’t processed yet?
+              <br />
+              - What will people do differently 12 months from now?
+              <br />- What changed in tech, behavior, or cost curves that
+              rewrites the rules?
+            </p>
+
+            <p>Breakthroughs don’t just require product-market fit.</p>
+
+            <p>
+              They require moment-market fit, that window where the world’s
+              finally ready for what you see.
+            </p>
+
+            <p>
+              Miss the moment, and you’re noise.
+              <br />
+              Catch it, and you make history.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "thought-leadership-4",
+        content: (
+          <Fragment>
+            <p>Most startups nibble at the market.</p>
+
+            <p>Thunder Lizards eat it.</p>
+
+            <p>
+              They don’t ask for permission. They don’t inch their way in. They
+              crash onto the scene like they were born radioactive, because, in
+              a way, they were.
+            </p>
+
+            <p>
+              These founders aren’t just building businesses. They’re unleashing
+              mutations. Something weird. Something wild. Something the world
+              isn’t ready for… until it is.
+            </p>
+
+            <p>What makes a Thunder Lizard?</p>
+
+            <p>
+              - A breakout idea born from a future no one else sees.
+              <br />
+              - An obsession with value hacking, not just shipping.
+              <br />- Relentless iteration, because product speed matters more
+              than funding speed.
+            </p>
+
+            <p>The big question isn’t “Is this a good business?”</p>
+
+            <p>It’s: “If this works, does the world change?”</p>
+
+            <p>
+              And if the answer is yes, then you're not just backing a startup.
+            </p>
+
+            <p>You’re backing a Thunder Lizard.</p>
+          </Fragment>
+        ),
+      },
+    ],
   },
 ];

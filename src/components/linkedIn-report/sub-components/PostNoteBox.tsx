@@ -10,7 +10,11 @@ const PostNoteBox: FC<PostNoteBoxProps> = ({ categoryText, noteText }) => {
     <div className="space-y-2 -mt-4 mb-8">
       {categoryText && (
         <div className="bg-primary-light/40 text-base rounded-md px-4 py-2">
-          <span className="text-text-primary">Post Category: </span>
+          <span className="text-text-primary">
+            {categoryText === "Thought Leadership"
+              ? "Bonus Category:"
+              : "Post Category:"}{" "}
+          </span>
           <span className="text-primary font-medium">{categoryText}</span>
         </div>
       )}
