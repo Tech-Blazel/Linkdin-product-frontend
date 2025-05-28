@@ -2476,11 +2476,11 @@ export const mikeCategories = [
     whyBox: {
       heading: "Why the above posts?",
       summary:
-        "These posts speak directly to the audience we serve, serious investors looking for smarter, quieter ways to grow and protect wealth.",
+        "These posts were selected to speak directly to the shifting realities of raising and deploying capital in 2025. They focus on what both founders and investors actually need to know now — not surface trends, but decision-shaping shifts.",
       points: [
-        "Highlight under-the-radar asset classes where capital is actually compounding.",
-        "Contrast outdated portfolio strategies with how wealth is being built today.",
-        "Create trust by showing we don’t just follow trends, we analyze what top families and firms are actually doing.",
+        "Cut through noise by showing how AI is now infrastructure, not edge.",
+        "Help founders understand what investors actually want: precision.",
+        "Address the growing gap between available capital and earned conviction.",
       ],
     },
   },
@@ -2494,36 +2494,63 @@ export const mikeCategories = [
           <Fragment>
             <p>
               <strong>
-                Read something in Family Wealth this week that stuck:
-              </strong>{" "}
-              Collectibles aren’t just about status anymore. They’re becoming
-              real financial instruments, and not just for billionaires with
-              Basquiats.
+                The Venture Mindset Isn’t Just for VCs. It’s a Survival Skill.
+              </strong>
             </p>
 
             <p>
-              Classic cars, fine wine, art, even vintage guidebooks — they’re
-              showing up in estate plans, not just on mantels. Why? Because they
-              don’t move with the markets. When rates swing or stocks tank,
-              these assets often just sit tight. No panic, no price feed.
+              Most decision frameworks are built for predictability. Forecast,
+              optimize, repeat. That works, until it doesn’t.
             </p>
 
             <p>
-              But the real takeaway wasn’t the upside. It was the prep.
-              Collectibles only work if you treat them like assets, not hobbies.
-              That means clean ownership, appraisals, storage, and a plan for
-              who gets what when you’re gone.
+              Then the world changes faster than the model. Markets shift.
+              Competitors rewire. AI starts rewriting your roadmap in real time.
+            </p>
+
+            <p>That’s when you need a different lens.</p>
+
+            <p>
+              The venture mindset wasn’t designed for efficiency. It was built
+              for ambiguity.
+              <br />
+              It says: uncertainty isn’t a risk to avoid. It’s the cost of
+              finding something big enough to matter.
             </p>
 
             <p>
-              Most people treat collectibles like passion pieces. The smart ones
-              structure them like portfolios.
+              <strong>Some principles that apply far beyond venture:</strong>
             </p>
 
             <p>
-              In the right hands, they’re more than pretty things. They’re
-              protection. And they’re legacy. But only if you’ve done the work
-              first.
+              <strong>1. “Home runs matter. Strikeouts don’t.”</strong> In
+              venture, 1 in 50 bets might work. The mistake isn’t failing, it’s
+              missing the one that could’ve changed everything.
+            </p>
+
+            <p>
+              <strong>2. “Conviction beats consensus.”</strong> If every
+              decision needs 100% buy-in, you’ll never bet early. The next
+              Airbnb won’t look obvious.
+            </p>
+
+            <p>
+              <strong>3. “Double down or quit.”</strong> Don’t scale on hope.
+              Run small, smart tests. When the signal shows up, lean in with
+              everything you’ve got.
+            </p>
+
+            <p>
+              You don’t need to run a fund to think this way.
+              <br />
+              You just need to be in any business where the next move isn’t
+              clear—and the next opportunity might look wrong before it’s right.
+            </p>
+
+            <p>
+              In that world, venture thinking isn’t optional.
+              <br />
+              It’s operational.
             </p>
           </Fragment>
         ),
@@ -2533,61 +2560,53 @@ export const mikeCategories = [
         content: (
           <Fragment>
             <p>
-              <strong>Do AIFs actually de-risk your portfolio?</strong>
+              <strong>CVC Is Booming. Alignment Isn’t.</strong>
             </p>
 
             <p>
-              Maybe.
+              More startups are turning to corporate venture capital. That’s not
+              surprising.
+            </p>
+
+            <p>
+              Institutional capital has tightened. CVCs are active. Many offer
+              channel access, distribution, validation.
+            </p>
+
+            <p>But here’s what’s getting missed:</p>
+
+            <p>The structure of the capital matters more than the source.</p>
+
+            <p>
+              – In the last cycle, over 50% of CVCs were first-time investors.
+              <br />– Only 48% had been operating for more than two years.
+            </p>
+
+            <p>
+              In many cases, the parent company didn’t fully understand venture
+              mechanics.
               <br />
-              But not in the way people think.
+              And the CVC team didn’t fully control the relationship.
             </p>
 
             <p>
-              Most folks see AIFs as a hedge, a safe alternative to equities.
+              That’s not venture. That’s an org chart wrapped in a term sheet.
+            </p>
+
+            <p>
+              CVCs optimize around different clocks.
               <br />
-              But a hedge against what exactly?
+              Some want strategic alignment. Some want fast returns. Some
+              haven’t decided.
             </p>
 
+            <p>If you’re raising, ask two questions:</p>
+
             <p>
-              <strong>The reality:</strong>
+              <strong>Who controls the capital?</strong>
             </p>
-
-            <ul>
-              <li>They’re not immune to downturns</li>
-              <li>They’re just less correlated to public markets</li>
-              <li>And they often react slower, not better</li>
-            </ul>
-
             <p>
-              <strong>The real value?</strong> Access.
-              <br />
-              You’re getting exposure to assets most people never touch:
-            </p>
-
-            <ul>
-              <li>Private debt</li>
-              <li>Distressed RE</li>
-              <li>Early-stage equity</li>
-              <li>Funds that think in decades, not quarters</li>
-            </ul>
-
-            <p>
-              That doesn’t mean they’re safer.
-              <br />
-              It just means they’re different.
-            </p>
-
-            <p>
-              And in a world where every asset moves together, “different” might
-              be the only edge that’s left.
-            </p>
-
-            <p>
-              Sometimes the real alpha is just not zigging when everyone else
-              zags.
-              <br />
-              That’s the quiet strength of alternatives. And at Alts — we help
-              people go alternative.
+              <strong>What’s the definition of success?</strong>
             </p>
           </Fragment>
         ),
@@ -2596,7 +2615,7 @@ export const mikeCategories = [
     whyBox: {
       heading: "Why the above posts?",
       summary:
-        "These post clears up one of the most common misconceptions about alternatives: that they’re inherently “safer.” It cuts through the noise and actually raises the IQ of the audience.",
+        "Both pieces speak to the real decisions founders and operators are wrestling with right now, how to fund, how to move, and how to think clearly in messy markets.",
       points: [
         "Signals a mindset shift: from “stuff” to “strategy”",
         "Builds credibility with advisors who touch estate, tax, and legacy planning",
