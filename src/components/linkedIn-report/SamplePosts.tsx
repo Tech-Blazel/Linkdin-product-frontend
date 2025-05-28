@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useLayoutEffect, useRef, useState } from "react";
 import ReportCard from "./sub-components/ReportCard";
 import { FaChartLine } from "react-icons/fa";
 import PostNoteBox from "./sub-components/PostNoteBox";
@@ -62,30 +62,59 @@ const SamplePosts: FC<SamplePostsProps> = ({
             noteText={category.note}
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-            {category.posts.map((post) => (
-              <LinkedInPostCard
-                key={post.id}
-                name={clientName}
-                title={clientTitle}
-                profileImage={clientProfileImage}
-                websiteLink={clientWebsite || "#"}
-              >
-                <div
-                  className={twMerge(
-                    "text-gray-800 space-y-2 text-sm pt-2 transition-all duration-300 relative",
-                    !expandedPosts[post.id] && "line-clamp-[8] overflow-hidden"
-                  )}
+            {category.posts.map((post) => {
+              const contentRef = useRef<HTMLDivElement>(null);
+              const [showToggle, setShowToggle] = useState(false);
+
+              useLayoutEffect(() => {
+                const el = contentRef.current;
+                if (el) {
+                  const isClamped = el.scrollHeight > el.clientHeight + 1;
+                  setShowToggle(isClamped);
+                }
+              }, [post.content]);
+
+              return (
+                <LinkedInPostCard
+                  key={post.id}
+                  name={clientName}
+                  title={clientTitle}
+                  profileImage={clientProfileImage}
+                  websiteLink={clientWebsite || "#"}
                 >
-                  {post.content}
-                </div>
-                <button
-                  onClick={() => toggleExpand(post.id)}
-                  className="bg-white text-xs font-semibold text-linkedIn-primary cursor-pointer"
-                >
-                  {expandedPosts[post.id] ? "Show less" : "Show more..."}
-                </button>
-              </LinkedInPostCard>
-            ))}
+                  <div className="flex flex-col justify-between h-full">
+                    <div
+                      ref={contentRef}
+                      className={twMerge(
+                        "text-sm text-gray-800 space-y-2 pt-2 transition-all duration-300",
+                        !expandedPosts[post.id] && "line-clamp-[9]"
+                      )}
+                      style={{
+                        display: "-webkit-box",
+                        WebkitLineClamp: !expandedPosts[post.id] ? 9 : "unset",
+                        WebkitBoxOrient: "vertical",
+                        overflow: "hidden",
+                      }}
+                    >
+                      {post.content}
+                    </div>
+
+                    {showToggle && (
+                      <div className="pt-2 mt-auto">
+                        <button
+                          onClick={() => toggleExpand(post.id)}
+                          className="text-xs font-semibold text-linkedIn-primary cursor-pointer"
+                        >
+                          {expandedPosts[post.id]
+                            ? "Show less"
+                            : "Show more..."}
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                </LinkedInPostCard>
+              );
+            })}
           </div>
           {category.whyBox && (
             <div className="my-8">

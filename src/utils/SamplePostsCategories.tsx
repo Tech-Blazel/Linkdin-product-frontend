@@ -1844,3 +1844,765 @@ export const KanishkCategories = [
     },
   },
 ];
+
+export const stefanCategories = [
+  {
+    categoryName: "Technical posts",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "technical-post-1",
+        content: (
+          <Fragment>
+            <p>
+              <strong>Collectibles: Cool, Illiquid, Profitable?</strong>
+            </p>
+
+            <p>
+              A few weeks ago, someone asked if art should be part of a
+              portfolio. Not as decoration, as allocation.
+            </p>
+
+            <p>It’s a question I’ve been hearing more often.</p>
+
+            <p>
+              On the surface, the math doesn't pencil out. Art doesn’t generate
+              yield. It’s illiquid, hard to price, and often requires more
+              insurance than insight.
+            </p>
+
+            <p>But here’s the thing: for the right collector, it works.</p>
+
+            <p>
+              A Joan Mitchell canvas bought for $100 twenty years ago sold for
+              over $2,400. A Basquiat that went for $77k in the ‘90s fetched
+              $4.5M in 2020. These aren’t outliers. They’re just the examples we
+              actually hear about.
+            </p>
+
+            <p>
+              Still, most people aren’t investing in art because they ran a DCF
+              model. They’re buying what they love, or at least what they think
+              someone else will love later.
+            </p>
+
+            <p>
+              It’s a weird corner of the investing world. No cash flows. No
+              clean exits. Just story, scarcity, and taste.
+            </p>
+
+            <p>But maybe that’s the point.</p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "technical-post-2",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                Whiskey Beat the S&P. Again. And 2025’s Already Heating Up.
+              </strong>
+            </p>
+
+            <p>
+              In 2024, rare whiskey delivered 280% returns over the past decade,
+              quietly outperforming the S&P 500, fine art, watches, and even
+              Burgundy wine.
+            </p>
+
+            <p>
+              <strong>Let that sink in:</strong>
+              <br />A sealed bottle of aged spirit — often never opened —
+              outpaced the most iconic equity index on Earth.
+            </p>
+
+            <p>
+              <strong>What’s driving this?</strong>
+            </p>
+
+            <ul>
+              <li>
+                <strong>Scarcity:</strong> Closed distilleries. Limited
+                releases. No more 60-year-old Macallans coming off the line.
+              </li>
+              <li>
+                <strong>Cultural cachet:</strong> Prestige + provenance +
+                storytelling = high bids.
+              </li>
+              <li>
+                <strong>Access:</strong> Platforms fractionalizing casks and
+                whiskey funds are making it investable without a castle or
+                cellar.
+              </li>
+            </ul>
+
+            <p>
+              One bottle of Macallan fetched $2.7M at Sotheby’s. But the real
+              compounding? It’s happening quietly in mid-tier casks, aged 8–20
+              years, with 12–15% annual returns.
+            </p>
+
+            <p>
+              2024 was a breakout year.
+              <br />
+              And halfway into 2025, early signals suggest it’s not slowing
+              down.
+            </p>
+
+            <p>
+              <strong>But, worth noting:</strong>
+            </p>
+
+            <ul>
+              <li>Pricing is subjective.</li>
+              <li>Liquidity is thin.</li>
+              <li>
+                You need proper storage, insurance, and a sharp eye for fakes.
+              </li>
+            </ul>
+
+            <p>
+              Still, for investors hunting off-market yield, this isn’t hype.
+              It’s quiet, corked alpha, aging with intention.
+            </p>
+
+            <p>
+              We help qualified investors access rare alternatives like this.
+              <br />
+              If you’re exploring off-wall-street yield, let’s talk.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These posts reflect exactly what Alts.co stands for, making alternative investing approachable, intelligent, and irresistible.",
+      points: [
+        "Showcase real performance of niche assets that outpaced stocks, pure gold for investors hungry for alpha.",
+        "Nail Stefan’s intent: informed, slightly irreverent, and always fun to read.",
+        "Open doors for Altea, sparking curiosity that leads to subscriptions, deal flow, and community trust.",
+      ],
+    },
+  },
+  {
+    categoryName: "Industry Trends",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "industry-post-1",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                Savings accounts still pay 4% and people are clapping like it’s
+                1995.
+              </strong>
+            </p>
+
+            <p>
+              Most portfolios still read like they were built by committee in
+              1994 — muted, index-heavy, and allergic to anything that doesn’t
+              have a ticker. Meanwhile, the real compounding is happening off
+              the screen. Alternative assets, once a sandbox for UHNW collectors
+              and trust-fund weirdos, are now fully retail. And not in theory.
+              Real estate crowdfunding has democratized entry.
+            </p>
+
+            <p>
+              Whiskey and wine are now liquid in more ways, with 480% returns
+              last year. Fractional art ownership is more accessible than a
+              brokerage login. And farmland — yes, literal dirt — is quietly
+              returning 11–12% annually with near-zero correlation to public
+              markets. All this while high-yield savings accounts pat themselves
+              on the back for beating inflation by half a percent.
+            </p>
+
+            <p>
+              But this isn’t just a case for chasing yield. It’s about owning
+              assets that exist outside the narrative matrix. Assets that don't
+              melt when Powell clears his throat. If your savings strategy still
+              revolves around waiting for rate cuts and hoping ETFs will carry
+              you to retirement, you’re not playing the game — you’re watching
+              it.
+            </p>
+
+            <p>
+              The question isn’t whether alternative assets will become
+              mainstream. It’s whether your portfolio will still matter when
+              they do.
+            </p>
+
+            <p>
+              <strong>At Alts</strong>, we help clients build the parts of the
+              portfolio no one else is talking about. If that sounds like your
+              lane, let’s talk.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "industry-post-2",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                Wealthy families aren’t just buying stocks anymore.
+              </strong>
+              <br />
+              They’re stacking up real estate, private equity, art, even vintage
+              whisky.
+            </p>
+
+            <p>
+              <strong>Why?</strong> Because they know one thing:
+              <br />
+              If you want outsized returns, you can’t stick with average
+              strategies.
+            </p>
+
+            <p>
+              Today, over 50% of ultra-rich portfolios are in alternative
+              assets.
+              <br />
+              Most regular investors? Just 5%.
+            </p>
+
+            <p>
+              <strong>Different mindset. Different tools.</strong>
+            </p>
+
+            <p>
+              This isn’t about being fancy, it’s about owning things that don’t
+              crash when the market does.
+              <br />
+              Things that hold value even when everything else is noise.
+            </p>
+
+            <p>
+              <strong>It’s not a trend. It’s a playbook.</strong>
+              <br />
+              And more people are waking up to it.
+            </p>
+
+            <p>
+              At Alts, we help smart investors get access to this side of the
+              table — the one that doesn’t move with the headlines.
+            </p>
+
+            <p>
+              You don’t need to be ultra-rich to think like them.
+              <br />
+              You just need the right map.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These posts speak directly to the audience we serve, serious investors looking for smarter, quieter ways to grow and protect wealth.",
+      points: [
+        "Highlight under-the-radar asset classes where capital is actually compounding.",
+        "Contrast outdated portfolio strategies with how wealth is being built today.",
+        "Create trust by showing we don’t just follow trends, we analyze what top families and firms are actually doing.",
+      ],
+    },
+  },
+  {
+    categoryName: "General Post",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "general-post-1",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                Read something in Family Wealth this week that stuck:
+              </strong>{" "}
+              Collectibles aren’t just about status anymore. They’re becoming
+              real financial instruments, and not just for billionaires with
+              Basquiats.
+            </p>
+
+            <p>
+              Classic cars, fine wine, art, even vintage guidebooks — they’re
+              showing up in estate plans, not just on mantels. Why? Because they
+              don’t move with the markets. When rates swing or stocks tank,
+              these assets often just sit tight. No panic, no price feed.
+            </p>
+
+            <p>
+              But the real takeaway wasn’t the upside. It was the prep.
+              Collectibles only work if you treat them like assets, not hobbies.
+              That means clean ownership, appraisals, storage, and a plan for
+              who gets what when you’re gone.
+            </p>
+
+            <p>
+              Most people treat collectibles like passion pieces. The smart ones
+              structure them like portfolios.
+            </p>
+
+            <p>
+              In the right hands, they’re more than pretty things. They’re
+              protection. And they’re legacy. But only if you’ve done the work
+              first.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "general-post-2",
+        content: (
+          <Fragment>
+            <p>
+              <strong>Do AIFs actually de-risk your portfolio?</strong>
+            </p>
+
+            <p>
+              Maybe.
+              <br />
+              But not in the way people think.
+            </p>
+
+            <p>
+              Most folks see AIFs as a hedge, a safe alternative to equities.
+              <br />
+              But a hedge against what exactly?
+            </p>
+
+            <p>
+              <strong>The reality:</strong>
+            </p>
+
+            <ul>
+              <li>They’re not immune to downturns</li>
+              <li>They’re just less correlated to public markets</li>
+              <li>And they often react slower, not better</li>
+            </ul>
+
+            <p>
+              <strong>The real value?</strong> Access.
+              <br />
+              You’re getting exposure to assets most people never touch:
+            </p>
+
+            <ul>
+              <li>Private debt</li>
+              <li>Distressed RE</li>
+              <li>Early-stage equity</li>
+              <li>Funds that think in decades, not quarters</li>
+            </ul>
+
+            <p>
+              That doesn’t mean they’re safer.
+              <br />
+              It just means they’re different.
+            </p>
+
+            <p>
+              And in a world where every asset moves together, “different” might
+              be the only edge that’s left.
+            </p>
+
+            <p>
+              Sometimes the real alpha is just not zigging when everyone else
+              zags.
+              <br />
+              That’s the quiet strength of alternatives. And at Alts — we help
+              people go alternative.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These post clears up one of the most common misconceptions about alternatives: that they’re inherently “safer.” It cuts through the noise and actually raises the IQ of the audience.",
+      points: [
+        "Signals a mindset shift: from “stuff” to “strategy”",
+        "Builds credibility with advisors who touch estate, tax, and legacy planning",
+        "Connects emotional value (art, wine, cars) to structural prep (ownership, appraisal, disposition)",
+        "Frames access—not safety—as the true appeal of AIFs",
+      ],
+    },
+  },
+];
+
+export const mikeCategories = [
+  {
+    categoryName: "Technical posts",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "technical-post-1",
+        content: (
+          <Fragment>
+            <p>
+              Founders misunderstand venture because they misunderstand the
+              math.
+            </p>
+
+            <p>
+              A $100M fund doesn’t care about 3x exits. It needs a single
+              company that returns the entire fund, and then some.
+            </p>
+
+            <p>That’s not philosophy. It’s math.</p>
+
+            <p>Here’s the structure most founders never see:</p>
+
+            <p>
+              LPs give money to GPs. GPs charge ~2% annually in fees and take
+              20% of profits (“carry”), only if they return more than the
+              original fund.
+            </p>
+
+            <p>
+              The fund typically lasts 10 years. The first 3–5 are for new
+              investments. The rest is reserved for follow-ons and exits.
+            </p>
+
+            <p>But the part that drives founder pressure is this:</p>
+
+            <p>
+              To raise Fund II, GPs need to show DPI and TVPI. That means your
+              Series A helps them mark up their portfolio. That’s your round,
+              but their narrative.
+            </p>
+
+            <p>
+              This is why you're expected to grow fast, raise quickly, and push
+              valuation. It’s not emotional. It’s portfolio mechanics.
+            </p>
+
+            <p>
+              And because of the power law, 1 or 2 companies in the portfolio
+              will drive all the returns. Everyone else? Zero to 1x.
+            </p>
+
+            <p>
+              So when they ask about your TAM, or whether this is a
+              billion-dollar outcome, they’re not judging you.
+              <br />
+              They’re checking whether your ceiling makes sense for their
+              equation.
+            </p>
+
+            <p>
+              VC isn’t expensive money. It’s expectation-heavy money.
+              <br />
+              Know the equation before you take the check.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "technical-post-2",
+        content: (
+          <Fragment>
+            <p>
+              In 2021, the venture market minted 361 unicorns - a record high.
+              <br />
+              Today, there are 1,200+ unicorns globally that haven’t gone
+              public.
+            </p>
+
+            <p>
+              One-third of those haven’t raised since 2021.
+              <br />
+              Over 100 are still marked at exactly $1B, meaning any down round
+              breaks the narrative.
+            </p>
+
+            <p>
+              Meanwhile, the IPO window remains muted. CoreWeave’s $1.5B raise
+              in April 2025 came in below target pricing, despite being one of
+              the biggest AI infrastructure stories of the cycle.
+            </p>
+
+            <p>
+              From 2022 to 2024, LP participation in mid-sized funds dropped
+              nearly 50%, from a median of 83 LPs to just 47, according to
+              Carta.
+            </p>
+
+            <p>
+              At a 5% risk-free yield, many LPs are opting out of 10-year
+              illiquidity bets on private tech.
+            </p>
+
+            <p>This creates structural drag:</p>
+
+            <ul>
+              <li>Marked-up portfolios with no liquidity events</li>
+              <li>Fewer follow-on checks</li>
+              <li>Greater pressure on new funds to show early DPI</li>
+              <li>Slower innovation cycles as capital backs off risk</li>
+            </ul>
+
+            <p>The result isn’t panic. It’s discipline.</p>
+
+            <p>
+              But the signal is clear: without meaningful exits, venture math
+              loses its internal momentum.
+            </p>
+
+            <p>
+              Returns built on narratives instead of realizations don’t scale.
+              <br />
+              And LPs are no longer buying the markup story.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "Both posts are built around what matters most to our audience right now - how capital moves, how conviction forms, and what’s driving investment behavior beneath the surface.",
+      points: [
+        "They show how capital allocation is shifting, from broad belief to disciplined selectivity.",
+        "They help founders and investors understand the structural forces behind slower funding and fewer exits.",
+        "They offer practical clarity on how AI and market mechanics are reshaping venture decisions in real time.",
+      ],
+    },
+  },
+  {
+    categoryName: "Industry Trends",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "industry-post-1",
+        content: (
+          <Fragment>
+            <p>
+              For years, venture was built on instinct, networks, and hours of
+              conversations. That’s still true. But today, AI is changing what
+              we notice, and when we notice it.
+            </p>
+
+            <p>
+              First, deal sourcing. AI doesn’t just help you see more pitches.
+              It helps you focus on the right ones. Tools are scanning pitch
+              decks, flagging early traction, and filtering based on founder
+              patterns and market signals, all before a meeting gets booked.
+            </p>
+
+            <p>
+              Second, market intelligence. Real-time data on hiring trends,
+              funding flows, and whitespace is now accessible in ways that used
+              to take weeks of research. Great founders spot patterns early.
+              Now, investors can too.
+            </p>
+
+            <p>
+              Third, valuation and structuring. Term sheets, benchmarks,
+              scenarios, modeled in minutes. Not to automate decisions, but to
+              speed up everything except judgment.
+            </p>
+
+            <p>
+              But let’s be clear: the best calls still come down to the gut. To
+              backing someone before the world agrees.
+            </p>
+
+            <p>AI sharpens our lens. But we still have to see.</p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "industry-post-2",
+        content: (
+          <Fragment>
+            <p>If you're raising in 2025, know this:</p>
+
+            <p>
+              This is the year where more Venture capital is available; but it's
+              getting harder to earn belief.
+            </p>
+
+            <p>
+              There’s money on the sidelines, sure. But it’s no longer chasing
+              every shiny object. It’s concentrated. Thoughtful. And asking
+              sharper questions.
+            </p>
+
+            <p>Three things I'm watching:</p>
+
+            <p>
+              <strong>1. AI’s no longer a feature, it’s an expectation.</strong>
+              <br />
+              You don’t have to be OpenAI. But you do need to show how AI gives
+              you an unfair advantage. Speed, efficiency, margin expansion, pick
+              one. “We’ll add AI later” is a red flag now.
+            </p>
+
+            <p>
+              <strong>2. Efficiency is being audited.</strong>
+              <br />
+              Nobody cares how fast you grow if it’s with leaky margins and
+              bloated burn. Every investor is asking: “How far can this team get
+              on their first $2M?” If you can't show responsible velocity, you
+              won’t make it past the second call.
+            </p>
+
+            <p>
+              <strong>3. Distribution is founder-led again.</strong>
+              <br />
+              People are funding teams who know how to create demand before the
+              product is even built. The old “wait until GTM hire” playbook
+              doesn’t fly anymore. Your ability to generate belief is your moat.
+            </p>
+
+            <p>
+              Founders who understand these shifts and build accordingly will
+              get funded.
+            </p>
+
+            <p>Those who don’t will say “venture is slow.”</p>
+
+            <p>It’s not slow. It’s just focused.</p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These posts speak directly to the audience we serve, serious investors looking for smarter, quieter ways to grow and protect wealth.",
+      points: [
+        "Highlight under-the-radar asset classes where capital is actually compounding.",
+        "Contrast outdated portfolio strategies with how wealth is being built today.",
+        "Create trust by showing we don’t just follow trends, we analyze what top families and firms are actually doing.",
+      ],
+    },
+  },
+  {
+    categoryName: "General Post",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "general-post-1",
+        content: (
+          <Fragment>
+            <p>
+              <strong>
+                Read something in Family Wealth this week that stuck:
+              </strong>{" "}
+              Collectibles aren’t just about status anymore. They’re becoming
+              real financial instruments, and not just for billionaires with
+              Basquiats.
+            </p>
+
+            <p>
+              Classic cars, fine wine, art, even vintage guidebooks — they’re
+              showing up in estate plans, not just on mantels. Why? Because they
+              don’t move with the markets. When rates swing or stocks tank,
+              these assets often just sit tight. No panic, no price feed.
+            </p>
+
+            <p>
+              But the real takeaway wasn’t the upside. It was the prep.
+              Collectibles only work if you treat them like assets, not hobbies.
+              That means clean ownership, appraisals, storage, and a plan for
+              who gets what when you’re gone.
+            </p>
+
+            <p>
+              Most people treat collectibles like passion pieces. The smart ones
+              structure them like portfolios.
+            </p>
+
+            <p>
+              In the right hands, they’re more than pretty things. They’re
+              protection. And they’re legacy. But only if you’ve done the work
+              first.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "general-post-2",
+        content: (
+          <Fragment>
+            <p>
+              <strong>Do AIFs actually de-risk your portfolio?</strong>
+            </p>
+
+            <p>
+              Maybe.
+              <br />
+              But not in the way people think.
+            </p>
+
+            <p>
+              Most folks see AIFs as a hedge, a safe alternative to equities.
+              <br />
+              But a hedge against what exactly?
+            </p>
+
+            <p>
+              <strong>The reality:</strong>
+            </p>
+
+            <ul>
+              <li>They’re not immune to downturns</li>
+              <li>They’re just less correlated to public markets</li>
+              <li>And they often react slower, not better</li>
+            </ul>
+
+            <p>
+              <strong>The real value?</strong> Access.
+              <br />
+              You’re getting exposure to assets most people never touch:
+            </p>
+
+            <ul>
+              <li>Private debt</li>
+              <li>Distressed RE</li>
+              <li>Early-stage equity</li>
+              <li>Funds that think in decades, not quarters</li>
+            </ul>
+
+            <p>
+              That doesn’t mean they’re safer.
+              <br />
+              It just means they’re different.
+            </p>
+
+            <p>
+              And in a world where every asset moves together, “different” might
+              be the only edge that’s left.
+            </p>
+
+            <p>
+              Sometimes the real alpha is just not zigging when everyone else
+              zags.
+              <br />
+              That’s the quiet strength of alternatives. And at Alts — we help
+              people go alternative.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These post clears up one of the most common misconceptions about alternatives: that they’re inherently “safer.” It cuts through the noise and actually raises the IQ of the audience.",
+      points: [
+        "Signals a mindset shift: from “stuff” to “strategy”",
+        "Builds credibility with advisors who touch estate, tax, and legacy planning",
+        "Connects emotional value (art, wine, cars) to structural prep (ownership, appraisal, disposition)",
+        "Frames access—not safety—as the true appeal of AIFs",
+      ],
+    },
+  },
+];

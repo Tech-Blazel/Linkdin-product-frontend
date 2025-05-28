@@ -25,8 +25,6 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
   //   navigate(`/linkedin-audit-report/${slugName}`);
   // };
 
-  console.log("window.location.origin", window.location.origin);
-
   return (
     <div className="w-full bg-primary-light border-2 border-primary/20 rounded-xl p-4 sm:p-6 flex flex-col items-center mx-auto ">
       <SmartImage

@@ -7,7 +7,7 @@ import Ali from "@/assets/images/Ali.png"
 import Maxime from "@/assets/images/Maxime.png"
 import Barr from "@/assets/images/Barr.png"
 import Elad from "@/assets/images/Elad.png"
-import { deanCategories, KanishkCategories, lawrenceCategories, stanCategories } from "./SamplePostsCategories";
+import { deanCategories, KanishkCategories, lawrenceCategories, stanCategories, stefanCategories } from "./SamplePostsCategories";
 
 export const influencerImages:any = {
     "Andrew Ng":Andrew,
@@ -63,7 +63,13 @@ export const linkedInClients = [
     "title": "Co-founder | Scaling data & CI pipelines @ Pipekit",
     "profileUrl": "https://www.linkedin.com/in/caelanurquhart",
     "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHsjIhXkMFhHA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1537483310838?e=1753315200&v=beta&t=uMBwmdm6p2e0UlCSxHv467JWb-_SM0Q5tAXUogSn1zE"
-},
+  },
+  {
+    "name": "Mike Maples, Jr",
+    "title": "Seed investing OG at Floodgate; Author of the bestselling book Pattern Breakers, available wherever you buy books. Co-conspirator with awesome Startup Founders who want to dominate the future.",
+    "profileUrl": "https://www.linkedin.com/in/mikemaplesjr/",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQEUrMjbuN-0bQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590029684315?e=1753920000&v=beta&t=Us_AF793PQWg4ebh95nuU7_hASMqo-HtCpo2QCSWM8w"
+}
 ]
 
 // export const influencerImages:any = {
@@ -162,8 +168,12 @@ export function transformDataWithColors(data: GenericInputItem[], colors: string
 }
 
 export const toSlugName = (name: string): string => {
-  return name.trim().toLowerCase().replace(/\s+/g, "-");
-}
+  return name
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/gi, "")
+    .replace(/\s+/g, "-");      
+};
 
 export const fromSlugName = (slug: string): string => {
   return slug
@@ -187,5 +197,8 @@ export const samplePostsConfigs: Record<
   },
   "Kanishk Parashar": {
     categories: KanishkCategories,
+  },
+  "Stefan Von Imhof": {
+    categories: stefanCategories,
   },
 };
