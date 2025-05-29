@@ -98,9 +98,9 @@ const LinkedInAuditReport: FC = () => {
           />
         ))
       : []),
-    ...(clientInfo?.name === "Caelan Urquhart"
-      ? [<CaelanSamplePosts key="caelan" />]
-      : []),
+    // ...(clientInfo?.name === "Caelan Urquhart"
+    //   ? [<CaelanSamplePosts key="caelan" />]
+    //   : []),
     ...(clientInfo?.name === "Ryan H. Vaughn"
       ? [<RyanSamplePosts key="ryan" />]
       : []),

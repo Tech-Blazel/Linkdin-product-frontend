@@ -56,7 +56,7 @@ const SamplePosts: FC<SamplePostsProps> = ({
     <ReportCard title={title} icon={icon}>
       {categories.map((category, idx) => (
         <div key={category.categoryName + idx}>
-          {idx !== 0 && <hr className="mb-12 border-b border-primary/20" />}
+          {idx !== 0 && <hr className="my-12 border-b border-primary/20" />}
           <PostNoteBox
             categoryText={category.categoryName}
             noteText={category.note}
@@ -117,7 +117,7 @@ const SamplePosts: FC<SamplePostsProps> = ({
             })}
           </div>
           {category.whyBox && (
-            <div className="my-8">
+            <div className="mt-8">
               <WhyBox
                 heading={category.whyBox.heading}
                 summary={category.whyBox.summary}

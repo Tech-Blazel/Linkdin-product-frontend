@@ -2804,3 +2804,786 @@ export const mikeCategories = [
     ],
   },
 ];
+
+export const caelanCategories = [
+  {
+    categoryName: "Technical Posts",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "technical-post-1",
+        content: (
+          <Fragment>
+            <p>
+              Argo vs. Temporal.
+              <br />
+              Same problem on paper. Completely different bets under the hood.
+            </p>
+
+            <p>Here’s a rough cut of how I think about the tradeoffs:</p>
+
+            <p>
+              If you want declarative, container-native, Kubernetes-aligned
+              workflows; Argo is probably the move.
+              <br />
+              If you want complex, long-lived logic with full programming
+              language control; Temporal will feel better.
+            </p>
+
+            <p>A few key distinctions we’ve seen play out in real use:</p>
+
+            <p>
+              <strong>Argo is great when:</strong>
+              <br />
+              – Your team already runs K8s
+              <br />
+              – You want parallelism via pods (e.g. model training, batch jobs)
+              <br />
+              – You prefer to keep logic in YAML or Python (via Hera)
+              <br />– You want autoscaling, ephemeral workloads, and infra
+              simplicity
+            </p>
+
+            <p>
+              <strong>Temporal is great when:</strong>
+              <br />
+              – You need workflows that span hours/days and don’t lose state
+              <br />
+              – You’re writing workflow logic in code anyway (Go, Python, Java,
+              etc.)
+              <br />
+              – You want retry, history, and failure handling deeply baked in
+              <br />– You’re okay managing some custom infra, or using Temporal
+              Cloud
+            </p>
+
+            <p>
+              If you're doing ML pipelines, CI/CD, or any task that ends
+              cleanly, Argo shines.
+              <br />
+              If you're orchestrating microservices or handling user-driven
+              state over time, Temporal makes more sense.
+            </p>
+
+            <p>
+              Two very different tools. Both good. Just depends what kind of
+              complexity you're solving for.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "technical-post-2",
+        content: (
+          <Fragment>
+            <p>Jenkins got us started. Argo let us stop worrying about CI.</p>
+
+            <p>
+              We switched after too many weeks of plugin updates, opaque
+              failures, and CI test runs that quietly ate cloud budget for
+              lunch.
+            </p>
+
+            <p>
+              The original idea was simple:
+              <br />
+              ✅ Shorten build times
+              <br />
+              ✅ Use spot nodes efficiently
+              <br />✅ Get CI that autoscaled without babysitting
+            </p>
+
+            <p>
+              Jenkins didn’t break, it just didn’t bend enough.
+              <br />
+              – One controller per team
+              <br />
+              – One pod for all steps
+              <br />
+              – No native HA
+              <br />– And “fixing” things meant grokking a decade of plugin
+              logic
+            </p>
+
+            <p>
+              With Argo, the model flipped:
+              <br />
+              – Each step = its own pod
+              <br />
+              – Parallelism is the default, not a config file
+              <br />
+              – No central controller sprawl
+              <br />– CI finally felt like pipelines again, not servers
+            </p>
+
+            <p>
+              Passing objects between steps took a bit more setup, sure.
+              <br />
+              But the tradeoff was worth it: fewer bottlenecks, lower costs, and
+              fewer Slack messages about “what broke this time.”
+            </p>
+
+            <p>
+              CI shouldn’t be your biggest infra project.
+              <br />
+              If it is, worth rethinking the tool, not just the tuning.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These posts are technical comparisons and directly tied to the kinds of infrastructure bets our audience is making. Both posts help position Pipekit as the clear choice for teams scaling real-world workflows on Kubernetes.",
+      points: [
+        "Platform engineering leaders, especially in fintech and data-heavy orgs, are actively weighing Jenkins, Argo, and Temporal, and looking for signal, not sales decks.",
+        "They show we’ve been through it ourselves. Real migration stories and nuanced tradeoff breakdowns demonstrate hands-on experience, not generic vendor takes.",
+        "These posts aim to attract the right readers (builders, decision-makers) who are already looking to modernize CI or orchestrate reliably, and who will resonate with Pipekit’s approach to solving both.",
+      ],
+    },
+  },
+  {
+    categoryName: "Industry Trends",
+    note: "These posts are created with very little c`ontext for now",
+    posts: [
+      {
+        id: "industry-post-1",
+        content: (
+          <Fragment>
+            <p>
+              Cloud-native worked when you were scaling apps.
+              <br />
+              But AI workloads aren’t apps.
+            </p>
+
+            <p>
+              They’re data-hungry, GPU-intensive, and constantly evolving. And
+              most cloud-native infra wasn’t designed for that.
+            </p>
+
+            <p>
+              That’s where cloud-native AI comes in, infra that’s built with
+              models, not microservices, in mind.
+            </p>
+
+            <p>
+              AI doesn’t wait for ops. It needs real-time scale, high-throughput
+              access, and hardware that’s tuned for training and inference.
+            </p>
+
+            <p>
+              It breaks traditional pipelines, especially when you’re dealing
+              with raw, unstructured data.
+            </p>
+
+            <p>
+              And security isn’t just about the perimeter anymore, it’s about
+              tracking where data came from, how it was processed, and who
+              touched it.
+            </p>
+
+            <p>
+              In short: AI needs a different kind of infra.
+              <br />
+              One that knows how to handle drift, demand, and data at the same
+              time.
+            </p>
+
+            <p>
+              This isn’t about chasing trends. It’s about preparing your systems
+              for what’s already happening.
+            </p>
+
+            <p>
+              Because the next generation of “cloud-native” won’t be about apps.
+              <br />
+              It’ll be about intelligence that runs inside your stack.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "industry-post-2",
+        content: (
+          <Fragment>
+            <p>
+              Why suddenly everyone is talking about Kubernetes 1.33? It’s the
+              first version that feels like it was built for MLOps.
+            </p>
+
+            <p>
+              Until now, ML infra on K8s felt like bolting racecar parts onto a
+              commuter hatchback — duct-taped device plugins, hacky scheduling,
+              and lots of crossed fingers.
+            </p>
+
+            <p>
+              But this release?
+              <br />
+              It speaks the language of platform teams shipping real workloads
+              at scale.
+            </p>
+
+            <p>
+              - <strong>Dynamic Resource Allocation:</strong> Native GPU
+              scheduling without custom scripts. ML infra finally stops feeling
+              like a patch job.
+              <br />- <strong>Topology-aware routing (GA):</strong> Smarter
+              network decisions, lower latency, and no more guessing how traffic
+              moves across zones.
+              <br />- <strong>Observability + dev UX:</strong> Better pod
+              statuses, expressive affinity rules, direct subresource access in
+              kubectl — tiny fixes, huge quality of life.
+            </p>
+
+            <p>
+              For anyone building AI infra, this changes the game.
+              <br />
+              Not because it’s perfect.
+              <br />
+              But because for the first time, Kubernetes isn’t just
+              cloud-native. It’s starting to feel AI-native too.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These trend posts are closely tied to our business. They focus on AI, ML, and the kind of infra challenges we solve every day.",
+      points: [
+        "These reflect what our customers are already thinking about — GPU workloads, Kubernetes, cloud-native AI.",
+        "These position Caelan as a sharp, informed voice, not just building tools, but shaping the conversation.",
+        "These posts help us show up as a thought partner to platform teams navigating real change in ML infrastructure.",
+      ],
+    },
+  },
+  {
+    categoryName: "General Posts",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "general-post-1",
+        content: (
+          <Fragment>
+            <p>
+              One of the leading climate-tech platforms came to us with a simple
+              ask:
+              <br />
+              “We’re burning cycles on short-lived Argo workflows. Can we make
+              this… not painful?”
+            </p>
+
+            <p>
+              They weren’t chasing scale. Just predictability.
+              <br />
+              But Argo wasn’t holding up, slow execution, failed retries, noisy
+              weekends.
+            </p>
+
+            <p>So we looked under the hood.</p>
+
+            <p>The fix wasn’t heroic. It was thoughtful engineering:</p>
+
+            <ul>
+              <li>Rewrote short-task orchestration using containerSet</li>
+              <li>Refactored job structure to reduce pod count by ~30%</li>
+              <li>Forked Argo to patch upstream bugs without waiting months</li>
+            </ul>
+
+            <p>End result:</p>
+
+            <ul>
+              <li>10x faster workflows</li>
+              <li>56% ROI (they avoided a full-time platform hire)</li>
+              <li>99.8% success rate on previously flaky jobs</li>
+            </ul>
+
+            <p>
+              When you know how to work with Argo, it stops being a workflow
+              engine,
+              <br />
+              And starts feeling like leverage.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "general-post-2",
+        content: (
+          <Fragment>
+            <p>LLMs will do one of two things.</p>
+
+            <p>
+              Either they become the product, something you go to, like ChatGPT.
+              <br />
+              Or they become infrastructure, something that comes to you, like
+              Copilot.
+            </p>
+
+            <p>
+              The first asks you to change your workflow.
+              <br />
+              The second respects the one you already have.
+            </p>
+
+            <p>
+              Apple’s bet? Infrastructure.
+              <br />
+              GitHub’s bet? Same.
+              <br />
+              And if you’ve tried launching an LLM inside real enterprise
+              systems, you already know why.
+            </p>
+
+            <p>
+              Because the hard part isn’t just model quality.
+              <br />
+              It’s getting the thing to show up where it matters, inside the
+              actual work.
+              <br />
+              Not a playground. Not a sandbox. Production.
+            </p>
+
+            <p>
+              Infra isn’t glamorous. It doesn’t trend.
+              <br />
+              But it’s what makes AI usable at scale.
+              <br />
+              Invisible, but essential.
+              <br />
+              Just like the best tools always are.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These posts speak to builders solving real infra problems—quietly, reliably, in production. They're not chasing trends. They're making things work.",
+      points: [
+        "Showcases hard-won lessons, not high-level opinions",
+        "Appeals to teams scaling AI and workflows, not just testing them",
+        "Attracts readers who value reliability over noise—Pipekit’s kind of people",
+      ],
+    },
+  },
+];
+
+export const zainCategories = [
+  {
+    categoryName: "Technical Posts",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "technical-post-1",
+        content: (
+          <Fragment>
+            <p>
+              On LinkedIn, personal branding costs anywhere between $7K and
+              $20K/month.
+            </p>
+
+            <p>
+              Not a rumor. That’s the real spend behind polished founder voices
+              you see every day.
+            </p>
+
+            <p>
+              Writers, strategists, ghostwriters, DMs, edits, revisions,
+              approvals, it's a process.
+              <br />A very expensive one.
+            </p>
+
+            <p>
+              But the irony?
+              <br />
+              Most of that content still reads like AI. Same tone. Same
+              structure. Same reheated takes.
+            </p>
+
+            <p>
+              We thought, what if there was a better way?
+              <br />
+              So we built it. A tool.
+              <br />
+              Not a prompt engine. Not another clone.
+              <br />
+              But something that studies your actual voice, your past posts,
+              tone, rhythm, punchlines, and writes like you.
+            </p>
+
+            <p>
+              Not once a week. Every day.
+              <br />
+              Zero handholding. No feedback loops. Just fire, ready to post.
+            </p>
+
+            <p>
+              At $850/month, that’s less than one tweet thread from an agency.
+              <br />
+              You save $50K–$150K a year, and still post like you have a $20K
+              team behind you.
+            </p>
+
+            <p>
+              It’s your brain. Your tone.
+              <br />
+              Just scaled with tech. Not ghostwriters.
+            </p>
+
+            <p>
+              Because your name’s on the post.
+              <br />
+              It better sound like you.
+            </p>
+
+            <p>And now? It finally can.</p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "technical-post-2",
+        content: (
+          <Fragment>
+            <p>
+              You don’t need another writer.
+              <br />
+              You need a version of you, that works 24/7, thinks like you, and
+              never misses a beat.
+            </p>
+
+            <p>We built that.</p>
+
+            <p>Here’s how it works (not fluff, actual process):</p>
+
+            <p>
+              <strong>Phase 1: Data Ingestion</strong>
+              <br />
+              We feed the engine with your voice, LinkedIn posts, blogs,
+              comments, DMs, interviews, transcripts. We don’t guess your tone.
+              We learn it.
+            </p>
+
+            <p>
+              <strong>Phase 2: Semantic & Stylistic Training</strong>
+              <br />
+              We extract your vocabulary patterns, syntax quirks, favorite
+              phrases, even your pacing. The system is trained on how you speak
+              to the world, not how GPT writes.
+            </p>
+
+            <p>
+              <strong>Phase 3: Industry-Aware Fine-Tuning</strong>
+              <br />
+              We layer in data from influencers in your space, what content’s
+              performing, what formats are hitting, what language triggers
+              action, all filtered through your lens.
+              <br />
+              Not another clone. A competitive twin.
+            </p>
+
+            <p>
+              <strong>Phase 4: Prompt Engineering & Custom Pipelines</strong>
+              <br />
+              It’s not about typing “write a post.”
+              <br />
+              We build trigger-based pipelines. From personal wins to market
+              shifts, the system knows what context matters, and when to speak
+              up.
+            </p>
+
+            <p>
+              <strong>Phase 5: Autonomous Output Engine</strong>
+              <br />
+              You get posts that sound like you on your best day. No editing, no
+              rewriting. Every word carries your tone, your context, your
+              thinking.
+            </p>
+
+            <p>And this is just phase one.</p>
+
+            <p>
+              <strong>Phase Two: First Voice Engine</strong>
+              <br />
+              The second a trend breaks in your niche, your AI twin drafts the
+              first take. You’re not reacting, you’re leading.
+              <br />
+              Think of it like an always-on comms radar with your name on it.
+            </p>
+
+            <p>
+              This isn’t ChatGPT.
+              <br />
+              This is you, productized, trained, and scaled.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    whyBox: {
+      heading: "Why the above posts?",
+      summary:
+        "These posts are technical comparisons and directly tied to the kinds of infrastructure bets our audience is making. Both posts help position Pipekit as the clear choice for teams scaling real-world workflows on Kubernetes.",
+      points: [
+        "Platform engineering leaders, especially in fintech and data-heavy orgs, are actively weighing Jenkins, Argo, and Temporal, and looking for signal, not sales decks.",
+        "They show we’ve been through it ourselves. Real migration stories and nuanced tradeoff breakdowns demonstrate hands-on experience, not generic vendor takes.",
+        "These posts aim to attract the right readers (builders, decision-makers) who are already looking to modernize CI or orchestrate reliably, and who will resonate with Pipekit’s approach to solving both.",
+      ],
+    },
+  },
+  {
+    categoryName: "Leadership and business growth.",
+    note: "These posts are created with very little c`ontext for now",
+    posts: [
+      {
+        id: "leadership-post-1",
+        content: (
+          <Fragment>
+            <p>China was the hardest market we ever entered.</p>
+
+            <p>
+              We tried everything the “right” way, hired local GMs, consultants,
+              tested partnerships. Burned time. Burned cash. Made zero progress.
+            </p>
+
+            <p>Then one day I heard Zynga China was shutting down.</p>
+
+            <p>
+              They had a full engineering team suddenly available. I got on a
+              flight without board approval.
+            </p>
+
+            <p>We didn’t run a market study. We didn’t model it in Excel.</p>
+
+            <p>
+              - We acqui-hired 30 engineers.
+              <br />
+              - Rented one of the nicest offices in Beijing.
+              <br />- And started building local tech from scratch.
+            </p>
+
+            <p>None of this was in the board plan.</p>
+
+            <p>
+              I told them: “This is the rope I’ll hang myself with if I’m
+              wrong.”
+            </p>
+
+            <p>They weren’t happy.</p>
+
+            <p>But the bet worked.</p>
+
+            <p>
+              Chinese customers didn’t care about our North American traction —
+              they cared if we were serious locally. And once we had boots on
+              the ground, we won deals.
+            </p>
+
+            <p>Eventually, China became a $100M+ market for us.</p>
+
+            <p>Here’s what I learned:</p>
+            <p>- Global businesses aren’t built with spreadsheets.</p>
+            <p>
+              - Some markets don’t respond to logic — they respond to presence.
+            </p>
+            <p>
+              - The board doesn’t always know what’s best outside the boardroom.
+            </p>
+            <p>
+              - And sometimes the fastest way forward… is not asking for
+              permission.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "industry-post-2",
+        content: (
+          <Fragment>
+            <p>We used to charge $1,000 for a video ad.</p>
+
+            <p>
+              That was it. One-time service. Decent money, but not scalable.
+            </p>
+
+            <p>
+              Then I asked a few customers a simple question:
+              <br />
+              “If I could get you actual users instead of just the video, what
+              would you pay?”
+            </p>
+
+            <p>
+              They said: $2 to $5 per install.
+              <br />
+              I said: “Okay… if I got you 10,000 users, you’d pay $50K?”
+              <br />
+              They said: “Easily.”
+            </p>
+
+            <p>That’s when everything changed.</p>
+
+            <p>
+              I stopped thinking about us as a production shop. The money wasn’t
+              in the video. It was in what the video did — user acquisition.
+            </p>
+
+            <p>
+              We went all-in on building a platform. It took time.
+              <br />
+              We almost ran out of money doing it.
+              <br />
+              But eventually, we had customers spending $10 million a year with
+              us.
+            </p>
+
+            <p>
+              Same customer.
+              <br />
+              Same industry.
+              <br />
+              Completely different outcome.
+            </p>
+
+            <p>
+              This wasn’t “value capture.” It was just asking a better question.
+            </p>
+          </Fragment>
+        ),
+      },
+    ],
+    // whyBox: {
+    //   heading: "Why the above posts?",
+    //   summary:
+    //     "These trend posts are closely tied to our business. They focus on AI, ML, and the kind of infra challenges we solve every day.",
+    //   points: [
+    //     "These reflect what our customers are already thinking about — GPU workloads, Kubernetes, cloud-native AI.",
+    //     "These position Caelan as a sharp, informed voice, not just building tools, but shaping the conversation.",
+    //     "These posts help us show up as a thought partner to platform teams navigating real change in ML infrastructure.",
+    //   ],
+    // },
+  },
+  {
+    categoryName: "Founding Team Dynamics and Innovation",
+    note: "These posts are created with very little context for now",
+    posts: [
+      {
+        id: "founding-post-1",
+        content: (
+          <Fragment>
+            <p>I joined a startup thinking I’d get paid.</p>
+
+            <p>
+              Two months in, they stopped paying me.
+              <br />
+              Said I was “too expensive.”
+            </p>
+
+            <p>Then I found out why.</p>
+
+            <p>
+              One of the co-founders was stealing from the company.
+              <br />
+              The other one — Jack — didn’t know either.
+              <br />
+              We had no money, no product, no equity agreement. Just a mess.
+            </p>
+
+            <p>
+              I remember sitting in this tiny London office with Jack, past
+              midnight, papers all over the floor.
+              <br />
+              We couldn’t afford a lawyer.
+              <br />
+              We couldn’t afford rent.
+              <br />I felt like a total idiot for sticking around.
+            </p>
+
+            <p>
+              But Jack stayed. He didn’t run. He showed up every day. That meant
+              something.
+            </p>
+
+            <p>
+              So I stayed too.
+              <br />
+              Told him, “I want equity. I want to be CEO. And I want to build
+              something real this time.”
+            </p>
+
+            <p>
+              That’s how Vungle started.
+              <br />
+              Not with an idea. With trust.
+            </p>
+          </Fragment>
+        ),
+      },
+      {
+        id: "founding-post-2",
+        content: (
+          <Fragment>
+            <p>After I sold Vungle, I taught myself to code.</p>
+
+            <p>
+              Not because I wanted to be an engineer.
+              <br />
+              Because I was sick of waiting on engineering.
+            </p>
+
+            <p>
+              It was slow. Buggy. Our SDKs crashed apps. Dashboards took years
+              to ship.
+              <br />I got tired of having no leverage. So I learned enough to
+              build. Slowly.
+            </p>
+
+            <p>Then AI tools showed up.</p>
+
+            <p>
+              Cursor. WindSurf. A few others.
+              <br />
+              Suddenly, I was shipping working prototypes on my own.
+              <br />
+              Not slides. Not mockups. Actual tools.
+            </p>
+
+            <p>Everything changed.</p>
+
+            <p>
+              If I were a first-time founder today — no technical background, no
+              experience — I’d be all in.
+              <br />
+              This is the first real reset since mobile.
+            </p>
+
+            <p>
+              You don’t need a CTO to get started anymore.
+              <br /> You don’t need a team to build v1.
+              <br />
+              You just need a real problem. And enough curiosity to get moving.
+            </p>
+
+            <p>Most people won’t.</p>
+
+            <p>That’s the opportunity.</p>
+          </Fragment>
+        ),
+      },
+    ],
+    // whyBox: {
+    //   heading: "Why the above posts?",
+    //   summary:
+    //     "These posts speak to builders solving real infra problems—quietly, reliably, in production. They're not chasing trends. They're making things work.",
+    //   points: [
+    //     "Showcases hard-won lessons, not high-level opinions",
+    //     "Appeals to teams scaling AI and workflows, not just testing them",
+    //     "Attracts readers who value reliability over noise—Pipekit’s kind of people",
+    //   ],
+    // },
+  },
+];

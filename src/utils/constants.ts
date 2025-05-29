@@ -7,7 +7,7 @@ import Ali from "@/assets/images/Ali.png"
 import Maxime from "@/assets/images/Maxime.png"
 import Barr from "@/assets/images/Barr.png"
 import Elad from "@/assets/images/Elad.png"
-import { deanCategories, KanishkCategories, lawrenceCategories, mikeCategories, stanCategories, stefanCategories } from "./SamplePostsCategories";
+import { caelanCategories, deanCategories, KanishkCategories, lawrenceCategories, mikeCategories, stanCategories, stefanCategories, zainCategories } from "./SamplePostsCategories";
 
 export const influencerImages:any = {
     "Andrew Ng":Andrew,
@@ -69,6 +69,12 @@ export const linkedInClients = [
     "title": "Seed investing OG at Floodgate; Author of the bestselling book Pattern Breakers, available wherever you buy books. Co-conspirator with awesome Startup Founders who want to dominate the future.",
     "profileUrl": "https://www.linkedin.com/in/mikemaplesjr/",
     "profilePictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQEUrMjbuN-0bQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1590029684315?e=1753920000&v=beta&t=Us_AF793PQWg4ebh95nuU7_hASMqo-HtCpo2QCSWM8w"
+  },
+  {
+    "name": "Zain Jaffer",
+    "title": "Looking to start another billion dollar company",
+    "profileUrl": "",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQG-xLVMci5A8Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1670710586401?e=1753920000&v=beta&t=IAdcXiqZSZRaR6LdpOJ263N-5IB6Ti-TsrtfqFSdBX4"
 }
 ]
 
@@ -203,5 +209,11 @@ export const samplePostsConfigs: Record<
   },
   "Mike Maples, Jr": {
     categories: mikeCategories,
+  },
+  "Caelan Urquhart": {
+    categories: caelanCategories,
+  },
+  "Zain Jaffer": {
+    categories: zainCategories,
   }
 };
