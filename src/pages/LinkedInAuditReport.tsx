@@ -34,9 +34,9 @@ const InfluencerPostingAnalysis = React.lazy(
 const InfluencerAnalysis = React.lazy(
   () => import("@/components/linkedIn-report/InfluencerAnalysis")
 );
-const CaelanSamplePosts = React.lazy(
-  () => import("@/components/linkedIn-report/CaelanSamplePosts")
-);
+// const CaelanSamplePosts = React.lazy(
+//   () => import("@/components/linkedIn-report/CaelanSamplePosts")
+// );
 const RyanSamplePosts = React.lazy(
   () => import("@/components/linkedIn-report/RyanSamplePosts")
 );

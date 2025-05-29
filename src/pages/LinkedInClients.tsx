@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ClientProfileCard from "@/components/linkedIn-report/ClientProfileCard";
 import { linkedInClients } from "@/utils/constants";
 import { Input } from "@/components/ui/input";
+import axios from "axios";
 
 const LinkedInClients = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -11,6 +12,45 @@ const LinkedInClients = () => {
       client.name.toLowerCase().includes(searchQuery.toLowerCase())
     )
     .sort((a: any, b: any) => a.name.localeCompare(b.name));
+
+  // useEffect(() => {
+  //   const addClients = async () => {
+  //     try {
+  //       for (let i = 0; i < linkedInClients.length; i++) {
+  //         const client = linkedInClients[i];
+
+  //         // Check if this client already exists
+  //         const existing = await axios.get(
+  //           `https://sheetdb.io/api/v1/ifsqyg42w3tv0/search?Name=${encodeURIComponent(
+  //             client.name
+  //           )}`
+  //         );
+
+  //         if (existing.data.length > 0) {
+  //           console.log(`🟡 Already exists: ${client.name}`);
+  //           continue; // skip adding this client
+  //         }
+
+  //         const payload = {
+  //           data: [
+  //             {
+  //               Id: (i + 1).toString(),
+  //               Name: client.name,
+  //               Status: "Pending",
+  //             },
+  //           ],
+  //         };
+
+  //         await axios.post("https://sheetdb.io/api/v1/ifsqyg42w3tv0", payload);
+  //         console.log(`✅ Added: ${client.name}`);
+  //       }
+  //     } catch (error) {
+  //       console.error("❌ Error adding clients:", error);
+  //     }
+  //   };
+
+  //   addClients();
+  // }, []);
 
   return (
     <div className="bg-white rounded-xl p-6 sm:p-10 md:p-12 text-center shadow-md w-full">

@@ -14,19 +14,20 @@
         "averageLikesPerPost": 16,
         "averageCommentsForPost": {
             "value": 2,
-            "comparison": "Below industry average"
+            "comparison": "about industry average"
         },
         "topContentLikes": {
             "value": 70,
             "contentType": "article"
         },
         "keyHighlights": [
-            "Predominantly article-based content with 80% distribution.",
-            "Top performing post is an article with 70 likes, 10 comments, and 3 shares.",
-            "Image posts, though rare, achieve higher engagement compared to text-only posts.",
-            "Engagement on Mondays and Fridays is significantly higher."
+            "80% of posts are articles, dominating the content mix.",
+            "Image posts achieve higher engagement (24) compared to text posts (14).",
+            "Monday and Friday posts yield significantly higher engagement.",
+            "Top post on rugby reached 70 likes indicating strong audience interest.",
+            "Audience composition shows 56.78% in 'Others', highlighting a diverse base."
         ],
-        "summaryText": "This report provides a comprehensive analysis of Stefan Von Imhof's LinkedIn performance for May 2025. It reviews overall engagement metrics, content distribution, audience demographics, and posting patterns. The analysis identifies key strengths such as strong article performance and high engagement on select days. Recommendations have been provided to enhance content diversity and increase posting frequency."
+        "summaryText": "This report provides a comprehensive analysis of Stefan Von Imhof's LinkedIn performance during May 2025. It examines content types, engagement metrics, posting frequency, and audience composition. The analysis identifies strong performance in articles and high engagement on specific weekdays. Data-driven recommendations focus on diversifying content and optimizing posting schedules."
     },
     "contentAnalysis": {
         "postTypesDistribution": [
@@ -46,60 +47,60 @@
         "averageLikesByContentTheme": [
             {
                 "theme": "Article",
-                "averageLikes": 16,
-                "percentage": 25.0
+                "percentage": 25.0,
+                "averageLikes": 16
             },
             {
                 "theme": "Text",
-                "averageLikes": 16,
-                "percentage": 25.0
+                "percentage": 25.0,
+                "averageLikes": 14
+            },
+            {
+                "theme": "Image",
+                "percentage": 25.0,
+                "averageLikes": 24
             }
         ],
         "visualImpactInsight": "Image posts (avg engagement: 24) tend to perform significantly better than text posts (avg engagement: 14).",
-        "postTypeDistributionInsight": "The majority (80%) of posts are articles, indicating a strong reliance on long-form content which drives most of the engagement.",
+        "postTypeDistributionInsight": "A dominant 80% article distribution indicates a heavy reliance on written content which correlates with the highest performing posts.",
         "topPerformingPosts": [
             {
-                "content": "Most Americans have never watched rugby. But that could change soon. The US is set to host the 2031 Rugby World Cup...",
+                "content": "Most Americans have never watched rugby. But that could change soon. The US is set to host the 2031 Rugby World Cup for the first time, and today American private equity is flowing into the sport...",
                 "type": "article",
+                "link": "https://www.linkedin.com/posts/stefanvonimhof_most-americans-have-never-watched-rugby-activity-7122007180366548992-CwnW?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "70",
                 "comments": "10",
-                "shares": "3",
-                "date": "May 2025",
-                "link": "https://www.linkedin.com/posts/stefanvonimhof_most-americans-have-never-watched-rugby-activity-7122007180366548992-CwnW?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM"
+                "shares": "3"
             },
             {
-                "content": "Mexico may not be top of mind when it comes to investing, but with 127 million residents, the opportunities are bigger than you think...",
+                "content": "Mexico may not be top of mind when it comes to investing... This was a tequila-themed adventure into the heart of Mexico with unique insights and community engagement.",
                 "type": "article",
+                "link": "https://www.linkedin.com/posts/stefanvonimhof_mexico-may-not-be-top-of-mind-when-it-comes-activity-7170206938968809472-GD7L?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "68",
                 "comments": "19",
-                "shares": "5",
-                "date": "May 2025",
-                "link": "https://www.linkedin.com/posts/stefanvonimhof_mexico-may-not-be-top-of-mind-when-it-comes-activity-7170206938968809472-GD7L?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM"
+                "shares": "5"
             },
             {
-                "content": "At Alts, we pride ourselves on highlighting exotic markets you never knew existed. And on that note, boy do we have a cool issue for you today...",
+                "content": "At Alts, we pride ourselves on highlighting exotic markets... Exploring Heritage License Plates and uncovering unique investment opportunities.",
                 "type": "article",
+                "link": "https://www.linkedin.com/posts/stefanvonimhof_alternativeinvesting-heritageplates-alternativeassets-activity-7066238736916774912-x0Zk?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "67",
                 "comments": "8",
-                "shares": "3",
-                "date": "May 2025",
-                "link": "https://www.linkedin.com/posts/stefanvonimhof_alternativeinvesting-heritageplates-alternativeassets-activity-7066238736916774912-x0Zk?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM"
+                "shares": "3"
             },
             {
-                "content": "I recently picked up my 300th vinyl record. So I thought it'd be fun to show you the most interesting stuff I've learned since I began collecting...",
+                "content": "I recently picked up my 300th vinyl record. Here’s a look at the fascinating journey of collecting vinyl and the stories behind them.",
                 "type": "article",
+                "link": "https://www.linkedin.com/posts/stefanvonimhof_vinyl-vinylcollector-records-activity-7061474163630211072-4ebm?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
                 "likes": "48",
                 "comments": "1",
-                "shares": "6",
-                "date": "May 2025",
-                "link": "https://www.linkedin.com/posts/stefanvonimhof_vinyl-vinylcollector-records-activity-7061474163630211072-4ebm?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM"
+                "shares": "6"
             }
         ],
         "commonCharacteristicsTopPosts": [
-            "All top posts are articles with in-depth narratives.",
-            "They include detailed analysis and storytelling.",
-            "They leverage current events and market insights.",
-            "They maintain a professional tone with clear calls to action."
+            "All top posts are articles with detailed narratives.",
+            "They share a focus on exploring niche topics with depth.",
+            "They include engaging headlines and clear calls to action."
         ]
     },
     "audienceAnalysis": {
@@ -110,18 +111,22 @@
             },
             {
                 "name": " Dan Remy",
-                "description": "Partnerships + Member Engagement Manager | Australian Higher Education Industrial Association (AHEIA)"
+                "description": "Partnerships + Member Engagement Manager at Australian Higher Education Industrial Association (AHEIA)"
             },
             {
                 "name": "Christoph von Imhof, MBA",
-                "description": "Innovative Product, Marketing & Go-To-Market Leader with a focus on tech and marketing strategy"
+                "description": "Innovative Product, Marketing & Go-To-Market Leader"
             },
             {
                 "name": "Christopher Allen",
-                "description": "Fora Travel Advisor and Wellness Travel Coach helping healthcare heroes combat burnout"
+                "description": "Fora Travel Advisor & Wellness Travel Coach"
+            },
+            {
+                "name": "Jeff Fouchey",
+                "description": "CEO / Speaker & nationally recognized Financial Aid expert"
             }
         ],
-        "audienceInsight": "The audience is diversified with a significant portion (56.78%) falling under the 'Others' category, indicating broad interest beyond niche sectors.",
+        "audienceInsight": "The audience is broadly diversified with significant engagement from sectors like Technology, Marketing, and Finance, indicating a varied interest base.",
         "audienceCompositionByIndustry": [
             {
                 "industry": "Technology / IT",
@@ -142,6 +147,10 @@
             {
                 "industry": "Sales & Business Development",
                 "percentage": 4.52
+            },
+            {
+                "industry": "Others",
+                "percentage": 56.78
             }
         ]
     },
@@ -176,42 +185,8 @@
                 "averageEngagementRate": 17.31
             }
         ],
-        "postingFrequency": "1-2 posts per week",
-        "timingKeyFinding": "Posts on Monday and Friday tend to receive significantly higher engagement.",
-        "topPerformingPostsExamples": [
-            {
-                "type": "article",
-                "postUrl": "https://www.linkedin.com/posts/stefanvonimhof_most-americans-have-never-watched-rugby-activity-7122007180366548992-CwnW?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
-                "likes": 70,
-                "comments": 10,
-                "shares": 3,
-                "content": "Most Americans have never watched rugby. But that could change soon."
-            },
-            {
-                "type": "article",
-                "postUrl": "https://www.linkedin.com/posts/stefanvonimhof_mexico-may-not-be-top-of-mind-when-it-comes-activity-7170206938968809472-GD7L?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
-                "likes": 68,
-                "comments": 19,
-                "shares": 5,
-                "content": "Mexico may not be top of mind when it comes to investing, but opportunities are abundant."
-            },
-            {
-                "type": "article",
-                "postUrl": "https://www.linkedin.com/posts/stefanvonimhof_alternativeinvesting-heritageplates-alternativeassets-activity-7066238736916774912-x0Zk?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
-                "likes": 67,
-                "comments": 8,
-                "shares": 3,
-                "content": "At Alts, we pride ourselves on highlighting exotic markets you never knew existed."
-            },
-            {
-                "type": "article",
-                "postUrl": "https://www.linkedin.com/posts/stefanvonimhof_vinyl-vinylcollector-records-activity-7061474163630211072-4ebm?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFPvspYBd-UaquAdxGbqkEVucJjgtiSC6pM",
-                "likes": 48,
-                "comments": 1,
-                "shares": 6,
-                "content": "I recently picked up my 300th vinyl record and wanted to share what I learned from collecting."
-            }
-        ],
+        "postingFrequency": "1-2",
+        "timingKeyFinding": "Posts on Monday, Friday tend to receive significantly higher engagement.",
         "optimalPostingTimes": [
             {
                 "timeSlot": "Weekday mornings",
@@ -220,13 +195,12 @@
         ]
     },
     "topIndustryInfluencersAnalysis": {
-        "overview": "The influencer analysis highlights six key figures in the industry with diverse content strategies and strong engagement metrics, offering valuable insights into optimal posting windows and effective content mixes.",
+        "overview": "Identified six key influencers shaping the industry. Analysis reveals diverse content strategies and engagement metrics. Insights highlight optimal posting windows and content mix for successful engagement.",
         "keyInfluencerInsights": {
-            "optimalPostingWindow": "9am-11am",
-            "visualContentPercentage": 42.5,
-            "averagePostFrequency": "approximately every 3 days",
-            "personalStoryMultiplier": 1.5,
-            "totalPostsLastYear": 1587
+            "optimalPostingWindow": "Weekday mornings",
+            "visualContentPercentage": 60.0,
+            "averagePostFrequency": "3-4 times per week",
+            "personalStoryMultiplier": 1.5
         },
         "influencers": [
             {
@@ -242,30 +216,11 @@
                     "entrepreneurial insight",
                     "investment innovation"
                 ],
-                "contentStrategyDistribution": [
-                    {
-                        "element": "Text",
-                        "percentage": 6.9
-                    },
-                    {
-                        "element": "Images",
-                        "percentage": 88.4
-                    },
-                    {
-                        "element": "Videos",
-                        "percentage": 4.1
-                    },
-                    {
-                        "element": "Articles",
-                        "percentage": 0.6
-                    }
-                ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
                         "name": "Brad Hargreaves",
                         "title": "I analyze emerging real estate trends | 3x founder | $500m+ of exits | Thesis Driven Founder (12k+subs)",
                         "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEj8zR5gPJbEw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689213838160?e=1753920000&v=beta&t=Cp7ZuMlQsze6TTREMmIvYHeB8pbHzDEdVGBQcJhLxPQ",
-                        "postUrl": "https://www.linkedin.com/posts/bharg_americas-biggest-land-users-arent-cities-activity-7288223963090976768-mLUs?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                         "location": "New York, New York, United States",
                         "followers": "23K"
                     },
@@ -297,30 +252,11 @@
                     "tech integration",
                     "investment strategy"
                 ],
-                "contentStrategyDistribution": [
-                    {
-                        "element": "Text",
-                        "percentage": 7.4
-                    },
-                    {
-                        "element": "Images",
-                        "percentage": 35.5
-                    },
-                    {
-                        "element": "Videos",
-                        "percentage": 26.4
-                    },
-                    {
-                        "element": "Articles",
-                        "percentage": 30.8
-                    }
-                ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
                         "name": "Anthony Pompliano",
                         "title": "CEO at Professional Capital Management",
                         "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQEPWQyxS9F77g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516639654800?e=1753920000&v=beta&t=UpAFR6BSOW04O29QMVWBpX6eMkbzeO3GY9yTScXNjwA",
-                        "postUrl": "https://www.linkedin.com/posts/anthonypompliano_spacex-rockets-business-activity-7251212081322934272-sgIc?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                         "location": "New York, New York, United States",
                         "followers": "45K"
                     },
@@ -352,30 +288,11 @@
                     "digital assets",
                     "financial innovation"
                 ],
-                "contentStrategyDistribution": [
-                    {
-                        "element": "Text",
-                        "percentage": 29.8
-                    },
-                    {
-                        "element": "Images",
-                        "percentage": 19.9
-                    },
-                    {
-                        "element": "Videos",
-                        "percentage": 23.0
-                    },
-                    {
-                        "element": "Articles",
-                        "percentage": 27.2
-                    }
-                ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
                         "name": "Raoul Pal",
                         "title": "Co-Founder & CEO - Real Vision Group. Economist, investment strategist, and publisher at Global Macro Investor, Co-founder of Exponential Age Asset Management (Digital Assets)",
                         "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQF66dalixS3PQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1711201285352?e=1753920000&v=beta&t=LICgUWeY7vp4fZtLct-QWH3uRGJetrVaNn_S5mBNrPc",
-                        "postUrl": "https://www.linkedin.com/posts/raoul-pal-real-vision_you-guys-all-need-to-learn-patience-this-activity-7300190740079366144-LpEE?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                         "location": "Cayman Islands, Cayman Islands",
                         "followers": "98K"
                     },
@@ -407,30 +324,11 @@
                     "youth engagement",
                     "investment education"
                 ],
-                "contentStrategyDistribution": [
-                    {
-                        "element": "Text",
-                        "percentage": 0.0
-                    },
-                    {
-                        "element": "Images",
-                        "percentage": 1.1
-                    },
-                    {
-                        "element": "Videos",
-                        "percentage": 98.5
-                    },
-                    {
-                        "element": "Articles",
-                        "percentage": 0.4
-                    }
-                ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
                         "name": "Vivian Tu",
                         "title": "CEO & Founder of Your Rich BFF | NYT Bestselling Author | \nForbes 30 under 30 (2023) & Forbes Top Creators (2022 & 2023)",
                         "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQGya5K-ghNvVg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718250062649?e=1753920000&v=beta&t=Z6AFkE33iDATfNXXiFS4FlLXviUVpSqQe7Q5ub_j0VI",
-                        "postUrl": "https://www.linkedin.com/posts/viviantu-yourrichbff_sofipartner-activity-7297678954910416896-SBTs?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                         "location": "Miami-Fort Lauderdale Area, United States",
                         "followers": "59K"
                     },
@@ -462,30 +360,11 @@
                     "financial empowerment",
                     "alternative business"
                 ],
-                "contentStrategyDistribution": [
-                    {
-                        "element": "Text",
-                        "percentage": 0.9
-                    },
-                    {
-                        "element": "Images",
-                        "percentage": 70.2
-                    },
-                    {
-                        "element": "Videos",
-                        "percentage": 13.6
-                    },
-                    {
-                        "element": "Articles",
-                        "percentage": 15.4
-                    }
-                ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
                         "name": "Codie A. Sanchez",
                         "title": "Investing millions in Main St businesses & teaching you how to own the rest | HoldCo, VC fund, Founder | NYT best-selling author",
                         "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQGoSM09JhbGzA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730215452793?e=1753920000&v=beta&t=IvVNMuEbZPPZp_fTKBDwdSro8Paez353TIc3bd-gxtY",
-                        "postUrl": "https://www.linkedin.com/posts/codiesanchez_underrated-signs-of-a-high-performer-activity-7245417604092223488-isg7?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                         "location": "Austin, Texas, United States",
                         "followers": "465K"
                     },
@@ -517,30 +396,11 @@
                     "digital transformation",
                     "innovation focus"
                 ],
-                "contentStrategyDistribution": [
-                    {
-                        "element": "Text",
-                        "percentage": 3.1
-                    },
-                    {
-                        "element": "Images",
-                        "percentage": 40.0
-                    },
-                    {
-                        "element": "Videos",
-                        "percentage": 21.5
-                    },
-                    {
-                        "element": "Articles",
-                        "percentage": 35.4
-                    }
-                ],
                 "detailedInfluencerAnalysis": {
                     "profile": {
                         "name": "Efi Pylarinou",
                         "title": "Top Global Fintech & Tech Influencer • Trusted by Finserv & Tech Global • Content  & Influencer Services • Advisory for Digital Transformation • Speaking • connect@efipylarinou.com",
                         "pictureUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGEgL9tee1Nog/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1708614145208?e=1753920000&v=beta&t=4mZXOnMkMEkqDprZ5inpQOcEt9hpyJZ-ETzwklaURFo",
-                        "postUrl": "https://www.linkedin.com/posts/efipylarinou_payments-fraud-ai-ugcPost-7243908944715276291-8c-l?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
                         "location": "Zurich, Zurich, Switzerland",
                         "followers": "203K"
                     },
@@ -617,178 +477,32 @@
             "postingFrequency": "5+ posts/week"
         }
     ],
-    "summaryOfComparison": "The analysis indicates that while Stefan Von Imhof maintains consistent performance, his engagement metrics and posting frequency lag behind those of top industry influencers. Increasing content variety, particularly with visual elements, and boosting post frequency could help bridge the gap.",
+    "summaryOfComparison": "Stefan Von Imhof's engagement metrics are solid, yet there is room to enhance visual content and diversify posting types to better align with industry influencers who post more frequently and use a broader content mix.",
     "gapAnalysis": [
         {
-            "gap": "Low average likes per post",
-            "yourValue": "16",
-            "influencerAverage": "35",
-            "recommendedAction": "Improve content quality and incorporate more engaging visuals."
+            "gap": "Engagement Rate below industry average",
+            "yourValue": "Data indicates modest engagement through articles",
+            "influencerAverage": "Higher interaction observed among influencers",
+            "recommendedAction": "Increase visual content and interactive posts to boost engagement."
         },
         {
-            "gap": "Lower post frequency",
-            "yourValue": "1-2 posts/week",
-            "influencerAverage": "3-5 posts/week",
-            "recommendedAction": "Increase posting frequency to at least 3 times a week for better visibility."
+            "gap": "Content Diversity",
+            "yourValue": "80% of posts are articles",
+            "influencerAverage": "Influencers use a mix of formats including images and videos",
+            "recommendedAction": "Incorporate more images and videos to diversify content offerings."
         },
         {
-            "gap": "Limited content type diversity",
-            "yourValue": "Predominantly articles (80%)",
-            "influencerAverage": "Balanced mix of articles, images, and videos",
-            "recommendedAction": "Diversify content by integrating more images and videos into the strategy."
+            "gap": "Posting Frequency",
+            "yourValue": "1-2 posts per week",
+            "influencerAverage": "Influencers average 3-4 posts per week",
+            "recommendedAction": "Increase posting frequency to enhance visibility and engagement."
         }
     ],
     "recommendations": {
-        "contentStrategy": "Broaden content topics beyond articles by integrating timely industry insights and personal stories to diversify engagement.",
-        "visualElements": "Incorporate more high-quality images and videos to leverage the higher engagement observed with visual content.",
-        "postingSchedule": "Adopt a more frequent and consistent posting schedule, targeting optimal days such as Monday and Friday.",
-        "audienceTargeting": "Refine audience segmentation to tailor content toward sectors showing higher engagement, particularly technology and marketing.",
-        "engagementTactics": "Implement interactive elements such as polls and Q&A sessions to stimulate more audience interaction and sharing."
-    },
-    "detailedInfluencerAnalysis": [
-        {
-            "profile": {
-                "name": "Brad Hargreaves",
-                "title": "I analyze emerging real estate trends | 3x founder | $500m+ of exits | Thesis Driven Founder (12k+subs)",
-                "profileUrl": "https://www.linkedin.com/in/bharg",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQEj8zR5gPJbEw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689213838160?e=1753920000&v=beta&t=Cp7ZuMlQsze6TTREMmIvYHeB8pbHzDEdVGBQcJhLxPQ",
-                "postUrl": "https://www.linkedin.com/posts/bharg_americas-biggest-land-users-arent-cities-activity-7288223963090976768-mLUs?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "location": "New York, New York, United States",
-                "followers": "23K"
-            },
-            "post": {
-                "postURL": "https://www.linkedin.com/posts/bharg_americas-biggest-land-users-arent-cities-activity-7288223963090976768-mLUs?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "text": "America's biggest land users aren't cities or suburbs. It isn't farms growing food. It's cows. The real breakdown of US land use: Pastures for livestock dominate the map...",
-                "likes": 2320,
-                "comments": 454,
-                "reposts": 134
-            },
-            "contentStrategy": {
-                "Text": 6.9,
-                "Images": 88.4,
-                "Videos": 4.1,
-                "Articles": 0.6
-            }
-        },
-        {
-            "profile": {
-                "name": "Anthony Pompliano",
-                "title": "CEO at Professional Capital Management",
-                "profileUrl": "https://www.linkedin.com/in/anthonypompliano",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQEPWQyxS9F77g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516639654800?e=1753920000&v=beta&t=UpAFR6BSOW04O29QMVWBpX6eMkbzeO3GY9yTScXNjwA",
-                "postUrl": "https://www.linkedin.com/posts/anthonypompliano_spacex-rockets-business-activity-7251212081322934272-sgIc?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "location": "New York, New York, United States",
-                "followers": "45K"
-            },
-            "post": {
-                "postURL": "https://www.linkedin.com/posts/anthonypompliano_spacex-rockets-business-activity-7251212081322934272-sgIc?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "text": "This morning Elon Musk and SpaceX did something no one has ever done before. They launched their Super Heavy rocket...",
-                "likes": 4411,
-                "comments": 232,
-                "reposts": 220
-            },
-            "contentStrategy": {
-                "Text": 7.4,
-                "Images": 35.5,
-                "Videos": 26.4,
-                "Articles": 30.8
-            }
-        },
-        {
-            "profile": {
-                "name": "Raoul Pal",
-                "title": "Co-Founder & CEO - Real Vision Group. Economist, investment strategist, and publisher at Global Macro Investor, Co-founder of Exponential Age Asset Management (Digital Assets)",
-                "profileUrl": "https://www.linkedin.com/in/raoul-pal-real-vision",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQF66dalixS3PQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1711201285352?e=1753920000&v=beta&t=LICgUWeY7vp4fZtLct-QWH3uRGJetrVaNn_S5mBNrPc",
-                "postUrl": "https://www.linkedin.com/posts/raoul-pal-real-vision_you-guys-all-need-to-learn-patience-this-activity-7300190740079366144-LpEE?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "location": "Cayman Islands, Cayman Islands",
-                "followers": "98K"
-            },
-            "post": {
-                "postURL": "https://www.linkedin.com/posts/raoul-pal-real-vision_you-guys-all-need-to-learn-patience-this-activity-7300190740079366144-LpEE?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "text": "You guys all need to learn patience... This was 2017. Very similar macro structure: 5 x 28%+ pullbacks in BTC...",
-                "likes": 1304,
-                "comments": 134,
-                "reposts": 50
-            },
-            "contentStrategy": {
-                "Text": 29.8,
-                "Images": 19.9,
-                "Videos": 23.0,
-                "Articles": 27.2
-            }
-        },
-        {
-            "profile": {
-                "name": "Vivian Tu",
-                "title": "CEO & Founder of Your Rich BFF | NYT Bestselling Author | Forbes 30 under 30 (2023) & Forbes Top Creators (2022 & 2023)",
-                "profileUrl": "https://www.linkedin.com/in/viviantu-yourrichbff",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQGya5K-ghNvVg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718250062649?e=1753920000&v=beta&t=Z6AFkE33iDATfNXXiFS4FlLXviUVpSqQe7Q5ub_j0VI",
-                "postUrl": "https://www.linkedin.com/posts/viviantu-yourrichbff_sofipartner-activity-7297678954910416896-SBTs?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "location": "Miami-Fort Lauderdale Area, United States",
-                "followers": "59K"
-            },
-            "post": {
-                "postURL": "https://www.linkedin.com/posts/viviantu-yourrichbff_sofipartner-activity-7297678954910416896-SBTs?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "text": "I sat down with Cameron Brink and just HAD to ask: Whats it like when the whole internet knows your salary?!",
-                "likes": 9012,
-                "comments": 203,
-                "reposts": 50
-            },
-            "contentStrategy": {
-                "Text": 0.0,
-                "Images": 1.1,
-                "Videos": 98.5,
-                "Articles": 0.4
-            }
-        },
-        {
-            "profile": {
-                "name": "Codie A. Sanchez",
-                "title": "Investing millions in Main St businesses & teaching you how to own the rest | HoldCo, VC fund, Founder | NYT best-selling author",
-                "profileUrl": "https://www.linkedin.com/in/codiesanchez",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4E03AQGoSM09JhbGzA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730215452793?e=1753920000&v=beta&t=IvVNMuEbZPPZp_fTKBDwdSro8Paez353TIc3bd-gxtY",
-                "postUrl": "https://www.linkedin.com/posts/codiesanchez_underrated-signs-of-a-high-performer-activity-7245417604092223488-isg7?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "location": "Austin, Texas, United States",
-                "followers": "465K"
-            },
-            "post": {
-                "postURL": "https://www.linkedin.com/posts/codiesanchez_underrated-signs-of-a-high-performer-activity-7245417604092223488-isg7?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "text": "Underrated signs of a high performer: They hate small talk. Are not okay with wasting your time. Do what they say theyre going to do...",
-                "likes": 9883,
-                "comments": 740,
-                "reposts": 577
-            },
-            "contentStrategy": {
-                "Text": 0.9,
-                "Images": 70.2,
-                "Videos": 13.6,
-                "Articles": 15.4
-            }
-        },
-        {
-            "profile": {
-                "name": "Efi Pylarinou",
-                "title": "Top Global Fintech & Tech Influencer • Trusted by Finserv & Tech Global • Content  & Influencer Services • Advisory for Digital Transformation • Speaking • connect@efipylarinou.com",
-                "profileUrl": "https://www.linkedin.com/in/efipylarinou",
-                "pictureUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGEgL9tee1Nog/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1708614145208?e=1753920000&v=beta&t=4mZXOnMkMEkqDprZ5inpQOcEt9hpyJZ-ETzwklaURFo",
-                "postUrl": "https://www.linkedin.com/posts/efipylarinou_payments-fraud-ai-ugcPost-7243908944715276291-8c-l?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "location": "Zurich, Zurich, Switzerland",
-                "followers": "203K"
-            },
-            "post": {
-                "postURL": "https://www.linkedin.com/posts/efipylarinou_payments-fraud-ai-ugcPost-7243908944715276291-8c-l?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFWov54BBg34AKnDYlMJ95aIN2Kj0agicxs",
-                "text": "In today's digital age, - , as demonstrated in a recent 60 MINUTES video. Rachel Tobac, CEO of SocialProof Security shows how she used AI to clone a 60 Minutes correspondent's voice...",
-                "likes": 308,
-                "comments": 64,
-                "reposts": 69
-            },
-            "contentStrategy": {
-                "Text": 3.1,
-                "Images": 40.0,
-                "Videos": 21.5,
-                "Articles": 35.4
-            }
-        }
-    ]
+        "contentStrategy": "Diversify content themes by incorporating more visual and interactive posts alongside articles.",
+        "visualElements": "Increase the use of high-quality images and videos to boost engagement.",
+        "postingSchedule": "Optimize posting times, particularly on Monday and Friday when engagement is highest.",
+        "audienceTargeting": "Tailor content to resonate with underrepresented industries and leverage key audience segments.",
+        "engagementTactics": "Encourage audience interaction through questions, polls, and clear calls-to-action."
+    }
 }
