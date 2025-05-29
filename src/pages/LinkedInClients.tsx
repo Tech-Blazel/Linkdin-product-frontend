@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ClientProfileCard from "@/components/linkedIn-report/ClientProfileCard";
 import { linkedInClients } from "@/utils/constants";
 import { Input } from "@/components/ui/input";
-import axios from "axios";
+// import axios from "axios";
 
 const LinkedInClients = () => {
   const [searchQuery, setSearchQuery] = useState("");
