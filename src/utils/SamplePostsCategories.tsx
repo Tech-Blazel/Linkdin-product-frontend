@@ -1913,8 +1913,8 @@ export const stefanCategories = [
 
             <p>
               <strong>Let that sink in:</strong>
-              <br />A sealed bottle of aged spirit — often never opened —
-              outpaced the most iconic equity index on Earth.
+              <br />A sealed bottle of aged spirit, often never opened, outpaced
+              the most iconic equity index on Earth.
             </p>
 
             <p>
@@ -2014,7 +2014,7 @@ export const stefanCategories = [
             <p>
               Whiskey and wine are now liquid in more ways, with 480% returns
               last year. Fractional art ownership is more accessible than a
-              brokerage login. And farmland — yes, literal dirt — is quietly
+              brokerage login. And farmland — yes, literal dirt, is quietly
               returning 11–12% annually with near-zero correlation to public
               markets. All this while high-yield savings accounts pat themselves
               on the back for beating inflation by half a percent.
@@ -2025,7 +2025,7 @@ export const stefanCategories = [
               assets that exist outside the narrative matrix. Assets that don't
               melt when Powell clears his throat. If your savings strategy still
               revolves around waiting for rate cuts and hoping ETFs will carry
-              you to retirement, you’re not playing the game — you’re watching
+              you to retirement, you’re not playing the game, you’re watching
               it.
             </p>
 
@@ -2089,7 +2089,7 @@ export const stefanCategories = [
 
             <p>
               At Alts, we help smart investors get access to this side of the
-              table — the one that doesn’t move with the headlines.
+              table, the one that doesn’t move with the headlines.
             </p>
 
             <p>
@@ -2130,7 +2130,7 @@ export const stefanCategories = [
             </p>
 
             <p>
-              Classic cars, fine wine, art, even vintage guidebooks — they’re
+              Classic cars, fine wine, art, even vintage guidebooks, they’re
               showing up in estate plans, not just on mantels. Why? Because they
               don’t move with the markets. When rates swing or stocks tank,
               these assets often just sit tight. No panic, no price feed.
@@ -2214,7 +2214,7 @@ export const stefanCategories = [
               Sometimes the real alpha is just not zigging when everyone else
               zags.
               <br />
-              That’s the quiet strength of alternatives. And at Alts — we help
+              That’s the quiet strength of alternatives. And at Alts, we help
               people go alternative.
             </p>
           </Fragment>
@@ -3327,11 +3327,11 @@ export const zainCategories = [
     whyBox: {
       heading: "Why the above posts?",
       summary:
-        "These posts are technical comparisons and directly tied to the kinds of infrastructure bets our audience is making. Both posts help position Pipekit as the clear choice for teams scaling real-world workflows on Kubernetes.",
+        "Positions Zain as the technical mind behind the product, not a founder who slapped a UI on ChatGPT.",
       points: [
-        "Platform engineering leaders, especially in fintech and data-heavy orgs, are actively weighing Jenkins, Argo, and Temporal, and looking for signal, not sales decks.",
-        "They show we’ve been through it ourselves. Real migration stories and nuanced tradeoff breakdowns demonstrate hands-on experience, not generic vendor takes.",
-        "These posts aim to attract the right readers (builders, decision-makers) who are already looking to modernize CI or orchestrate reliably, and who will resonate with Pipekit’s approach to solving both.",
+        "Speaks to engineers, operators, CTOs, and detail-focused founders who are skeptical of hype, this tells them: “We’ve built something real.”",
+        "Demonstrates intellectual rigor, while subtly showing how the tool creates leverage without needing ghostwriters or a $20K/month budget.",
+        "Highlights your category-defining angle, this isn’t AI writing, it’s personal voice automation at scale.",
       ],
     },
   },
