@@ -1,56 +1,50 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ClientProfileCard from "@/components/linkedIn-report/ClientProfileCard";
 import { linkedInClients } from "@/utils/constants";
 import { Input } from "@/components/ui/input";
-// import axios from "axios";
+import { supabase } from "@/supabase-client";
 
 const LinkedInClients = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [clients, setClients] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const filteredClients = linkedInClients
-    .filter((client: any) =>
+  useEffect(() => {
+    const fetchAndMergeClients = async () => {
+      const { data: dbClients, error } = await supabase
+        .from("client_database")
+        .select("id, name, varified, presented");
+
+      if (error) {
+        console.error("Supabase fetch error:", error.message);
+        setLoading(false);
+        return;
+      }
+
+      // Merge based on name
+      const merged = linkedInClients.map((client) => {
+        const match = dbClients?.find((c) => c.name === client.name);
+
+        return {
+          ...client,
+          id: match?.id ?? null,
+          varified: match?.varified ?? false,
+          presented: match?.presented ?? false,
+        };
+      });
+
+      setClients(merged);
+      setLoading(false);
+    };
+
+    fetchAndMergeClients();
+  }, []);
+
+  const filteredClients = clients
+    .filter((client) =>
       client.name.toLowerCase().includes(searchQuery.toLowerCase())
     )
-    .sort((a: any, b: any) => a.name.localeCompare(b.name));
-
-  // useEffect(() => {
-  //   const addClients = async () => {
-  //     try {
-  //       for (let i = 0; i < linkedInClients.length; i++) {
-  //         const client = linkedInClients[i];
-
-  //         // Check if this client already exists
-  //         const existing = await axios.get(
-  //           `https://sheetdb.io/api/v1/ifsqyg42w3tv0/search?Name=${encodeURIComponent(
-  //             client.name
-  //           )}`
-  //         );
-
-  //         if (existing.data.length > 0) {
-  //           console.log(`🟡 Already exists: ${client.name}`);
-  //           continue; // skip adding this client
-  //         }
-
-  //         const payload = {
-  //           data: [
-  //             {
-  //               Id: (i + 1).toString(),
-  //               Name: client.name,
-  //               Status: "Pending",
-  //             },
-  //           ],
-  //         };
-
-  //         await axios.post("https://sheetdb.io/api/v1/ifsqyg42w3tv0", payload);
-  //         console.log(`✅ Added: ${client.name}`);
-  //       }
-  //     } catch (error) {
-  //       console.error("❌ Error adding clients:", error);
-  //     }
-  //   };
-
-  //   addClients();
-  // }, []);
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div className="bg-white rounded-xl p-6 sm:p-10 md:p-12 text-center shadow-md w-full">
@@ -64,14 +58,22 @@ const LinkedInClients = () => {
         />
       </div>
 
-      {filteredClients.length > 0 ? (
+      {loading ? (
+        <div className="items-center gap-4 text-text-primary text-lg font-medium flex justify-center min-h-80">
+          <div className="w-10 h-10 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+          <span>Please wait...</span>
+        </div>
+      ) : filteredClients.length > 0 ? (
         <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6">
-          {filteredClients.map((client: any, i: number) => (
+          {filteredClients.map((client, i) => (
             <ClientProfileCard
               key={i}
-              name={client?.name}
-              title={client?.title}
-              profilePictureUrl={client?.profilePictureUrl}
+              id={client.id}
+              name={client.name}
+              title={client.title}
+              profilePictureUrl={client.profilePictureUrl}
+              varified={client.varified}
+              presented={client.presented}
             />
           ))}
         </div>
