@@ -7,6 +7,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { supabase } from "@/supabase-client";
 import { twMerge } from "tailwind-merge";
+import { GiCancel } from "react-icons/gi";
 
 interface ClientProfileCardProps {
   id: number;
@@ -33,6 +34,8 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
   const [presentedValue, setPresentedValue] = useState<string>(
     presented ? "yes" : "no"
   );
+
+  const [showOverlay, setShowOverlay] = useState(false);
 
   // ✅ Update Varified in Supabase
   const handleVarifiedChange = async (val: string) => {
@@ -63,12 +66,19 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
   return (
     <div className="relative group w-full bg-primary-light border-2 border-primary/20 rounded-xl p-4 sm:p-6 flex flex-col items-center mx-auto overflow-hidden">
       {/* 👇 Hover Blur Overlay */}
-      <div className="absolute inset-0 bg-white/80 backdrop-blur-xs flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 z-10">
+      <div
+        className={twMerge(
+          "absolute inset-0 bg-white/80 backdrop-blur-xs flex items-center justify-center transition-all duration-500 z-10",
+          showOverlay
+            ? "opacity-100"
+            : "opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto"
+        )}
+      >
         <div className="flex flex-col items-center space-y-4">
           {/* Varified RadioGroup */}
           <div
             className={twMerge(
-              "flex items-center justify-between w-64 p-2 rounded-md border-2 text-text-primary",
+              "flex items-center justify-between w-[200px] md:w-64 p-2 rounded-md border-2 text-text-primary",
               varifiedValue === "yes"
                 ? "border-green-600/20"
                 : "border-primary/20"
@@ -113,7 +123,7 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
           {/* Presented RadioGroup */}
           <div
             className={twMerge(
-              "flex items-center justify-between w-64 p-2 rounded-md border-2 text-text-primary",
+              "flex items-center justify-between w-[200px] md:w-64 p-2 rounded-md border-2 text-text-primary",
               presentedValue === "yes"
                 ? "border-green-600/20"
                 : "border-primary/20"
@@ -165,6 +175,12 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
           >
             View Audit Report
           </a>
+          <button
+            onClick={() => setShowOverlay(false)}
+            className="text-sm text-primary underline hover:text-primary-dark absolute block md:hidden top-3 right-3 cursor-pointer"
+          >
+            <GiCancel className="w-5 h-5" />
+          </button>
         </div>
       </div>
 
@@ -181,6 +197,14 @@ const ClientProfileCard: React.FC<ClientProfileCardProps> = ({
         <p className="text-sm sm:text-base text-text-primary font-normal mt-1 line-clamp-3">
           {title}
         </p>
+      </div>
+      <div className="mt-4 block md:hidden">
+        <button
+          onClick={() => setShowOverlay(true)}
+          className="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md text-sm transition"
+        >
+          Show Details
+        </button>
       </div>
     </div>
   );
